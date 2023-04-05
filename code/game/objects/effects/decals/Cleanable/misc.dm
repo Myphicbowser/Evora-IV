@@ -48,6 +48,15 @@
 	icon = 'icons/effects/effects.dmi'
 	icon_state = "flour"
 
+/obj/effect/decal/cleanable/snow
+	name = "snow"
+	desc = "Some powdery snow."
+	gender = PLURAL
+	density = 0
+	anchored = 1
+	icon = 'icons/effects/effects.dmi'
+	icon_state = "snow"
+
 /obj/effect/decal/cleanable/greenglow
 	name = "glowing goo"
 	desc = "Jeez. I hope that's not for lunch."
