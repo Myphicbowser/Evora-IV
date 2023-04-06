@@ -6417,6 +6417,12 @@
 /obj/effect/floor_decal/industrial/warning_red,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
+"ES" = (
+/obj/effect/landmark/map_data{
+	height = 3
+	},
+/turf/simulated/open,
+/area/cadiaoutpost/gma/air)
 "EX" = (
 /obj/machinery/photocopier{
 	color = "grey"
@@ -43563,7 +43569,7 @@ MQ
 MQ
 MQ
 MQ
-MQ
+ES
 MQ
 MQ
 MQ
