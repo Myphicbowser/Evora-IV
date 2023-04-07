@@ -519,13 +519,6 @@
 	},
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
-"bz" = (
-/obj/item/card/id/key/super/hab{
-	access = list(33);
-	name = "Cottage Key"
-	},
-/turf/simulated/floor/tiled/stone,
-/area/cadiaoutpost/oa/village)
 "bA" = (
 /obj/machinery/door/unpowered/inn,
 /turf/simulated/floor/carpet/green,
@@ -1862,15 +1855,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/engineering)
-"fO" = (
-/obj/item/card/id/key/super/hab{
-	access = list(33);
-	name = "Cottage Key"
-	},
-/turf/simulated/floor/wood{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
 "fP" = (
 /obj/effect/floor_decal/turf/metal/six,
 /obj/structure/bed/chair{
@@ -2126,14 +2110,6 @@
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
-"gJ" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/simulated/wall/concrete{
-	integrity = 1500
-	},
-/area/cadiaoutpost/oa/service/chapel)
 "gK" = (
 /obj/machinery/bodyscanner{
 	color = "grey";
@@ -2293,12 +2269,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
-"hi" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/simulated/wall/concrete/strong/chapel,
-/area/cadiaoutpost/oa/service/chapel)
 "hj" = (
 /obj/structure/grille,
 /obj/effect/floor_decal/turf/brick/two,
@@ -2434,9 +2404,6 @@
 	pixel_x = 30;
 	pixel_y = -10
 	},
-/obj/effect/decal/mecha_wreckage/gygax/dark{
-	name = "Kastelan Wreckage"
-	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2459,10 +2426,6 @@
 /mob/living/simple_animal/hostile/scarybat,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
-"hK" = (
-/obj/structure/dud,
-/turf/simulated/floor/stone,
-/area/cadiaoutpost/oa/village)
 "hL" = (
 /obj/machinery/power/debug_items/infinite_generator,
 /obj/structure/cable/orange{
@@ -3165,15 +3128,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
-"jI" = (
-/obj/structure/warfare/barricade/concrete_barrier{
-	dir = 4
-	},
-/obj/structure/warfare/barricade/concrete_barrier{
-	dir = 1
-	},
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/village)
 "jJ" = (
 /obj/effect/decal/cleanable/snow,
 /obj/structure/flora/ausbushes/ppflowers,
@@ -3660,9 +3614,12 @@
 "kZ" = (
 /obj/effect/floor_decal/turf/rectangles,
 /obj/structure/closet/cabinet,
+/obj/item/clothing/head/musichat,
+/obj/item/clothing/accessory/holster/waist,
+/obj/item/clothing/shoes/jackboots/noble,
 /obj/item/card/id/key/middle/ganger,
 /obj/item/card/id/key/middle/ganger,
-/obj/item/card/id/key/middle/ganger,
+/obj/item/clothing/suit/armor/armoredtrench,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "la" = (
@@ -5800,7 +5757,6 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
-/obj/item/clothing/head/helmet/sheriff,
 /obj/effect/floor_decal/turf/metal/five,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
@@ -5819,7 +5775,8 @@
 /obj/effect/floor_decal/newcorner/shaft/diagonal,
 /obj/item/card/id/key/super/hab{
 	access = list(34);
-	name = "loghouse key"
+	name = "loghouse key";
+	desc = "A key to a bunkhouse at sweetberry farm."
 	},
 /turf/simulated/floor/tiled{
 	color = "grey"
@@ -5954,6 +5911,7 @@
 /obj/effect/floor_decal/turf/plating,
 /obj/item/storage/pill_bottle/methylphenidate,
 /obj/item/stack/medical/bruise_pack,
+/obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -9094,6 +9052,10 @@
 	},
 /obj/item/lipstick,
 /obj/item/reagent_containers/food/snacks/twobread,
+/obj/item/card/id/key/super/hab{
+	access = list(33);
+	name = "Cottage Key"
+	},
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -9225,15 +9187,16 @@
 	},
 /area/cadiaoutpost/oa/service/chapel)
 "EB" = (
-/obj/effect/floor_decal/turf/metal/six,
-/obj/effect/floor_decal/turf/metal/five,
-/obj/structure/table/woodentable{
-	color = "#36261B"
+/obj/effect/floor_decal/newcorner/shaft/diagonal,
+/obj/item/card/id/key/super/hab{
+	access = list(34);
+	name = "loghouse key";
+	desc = "A key to a bunkhouse at sweetberry farm."
 	},
-/obj/item/clothing/suit/armor/hjacket2,
-/obj/effect/floor_decal/turf/metal/five,
-/turf/simulated/floor/tiled/dark,
-/area/cadiaoutpost/oa/service/inn)
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/villageinside)
 "EE" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -9905,6 +9868,11 @@
 	},
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/engineering)
+"HE" = (
+/obj/random/tech_supply,
+/obj/random/loot/goodweapon,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/caves)
 "HF" = (
 /obj/structure/table/woodentable{
 	color = "#36261B"
@@ -10407,10 +10375,10 @@
 "Jr" = (
 /obj/structure/flora/ausbushes/pointybush,
 /obj/structure/warfare/barricade/concrete_barrier{
-	dir = 8
+	dir = 1
 	},
 /obj/structure/warfare/barricade/concrete_barrier{
-	dir = 1
+	dir = 8
 	},
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
@@ -10637,9 +10605,13 @@
 /area/cadiaoutpost/oa/village)
 "Kl" = (
 /obj/effect/floor_decal/turf/rectangles,
-/obj/item/storage/toolbox/mechanical,
 /obj/structure/table/woodentable{
 	color = "#36261B"
+	},
+/obj/item/stack/thrones2/five,
+/obj/item/stack/thrones3/five{
+	pixel_y = 5;
+	pixel_x = 2
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
@@ -10785,7 +10757,8 @@
 "KW" = (
 /obj/item/card/id/key/super/hab{
 	access = list(34);
-	name = "loghouse key"
+	name = "loghouse key";
+	desc = "A key to a bunkhouse at sweetberry farm."
 	},
 /obj/item/pyre/self_lit,
 /turf/simulated/floor/dirty/tough/lightless,
@@ -11288,6 +11261,18 @@
 /obj/structure/flora/pottedplant/stoutbush,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/village/pathfinder)
+"MQ" = (
+/obj/effect/floor_decal/newcorner/shaft/diagonal,
+/obj/structure/bed{
+	desc = "A mass produced sleeping mat, now with actual cloth!";
+	icon_state = "bed_padding1";
+	name = "sleeping mat"
+	},
+/obj/item/bedsheet/brown,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/villageinside)
 "MR" = (
 /obj/structure/bed,
 /obj/item/bedsheet/brown,
@@ -11818,6 +11803,10 @@
 	icon_state = "dark1"
 	},
 /area/cadiaoutpost/oa/engineering)
+"Pu" = (
+/mob/living/simple_animal/hostile/retaliate/goat/grox/calf,
+/turf/simulated/floor/dirty,
+/area/cadiaoutpost/oa/groxpen)
 "Pw" = (
 /obj/effect/floor_decal/newcorner/red/solid,
 /obj/structure/table/rack,
@@ -11874,15 +11863,9 @@
 /turf/simulated/floor,
 /area/cadiaoutpost/oa/engineering/engine)
 "PK" = (
-/obj/effect/floor_decal/newcorner/shaft/diagonal,
-/obj/item/card/id/key/super/hab{
-	access = list(34);
-	name = "loghouse key"
-	},
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
+/mob/living/simple_animal/cat/kitten,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/village)
 "PM" = (
 /obj/structure/curtain/black,
 /obj/effect/floor_decal/turf/brick/two,
@@ -12259,7 +12242,6 @@
 /obj/effect/floor_decal/turf/metal/five,
 /obj/structure/table/rack,
 /obj/item/clothing/head/helmet/soul,
-/obj/item/clothing/head/helmet/seolhelm,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -13620,8 +13602,7 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
-/obj/item/device/cassette/heresy1,
-/obj/item/device/cassette/western1,
+/obj/item/device/cassette/tape3,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -36428,7 +36409,7 @@ zz
 Lw
 bP
 bP
-hi
+lX
 Wv
 iB
 iB
@@ -36942,7 +36923,7 @@ zz
 Lw
 wI
 wI
-gJ
+zz
 Wv
 iB
 iB
@@ -37495,7 +37476,7 @@ mg
 mg
 Xu
 qT
-EB
+MD
 lf
 kJ
 Qo
@@ -39016,7 +38997,7 @@ zz
 zz
 oL
 oL
-IL
+Vc
 il
 il
 Ns
@@ -39272,7 +39253,7 @@ oL
 oL
 SX
 oL
-IL
+Vc
 Ns
 Ns
 iN
@@ -42336,7 +42317,7 @@ sz
 oL
 oL
 oL
-jI
+gr
 Ns
 Ns
 Ns
@@ -42594,7 +42575,7 @@ oL
 oL
 oL
 Xt
-jI
+gr
 Ke
 Ke
 Ke
@@ -47013,7 +46994,7 @@ oL
 oL
 oL
 oL
-bz
+oL
 oL
 kf
 kf
@@ -47521,9 +47502,9 @@ LU
 FU
 tO
 XL
-mx
-FU
 cI
+FU
+mx
 mx
 XL
 mx
@@ -48298,7 +48279,7 @@ mx
 fz
 Dd
 BL
-fO
+mx
 FU
 kf
 kf
@@ -48553,7 +48534,7 @@ cA
 EI
 mx
 hA
-fO
+mx
 mx
 wn
 vm
@@ -52648,7 +52629,7 @@ KY
 eo
 qa
 bu
-PK
+bu
 Np
 zh
 KY
@@ -52906,7 +52887,7 @@ qZ
 bu
 SB
 AV
-bu
+EB
 Rn
 KY
 KW
@@ -53174,7 +53155,7 @@ NO
 NO
 NO
 Ns
-Ns
+PK
 Ns
 Ns
 Ns
@@ -53421,7 +53402,7 @@ bu
 TN
 MN
 bu
-bu
+MQ
 KY
 NO
 NO
@@ -53694,7 +53675,7 @@ Tw
 zb
 SM
 Tw
-Aw
+zb
 SM
 Ns
 pw
@@ -53948,7 +53929,7 @@ NO
 NO
 SM
 Uz
-Aw
+Pu
 SM
 Aw
 Aw
@@ -55217,7 +55198,7 @@ NO
 KY
 KY
 KY
-KY
+CO
 KY
 KY
 NO
@@ -55435,7 +55416,7 @@ Ns
 un
 oi
 kH
-hK
+kf
 xZ
 NO
 NO
@@ -57563,7 +57544,7 @@ Ns
 Ns
 Ns
 ro
-iV
+ro
 ro
 ro
 NS
@@ -64512,7 +64493,7 @@ Gl
 wV
 sW
 sW
-Yd
+HE
 Gl
 xE
 xE

@@ -290,12 +290,14 @@
 	},
 /area/cadiaoutpost/oa/vault)
 "aD" = (
-/obj/structure/table/steel,
 /obj/effect/floor_decal/turf/carpetn00,
 /obj/item/card/id/key/grand/monastary{
 	access = list(213,211)
 	},
 /obj/item/card/id/key/grand/monastary/inner,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
 /turf/simulated/floor/new_wood,
 /area/cadiaoutpost/oa/service/chapel/chapeloffice)
 "aE" = (
@@ -949,6 +951,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/structure/table/marble{
+	color = "grey"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -966,9 +971,9 @@
 /obj/effect/floor_decal/carpet/blue{
 	dir = 6
 	},
-/obj/structure/bed/chair/office/light{
+/obj/structure/bed/chair/wood{
 	dir = 8;
-	icon_state = "officechair_white_preview"
+	icon_state = "wooden_chair_preview"
 	},
 /turf/simulated/floor/carpet/blue,
 /area/cadiaoutpost/oa/bridge/offices/sisterhospitaller)
@@ -1111,12 +1116,14 @@
 /area/cadiaoutpost/oa/bridge/offices/sisterhospitaller)
 "cs" = (
 /obj/effect/floor_decal/turf/brick/two,
-/obj/structure/table/steel,
 /obj/item/card/id/key/grand/monastary{
 	access = list(213,211)
 	},
 /obj/item/reagent_containers/food/snacks/bloodsoup,
 /obj/item/card/id/key/grand/monastary/inner,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1448,8 +1455,10 @@
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 8
 	},
-/obj/structure/table/steel,
 /obj/item/flame/candle,
+/obj/structure/table/marble{
+	color = "grey"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1548,6 +1557,7 @@
 	},
 /obj/random/loot/sidearms,
 /obj/random/loot/sidearmammo,
+/obj/random/loot/lightmelee,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -1674,12 +1684,9 @@
 /obj/structure/closet/cabinet{
 	color = "grey"
 	},
-/obj/item/clothing/under/psysuit,
-/obj/item/clothing/under/rank/roboticist/skirt,
-/obj/item/book/manual{
-	desc = "I once walked the same ground as your idol. I breathed the same air as him. And I tell you this, without lie or artifice. He never wanted to become what you have made him. He did not wish to be your god-thing. He abhorred such ideals. The slavery of your crippled, blind Imperium would sicken him, if he had eyes to see it.";
-	name = "Daemonic Tome"
-	},
+/obj/item/reagent_containers/food/drinks/bottle/amasecexpensive,
+/obj/item/reagent_containers/food/drinks/bottle/amasecexpensive,
+/obj/item/reagent_containers/food/drinks/bottle/amasecexpensive,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/supply/cargo)
 "dI" = (
@@ -1825,6 +1832,16 @@
 /obj/effect/floor_decal/industrial/warning_red/corner,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
+"ea" = (
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/door/unpowered/inn{
+	req_access = list(219);
+	name = "meeting room"
+	},
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/inn)
 "eb" = (
 /obj/effect/floor_decal/turf/surgery2,
 /obj/structure/mirror{
@@ -2736,10 +2753,7 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
-/obj/item/crowbar/brace_jack{
-	force = 28;
-	name = "combat tool"
-	},
+/obj/item/reagent_containers/food/drinks/bottle/amasecexpensive,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -2754,7 +2768,9 @@
 /area/cadiaoutpost/oa/supply/cargo)
 "fY" = (
 /obj/item/reagent_containers/food/snacks/bloodsoup,
-/obj/structure/table/steel,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
 /turf/simulated/floor/new_wood{
 	color = "grey"
 	},
@@ -3164,6 +3180,9 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
+/obj/structure/table/marble{
+	color = "grey"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3514,6 +3533,7 @@
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
 "li" = (
 /obj/structure/table/rack/dark,
+/obj/random/loot/lightmelee,
 /obj/random/loot/lightmelee,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
@@ -3935,8 +3955,10 @@
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
 	},
-/obj/structure/table/steel,
 /obj/item/flame/candle,
+/obj/structure/table/marble{
+	color = "grey"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -4089,9 +4111,7 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
-/obj/machinery/photocopier/faxmachine{
-	department = "Rogue Trader"
-	},
+/obj/item/reagent_containers/food/drinks/bottle/amasecexpensive,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/supply/cargo)
 "oX" = (
@@ -4212,7 +4232,10 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "pF" = (
-/obj/structure/curtain/black,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/stack/thrones3/ten,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -4311,10 +4334,12 @@
 /area/cadiaoutpost/oa/engineering)
 "qm" = (
 /obj/effect/floor_decal/turf/brick/two,
-/obj/structure/table/steel,
 /obj/item/flame/candle,
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 8
+	},
+/obj/structure/table/marble{
+	color = "grey"
 	},
 /turf/simulated/floor/tiled{
 	color = "grey"
@@ -4331,10 +4356,7 @@
 /obj/effect/floor_decal/turf/brick/two,
 /obj/item/storage/firstaid/combat,
 /obj/item/storage/belt/medical/full,
-/obj/structure/closet/secure_closet/guncabinet{
-	name = "secure Sororitas cabinet";
-	req_access = list(213)
-	},
+/obj/structure/closet/cabinet,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -5819,6 +5841,12 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/engineering)
+"AA" = (
+/obj/machinery/chemical_dispenser,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/inn)
 "AE" = (
 /obj/structure/shuttle/engine/propulsion{
 	color = "grey";
@@ -5916,7 +5944,6 @@
 /area/cadiaoutpost/oa/bridge/hallway)
 "Bu" = (
 /obj/effect/floor_decal/turf/brick/two,
-/obj/structure/table/steel,
 /obj/machinery/button/remote/blast_door/lever{
 	desc = "A lever addorned with a holy sigil. It controls the gate at the front.";
 	id = "churchlock";
@@ -5929,6 +5956,9 @@
 /obj/item/book/manual{
 	desc = "The Emperor once walked among men, but He is, and always has been, a god. The Emperor is the one true god, regardless of what past faiths any human may have worshipped. To purge the heretic, beware the psyker and mutant, and abhor the alien. Every human being has a place within the Emperor's divine order. To unquestionably obey the authority of the Imperial government and one's superiors.";
 	name = "Lectitio Divinitatus"
+	},
+/obj/structure/table/woodentable{
+	color = "#36261B"
 	},
 /turf/simulated/floor/tiled{
 	color = "grey"
@@ -6220,7 +6250,6 @@
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
 "Do" = (
 /obj/effect/floor_decal/turf/brick/two,
-/obj/structure/table/steel,
 /obj/item/flame/candle/dinner{
 	desc = "A long candle, perfect for setting the mood of an evening meal or longing prayer. Wax burns cleaner than tallow ones, and are sometimes scented.";
 	name = "wax candle";
@@ -6239,6 +6268,9 @@
 	pixel_x = 5;
 	pixel_y = 5;
 	wax = 40000
+	},
+/obj/structure/table/woodentable{
+	color = "#36261B"
 	},
 /turf/simulated/floor/tiled{
 	color = "grey"
@@ -6431,6 +6463,15 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
+"EY" = (
+/obj/machinery/door/unpowered/inn{
+	req_access = list(219);
+	name = "meeting room"
+	},
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/inn)
 "Fb" = (
 /obj/effect/floor_decal/newcorner/plating/quarter,
 /obj/effect/floor_decal/industrial/warning_red,
@@ -6529,6 +6570,18 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/research)
+"FN" = (
+/obj/structure/closet/cabinet{
+	color = "grey"
+	},
+/obj/random/loot/sidearms,
+/obj/random/loot/sidearmammo,
+/obj/random/loot/lightmelee,
+/obj/random/loot/badweaponlas,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/inn)
 "FT" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/turf/plating,
@@ -6739,7 +6792,10 @@
 	},
 /area/cadiaoutpost/oa/maintenance/department/bridge)
 "Hp" = (
-/obj/item/card/id/key/super/hab/five,
+/obj/item/card/id/key/super/hab/five{
+	desc = "A key for the inn room.";
+	name = "Inn room 1 Key"
+	},
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -6822,7 +6878,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
 "Id" = (
-/obj/structure/table/steel,
 /obj/item/flame/candle,
 /obj/item/storage/box/matches,
 /obj/item/pen/multi,
@@ -6830,6 +6885,9 @@
 /obj/effect/floor_decal/turf/carpetn00,
 /obj/item/device/boombox,
 /obj/random/loot/badweapon,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
 /turf/simulated/floor/new_wood,
 /area/cadiaoutpost/oa/service/chapel/chapeloffice)
 "Ii" = (
@@ -6970,7 +7028,10 @@
 /turf/simulated/open,
 /area/cadiaoutpost/oa/engineering)
 "IS" = (
-/obj/machinery/door/unpowered/inn,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/card/id/key/super/inn/meeting,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -7261,22 +7322,17 @@
 /obj/effect/floor_decal/turf/brick,
 /obj/item/cane/concealed,
 /obj/item/device/megaphone,
-/obj/item/flame/candle,
-/obj/item/flame/candle,
-/obj/item/flame/candle,
-/obj/item/flame/candle,
 /obj/item/reagent_containers/food/drinks/bottle/holywater,
 /obj/item/book/manual{
 	desc = "The Emperor once walked among men, but He is, and always has been, a god. The Emperor is the one true god, regardless of what past faiths any human may have worshipped. To purge the heretic, beware the psyker and mutant, and abhor the alien. Every human being has a place within the Emperor's divine order. To unquestionably obey the authority of the Imperial government and one's superiors.";
 	name = "Lectitio Divinitatus"
 	},
 /obj/random/loot/sidearms,
-/obj/random/shoes,
 /obj/item/device/radio/headset/red_team/voxcaster,
 /obj/effect/floor_decal/turf/carpetn00,
-/obj/item/stamp/chameleon,
 /obj/item/stack/thrones2,
 /obj/item/clothing/accessory/bishopcloak,
+/obj/structure/closet/cabinet,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/chapeloffice)
 "Lb" = (
@@ -7478,10 +7534,12 @@
 /area/cadiaoutpost/oa/service/inn)
 "ML" = (
 /obj/effect/floor_decal/turf/brick/two,
-/obj/structure/table/steel,
 /obj/item/flame/candle,
 /obj/effect/floor_decal/spline/fancy/wood/cee{
 	dir = 4
+	},
+/obj/structure/table/marble{
+	color = "grey"
 	},
 /turf/simulated/floor/tiled{
 	color = "grey"
@@ -7536,6 +7594,15 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
+"MX" = (
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/stack/thrones2/five,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/inn)
 "Nb" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
@@ -7590,10 +7657,13 @@
 	},
 /area/cadiaoutpost/oa/service/enforcer)
 "Nt" = (
-/obj/structure/closet/crate/freezer,
 /obj/item/card/id/key/middle/ganger,
 /obj/item/card/id/key/middle/ganger,
 /obj/item/card/id/key/middle/ganger,
+/obj/structure/table/rack/shelf,
+/obj/item/card/id/key/super/inn/meeting,
+/obj/item/card/id/key/super/inn/meeting,
+/obj/item/card/id/key/super/inn/meeting,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -8179,8 +8249,9 @@
 /obj/effect/floor_decal/carpet/blue{
 	dir = 8
 	},
-/obj/structure/bed/chair/office/light{
-	dir = 4
+/obj/structure/bed/chair/wood{
+	dir = 4;
+	icon_state = "wooden_chair_preview"
 	},
 /turf/simulated/floor/carpet/blue,
 /area/cadiaoutpost/oa/bridge/offices/sisterhospitaller)
@@ -8261,7 +8332,7 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
-/obj/item/reagent_containers/food/drinks/bottle/mjod,
+/obj/item/reagent_containers/food/drinks/bottle/amasecexpensive,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -9057,6 +9128,16 @@
 	integrity = 3500
 	},
 /area/cadiaoutpost/oa/bridge/offices/sisterhospitaller)
+"Yf" = (
+/obj/structure/torchwall{
+	dir = 8;
+	icon_state = "torchwall0"
+	},
+/obj/machinery/chem_master,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/inn)
 "Yg" = (
 /obj/structure/bed{
 	desc = "A mass produced sleeping mat, now with actual cloth!";
@@ -9158,10 +9239,6 @@
 /area/cadiaoutpost/oa/supply/cargo)
 "YM" = (
 /obj/structure/undies_wardrobe,
-/obj/item/device/binoculars,
-/obj/item/clothing/suit/armor/scum2,
-/obj/random/loot/lightmelee,
-/obj/item/reagent_containers/food/drinks/bottle/wine,
 /turf/simulated/floor/new_wood{
 	color = "grey"
 	},
@@ -9237,6 +9314,15 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/cadiaoutpost/oa/supply/cargo)
+"Zp" = (
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/reagent_containers/food/drinks/glass2/wine,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/inn)
 "Zr" = (
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/supply/cargo)
@@ -32815,7 +32901,7 @@ RF
 Bs
 dg
 eg
-eg
+IS
 dg
 eC
 MQ
@@ -33071,7 +33157,7 @@ dg
 dg
 dG
 dg
-eg
+Zp
 Gh
 dg
 je
@@ -33328,7 +33414,7 @@ dG
 dG
 dG
 dP
-eg
+MX
 eg
 dg
 je
@@ -33580,13 +33666,13 @@ MQ
 dG
 dG
 dg
-Bs
+ea
 dg
 dg
 fj
 dg
 fV
-eg
+pF
 dg
 je
 MQ
@@ -34350,15 +34436,15 @@ bk
 dG
 dG
 dG
-pF
+dg
 dG
 li
-dq
+FN
 dq
 Nt
-dg
+AA
 RF
-mj
+Yf
 dG
 MQ
 MQ
@@ -34606,8 +34692,8 @@ dG
 fO
 tg
 Vs
-IS
-dg
+dG
+EY
 dG
 dG
 dG
