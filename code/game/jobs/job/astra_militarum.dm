@@ -53,9 +53,9 @@
 // Guardsmen
 
 /datum/job/ig/guardsman
-	title = "Imperial Guardsman"
-	total_positions = 2
-	spawn_positions = 2
+	title = "Planetary Defense Soldier"
+	total_positions = 4
+	spawn_positions = 4
 	social_class = SOCIAL_CLASS_MED //Guards are at least pretty respected in imperial society
 	auto_rifle_skill = 8
 	semi_rifle_skill = 8
@@ -65,12 +65,6 @@
 	smg_skill = 8
 	open_when_dead = FALSE
 	outfit_type = /decl/hierarchy/outfit/job/guardsman
-	alt_titles = list(
-		"Cadian Guardsman" = /decl/hierarchy/outfit/job/guardsman,
-		"Catachan Jungle Hunter" = /decl/hierarchy/outfit/job/guardsman/catachan,
-		"Krieg Guardsman" = /decl/hierarchy/outfit/job/guardsman/krieg,
-		"Valhallan Ice Warrior" = /decl/hierarchy/outfit/job/guardsman/valhallan
-		)
 	cultist_chance = 20
 
 	equip(var/mob/living/carbon/human/H)
@@ -106,7 +100,7 @@
 //Whiteshield
 
 /datum/job/ig/whiteshield
-	title = "Imperial Guard Recruit"
+	title = "Planetary Defense Recruit"
 	total_positions = 0
 	spawn_positions = 0
 	open_when_dead = FALSE
@@ -134,10 +128,10 @@
 		H.get_idcard()?.access = list(access_security, access_guard_common, access_all_personal_lockers, access_village)
 		to_chat(H, "<span class='notice'><b><font size=3>Conscripts are units within the Imperial Guard that consist of normal Imperial citizens with little or no military training, new Guard recruits who have not yet entered training, children of an already extant regiment's troops or standing Guardsmen who have not yet completed their training. Sometimes, in military emergencies, the Imperium's need for manpower is so great that normal Imperial citizens will simply find themselves conscripted by their local Imperial Guard regiment. </font></b></span>")
 
-//Sharpshooters
+//Sharpshooters  //removing since we have an armory
 
 /datum/job/ig/guardsman/sharpshooter // can i be fucked renaming every /sharpshooter into /spec? no. remember to just call /sharpshooter/[regiment] instead
-	title = "Imperial Guard Specialist"
+	title = "Planetary Defense Specialist"
 	total_positions = 1
 	spawn_positions = 1
 	open_when_dead = FALSE
@@ -149,17 +143,17 @@
 	lmg_skill = 10
 	smg_skill = 8
 	cultist_chance = 20 //same chance as sniper now.
-	alt_titles = list(
+/*	alt_titles = list(  //removing since this city does not have militarum presence
 		"Cadian Plasma Gunner" = /decl/hierarchy/outfit/job/sharpshooter,
 		"Krieg Grenadier" = /decl/hierarchy/outfit/job/sharpshooter/krieg,
 		"Valhallan Heavy Autogunner" = /decl/hierarchy/outfit/job/sharpshooter/valhalla,
 		"Catachan Flamer" = /decl/hierarchy/outfit/job/sharpshooter/catachan,
 		)
-
+*/
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = IMPERIUM
 		..()
-		H.add_stats(rand(17,18), rand(14,16), rand(17,18), rand (14,16)) //Specialists are special, they arent every single random ass soldier	
+		H.add_stats(rand(17,18), rand(14,16), rand(17,18), rand (14,16)) //Specialists are special, they arent every single random ass soldier
 		H.add_skills(rand(7,10),rand(9,10),rand(3,4),rand(3,5),rand(1,5)) //melee, ranged, med, eng, surgery
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
 		H.adjustStaminaLoss(-INFINITY)
@@ -192,6 +186,7 @@
 					H.add_skills(rand(7,10),rand(9,10),rand(3,4),rand(3,5),rand(1,5))
 					to_chat(H, "<span class='notice'><b><font size=2> You are a Krieg Grenadier, born and bred on the deadworld. Equipped with a hellgun, your mobile firepower is unmatched! Support your brethren and storm the enemy, wherever they dig in. </font></b></span>")
 
+
 datum/job/ig/bullgryn
 	title = "Bullgryn"
 	social_class = SOCIAL_CLASS_MED //is it lore accurate? no, does it make sense to have a bullgryn here? also no
@@ -216,7 +211,7 @@ datum/job/ig/bullgryn
 		H.vice = null
 		to_chat(H, "<span class='notice'><b><font size=3>MA BEST FREND'S DA EMPRAH. FREND OF GOBERNOR. FREND OF DA COMESSAR. PROTECT DA LITTL UN'S!</font></b></span>")
 
-
+/*
 /datum/job/ig/guardsman/sniper
 	title = "Imperial Guard Sniper"
 	total_positions = 1
@@ -268,10 +263,11 @@ datum/job/ig/bullgryn
 					H.add_skills(rand(8,10),rand(10,11),rand(3,6),rand(2,5),rand(1,5))
 		H.get_idcard()?.access = list(access_security, access_guard_common, access_all_personal_lockers, access_village)
 
+*/
 // Sergeants
 
 /datum/job/ig/sergeant
-	title = "Sergeant"
+	title = "Planetary Defense Sergeant"
 	supervisors = "The Planetary Governor"
 	total_positions = 1
 	spawn_positions = 1
@@ -280,12 +276,12 @@ datum/job/ig/bullgryn
 	department_flag = SEC
 	cultist_chance = 10
 	outfit_type = /decl/hierarchy/outfit/job/sergeant
-	alt_titles = list(
+/*	alt_titles = list(
 		"Cadian Sergeant" = /decl/hierarchy/outfit/job/sergeant,
 		"Catachan Sergeant" = /decl/hierarchy/outfit/job/sergeant/catachan,
 		"Krieg Watchmaster" = /decl/hierarchy/outfit/job/sergeant/krieg,
 		"Valhallan Sergeant" = /decl/hierarchy/outfit/job/sergeant/valhallan
-		)
+		) */
 	can_be_in_squad = FALSE //They have snowflake shit for squads.
 	access = list(access_security, access_guard_common, access_all_personal_lockers, access_village, access_guard_armory, access_armory)
 	minimal_access = list(access_security, access_guard_common, access_all_personal_lockers, access_village, access_guard_armory, access_armory )
@@ -335,7 +331,7 @@ datum/job/ig/bullgryn
 // Combat Medicae
 
 /datum/job/ig/medicae
-	title = "Combat Medicae"
+	title = "Planetary Combat Medicae"
 	department = "Medical"
 	department_flag = SEC
 	social_class = SOCIAL_CLASS_MED
@@ -353,11 +349,11 @@ datum/job/ig/bullgryn
 		)
 	minimal_access = list(access_medical, access_village, access_security, access_guard_common,
 		)
-	alt_titles = list(
-		"Cadian Medicae" = /decl/hierarchy/outfit/job/medical/paramedic,
+	/*alt_titles = list(
+	x	"Cadian Medicae" = /decl/hierarchy/outfit/job/medical/paramedic,
 		"Krieg Quartermaster" = /decl/hierarchy/outfit/job/medical/paramedic/krieg,
 		"Valhallan Medicae" = /decl/hierarchy/outfit/job/medical/paramedic/valhallan
-		)
+		) */
 	auto_rifle_skill = 8
 	semi_rifle_skill = 8
 	sniper_skill = 7
@@ -386,7 +382,7 @@ datum/job/ig/bullgryn
 					H.add_skills(rand(6,10),rand(6,10),rand(8,10),rand(1,6),rand(9,11)) //better surg
 					to_chat(H, "<span class='notice'><b><font size=3>http://is12wiki.xyz/index.php/Guide_to_Medicine</font></b></span>")
 					to_chat(H, "<span class='notice'><b><font size=3>You are a Combat Medicae. Your purpose is to both fight the enemies of the Imperium and to triage the wounded and ensure they survive long enough to be seen by a Sister Hospitaller. You have medical training but little surgical training so avoid field surgery unless absolutely necessary</font></b></span>")
-				if(title == "Krieg Quartermaster") 
+				if(title == "Krieg Quartermaster")
 					H.add_skills(rand(8,11),rand(6,9),rand(8,10),rand(1,6),rand(8,10)) //better melee
 					to_chat(H, "<span class='notice'><b><font size=3>http://is12wiki.xyz/index.php/Guide_to_Medicine</font></b></span>")
 					to_chat(H, "<span class='notice'><b><font size=3>You are a Quartermaster. Your purpose is to both fight the enemies of the Imperium and to triage the wounded and ensure they survive long enough to be seen by a Sister Hospitaller, as well as keep track of the gear of the dead. You have medical training but little surgical training so avoid field surgery unless absolutely necessary</font></b></span>")
@@ -542,16 +538,16 @@ datum/job/ig/bullgryn
 
 // Guardsmen
 /decl/hierarchy/outfit/job/guardsman
-	name = OUTFIT_JOB_NAME("Cadian Guardsman")
-	uniform = /obj/item/clothing/under/cadian_uniform
-	suit = /obj/item/clothing/suit/armor/guardsman
+	name = OUTFIT_JOB_NAME("Redd Guard Soldier")
+	uniform = /obj/item/clothing/under/reduniform
+	suit = /obj/item/clothing/suit/armor/pdfcoat
 	back = /obj/item/storage/backpack/satchel/warfare
 	belt = null
-	gloves = /obj/item/clothing/gloves/combat/cadian
-	shoes = /obj/item/clothing/shoes/jackboots/cadian
-	head = /obj/item/clothing/head/helmet/guardhelmet
-	mask = /obj/item/clothing/mask/gas/half/cadianrespirator
-	glasses = /obj/item/clothing/glasses/cadiangoggles
+	gloves = null
+	shoes = /obj/item/clothing/shoes/jackboots
+	head = /obj/item/clothing/head/helmet/redhelmet
+	mask = null
+	glasses = null
 	l_pocket = /obj/item/storage/box/ifak
 	r_pocket = /obj/item/device/flashlight/lantern
 	suit_store = /obj/item/gun/energy/las/lasgun
@@ -662,31 +658,28 @@ datum/job/ig/bullgryn
 ///Specialists
 
 /decl/hierarchy/outfit/job/sharpshooter
-	name = OUTFIT_JOB_NAME("Cadian Plasmagunner")
-	uniform = /obj/item/clothing/under/cadian_uniform
-	suit = /obj/item/clothing/suit/armor/guardsman
+	name = OUTFIT_JOB_NAME("Redd Guard Specialist")
+	uniform = /obj/item/clothing/under/reduniform
+	suit = /obj/item/clothing/suit/armor/pdfcloak
 	back = /obj/item/storage/backpack/satchel/warfare
 	belt = null
-	gloves = /obj/item/clothing/gloves/combat/cadian
-	shoes = /obj/item/clothing/shoes/jackboots/cadian
-	head = /obj/item/clothing/head/helmet/guardhelmet
+	gloves = null
+	shoes = /obj/item/clothing/shoes/jackboots
+	head = /obj/item/clothing/head/helmet/pdfsniper
 	mask = /obj/item/clothing/mask/gas/half/cadianrespirator
 	glasses = /obj/item/clothing/glasses/cadiangoggles
 	l_pocket = /obj/item/storage/box/ifak
-	r_pocket = /obj/item/device/flashlight/lantern
-	l_ear = /obj/item/device/radio/headset/red_team
-	suit_store = /obj/item/gun/energy/pulse/plasma/rifle
+	r_pocket =  /obj/item/ammo_casing/a145/apds
+	l_hand = /obj/item/device/binoculars
+	suit_store = /obj/item/gun/projectile/heavysniper
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	backpack_contents = list(
-	/obj/item/cell/plasma = 2,
-	/obj/item/reagent_containers/food/snacks/warfare/rat = 1,
-	/obj/item/stack/thrones2 = 1,
-	/obj/item/stack/thrones3/five = 1
+	/obj/item/storage/box/sniperammo/apds = 4,
+	/obj/item/stack/thrones2/five = 1
 	)
 
 	id_type = /obj/item/card/id/dog_tag/guardsman
 	pda_slot = null
-	flags = OUTFIT_NO_BACKPACK|OUTFIT_NO_SURVIVAL_GEAR
 
 /decl/hierarchy/outfit/job/sharpshooter/valhalla
 	name = OUTFIT_JOB_NAME("Valhallan Heavy Autogunner")
@@ -814,16 +807,16 @@ datum/job/ig/bullgryn
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
 
 /decl/hierarchy/outfit/job/medical/paramedic
-	name = OUTFIT_JOB_NAME("Cadian Medicae")
-	uniform = /obj/item/clothing/under/cadian_uniform
-	suit = /obj/item/clothing/suit/armor/medicae
+	name = OUTFIT_JOB_NAME("Redd Guard Medicae")
+	uniform = /obj/item/clothing/under/reduniform
+	suit = /obj/item/clothing/suit/armor/pdfmedicae
 	shoes = /obj/item/clothing/shoes/jackboots
 	gloves = /obj/item/clothing/gloves/thick/swat/combat/warfare
 	back = /obj/item/storage/backpack/satchel/warfare
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	glasses = /obj/item/clothing/glasses/hud/health
 	belt = /obj/item/storage/belt/medical/full
-	head = /obj/item/clothing/head/helmet/medicae
+	head = /obj/item/clothing/head/helmet/pdfmedicaehelmet
 	r_pocket = /obj/item/storage/box/ifak
 	l_pocket = /obj/item/cell/lasgun
 	id_type = /obj/item/card/id/medical/paramedic
@@ -835,7 +828,6 @@ datum/job/ig/bullgryn
 	/obj/item/stack/thrones = 1,
 	/obj/item/stack/thrones2 = 1,
 	/obj/item/stack/thrones3/five = 1,
-	/obj/item/clothing/mask/gas/half/cadianrespirator = 1,
 	/obj/item/clothing/glasses/cadiangoggles = 1,
 	)
 	suit_store = /obj/item/gun/energy/las/lasgun
@@ -950,16 +942,16 @@ datum/job/ig/bullgryn
 // Sarge
 
 /decl/hierarchy/outfit/job/sergeant
-	name = OUTFIT_JOB_NAME("Cadian Sergeant")
-	uniform = /obj/item/clothing/under/cadian_uniform
-	suit = /obj/item/clothing/suit/armor/cadiansgt
+	name = OUTFIT_JOB_NAME("Redd Guard Sergeant")
+	uniform = /obj/item/clothing/under/reduniform
+	suit = /obj/item/clothing/suit/armor/pdfheavy
 	back = /obj/item/storage/backpack/satchel/warfare
 	belt = /obj/item/melee/chain/inqcs
-	gloves = /obj/item/clothing/gloves/combat/cadian
-	shoes = /obj/item/clothing/shoes/jackboots/cadian
-	head = /obj/item/clothing/head/helmet/guardhelmet/sargecap
-	mask = /obj/item/clothing/mask/gas/half/cadianrespirator
-	glasses = /obj/item/clothing/glasses/cadiangoggles/elite
+	gloves = null
+	shoes = /obj/item/clothing/shoes/jackboots
+	head = /obj/item/clothing/head/helmet/pdfsergeanthelmet
+	mask = null
+	glasses = null
 	l_pocket = /obj/item/storage/box/ifak
 	r_pocket = /obj/item/device/flashlight/lantern
 	suit_store = /obj/item/gun/energy/pulse/plasma/pistol
@@ -1233,8 +1225,8 @@ datum/job/ig/bullgryn
 GLOBAL_LIST_INIT(lone_thoughts, list(
 		"Why are we still here... just to suffer?",
 		"We fight to win, and that's all that matters.",
-		"Why we don't get any more reinforcements?",
-		"We have not gotten any orders from segmentum command in months...",
+		"I think something is watching me.",
+		"We have not gotten any orders from planetary command in months...",
 		"Did something happen while we were holding this outpost?",
 		"Is there any reason to keep fighting?",
 		"It's middle of summer... Why it's so cold?",
@@ -1244,9 +1236,9 @@ GLOBAL_LIST_INIT(lone_thoughts, list(
 		"Is any of this real?",
 		"My teeth hurt.",
 		"I am not ready to die.",
-		"I don't remember joining the military...",
+		"I do not like the way the lords look at me.",
 		"Does the Emperor truly protect?",
-		"I hope the Inquisitor doesn't find my Eldar Mommy fan-fiction",))
+		"I can't feel my toes.",))
 
 /mob/living/proc/assign_random_quirk()
 	if(prob(75))//75% of not choosing a quirk at all.
@@ -1341,7 +1333,7 @@ GLOBAL_LIST_INIT(lone_thoughts, list(
 	/obj/item/grenade/frag = 1,
 	/obj/item/reagent_containers/food/snacks/warfare/rat = 1,
 	)
-	
+
 // chaos sgt
 
 /decl/hierarchy/outfit/job/watchman/sergeant
@@ -1391,7 +1383,7 @@ GLOBAL_LIST_INIT(lone_thoughts, list(
 	/obj/item/stack/thrones = 1,
 	/obj/item/stack/thrones2/five = 1
 	)
-	
+
 /decl/hierarchy/outfit/job/watchman/sergeant/krieg
 	name = OUTFIT_JOB_NAME("Krieg Watchmaster")
 	uniform = /obj/item/clothing/under/guard/uniform

@@ -44,15 +44,15 @@
 		to_chat(H, "<span class='notice'><b><font size=3>You are a servitor, specifically one designed for managing a bar and serving drinks. You are to obey Imperial citizens and serve their every need. You are nearly mindless and will follow any order given to you by a superior.</font></b></span>")
 
 /datum/job/hydro
-	title = "Farmer"
+	title = "Farm Owner"
 	department = "Service"
 	department_flag = PIL
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Town"
+	supervisors = "The Lords and Ladies of Aquileia."
 	selection_color = "#848484"
 	latejoin_at_spawnpoints = TRUE
-	access = list(access_hydroponics, access_bar, access_kitchen,access_village, access_grox)
+	access = list(access_hydroponics,access_village, access_grox)
 	minimal_access = list(access_hydroponics, access_village, access_kitchen, access_grox)
 //	alt_titles = list("Hydroponicist")
 	outfit_type = /decl/hierarchy/outfit/job/service/gardener
@@ -75,7 +75,7 @@
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
 		H.adjustStaminaLoss(-INFINITY)
 		H.warfare_faction = IMPERIUM
-		to_chat(H, "<span class='notice'><b><font size=3>You are one of the few skilled hands on this frozen hellscape capable of keeping these apostates from starving in the winter.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are the rich owner of Sweetberry Farm, the most lucrative agricultural project in Aquileia. You supply food for most of the city and have peasants that toil in your fields.</font></b></span>")
 
 
 // Cook

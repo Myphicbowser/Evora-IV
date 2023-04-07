@@ -218,3 +218,14 @@
 	worn_state = "repentia_nude"
 	siemens_coefficient = 0.9
 	species_restricted = list(SPECIES_HUMAN)
+
+	//PDF
+
+
+/obj/item/clothing/under/reduniform
+	name = "Redd Guard Uniform"
+	desc = "The Uniform of the Planetary Defense Force of Evora IV."
+	icon_state = "reduni"
+	item_state = "reduni_s"
+	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | FEET | ARMS | HANDS
+	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
