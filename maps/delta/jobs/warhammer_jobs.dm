@@ -6,22 +6,26 @@
 	/datum/job/heir,
 	/datum/job/servant,
 	/datum/job/hydro,
-	/datum/job/inquisitor,
+	/*datum/job/inquisitor, */
+	/datum/job/marshal,
 	/datum/job/acolyte,
 	/datum/job/arbitrator,
 	/datum/job/enforcer,
 	/*/datum/job/cadet,*/
-	/datum/job/ig/commissar,
+	/*datum/job/ig/commissar,*/
 	/datum/job/ig/sergeant,
 	/datum/job/ig/guardsman/sniper,
 	/datum/job/ig/guardsman/sharpshooter,
 	/datum/job/ig/medicae,
 	/datum/job/ig/guardsman,
-	/datum/job/ig/bullgryn,
-	/datum/job/ig/whiteshield,
+	/*datum/job/ig/bullgryn, */
+	/*datum/job/ig/whiteshield,*/
 	/datum/job/roguetrader,
 	/*/datum/job/janissary,*/
-	/datum/job/xenomerc,
+	/*datum/job/xenomerc,*/
+	/datum/job/underboss,
+	/datum/job/bouncer,
+	/datum/job/gangboy,
 	/datum/job/explorer,
 	/datum/job/biologis,
 	/datum/job/engineer,
@@ -30,14 +34,10 @@
 	/datum/job/cmo,
 	/datum/job/sistersuperior,
 	/datum/job/hospitaller,
-	/datum/job/marshal,
-	/datum/job/kasrkin,
-	/datum/job/scavenger,
-	/datum/job/progena,/*
-	/datum/job/preacher, turn preacher into pilgrim fate */
-	/datum/job/underboss,
-	/datum/job/bouncer,
-	/datum/job/gangboy,
+	/datum/job/progena,
+	/*datum/job/kasrkin, */
+	/*datum/job/scavenger, */
+	/*datum/job/preacher, turn preacher into pilgrim fate,  */
 	/datum/job/pathfinder,
 	/datum/job/penitent,
 	/datum/job/citizen,
