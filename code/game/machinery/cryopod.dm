@@ -279,7 +279,7 @@
 ///Just ghostizes and offers the mob to ghosts.
 /obj/machinery/cryopod/proc/despawn_occupant()
 	occupant.ghostize(CORPSE_CANNOT_REENTER)
-	occupant.offer_mob()
+//	occupant.offer_mob()
 
 
 /obj/machinery/cryopod/attackby(obj/item/G, mob/user)
