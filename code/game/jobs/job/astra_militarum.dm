@@ -28,9 +28,6 @@
 		H.warfare_faction = IMPERIUM
 		..()
 		//NOT SAME THING AS GUARDSMAN, DO NOT TOUCH THIS!!!!!!!!!!!
-		to_chat(H, "<span class='notice'><b><font size=3>   You are an Imperial Guardsmen selected personally by the Lord Trader to serve as the primary source of manpower and security within their retinue, your services go beyond the wielding of your lasgun and may involve tasks varying from hard labour, exploration and peacekeeping -- up until the point in which it is decided you must lay down your life to protect the citizens of The Imperium. </font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>   The Astra Militarum, also known as the Imperial Guard in colloquial Low Gothic, is the largest coherent fighting force in the galaxy. They serve as the Imperium of Man's primary combat force and first line of defence from the myriad threats which endanger the existence of the Human race in the 41st Millennium. </font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>   There is no universal uniform or regimental command hierarchy in the Astra Militarum, although it is compulsory for every regiment to have at least one commissar to maintain the discipline and morale of the troops while watching for any signs of corruption or heretical taint in the ranks. </font></b></span>")
 		H.add_stats(rand(15,16), rand(15,16), rand(15,16), rand (8,14))
 		H.add_skills(rand(6,8),rand(6,8),rand(3,6),rand(1,4),rand(1,3)) //melee, ranged, med, eng, surgery
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
@@ -86,9 +83,8 @@
 		H.assign_random_quirk()
 		H.witchblood()
 		H.get_idcard()?.access = list(access_security, access_all_personal_lockers, access_village)
-		to_chat(H, "<span class='notice'><b><font size=3>   You are an Imperial Guardsmen selected personally by the Lord Trader to serve as the primary source of manpower and security within their retinue, your services go beyond the wielding of your lasgun and may involve tasks varying from hard labour, exploration and peacekeeping -- up until the point in which it is decided you must lay down your life to protect the citizens of The Imperium. </font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>   The Astra Militarum, also known as the Imperial Guard in colloquial Low Gothic, is the largest coherent fighting force in the galaxy. They serve as the Imperium of Man's primary combat force and first line of defence from the myriad threats which endanger the existence of the Human race in the 41st Millennium. </font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>   There is no universal uniform or regimental command hierarchy in the Astra Militarum, although it is compulsory for every regiment to have at least one commissar to maintain the discipline and morale of the troops while watching for any signs of corruption or heretical taint in the ranks. </font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> You are a member of the Planetary Defense Force of Evora IV, the Redd Guard. You serve the Planetary Governor, Grand Duke Edwin-Bartholomew Redd and the Margrave of the borderland of Aquileia</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> You should only respond to threats to the Margrave's manor and external threats such as xenos. Enforcement of the law is under the jurisdiction of the Enforcers.</font></b></span>")
 		switch(title)
 			if("Cadian Guardsman" || "Valhallan Ice Warrior" || "Catachan Jungle Hunter")
 				if(title == "Catachan Jungle Hunter")
@@ -162,9 +158,8 @@
 			H.assign_random_squad(IMPERIUM)
 		H.assign_random_quirk()
 		H.witchblood()
-		to_chat(H, "<span class='notice'><b><font size=3>   You are an Imperial Guardsmen selected personally by the Lord Trader to serve as the primary source of manpower and security within their retinue, your services go beyond the wielding of your lasgun and may involve tasks varying from hard labour, exploration and peacekeeping -- up until the point in which it is decided you must lay down your life to protect the citizens of The Imperium. </font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>   The Astra Militarum, also known as the Imperial Guard in colloquial Low Gothic, is the largest coherent fighting force in the galaxy. They serve as the Imperium of Man's primary combat force and first line of defence from the myriad threats which endanger the existence of the Human race in the 41st Millennium. </font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>   There is no universal uniform or regimental command hierarchy in the Astra Militarum, although it is compulsory for every regiment to have at least one commissar to maintain the discipline and morale of the troops while watching for any signs of corruption or heretical taint in the ranks. </font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> You are a member of the Planetary Defense Force of Evora IV, the Redd Guard. You serve the Planetary Governor, Grand Duke Edwin-Bartholomew Redd and the Margrave of the borderland of Aquileia</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> You should only respond to threats to the Margrave's manor and external threats such as xenos. Enforcement of the law is under the jurisdiction of the Enforcers.</font></b></span>")
 		H.get_idcard()?.access = list(access_security, access_guard_common, access_all_personal_lockers, access_village)
 		if(title == "Krieg Grenadier")
 			H.set_quirk(new/datum/quirk/brave())
@@ -299,9 +294,8 @@ datum/job/ig/bullgryn
 		H.set_trait(new/datum/trait/death_tolerant())
 		H.fully_replace_character_name("Sergeant [H.real_name]")
 		H.add_stats(18, rand(17,18), rand(16,18), rand(13,15)) //meant to not only be a Sergeant, but a veteran
-		to_chat(H, "<span class='notice'><b><font size=3>   You are an Imperial Guardsmen selected personally by the Lord Trader to serve as the primary source of manpower and security within their retinue, your services go beyond the wielding of your lasgun and may involve tasks varying from hard labour, exploration and peacekeeping -- up until the point in which it is decided you must lay down your life to protect the citizens of The Imperium. </font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>   The Astra Militarum, also known as the Imperial Guard in colloquial Low Gothic, is the largest coherent fighting force in the galaxy. They serve as the Imperium of Man's primary combat force and first line of defence from the myriad threats which endanger the existence of the Human race in the 41st Millennium. </font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>   There is no universal uniform or regimental command hierarchy in the Astra Militarum, although it is compulsory for every regiment to have at least one commissar to maintain the discipline and morale of the troops while watching for any signs of corruption or heretical taint in the ranks. </font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> You are a sergeant in the Planetary Defense Force of Evora IV, the Redd Guard. You serve the Planetary Governor, Grand Duke Edwin-Bartholomew Redd and the Margrave of the borderland of Aquileia</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> You should only respond to threats to the Margrave's manor and external threats such as xenos. Enforcement of the law is under the jurisdiction of the Enforcers.</font></b></span>")
 		H.add_skills(rand(9,10),rand(9,10),rand(5,7),5,rand(4,6)) //melee, ranged, med, eng, surgery
 		H.assign_random_quirk()
 		H.witchblood()
@@ -373,6 +367,8 @@ datum/job/ig/bullgryn
 		H.add_skills(rand(6,10),rand(6,10),rand(8,10),rand(1,6),rand(9,11)) //melee, ranged, med, eng, surgery
 		H.get_equipped_item(slot_s_store)
 		H.assign_random_quirk()
+		to_chat(H, "<span class='notice'><b><font size=3> You are a member of the Planetary Defense Force of Evora IV, the Redd Guard. You serve the Planetary Governor, Grand Duke Edwin-Bartholomew Redd and the Margrave of the borderland of Aquileia</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> You should only respond to threats to the Margrave's manor and external threats such as xenos. Enforcement of the law is under the jurisdiction of the Enforcers.</font></b></span>")
 		if(title == "Krieg Quartermaster")
 			H.implant_loyalty(src)
 			cultist_chance = 1
@@ -545,7 +541,7 @@ datum/job/ig/bullgryn
 	belt = null
 	gloves = null
 	shoes = /obj/item/clothing/shoes/jackboots
-	head = /obj/item/clothing/head/helmet/redhelmet
+	head = /obj/item/clothing/head/helmet/pdfhelmet
 	mask = null
 	glasses = null
 	l_pocket = /obj/item/storage/box/ifak
