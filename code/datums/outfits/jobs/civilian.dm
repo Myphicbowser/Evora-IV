@@ -91,20 +91,19 @@
 	pda_type = null
 	pda_slot = null
 
-/decl/hierarchy/outfit/job/confessor // move to ministorum dm
-	name = OUTFIT_JOB_NAME("Ministorum Confessor")
-	uniform = /obj/item/clothing/under/rank/chaplain
+/decl/hierarchy/outfit/job/dialogus
+	name = OUTFIT_JOB_NAME("Sister Dialogus")
+	uniform = /obj/item/clothing/under/guard/uniform/sisterofbattle
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	id_type = /obj/item/card/id/civilian/confessor
 	pda_type = null
 	pda_slot = null
 	l_ear = /obj/item/device/radio/headset/heads/cmo
-	r_ear = null
 	l_pocket = /obj/item/storage/box/ifak
 	belt = /obj/item/device/flashlight/lantern
 	back = /obj/item/storage/backpack/satchel/warfare
 	shoes = /obj/item/clothing/shoes/jackboots
-	suit = /obj/item/clothing/suit/ministorumrobes
+	suit = /obj/item/clothing/suit/storage/sisterrobes
 	l_hand = /obj/item/staff/ministorumstaff
 	r_hand = /obj/item/melee/whip/censer
 	backpack_contents = list(

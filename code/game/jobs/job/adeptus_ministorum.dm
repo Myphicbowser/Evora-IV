@@ -3,7 +3,7 @@
 //Confessor
 
 /datum/job/deacon
-	title = "Deacon"
+	title = "Sister Dialogus"
 	department = "Ministorum"
 	department_flag = MED
 	total_positions = 1
@@ -11,12 +11,12 @@
 	open_when_dead = 0
 	social_class = SOCIAL_CLASS_HIGH
 	latejoin_at_spawnpoints = TRUE
-	supervisors = "The Missionarus Galaxia and the Ecclesiarchy"
+	supervisors = "The Abbess"
 	selection_color = "#FCFBFA"
 	access = list(access_heads, access_advchapel)
 	minimal_access = list(access_heads, access_advchapel)
 	announced = FALSE
-	outfit_type = /decl/hierarchy/outfit/job/confessor
+	outfit_type = /decl/hierarchy/outfit/job/dialogus
 	auto_rifle_skill = 6
 	semi_rifle_skill = 6
 	sniper_skill = 6
@@ -30,14 +30,19 @@
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
 		..()
-		H.fully_replace_character_name("Deacon [current_name]")
+		H.fully_replace_character_name("Sister [current_name]")
 		H.add_stats(rand(12,14), rand(12,14), rand(9,12), rand(14,18)) //frail and holy
 		H.add_skills(rand(5,10),rand(5,6),rand(5,7),3,rand(4,8))
 		H.get_idcard()?.access = list(access_heads, access_security, access_guard_common, access_all_personal_lockers, access_village, access_advchapel,)
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
 		H.adjustStaminaLoss(-INFINITY)
 		H.warfare_faction = IMPERIUM
-		to_chat(H, "<span class='notice'><b><font size=3>You are the Ecclesiarch Deacon. You are one of the Imperial Cult's priesthood, your oratory skills can stir entire crowds of the faithful and turn a coward into a zealot. You often work on worlds where faith is lacking, and people are rebellious. It is your job to spread the Imperial Cult to this new colony and it's ignorant masses, bringing their backwards beliefs in line with the faith of the God Emperor, as well as guiding the already faithful.</font></b></span>")
+		H.gender = FEMALE
+		H.f_style = "shaved"
+		H.h_style = "Bobcurl"
+		H.vice = "Piety"
+
+		to_chat(H, "<span class='notice'><b><font size=3>You are a Sister Dialogus, a member of the Adeptus Sororitas dedicated to record keeping, translation, oration, and other scholarly endeavors. It is your job to instill faith in The God Emperor of Man and protect the political position of the church.You are also the foremost expert on canon law and may be called upon to judge your fellow servants of the God Emperor.</font></b></span>")
 
 	equip(var/mob/living/carbon/human/H, var/alt_title, var/ask_questions = TRUE)
 		. = ..()
@@ -52,7 +57,7 @@
 
 		spawn(0)
 			var/religion_name = "the Imperial Cult"
-			var/new_religion = sanitize(input(H, "You are a holy priest of the Ministorum. To change your religion would be heresy and would surely lead to a swift death.", "Name change", religion_name), MAX_NAME_LEN)
+			var/new_religion = sanitize(input(H, "You are a holy orator of the Ministorum. To change your religion would be heresy and would surely lead to a swift death.", "Name change", religion_name), MAX_NAME_LEN)
 
 			if (!new_religion)
 				new_religion = religion_name
@@ -173,7 +178,7 @@
 		O.armor_penetration += 1
 		O.isblessed = 1
 		playsound(src, 'sound/voice/blessing.ogg', 70, 0, 1)
-		visible_message("[O] is bathed in righteous incense as the Confessor chants a short litany, you can sense a change in the weapon just by touching it.")
+		visible_message("[O] is bathed in righteous incense as the Sister chants a short litany, you can sense a change in the weapon just by touching it.")
 
 //this blesses swords
 /obj/item/melee/whip/censer/attackby(var/obj/item/melee/sword/O, var/mob/user)
@@ -186,7 +191,7 @@
 		O.block_chance += 5
 		O.isblessed = 1
 		playsound(src, 'sound/voice/blessing.ogg', 70, 0, 1)
-		visible_message("[O] is bathed in righteous incense as the Confessor chants a short litany, you can sense a change in the weapon just by touching it.")
+		visible_message("[O] is bathed in righteous incense as the Sister chants a short litany, you can sense a change in the weapon just by touching it.")
 
 
 
@@ -210,9 +215,6 @@
 	announced = FALSE
 	access = list(access_heads, access_advchapel)
 	minimal_access = list(access_heads, access_advchapel)
-
-	minimal_player_age = 50
-	ideal_character_age = 60
 	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
 	auto_rifle_skill = 10
 	semi_rifle_skill = 10
@@ -236,10 +238,10 @@
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
 		H.f_style = "shaved"
-		H.h_style = "Bob"
-		H.vice = null
+		H.h_style = "Bobcurl"
+		H.vice = "Piety"
 
-		to_chat(H, "<span class='notice'><b><font size=3>You are the pinnacle of knowledge and piety within The Monastery -- a former sister of battle, organize your sisters and ensure they are doing their duty to both The Deacon and the Codex Sororitas. Ensure your pupils within the Schola are carefully selected for their roles in serving either the military or medical wings of the Sororitas.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are the Abbess in Aquileia and a sister of The Order of Our Martyred Lady. You have several sisters in your care and a reliquary full of artifacts of the beata. You must lead your sisters in accordance with the Codex Sororitas and teach the locals to love and revere the God Emperor.</font></b></span>")
 
 
 /datum/job/sistersuperior
@@ -280,31 +282,20 @@
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
 		H.f_style = "shaved"
-		H.verbs += list(
-		/mob/living/carbon/human/proc/sobemperorgivesstrenght,
-		/mob/living/carbon/human/proc/sobnotforsakeme,
-		/mob/living/carbon/human/proc/sobpraise,
-		/mob/living/carbon/human/proc/sobsororitas,
-		/mob/living/carbon/human/proc/sobfearthesister,
-		/mob/living/carbon/human/proc/sobfeelwrath,
-		/mob/living/carbon/human/proc/sobfoesapproach,
-		/mob/living/carbon/human/proc/sobnomercy,
-		/mob/living/carbon/human/proc/sobretreat,
-		/mob/living/carbon/human/proc/sobtakingfire,
-		/mob/living/carbon/human/proc/sobweservants,
-		/mob/living/carbon/human/proc/sobtheemperor)
-		H.verbs -= list(/mob/living/carbon/human/verb/emoteemperorprotects)
-		H.vice = null
-		to_chat(H, "<span class='notice'><b><font size=3>You are a Sister of Battle belonging to the Order of the Sacred Rose assigned to the Monastary, you serve both the Inquisition and Ecclesiarchy directly, though whom you truly serve is that of The Emperor who stands above all.</font></b></span>")
+		H.h_style = "Bobcurl"
+		H.vice = "Piety"
+
+		to_chat(H, "<span class='notice'><b><font size=3>You are a Sister of Battle belonging to the Order of Our Martyred Lady assigned to the Monastary, you serve both the Inquisition and Ecclesiarchy directly, though you truly The God Emperor who stands above all.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement but protectors of the faith. Your primary purpose is to protect the reliquary.</font></b></span>")
 
 /datum/job/hospitaller
-	title = "Sister Hospitaller"
+	title = "Novitiate Hospitaller"
 	department = list("Ministorum", "Medical")
 	department_flag = MED
 	minimal_player_age = 22
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "The Abbess or Deacon"
+	supervisors = "The Abbess and Sister Superior"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7
 	social_class = SOCIAL_CLASS_HIGH
@@ -329,11 +320,11 @@
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
 		..()
-		H.fully_replace_character_name("Sister [current_name]")
+		H.fully_replace_character_name("Novitiate Sister [current_name]")
 		H.set_trait(new/datum/trait/death_tolerant())
 		H.add_stats(rand(14,18), rand(14,18), rand(10,14), rand(17,18)) //nice stats
 		H.add_skills(rand(6,8),rand(6,8),rand(8,10),rand(3,5),rand(9,11)) //melee, ranged, med, eng, surgery
-		H.get_idcard()?.access = list(access_medical, access_village, access_abbess)
+		H.get_idcard()?.access = list(access_medical, access_village, access_advchapel)
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
 		H.adjustStaminaLoss(-INFINITY)
@@ -341,21 +332,21 @@
 		H.gender = FEMALE
 		H.warfare_faction = IMPERIUM
 		H.f_style = "shaved"
-		H.h_style = "Bob"
-		H.vice = null
+		H.h_style = "Bobcurl"
+		H.vice = "Piety"
 
 		to_chat(H, "<span class='notice'><b><font size=3>http://is12wiki.xyz/index.php/Guide_to_Medicine</font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>You are a senior sister of the Ordos Hospitaller, serving under The Deacon/Abbess to maintain the health and divinity of the township.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are a novice sister of the Ordos Hospitaller, The Sisters of our Emperor's Mercy serving under The Abbess to maintain the health and divinity of the township.</font></b></span>")
 
-//NOVICE - has not begun their training yet
+//NOVICE - has just become a sister
 /datum/job/progena
-	title = "Progena"
+	title = "Novitiate Militant"
 	department = list("Ministorum", "Medical")
 	department_flag = MED
 	minimal_player_age = 14
-	total_positions = 4
-	spawn_positions = 4
-	supervisors = "The Ordos and Ecclesiarchy"
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "The Abbess and Sister Superior"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7
 	social_class = SOCIAL_CLASS_HIGH
@@ -364,43 +355,44 @@
 	announced = FALSE
 	access = list(access_advchapel, access_medical, access_village)
 	minimal_access = list(access_advchapel, access_medical, access_village)
-	outfit_type = /decl/hierarchy/outfit/job/novice
-	auto_rifle_skill = 7
-	semi_rifle_skill = 7
-	sniper_skill = 7
-	shotgun_skill = 7
-	lmg_skill = 7
-	smg_skill = 7
+	outfit_type = /decl/hierarchy/outfit/job/novicemilitant
+	auto_rifle_skill = 9
+	semi_rifle_skill = 9
+	sniper_skill = 9
+	shotgun_skill = 9
+	lmg_skill = 9
+	smg_skill = 9
 	cultist_chance = 25
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
 		..()
-		H.fully_replace_character_name("Progena [current_name]")
+		H.fully_replace_character_name("Novitiate Sister [current_name]")
 		H.set_trait(new/datum/trait/death_tolerant())
-		H.add_stats(rand(12,15), rand(12,15), rand(12,15), rand (12,15)) //Has not begun their training with the sisters yet.
-		H.add_skills(rand(5,7),rand(5,7),rand(5,7),rand(1,3),rand(5,7)) //melee, ranged, med, eng, surgery
-		H.get_idcard()?.access = list(access_medical, access_village)
+		H.add_stats(rand(14,18), rand(14,18), rand(10,14), rand(17,18)) //nice stats
+		H.add_skills(rand(6,8),rand(6,8),rand(8,10),rand(3,5),rand(9,11)) //melee, ranged, med, eng, surgery
+		H.get_idcard()?.access = list(access_medical, access_village, access_advchapel)
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
 		H.adjustStaminaLoss(-INFINITY)
 		H.get_equipped_item(slot_s_store)
+		H.gender = FEMALE
 		H.warfare_faction = IMPERIUM
 		H.f_style = "shaved"
-		H.h_style = "Bob"
-		H.vice = null
+		H.h_style = "Bobcurl"
+		H.vice = "Piety"
 
-		to_chat(H, "<span class='notice'><b><font size=3>http://is12wiki.xyz/index.php/Guide_to_Medicine</font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>You are a recent arrival to the Monastery Scholam... soon you will begin your training with the sisters of the Ordos and the monks of the Ecclesiarchy, you stand at a crossroads where in which your failures and triumphs shall decide who you will become for the rest of your days. Do as you are instructed, learn from your masters and serve the God Emperor of Mankind.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are a recent arrival to the Abbey in Aquileia, coming from the scholam established in the captial of Evora IV after the warp storms cut off the world from the rest of the Imperium. Novitiates are usually stationed in dangerous places to be tempered by battle, but you have the honor of protecting the reliquary and the artifacts of the beata.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement but protectors of the faith. Your primary purpose is to protect the reliquary.</font></b></span>")
 
-/datum/job/preacher // DISABLED
-	title = "Preacher"
+/datum/job/preacher
+	title = "Scholar"
 	department = list("Ministorum", "Medical")
 	department_flag = MED
 	minimal_player_age = 20
 	total_positions = 0
 	spawn_positions = 0
-	supervisors = "The Confessor"
+	supervisors = "The Abbess and Sister Superior"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7
 	social_class = SOCIAL_CLASS_HIGH
@@ -419,9 +411,6 @@
 	cultist_chance = 75 //preaching the word of.... lorgar//
 
 	equip(var/mob/living/carbon/human/H)
-		var/current_name = H.real_name
-		..()
-		H.fully_replace_character_name("Preacher [current_name]")
 		H.set_trait(new/datum/trait/death_tolerant())
 		H.add_stats(rand(14,16), rand(14,16), rand(10,14), rand(11,14))
 		H.add_skills(rand(5,9),rand(5,9),rand(6,8),rand(2,4),rand(1,4)) //melee, ranged, med, eng, surgery
@@ -490,7 +479,7 @@
 	l_ear = /obj/item/device/radio/headset/heads/cmo
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	suit = /obj/item/clothing/suit/sisterofbattle/mlsister
-	belt = /obj/item/melee/chain/mercycs
+	belt = /obj/item/melee/energy/powersword/astartes/ingelldina
 	uniform = /obj/item/clothing/under/guard/uniform/sisterofbattle
 	back = /obj/item/storage/backpack/satchel/warfare/sisterofbattle/mlsister
 	gloves = /obj/item/clothing/gloves/sisterofbattle/mlsister
@@ -499,12 +488,9 @@
 	id_type = /obj/item/card/id/dog_tag
 	l_pocket = /obj/item/storage/box/ifak
 	l_hand = /obj/item/gun/projectile/boltrifle/sisterbolter
-	r_hand = /obj/item/gun/projectile/bolter_pistol/sisterofbattle
 	backpack_contents = list(
 	/obj/item/ammo_magazine/bolt_rifle_magazine/sister = 2,
-	/obj/item/ammo_magazine/bolt_pistol_magazine = 2,
 	/obj/item/reagent_containers/food/snacks/warfare = 1,
-	/obj/item/clothing/mask/gas/explorer = 1,
 	/obj/item/device/flashlight/lantern = 1,
 	/obj/item/stack/thrones3/ten = 2
 	)
@@ -535,14 +521,14 @@
 	)
 
 /decl/hierarchy/outfit/job/preacher
-	name = OUTFIT_JOB_NAME("Preacher")
+	name = OUTFIT_JOB_NAME("Scholar")
 	head = /obj/item/clothing/head/preacher
 	uniform = /obj/item/clothing/under/rank/chaplain
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	id_type = /obj/item/card/id/civilian/confessor
 	pda_type = null
 	pda_slot = null
-	l_ear = /obj/item/device/radio/headset/heads/cmo
+	l_ear = /obj/item/device/radio/headset/headset_sci
 	r_ear = null
 	l_pocket = /obj/item/storage/box/ifak
 	belt = /obj/item/device/flashlight/lantern
@@ -560,17 +546,22 @@
 		)
 
 
-/decl/hierarchy/outfit/job/novice
-	name = OUTFIT_JOB_NAME("Progena")
-	uniform = /obj/item/clothing/under/rank/medical
+/decl/hierarchy/outfit/job/novicemilitant
+	name = OUTFIT_JOB_NAME("Novitiate Militant")
+	uniform = /obj/item/clothing/under/guard/uniform/sisterofbattle
+	suit = /obj/item/clothing/suit/sisterofbattle/training
 	l_ear  = /obj/item/device/radio/headset/headset_sci
 	neck = /obj/item/reagent_containers/food/drinks/canteen
-	back = /obj/item/storage/backpack/satchel/warfare
+	back = /obj/item/storage/backpack/satchel/warfare/sisterofbattle/mlsister
+	belt = /obj/item/melee/sword/broadsword
 	shoes = /obj/item/clothing/shoes/jackboots
 	glasses = /obj/item/clothing/glasses/hud/health
+	l_pocket = /obj/item/storage/box/ifak
 	r_pocket = /obj/item/device/flashlight/lantern
+	r_hand = /obj/item/gun/projectile/bolter_pistol/sisterofbattle
 	id_type = /obj/item/card/id/medical
 	backpack_contents = list(
 		/obj/item/reagent_containers/food/snacks/warfare/rat = 1,
+		/obj/item/ammo_magazine/bolt_pistol_magazine = 2,
 		/obj/item/stack/thrones2 = 1,
 		/obj/item/stack/thrones3/five = 1,)

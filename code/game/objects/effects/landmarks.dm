@@ -111,7 +111,7 @@ Template:
 // Governorship //
 
 /obj/effect/landmark/start/governor
-	name = "Planetary Governor"
+	name = "Margrave"
 	icon_state = "governors"
 /obj/effect/landmark/start/governor/heir
 	name = "Heir"
@@ -140,7 +140,7 @@ Template:
 // Imperial Guard/ Astra Militarum//
 
 /obj/effect/landmark/start/imperialguard
-	name = "Sergeant"
+	name = "Planetary Defense Sergeant"
 	icon_state = "guards"
 
 /obj/effect/landmark/start/imperialguard/commissar
@@ -151,13 +151,13 @@ Template:
 	name = "Imperial Guard Sniper"
 
 /obj/effect/landmark/start/imperialguard/specialist
-	name = "Imperial Guard Specialist"
+	name = "Planetary Defense Specialist"
 
 /obj/effect/landmark/start/imperialguard/medicae
-	name = "Combat Medicae"
+	name = "Planetary Combat Medicae"
 
 /obj/effect/landmark/start/imperialguard/guard
-	name = "Imperial Guardsman"
+	name = "Planetary Defense Soldier"
 
 /obj/effect/landmark/start/imperialguard/bullgryn
 	name = "Bullgryn"
@@ -192,20 +192,24 @@ Template:
 // Ministorum //
 
 /obj/effect/landmark/start/ministorum
-	name = "Confessor"
+	name = "Abbess"
+	icon_state = "churchs"
+
+/obj/effect/landmark/start/ministorum/sisterdialogus
+	name = "Sister Dialogus"
 	icon_state = "churchs"
 
 /obj/effect/landmark/start/ministorum/sistersuperior
 	name = "Sister Superior"
 
 /obj/effect/landmark/start/ministorum/hospitaller
-	name = "Sister Hospitaller"
+	name = "Novitiate Hospitaller"
 
 /obj/effect/landmark/start/ministorum/novice
-	name = "Novice"
+	name = "Novitiate Militant"
 
 /obj/effect/landmark/start/ministorum/preacher
-	name = "Preacher"
+	name = "Scholar"
 
 // Village scum //
 
@@ -213,8 +217,13 @@ Template:
 	name = "Pilgrim"
 	icon_state = "pilgrims"
 
+/obj/effect/landmark/start/village/citizen
+	name = "Imperial Citizen"
+	icon_state = "pilgrims"
+
+
 /obj/effect/landmark/start/village/innkeeper
-	name = "Innkeeper"
+	name = "Capo"
 
 /obj/effect/landmark/start/village/bouncer
 	name = "Bouncer"
@@ -224,6 +233,10 @@ Template:
 
 /obj/effect/landmark/start/village/pathfinder
 	name = "Pathfinder"
+
+/obj/effect/landmark/start/village/farmer
+	name = "Farm Owner"
+
 
 // Removed Content due to low pop. Just admin spawn them yeeeeeesh.//
 /obj/effect/landmark/start/admin

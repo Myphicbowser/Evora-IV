@@ -14,8 +14,9 @@
 	uniform = /obj/item/clothing/under/rank/medical
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	suit = /obj/item/clothing/suit/sisterofbattle/mlsister
-	back = /obj/item/storage/backpack/satchel/warfare
-	shoes = /obj/item/clothing/shoes/jackboots
+	gloves = /obj/item/clothing/gloves/sisterofbattle/mlsister
+	back = /obj/item/storage/backpack/satchel/warfare/sisterofbattle/mlsister
+	shoes = /obj/item/clothing/shoes/jackboots/sisterofbattle/mlsister
 	l_hand = /obj/item/storage/firstaid/adv
 	r_hand = /obj/item/gun/projectile/bolter_pistol/sisterofbattle
 	glasses = /obj/item/clothing/glasses/hud/health
@@ -32,22 +33,20 @@
 
 /decl/hierarchy/outfit/job/medical/doctor
 	name = OUTFIT_JOB_NAME("Sister Hospitallar")
-	uniform = /obj/item/clothing/under/rank/medical
-	l_ear  = /obj/item/device/radio/headset/heads/cmo
+	uniform = /obj/item/clothing/under/guard/uniform/sisterofbattle
+	suit = /obj/item/clothing/suit/sisterofbattle/training
+	l_ear  = /obj/item/device/radio/headset/headset_sci
 	neck = /obj/item/reagent_containers/food/drinks/canteen
-	suit = /obj/item/clothing/suit/storage/sistersuperiorsuit
-	back = /obj/item/storage/backpack/satchel/warfare
-	shoes = /obj/item/clothing/shoes/jackboots
+	back = /obj/item/storage/backpack/satchel/warfare/sisterofbattle/mlsister
+	shoes = /obj/item/clothing/shoes/jackboots/sisterofbattle/mlsister
 	glasses = /obj/item/clothing/glasses/hud/health
 	l_hand = /obj/item/storage/firstaid/adv
-	r_hand = /obj/item/gun/projectile/bolter_pistol/sisterofbattle
 	belt = /obj/item/storage/belt/medical/full
 	r_pocket = /obj/item/device/flashlight/lantern
 	id_type = /obj/item/card/id/medical
 	head = /obj/item/clothing/head/hospitallerhelm
 	backpack_contents = list(
 		/obj/item/reagent_containers/food/snacks/warfare/rat = 1,
-		/obj/item/ammo_magazine/bolt_pistol_magazine = 1,
 		/obj/item/stack/thrones2/five = 1,
 		/obj/item/stack/thrones3/five = 1,)
 /* // sisterhood chemist

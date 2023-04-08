@@ -23,7 +23,7 @@
 /obj/effect/floor_decal/newcorner/reinforced,
 /obj/structure/warfare/barricade/concrete_barrier,
 /turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
+/area/cadiaoutpost/oa/village)
 "ag" = (
 /obj/effect/floor_decal/turf/checkers,
 /obj/effect/floor_decal/newcorner/plating{
@@ -181,13 +181,6 @@
 	},
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
-"aD" = (
-/obj/structure/warfare/barricade/concrete_barrier,
-/obj/structure/warfare/barricade/concrete_barrier{
-	dir = 8
-	},
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "aE" = (
 /obj/structure/flora/ausbushes/pointybush,
 /obj/structure/warfare/barricade/concrete_barrier,
@@ -267,12 +260,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/engineering)
-"aP" = (
-/obj/structure/warfare/barricade/concrete_barrier{
-	dir = 8
-	},
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "aQ" = (
 /obj/effect/floor_decal/turf/metal/five,
 /obj/structure/table/steel_reinforced,
@@ -384,7 +371,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
+/area/cadiaoutpost/oa/village)
 "bh" = (
 /obj/structure/window_frame,
 /obj/structure/grille{
@@ -914,14 +901,6 @@
 /obj/effect/decal/cleanable/snow,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
-"cI" = (
-/obj/effect/landmark/start{
-	name = "Farmer"
-	},
-/turf/simulated/floor/wood{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
 "cJ" = (
 /obj/item/device/flashlight/lantern,
 /obj/item/device/flashlight/lantern,
@@ -1540,10 +1519,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
-"eJ" = (
-/obj/structure/flora/grass/both,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "eK" = (
 /obj/effect/floor_decal/newcorner/yellow/diagonal,
 /obj/structure/cable{
@@ -1610,6 +1585,8 @@
 	},
 /obj/random/shoes,
 /obj/item/device/flashlight/lantern,
+/obj/effect/landmark/start/village/citizen,
+/obj/item/bedsheet/brown,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -1946,9 +1923,6 @@
 /obj/random/loot/sidearmammo,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
-"gp" = (
-/turf/simulated/floor/tiled/stone,
-/area/cadiaoutpost/oa/service/chapel)
 "gq" = (
 /obj/effect/floor_decal/turf/barnew,
 /obj/effect/floor_decal/newcorner/plating{
@@ -2164,12 +2138,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
-"gT" = (
-/obj/item/remains/human,
-/obj/structure/pit/closed/grave,
-/obj/structure/gravemarker/random,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "gU" = (
 /obj/effect/floor_decal/turf/plate,
 /obj/machinery/door/airlock/cone,
@@ -2514,12 +2482,6 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/village/pathfinder)
-"ib" = (
-/obj/structure/warfare/barricade/concrete_barrier{
-	dir = 4
-	},
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "ic" = (
 /turf/simulated/wall/concrete{
 	integrity = 1500
@@ -2534,10 +2496,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
-"ie" = (
-/obj/structure/closet/pit,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "if" = (
 /obj/item/trash/liquidfood,
 /turf/simulated/floor/snow,
@@ -2683,10 +2641,6 @@
 	},
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
-"iz" = (
-/obj/structure/flora/ausbushes/palebush,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "iA" = (
 /obj/structure/table/reinforced{
 	color = "grey"
@@ -2877,15 +2831,8 @@
 	},
 /area/cadiaoutpost/oa/supply/cargo/office)
 "je" = (
-/obj/structure/bed{
-	desc = "A mass produced sleeping mat, now with actual cloth!";
-	icon_state = "bed_padding1";
-	name = "sleeping mat"
-	},
-/obj/effect/landmark/start{
-	name = "Underboss"
-	},
 /obj/effect/floor_decal/turf/rectangles,
+/obj/effect/landmark/start/village/innkeeper,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "jf" = (
@@ -3141,6 +3088,7 @@
 	},
 /obj/effect/floor_decal/turf/metal/five,
 /obj/effect/floor_decal/turf/metal/five,
+/obj/effect/landmark/start/village/ganger,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "jM" = (
@@ -3453,9 +3401,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/enforcer)
-"kx" = (
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "ky" = (
 /obj/effect/floor_decal/turf/metal/five,
 /obj/effect/floor_decal/turf/metal/five,
@@ -3520,7 +3465,7 @@
 "kK" = (
 /obj/structure/closet/coffin,
 /turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
+/area/cadiaoutpost/oa/village)
 "kL" = (
 /obj/effect/floor_decal/turf/metal/five,
 /turf/simulated/floor/new_wood{
@@ -3733,7 +3678,7 @@
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
+/area/cadiaoutpost/oa/village)
 "lr" = (
 /obj/effect/floor_decal/turf/brick/two,
 /obj/structure/closet/coffin,
@@ -4013,10 +3958,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/caves)
-"me" = (
-/obj/structure/flora/ausbushes/pointybush,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "mf" = (
 /obj/structure/flora/tree/snowy,
 /turf/simulated/floor/dirty/tough/lightless,
@@ -4172,10 +4113,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/inn)
-"mA" = (
-/obj/structure/flora/bush,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "mB" = (
 /obj/structure/bed/chair/wood{
 	dir = 4;
@@ -4787,13 +4724,6 @@
 /obj/effect/floor_decal/newcorner/yellow/solid,
 /turf/simulated/floor,
 /area/cadiaoutpost/oa/engineering/engine)
-"of" = (
-/obj/structure/warfare/barricade/concrete_barrier{
-	dir = 4
-	},
-/obj/structure/warfare/barricade/concrete_barrier,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "og" = (
 /obj/structure/sign/sancposter/four{
 	pixel_y = -32
@@ -4946,10 +4876,6 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/chapel)
-"oy" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/service/chapel)
 "oA" = (
 /obj/effect/decal/cleanable/snow,
@@ -5609,6 +5535,12 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
+"qk" = (
+/obj/structure/catwalkrust/blocked,
+/obj/structure/catwalkrust/blocked,
+/obj/effect/landmark/start/village,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/villageinside)
 "ql" = (
 /obj/structure/closet/crate/trashcart,
 /obj/item/beartrap,
@@ -5695,10 +5627,6 @@
 /obj/item/stack/thrones3/five,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
-"qH" = (
-/obj/structure/flora/tree/dead,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "qK" = (
 /obj/structure/coatrack,
 /turf/simulated/floor/wood{
@@ -5738,9 +5666,8 @@
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
 "qQ" = (
-/obj/effect/floor_decal/turf/plating,
-/obj/structure/bed,
-/turf/simulated/floor/stone,
+/obj/structure/ladder,
+/turf/simulated/open,
 /area/cadiaoutpost/oa/villageinside)
 "qR" = (
 /obj/structure/table/rack/dark,
@@ -5773,22 +5700,15 @@
 	color = "grey"
 	},
 /obj/effect/floor_decal/newcorner/shaft/diagonal,
-/obj/item/card/id/key/super/hab{
-	access = list(34);
-	name = "loghouse key";
-	desc = "A key to a bunkhouse at sweetberry farm."
-	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
 "ra" = (
-/obj/effect/floor_decal/newcorner/shaft/diagonal,
+/obj/effect/decal/cleanable/snow,
 /obj/effect/landmark/start/village,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/village)
 "rb" = (
 /obj/item/card/id/key/super/hab,
 /turf/simulated/floor/wood{
@@ -5929,10 +5849,6 @@
 	color = null
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
-"rD" = (
-/obj/item/pyre/self_lit,
-/turf/simulated/floor/tiled/stone,
-/area/cadiaoutpost/oa/service/chapel)
 "rE" = (
 /obj/effect/floor_decal/turf/plating,
 /turf/simulated/floor/tiled{
@@ -5964,6 +5880,7 @@
 	},
 /obj/item/bedsheet/blue,
 /obj/item/trash/candy,
+/obj/effect/landmark/start/village/citizen,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -5995,10 +5912,6 @@
 /obj/structure/sign/writers,
 /turf/simulated/floor/carpet/blue2,
 /area/cadiaoutpost/oa/villageinside)
-"rN" = (
-/obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "rO" = (
 /turf/simulated/mineral/snowycave,
 /area/cadiaoutpost/oa/caves)
@@ -6122,11 +6035,13 @@
 	},
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
-"sn" = (
-/obj/structure/closet/coffin,
-/obj/item/shovel,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
+"sp" = (
+/obj/machinery/door/unpowered/inn/berryfarm{
+	name = "Sweetberry Cottage";
+	req_access = list(34)
+	},
+/turf/simulated/floor/tiled/stone,
+/area/cadiaoutpost/oa/villageinside)
 "sr" = (
 /obj/structure/table/woodentable{
 	color = "#36261B"
@@ -6824,7 +6739,7 @@
 /obj/structure/warfare/barricade/concrete_barrier{
 	dir = 4
 	},
-/turf/simulated/floor/dirty/tough/lightless,
+/turf/simulated/floor/tiled/stone,
 /area/cadiaoutpost/oa/village)
 "uV" = (
 /obj/effect/floor_decal/turf/brick/two,
@@ -7263,10 +7178,6 @@
 	},
 /turf/simulated/floor,
 /area/cadiaoutpost/oa/engineering/engine)
-"wz" = (
-/obj/structure/flora/yes/cross,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "wA" = (
 /obj/machinery/portable_atmospherics/hydroponics/soil,
 /turf/simulated/floor/snow,
@@ -7280,10 +7191,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
-"wF" = (
-/obj/structure/flora/ausbushes/ywflowers,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "wH" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/orange,
@@ -7880,15 +7787,15 @@
 	},
 /area/cadiaoutpost/oa/villageinside)
 "yS" = (
-/obj/structure/torchwall{
+/obj/effect/floor_decal/turf/metal/six,
+/obj/effect/floor_decal/turf/metal/five,
+/obj/structure/bed/chair/wood{
 	dir = 8;
-	icon_state = "torchwall0"
+	icon_state = "wooden_chair_preview"
 	},
 /obj/effect/landmark/start/village,
-/turf/simulated/floor/wood{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/inn)
 "yT" = (
 /obj/structure/torchwall{
 	pixel_y = 16
@@ -7968,6 +7875,7 @@
 /area/cadiaoutpost/oa/villageinside)
 "zg" = (
 /obj/structure/toilet,
+/obj/effect/landmark/start/village,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
 "zh" = (
@@ -8105,6 +8013,7 @@
 	pixel_y = 30
 	},
 /obj/effect/floor_decal/newcorner/shaft/diagonal,
+/obj/effect/landmark/start/village/citizen,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -8357,10 +8266,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/hab/inside)
-"AL" = (
-/obj/structure/flora/grass/brown,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "AS" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -8958,6 +8863,10 @@
 	},
 /turf/simulated/floor/carpet,
 /area/cadiaoutpost/oa/villageinside)
+"DF" = (
+/obj/structure/ladder,
+/turf/simulated/open,
+/area/cadiaoutpost/oa/village)
 "DG" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/decal/cleanable/snow,
@@ -9053,8 +8962,9 @@
 /obj/item/lipstick,
 /obj/item/reagent_containers/food/snacks/twobread,
 /obj/item/card/id/key/super/hab{
-	access = list(33);
-	name = "Cottage Key"
+	access = list(34);
+	name = "loghouse key";
+	desc = "A key to Sweetberry Cottage."
 	},
 /turf/simulated/floor/wood{
 	color = "grey"
@@ -9065,7 +8975,7 @@
 /obj/structure/gravemarker/random,
 /obj/item/stack/thrones,
 /turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
+/area/cadiaoutpost/oa/village)
 "Eb" = (
 /obj/structure/bed/chair/wood,
 /obj/effect/floor_decal/turf/cafe,
@@ -9187,16 +9097,10 @@
 	},
 /area/cadiaoutpost/oa/service/chapel)
 "EB" = (
-/obj/effect/floor_decal/newcorner/shaft/diagonal,
-/obj/item/card/id/key/super/hab{
-	access = list(34);
-	name = "loghouse key";
-	desc = "A key to a bunkhouse at sweetberry farm."
-	},
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
+/obj/structure/flora/grass/both,
+/obj/item/pyre/self_lit,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/bridge/hallway)
 "EE" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -9423,10 +9327,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/hab/inside)
-"Fx" = (
-/obj/effect/decal/cleanable/snow,
-/turf/simulated/floor/tiled/stone,
-/area/cadiaoutpost/oa/service/chapel)
 "Fy" = (
 /obj/structure/flora/ausbushes/minishroom,
 /turf/simulated/floor/stone,
@@ -9784,6 +9684,7 @@
 /obj/item/device/flashlight/lantern,
 /obj/item/clothing/mask/gas,
 /obj/item/clothing/suit/armor/slaverobe,
+/obj/effect/landmark/start/village,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
 "Hq" = (
@@ -10339,6 +10240,7 @@
 	name = "sleeping mat"
 	},
 /obj/item/bedsheet/blue,
+/obj/effect/landmark/start/village/citizen,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -10670,6 +10572,11 @@
 	},
 /turf/simulated/floor/tiled/stone,
 /area/cadiaoutpost/oa/village)
+"KB" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/effect/landmark/JoinLate,
+/turf/simulated/floor/tiled/stone,
+/area/cadiaoutpost/oa/village)
 "KD" = (
 /obj/item/remains/robot,
 /turf/simulated/floor/stone,
@@ -10741,11 +10648,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
-"KU" = (
-/obj/structure/pit/closed/grave,
-/obj/structure/gravemarker/random,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "KV" = (
 /obj/structure/torchwall{
 	pixel_y = 30
@@ -10770,7 +10672,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
+/area/cadiaoutpost/oa/village)
 "KY" = (
 /turf/simulated/wall/wooden,
 /area/cadiaoutpost/oa/villageinside)
@@ -11244,7 +11146,7 @@
 /obj/structure/warfare/barricade/concrete_barrier{
 	dir = 4
 	},
-/turf/simulated/floor/dirty/tough/lightless,
+/turf/simulated/floor/tiled/stone,
 /area/cadiaoutpost/oa/village)
 "MN" = (
 /obj/effect/floor_decal/carpet,
@@ -11269,6 +11171,7 @@
 	name = "sleeping mat"
 	},
 /obj/item/bedsheet/brown,
+/obj/effect/landmark/start/village/citizen,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -11616,7 +11519,7 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/item/pyre/self_lit,
 /turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
+/area/cadiaoutpost/oa/village)
 "On" = (
 /obj/effect/floor_decal/turf/brick/two,
 /obj/structure/bed/chair/wood{
@@ -11693,6 +11596,7 @@
 	name = "sleeping mat"
 	},
 /obj/item/bedsheet/mime,
+/obj/effect/landmark/start/village/farmer,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -12645,13 +12549,12 @@
 	},
 /area/cadiaoutpost/oa/villageinside)
 "SZ" = (
-/obj/structure/closet/crate/secure/biohazard{
-	req_access = list()
+/obj/structure/bed{
+	desc = "A mass produced sleeping mat, now with actual cloth!";
+	icon_state = "bed_padding1";
+	name = "sleeping mat"
 	},
-/obj/item/storage/toolbox/mechanical{
-	color = "grey"
-	},
-/obj/item/reagent_containers/food/drinks/bottle/small/beer,
+/obj/effect/landmark/start/village/citizen,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -12956,6 +12859,7 @@
 /obj/item/stack/thrones2,
 /obj/item/stack/thrones2,
 /obj/item/stack/thrones2,
+/obj/effect/landmark/start/village,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -13145,7 +13049,7 @@
 	},
 /obj/structure/flora/grass/both,
 /turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
+/area/cadiaoutpost/oa/village)
 "UV" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/cell_charger{
@@ -13220,10 +13124,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/supply/mining/office)
-"Vg" = (
-/obj/structure/flora/ausbushes/brflowers,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "Vh" = (
 /obj/structure/toilet{
 	color = "grey";
@@ -13247,13 +13147,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/cadiaoutpost/oa/engineering)
-"Vn" = (
-/obj/structure/torchwall/service{
-	dir = 8;
-	icon_state = "torchwall0"
-	},
-/turf/simulated/floor/tiled/stone,
-/area/cadiaoutpost/oa/service/chapel)
 "Vp" = (
 /obj/effect/landmark/JoinLate,
 /turf/simulated/floor/trenches,
@@ -13347,11 +13240,6 @@
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
-"VT" = (
-/obj/structure/flora/ausbushes/sparsegrass,
-/obj/structure/flora/ausbushes/ppflowers,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "VU" = (
 /obj/machinery/light/stolb{
 	on = 1
@@ -13468,13 +13356,17 @@
 	icon_state = "torchwall0"
 	},
 /obj/structure/bed,
+/obj/effect/landmark/start/village,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/villageinside)
 "Wu" = (
-/obj/structure/warfare/barricade/concrete_barrier{
-	dir = 1
+/obj/structure/bed{
+	desc = "A mass produced sleeping mat, now with actual cloth!";
+	icon_state = "bed_padding1";
+	name = "sleeping mat"
 	},
-/turf/simulated/floor/dirty/tough/lightless,
+/obj/effect/landmark/start/village,
+/turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
 "Wv" = (
 /obj/effect/floor_decal/turf/brick,
@@ -13514,10 +13406,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
-"Wz" = (
-/obj/item/pyre/self_lit,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "WF" = (
 /obj/effect/floor_decal/turf/rectangles,
 /obj/structure/sink{
@@ -13729,15 +13617,9 @@
 	},
 /area/cadiaoutpost/oa/supply/mining/office)
 "Xl" = (
-/obj/effect/floor_decal/turf/plate,
-/obj/machinery/door/unpowered/inn/berryfarm{
-	name = "wooden loghouse";
-	req_access = list(34)
-	},
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
+/obj/effect/landmark/JoinLate,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/village)
 "Xm" = (
 /obj/structure/stairs/east,
 /obj/structure/sign/magistrate{
@@ -13812,10 +13694,6 @@
 	integrity = 850
 	},
 /area/cadiaoutpost/oa/villageinside)
-"Xz" = (
-/obj/structure/flora/tree/pine,
-/turf/simulated/floor/snow,
-/area/cadiaoutpost/oa/service/chapel)
 "XC" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/storage/box/cups,
@@ -13853,7 +13731,7 @@
 	},
 /area/cadiaoutpost/oa/service/enforcer)
 "XI" = (
-/obj/effect/landmark/start/village,
+/obj/effect/landmark/JoinLate,
 /turf/simulated/floor/dirty/tough/lightless,
 /area/cadiaoutpost/oa/village)
 "XJ" = (
@@ -14017,11 +13895,10 @@
 	},
 /area/cadiaoutpost/oa/service/hab/inside)
 "Yl" = (
-/obj/item/handcuffs/cable/red,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
+/obj/structure/flora/grass/green,
+/obj/item/pyre/self_lit,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/bridge/hallway)
 "Ym" = (
 /obj/structure/table/reinforced{
 	color = "grey"
@@ -14231,6 +14108,7 @@
 	icon_state = "bed_padding1";
 	name = "sleeping mat"
 	},
+/obj/effect/landmark/start/village,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -31018,22 +30896,22 @@ zz
 zz
 zz
 zz
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
-aP
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
+il
 UU
-aD
+Gh
 rO
 xE
 rO
@@ -31275,21 +31153,21 @@ ba
 mt
 oS
 zz
-kx
-Wz
-kx
-kx
-kx
-kx
-kx
-kx
-kx
-kx
-kx
-kx
-kx
-eJ
-Wz
+Ns
+Ek
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+iN
+Ek
 af
 rO
 rO
@@ -31532,21 +31410,21 @@ ba
 nE
 oS
 zz
-kx
-kx
-kx
-kx
-kx
-kx
-kx
-oy
-AL
-kx
-kx
-kx
-kx
-kx
-eJ
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+oi
+pw
+Ns
+Ns
+Ns
+Ns
+Ns
+iN
 af
 rO
 rO
@@ -31789,21 +31667,21 @@ ba
 nE
 oS
 zz
-kx
-KU
-kx
-KU
-kx
-kx
-wF
-KU
-kx
+Ns
+TS
+Ns
+TS
+Ns
+Ns
+ji
+TS
+Ns
 Ea
-kx
-KU
-VT
-kx
-kx
+Ns
+TS
+lQ
+Ns
+Ns
 af
 Ns
 pi
@@ -32046,21 +31924,21 @@ ba
 nE
 Ix
 zN
-kx
-kx
-kx
-kx
-kx
-kx
-mA
-kx
-kx
-kx
-kx
-kx
-kx
-kx
-kx
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+fT
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
 af
 Ns
 Ns
@@ -32303,20 +32181,20 @@ ba
 ba
 EQ
 zz
-VT
-kx
-kx
-kx
-rN
-kx
-kx
-Xz
+lQ
+Ns
+Ns
+Ns
+lN
+Ns
+Ns
+un
 Om
-kx
-KU
-kx
-kx
-kx
+Ns
+TS
+Ns
+Ns
+Ns
 kK
 af
 Ns
@@ -32560,21 +32438,21 @@ ba
 ba
 EQ
 ox
-kx
-kx
-kx
+Ns
+Ns
+Ns
 Ea
-kx
-kx
-KU
-eJ
-kx
-kx
-kx
-kx
-KU
-kx
-kx
+Ns
+Ns
+TS
+iN
+Ns
+Ns
+Ns
+Ns
+TS
+Ns
+Ns
 af
 cZ
 iN
@@ -32817,22 +32695,22 @@ ba
 ba
 ba
 zz
-kx
-kx
-sn
-kx
-kx
-kx
-kx
-kx
-KU
-kx
-wz
-VT
-kx
-kx
-kx
-kx
+Ns
+Ns
+cg
+Ns
+Ns
+Ns
+Ns
+Ns
+TS
+Ns
+NU
+lQ
+Ns
+Ns
+Ns
+Ns
 iM
 DG
 mD
@@ -33074,22 +32952,22 @@ ba
 nE
 nT
 zz
-kx
-kx
-qH
-me
-kx
-kx
-Vg
-iz
-Vg
-kx
-kx
-kx
-kx
-kx
+Ns
+Ns
+MH
+ga
+Ns
+Ns
+pt
+Qg
+pt
+Ns
+Ns
+Ns
+Ns
+Ns
 lo
-kx
+Ns
 iM
 iM
 mD
@@ -33331,21 +33209,21 @@ ba
 nE
 oS
 zN
-kx
-kx
-VT
-kx
-kx
-kx
-gT
-Vg
-kx
-kx
-kx
-kx
-VT
-kx
-kx
+Ns
+Ns
+lQ
+Ns
+Ns
+Ns
+sd
+pt
+Ns
+Ns
+Ns
+Ns
+lQ
+Ns
+Ns
 af
 iN
 pw
@@ -33588,21 +33466,21 @@ ba
 nE
 oS
 zz
-kx
+Ns
 Ea
-kx
-KU
-kx
-kx
-kx
-kx
-ie
-kx
-kx
-sn
-kx
-kx
-Wz
+Ns
+TS
+Ns
+Ns
+Ns
+Ns
+Zk
+Ns
+Ns
+cg
+Ns
+Ns
+Ek
 af
 iN
 iN
@@ -33833,7 +33711,7 @@ pE
 pE
 pE
 kl
-gN
+ra
 kf
 fX
 zz
@@ -33845,20 +33723,20 @@ ba
 XK
 oS
 zz
-kx
-Wz
-kx
-kx
-VT
-kx
-kx
-sn
-kx
-kx
+Ns
+Ek
+Ns
+Ns
+lQ
+Ns
+Ns
+cg
+Ns
+Ns
 bg
-ib
-ib
-ib
+Ke
+Ke
+Ke
 bg
 KX
 nu
@@ -34102,16 +33980,16 @@ zz
 zz
 zz
 zz
-ib
-ib
-ib
-ib
-ib
-kx
-kx
-ib
-ib
-of
+Ke
+Ke
+Ke
+Ke
+Ke
+Ns
+Ns
+Ke
+Ke
+mm
 oL
 oL
 oL
@@ -34363,10 +34241,10 @@ oL
 oL
 oL
 oL
-rD
-Fx
-Fx
-rD
+Xt
+OQ
+OQ
+Xt
 oL
 oL
 oL
@@ -34620,10 +34498,10 @@ oL
 oL
 oL
 oL
-Vn
-gp
-gp
-gp
+bv
+oL
+oL
+oL
 kf
 oL
 kf
@@ -38182,7 +38060,7 @@ xE
 xE
 xE
 NH
-Vs
+Yl
 TT
 TT
 TT
@@ -38190,7 +38068,7 @@ TT
 TT
 TT
 TT
-TT
+ny
 NH
 pZ
 rE
@@ -38717,7 +38595,7 @@ NH
 eL
 oL
 oL
-kf
+Xl
 oL
 oL
 oL
@@ -41341,7 +41219,7 @@ QB
 ip
 ic
 iq
-iv
+yS
 ic
 oL
 oL
@@ -42613,7 +42491,7 @@ oL
 Ns
 rQ
 pw
-kf
+DF
 Ns
 VU
 pw
@@ -43121,7 +42999,7 @@ oL
 oL
 oL
 oL
-oL
+jp
 oL
 xZ
 oL
@@ -43322,7 +43200,7 @@ he
 UA
 xE
 NH
-wN
+EB
 TT
 TT
 TT
@@ -43330,7 +43208,7 @@ TT
 TT
 TT
 TT
-TT
+ny
 NH
 xE
 xE
@@ -46729,7 +46607,7 @@ mY
 oL
 oL
 oL
-ao
+KB
 oL
 oL
 oL
@@ -46975,7 +46853,7 @@ Ns
 Ns
 un
 Ns
-kf
+Ns
 oi
 oL
 oL
@@ -47250,7 +47128,7 @@ FU
 FU
 FU
 xR
-Bn
+sp
 Sl
 FU
 kf
@@ -47502,7 +47380,7 @@ LU
 FU
 tO
 XL
-cI
+mx
 FU
 mx
 mx
@@ -47977,10 +47855,10 @@ kf
 kf
 oL
 oL
-oL
-oL
-oL
 kf
+kf
+oL
+oL
 oL
 kf
 oL
@@ -48234,11 +48112,11 @@ oL
 kf
 oL
 oL
-oL
-oL
-oL
 kf
 kf
+kf
+oL
+oL
 oL
 oL
 kf
@@ -48491,9 +48369,9 @@ oL
 oL
 oL
 oL
+kf
 oL
-oL
-oL
+kf
 oL
 oL
 oL
@@ -51565,7 +51443,7 @@ oL
 oL
 kf
 kf
-kf
+Xl
 oL
 My
 xD
@@ -52099,7 +51977,7 @@ Op
 Jf
 kf
 kf
-kf
+Xl
 kf
 oL
 oL
@@ -52887,7 +52765,7 @@ qZ
 bu
 SB
 AV
-EB
+bu
 Rn
 KY
 KW
@@ -53139,14 +53017,14 @@ NO
 NO
 kf
 kf
-Xl
+Bn
 bu
-ra
+bu
 Jw
 tR
 bu
 bu
-Xl
+Bn
 NO
 NO
 NO
@@ -54168,7 +54046,7 @@ sD
 sD
 NO
 KY
-Zd
+SZ
 xr
 xr
 AY
@@ -54946,7 +54824,7 @@ Zd
 KY
 NO
 NO
-NO
+oL
 ZW
 ZW
 NO
@@ -55150,7 +55028,7 @@ vm
 vm
 uv
 zP
-qQ
+uv
 yc
 vm
 oi
@@ -55201,8 +55079,8 @@ KY
 CO
 KY
 KY
-NO
-NO
+oL
+oL
 NO
 NO
 NO
@@ -55456,9 +55334,9 @@ kf
 kf
 cD
 kf
-Wu
-NO
-NO
+TV
+oL
+oL
 NO
 KY
 Xf
@@ -55713,9 +55591,9 @@ kf
 Yp
 Mb
 NO
-Wu
-gg
-NO
+TV
+DF
+oL
 NO
 KY
 HA
@@ -55948,7 +55826,7 @@ Xd
 kf
 kf
 kf
-NO
+XI
 kf
 oL
 Fr
@@ -55969,10 +55847,10 @@ kf
 kf
 kU
 zy
-NO
+oL
 uU
 MM
-NO
+oL
 KY
 KY
 mw
@@ -56226,13 +56104,13 @@ NO
 kY
 kY
 kY
+oL
 NO
-NO
-NO
-NO
+oL
+oL
 KY
 HU
-yS
+hA
 mx
 KY
 Ug
@@ -56484,9 +56362,9 @@ kf
 kf
 kl
 kf
+oL
 kf
-kf
-NO
+oL
 KY
 KY
 KY
@@ -59801,7 +59679,7 @@ YB
 sS
 Fz
 NO
-oL
+jp
 oL
 oL
 NO
@@ -60841,7 +60719,7 @@ ai
 Ho
 kf
 oZ
-kf
+Wu
 kf
 fV
 Ns
@@ -62362,9 +62240,9 @@ vm
 Mk
 Py
 vm
+xr
+qQ
 Zy
-Hr
-SZ
 vm
 YB
 YB
@@ -62617,11 +62495,11 @@ vm
 vm
 vm
 Mk
-Py
+qk
 Mk
-ql
 xr
-Yl
+Hr
+ql
 vm
 vm
 vm

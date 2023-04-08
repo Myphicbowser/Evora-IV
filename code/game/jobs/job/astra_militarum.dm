@@ -2,7 +2,7 @@
 
 /datum/job/ig
 	title = "IGDATUM" // IMPERIAL GUARDSMAN ROLE
-	supervisors = "The Planetary Governor, Commissar and your Sergeant."
+	supervisors = "The Planetary Governor, Margrave, and your Sergeant."
 	total_positions = 0
 	spawn_positions = 0
 	social_class = SOCIAL_CLASS_MED //Guards are at least pretty respected in imperial society
@@ -263,7 +263,7 @@ datum/job/ig/bullgryn
 
 /datum/job/ig/sergeant
 	title = "Planetary Defense Sergeant"
-	supervisors = "The Planetary Governor"
+	supervisors = "The Planetary Governor and Margrave"
 	total_positions = 1
 	spawn_positions = 1
 	open_when_dead = FALSE
@@ -542,7 +542,7 @@ datum/job/ig/bullgryn
 	gloves = null
 	shoes = /obj/item/clothing/shoes/jackboots
 	head = /obj/item/clothing/head/helmet/pdfhelmet
-	mask = null
+	mask = /obj/item/clothing/mask/gas/
 	glasses = null
 	l_pocket = /obj/item/storage/box/ifak
 	r_pocket = /obj/item/device/flashlight/lantern
@@ -813,6 +813,7 @@ datum/job/ig/bullgryn
 	glasses = /obj/item/clothing/glasses/hud/health
 	belt = /obj/item/storage/belt/medical/full
 	head = /obj/item/clothing/head/helmet/pdfmedicaehelmet
+	mask = /obj/item/clothing/mask/gas/
 	r_pocket = /obj/item/storage/box/ifak
 	l_pocket = /obj/item/cell/lasgun
 	id_type = /obj/item/card/id/medical/paramedic
@@ -946,7 +947,7 @@ datum/job/ig/bullgryn
 	gloves = null
 	shoes = /obj/item/clothing/shoes/jackboots
 	head = /obj/item/clothing/head/helmet/pdfsergeanthelmet
-	mask = null
+	mask = /obj/item/clothing/mask/gas/
 	glasses = null
 	l_pocket = /obj/item/storage/box/ifak
 	r_pocket = /obj/item/device/flashlight/lantern

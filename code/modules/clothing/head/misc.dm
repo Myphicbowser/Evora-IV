@@ -334,11 +334,10 @@
 	armor = list(melee = 15, bullet = 0, laser = 15, energy = 15, bomb = 0, bio = 0, rad = 0)
 
 /obj/item/clothing/head/hospitallerhelm
-	name = "blessed head garments"
-	desc = "The holy garments marking the wearer as a member of the Adeptus Sororitas"
-	armor = list(melee = 40, bullet = 48, laser = 40, energy = 60, bomb = 60, bio = 100, rad = 100) //essentially power armor but without the front cover so that the hospitaller can speak with the dead easily
-	icon_state = "medical_rig"
-	item_state = "medical_rig"
+	name = "Blessed Cornette"
+	desc = "The holy hair covering marking the wearer as a member of the Adeptus Sororitas"
+	icon_state = "Hospitaller_cornette"
+	item_state = "Hospitaller_cornette"
 	cold_protection = HEAD
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	sales_price = 20

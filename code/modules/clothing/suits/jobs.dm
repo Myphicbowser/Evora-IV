@@ -423,15 +423,14 @@
 
 /obj/item/clothing/suit/storage/sistersuperiorsuit
 	name = "sister hospitaller's suit"
-	desc = "The holy garments marking the wearer as sister hospitaller"
-	icon_state = "hospitaller"
-	item_state = "hospitaller"
+	desc = "The power armor of a sister hospitaller."
+	icon_state = "mlsister"
+	item_state = "mlsister"
 	armor = list(melee = 52, bullet = 62, laser = 58, energy = 45, bomb = 35, bio = 100, rad = 100)
 	allowed = list(/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/cell,/obj/item/gun/energy/las/lasgun, /obj/item/storage/firstaid/adv) //i'll figure out what can go in here idk
 	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | FEET | ARMS | HANDS
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	sales_price = 40
-
 
 /obj/item/clothing/suit/storage/sistersuit
 	name = "sister discipulus's suit"
@@ -439,6 +438,17 @@
 	icon_state = "hospitallerold"
 	item_state = "hospitallerold"
 	armor = list(melee = 40, bullet = 40, laser = 30, energy = 25, bomb = 35, bio = 50, rad = 50)
+	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | FEET | ARMS | HANDS
+	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
+	sales_price = 25
+
+
+/obj/item/clothing/suit/storage/sisterrobes
+	name = "sister dialogus suit"
+	desc = "The holy garments marking the wearer as a sister of the orders dialogus."
+	icon_state = "hospitaller"
+	item_state = "hospitaller"
+	armor = list(melee = 20, bullet = 20, laser = 20, energy = 20, bomb = 20, bio = 50, rad = 50)
 	cold_protection = UPPER_TORSO | LOWER_TORSO | LEGS | FEET | ARMS | HANDS
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	sales_price = 25
