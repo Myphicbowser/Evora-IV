@@ -1,9 +1,9 @@
 // Enforcers
 
 /datum/job/marshal
-	title = "Planetary Marshal"
+	title = "Marshal"
 	head_position = 1
-	supervisors = "the Lord Governor"
+	supervisors = "The Margrave"
 	total_positions = 1
 	spawn_positions = 1
 	social_class = SOCIAL_CLASS_HIGH
@@ -41,12 +41,12 @@
 		H.warfare_faction = IMPERIUM
 		H.get_idcard()?.access = list(access_security, access_guard_common, access_magi, access_all_personal_lockers, access_village)
 
-		to_chat(H, "<span class='notice'><b><font size=3>You are the Marshal appointed by the Magistratum,, your duty is to uphold Imperial law on this planet amongst the Pilgrims and to assist the Rogue Trader where necessary. Your duties involve the investigation of crimes committed on behalf of the magistratum, collection of tithes and the interrogation or execution of criminals apprehended by the Magistratum.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are the Marshal appointed by the Magistratum,, your duty is to uphold Imperial law on this planet amongst the Pilgrims and to assist the Margrave where necessary. Your duties involve the investigation of crimes committed on behalf of the magistratum, collection of tithes and the handling of criminals apprehended by the Magistratum.</font></b></span>")
 
 
 /datum/job/enforcer
 	title = "Enforcer"
-	supervisors = "the Planetary Marshal and Inquisition"
+	supervisors = "the Marshal"
 	total_positions = 3
 	spawn_positions = 3
 	social_class = SOCIAL_CLASS_MED
@@ -84,7 +84,7 @@
 		H.warfare_faction = IMPERIUM
 		H.get_idcard()?.access = list(access_security, access_guard_common, access_magi, access_all_personal_lockers, access_village,)
 
-		to_chat(H, "<span class='notice'><b><font size=3> An Enforcer in the Magisterium. The Governership order you. Yet the Inquisition can override them. Patrol with the cadets. Make sure they know what they’re doing. Collect taxes and ensure the order of the world is peaceful and good. Be an undercover cop if you’re feeling ballsy.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> An Enforcer in the Magisterium. The Margrave and Marshal are your superiors. Collect taxes and keep the peace.</font></b></span>")
 
 /datum/job/cadet
 	title = "Enforcer Cadet"
@@ -180,7 +180,7 @@
 	head = /obj/item/clothing/head/helmet/guardhelmet/patrol
 	uniform = /obj/item/clothing/under/color/brown
 	shoes = /obj/item/clothing/shoes/jackboots
-	l_pocket = /obj/item/storage/box/ifak 
+	l_pocket = /obj/item/storage/box/ifak
 	r_pocket = /obj/item/device/flashlight/lantern
 	suit = /obj/item/clothing/suit/armor/enforcer
 	gloves = /obj/item/clothing/gloves/thick/swat/combat/warfare
@@ -205,13 +205,13 @@
 	flags = OUTFIT_NO_BACKPACK|OUTFIT_NO_SURVIVAL_GEAR
 
 /decl/hierarchy/outfit/job/ig/marshal
-	name = OUTFIT_JOB_NAME("Planetary Marshal")
+	name = OUTFIT_JOB_NAME("Marshal")
 	head = /obj/item/clothing/head/helmet/guardhelmet/patrol
 	uniform = /obj/item/clothing/under/rank/marshal
 	shoes = /obj/item/clothing/shoes/jackboots
 	l_pocket = /obj/item/storage/box/ifak // /obj/item/stack/medical/bruise_pack
 	r_pocket = /obj/item/device/flashlight/lantern
-	suit = /obj/item/clothing/suit/armor/enforcer/marshal 
+	suit = /obj/item/clothing/suit/armor/enforcer/marshal
 	gloves = /obj/item/clothing/gloves/thick/swat/combat/warfare
 	back = /obj/item/storage/backpack/satchel/warfare
 	neck = /obj/item/reagent_containers/food/drinks/canteen
@@ -233,7 +233,7 @@
 	name = OUTFIT_JOB_NAME("Enforcer Cadet")
 	head = null
 	uniform = /obj/item/clothing/under/color/brown
-	shoes = /obj/item/clothing/shoes/jackboots 
+	shoes = /obj/item/clothing/shoes/jackboots
 	gloves = /obj/item/clothing/gloves/thick/swat/combat/warfare
 	suit = /obj/item/clothing/suit/armor/vest
 	r_hand = /obj/item/melee/baton/loaded

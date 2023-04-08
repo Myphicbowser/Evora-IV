@@ -607,8 +607,8 @@
 	icon_state = "poster_pray"
 
 /obj/structure/sign/art/lordgovenor
-	name = "Portrait of the Lord Governor"
-	desc = "A striking portrait of this sub-sectors Lord Governor, Keeber Harkon."
+	name = "Portrait of the Planetary Governor"
+	desc = "A striking portrait of Evora IV's Planetary Governor, Grand-Duke Edwin Bartholomew Redd."
 	icon_state = "person_godking"
 
 /obj/structure/sign/art/porn

@@ -164,7 +164,7 @@ Pilgrim Fate System
 		return
 
 	var/mob/living/carbon/human/U = src
-	var/fates = list("Merchant","Miner","Private Investigator", "Musician", "Hunter", "Mercenary")
+	var/fates = list("Merchant","Miner","Private Investigator", "Musician", "Hunter", "Mercenary", "Farmhand")
 
 
 	var/classchoice = input("Choose your fate", "Available fates") as anything in fates
@@ -215,6 +215,25 @@ Pilgrim Fate System
 			equip_to_slot_or_del(new /obj/item/device/flashlight/lantern, slot_in_backpack)
 			equip_to_slot_or_del(new /obj/item/card/id/ring/disgracedmedicae, slot_in_backpack)
 			to_chat(U,"<span class='notice'><b><font size=3>A veteran of many digsites. You traveled the planet looking for work.You supply the Mechanicus and local merchants.</font></b></span>")
+			U.stat = CONSCIOUS
+			U.verbs -= list(/mob/living/carbon/human/proc/citizenclass,)
+			U.sleeping = 0
+			to_chat(U, "<span class='goodmood'>+ You awaken from your slumber... +</span>\n")
+
+		if("Farmhand")
+			U.add_stats(rand(16,18), rand(10,14), rand(10,14), rand (8,12)) //
+			U.add_skills(rand(6,8),rand(4,7),rand(3,3),rand(5,6),rand(2,2)) //melee, ranged, med, eng, surgery
+			equip_to_slot_or_del(new /obj/item/clothing/gloves/thick/botany, slot_gloves)
+			equip_to_slot_or_del(new /obj/item/clothing/under/rank/victorian, slot_w_uniform)
+			equip_to_slot_or_del(new /obj/item/storage/plants, slot_belt)
+			equip_to_slot_or_del(new /obj/item/storage/backpack/satchel/satchel_eng, slot_back)
+			equip_to_slot_or_del(new /obj/item/reagent_containers/food/snacks/warfare/rat, slot_in_backpack)
+			equip_to_slot_or_del(new /obj/item/reagent_containers/food/snacks/warfare/rat, slot_in_backpack)
+			equip_to_slot_or_del(new /obj/item/farmshovel, slot_l_hand)
+			equip_to_slot_or_del(new /obj/item/clothing/shoes/prac_boots, slot_shoes)
+			equip_to_slot_or_del(new /obj/item/device/flashlight/lantern, slot_in_backpack)
+			equip_to_slot_or_del(new /obj/item/card/id/ring/disgracedmedicae, slot_in_backpack)
+			to_chat(U,"<span class='notice'><b><font size=3>You are a farmhand that works on Sweetberry Farm, the farm in the southeast corner of Aquileia. </font></b></span>")
 			U.stat = CONSCIOUS
 			U.verbs -= list(/mob/living/carbon/human/proc/citizenclass,)
 			U.sleeping = 0

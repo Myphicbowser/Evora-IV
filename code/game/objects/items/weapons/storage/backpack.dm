@@ -232,7 +232,6 @@
 	icon_state = "sister"
 	item_state = "sister"
 	max_storage_space = DEFAULT_BACKPACK_STORAGE
-	canremove = 1
 
 /obj/item/storage/backpack/satchel/warfare/sisterofbattle/mlsister
 	name = "Order of Our Martyred Lady Powerpack"
@@ -240,7 +239,6 @@
 	icon_state = "mlsister"
 	item_state = "mlsister"
 	max_storage_space = DEFAULT_BACKPACK_STORAGE
-	canremove = 1
 
 
 /obj/item/storage/backpack/satchel/warfare/sisterofbattle/brsister
@@ -249,7 +247,6 @@
 	icon_state = "brsister"
 	item_state = "brsister"
 	max_storage_space = DEFAULT_BACKPACK_STORAGE
-	canremove = 1
 
 /obj/item/storage/backpack/satchel/astartes
 	name = "Astartes Mark VII Powerpack"
@@ -257,7 +254,6 @@
 	item_icons = list(slot_back_str = 'icons/mob/32x40/storage.dmi')
 	icon_state = "ultrapack"
 	item_state = "ultrapack"
-	canremove = 1
 	max_storage_space = DEFAULT_BACKPACK_STORAGE //backpack storage with satchel access.
 
 /obj/item/storage/backpack/satchel/astartes/ultramarine

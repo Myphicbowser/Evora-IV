@@ -31,14 +31,14 @@
 	/datum/job/biologis,
 	/datum/job/engineer,
 	/datum/job/techmenial,
-	/datum/job/deacon,
 	/datum/job/cmo,
 	/datum/job/sistersuperior,
 	/datum/job/hospitaller,
 	/datum/job/progena,
+	/datum/job/deacon,
+	/datum/job/preacher, //this is scholar now
 	/*datum/job/kasrkin, */
 	/*datum/job/scavenger, */
-	/*datum/job/preacher, turn preacher into pilgrim fate,  */
 	/datum/job/penitent,
 	/datum/job/citizen,
 	)
