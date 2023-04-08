@@ -3,7 +3,7 @@
 var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
 /datum/job/governor
-	title = "Planetary Governor"
+	title = "Margrave"
 	department = "Planetary Governor"
 	head_position = 1
 	department_flag = COM
@@ -11,7 +11,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	total_positions = 1
 	spawn_positions = 1
 	open_when_dead = 0
-	supervisors = "The Golden Throne and the High Lords of Terra."
+	supervisors = "The Lord-Governor of Evora IV."
 	selection_color = "#540c97"
 	req_admin_notify = 1
 	access = list(20, 331, access_RC_announce, access_ai_upload, access_heads) 			//See get_access()
@@ -34,7 +34,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
 		..()
-		H.fully_replace_character_name("Governor [current_name]")
+		H.fully_replace_character_name("Margrave [current_name]")
 		H.add_stats(rand(14,18), rand(14,18), rand(14,18), rand(14,18))
 		H.add_skills(rand(6,10),rand(6,10),rand(5,6),rand(1,8),rand(1,8)) //melee, ranged, med, eng, surgery
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
@@ -42,7 +42,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 		H.adjustStaminaLoss(-INFINITY)
 		H.warfare_faction = IMPERIUM
 		H.verbs += list(/mob/living/carbon/human/proc/hire)
-		to_chat(H, "<span class='notice'><b><font size=3> The head honcho of Eipharius, ensure the tithe goes to Holy Terra. You own the Imperial Guard Squad stationed on the planet, as well as the Enforcers of the Magisterium. Hopefully they do the noble family’s bidding. Bathe in the riches of your privilege. Make sure that the inquisition doesn’t find out about any less than legal dealings you do. </font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> The Lord of Aquileia, the city your family has ruled since they came to this planet. You have close blood ties with the Planetary Governor, but are not part of the same noble house. You command a detachment of the Planetary Defesne Force to protect your city. Lately tensions with the Rogue Trader have been increasing as they make increasingly bold grabs for power, but you cannot act against them without approval from the Planetary Governor.  </font></b></span>")
 
 		H.get_idcard()?.access = list(20, 331, access_RC_announce, access_ai_upload, access_heads)
 
@@ -50,11 +50,11 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	title = "Heir"
 	head_position = 1
 	department_flag = COM
-	social_class = SOCIAL_CLASS_HIGH
+	social_class = SOCIAL_CLASS_MAX
 	total_positions = 1
 	spawn_positions = 1
 	open_when_dead = 0
-	supervisors = "Yourself. Make sure you get that inheritance..."
+	supervisors = "The Lord Governor and the Margrave"
 	selection_color = "#6220a0"
 	req_admin_notify = 1
 	minimal_player_age = 25
@@ -74,14 +74,14 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
 		..()
-		H.fully_replace_character_name("Lord [current_name]")
+		H.fully_replace_character_name("Ser [current_name]")
 		H.add_stats(rand(10,16), rand(10,16), rand(13,15), rand(13,17)) //
 		H.add_skills(rand(5,10),rand(5,10),rand(1,8),rand(1,8),rand(1,6)) //melee, ranged, med, eng, surgery
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC )
 		H.adjustStaminaLoss(-INFINITY)
 		H.warfare_faction = IMPERIUM
-		to_chat(H, "<span class='notice'><b><font size=3>You are still young. Orders probably won’t be taken seriously. The next in line to the throne of Eipharius. Waiting simply takes too long. Why not have the Governor simply… fall down some stairs? Make sure the Enforcers and Inquisition don’t get suspicious and have a stable rise to the throne.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are the adoptive child of the Margrave who has no legitimate blood heirs. You have been taken in from another noble house to prevent a crisis of succession. Even with your presence, the other local nobles and courtiers are maneuvering to take your loose grasp on your future title. </font></b></span>")
 
 
 	access = list(access_security, access_guard_common, access_magi,
@@ -158,9 +158,9 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 /datum/job/servant
 	title = "Servant"
 	department_flag = COM
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "The Governor and Heir"
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "The Margrave and their heir"
 	selection_color = "#6220a0"
 	economic_modifier = 5
 	social_class = SOCIAL_CLASS_MED
@@ -200,7 +200,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
 		H.adjustStaminaLoss(-INFINITY)
 		H.warfare_faction = IMPERIUM
-		to_chat(H, "<span class='notice'><b><font size=3>You are a servant in direct service to the Governorship, having been in service to their family for generations. They own you. Change that. If you want.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are a servant in direct service to the Margrave, having been in service to their family for generations. </font></b></span>")
 
 
 /mob/living/carbon/human/proc/hire(var/mob/living/carbon/human/M in view(src))

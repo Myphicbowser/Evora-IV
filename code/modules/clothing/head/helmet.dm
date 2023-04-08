@@ -485,3 +485,39 @@
 	canremove = 0
 	flags_inv = HIDEEARS|BLOCKHAIR
 	body_parts_covered = HEAD|FACE|EYES
+
+//PDF
+
+
+/obj/item/clothing/head/helmet/pdfhelmet
+	name = "Redd Guard Helmet"
+	desc = "A black and red helmet worn by the Planetary Defense Force of Evora IV."
+	icon_state = "redhelmet"
+	item_state = "redhelmet"
+	armor = list(melee = 25, bullet = 30, laser = 30, energy = 25, bomb = 25, bio = 0, rad = 10)
+	siemens_coefficient = 0.6
+
+/obj/item/clothing/head/helmet/pdfmedicaehelmet
+	name = "Redd Guard Medicae Helmet"
+	desc = "A black and red helmet worn by the Medicae Planetary Defense Force of Evora IV."
+	icon_state = "redhelmet_medic"
+	item_state = "redhelmet_medic"
+	armor = list(melee = 25, bullet = 30, laser = 30, energy = 25, bomb = 25, bio = 0, rad = 10)
+	siemens_coefficient = 0.6
+
+/obj/item/clothing/head/helmet/pdfsniper
+	name = "Redd Guard Helmet"
+	desc = "A black and red helmet worn by the Planetary Defense Force of Evora IV."
+	icon_state = "redsniperhelmet"
+	item_state = "redsniperhelmet"
+	armor = list(melee = 25, bullet = 30, laser = 30, energy = 25, bomb = 25, bio = 0, rad = 10)
+	siemens_coefficient = 0.6
+
+/obj/item/clothing/head/helmet/pdfsergeanthelmet
+	name = "Redd Guard Sergeant Helmet"
+	desc = "A black and red helmet worn by the Planetary Defense Force of Evora IV."
+	icon_state = "redhelmet_leader"
+	item_state = "redhelmet_leader"
+	armor = list(melee = 30, bullet = 38, laser = 38, energy = 35, bomb = 40, bio = 0, rad = 10)
+	siemens_coefficient = 0.6
+

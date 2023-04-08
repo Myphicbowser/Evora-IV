@@ -254,11 +254,7 @@
 	supervisors = "The Abbess or Deacon"
 	selection_color = "#FCFBFA"
 	announced = FALSE
-	outfit_type = /decl/hierarchy/outfit/job/sisterofbattle
-	alt_titles = list(
-	"Order of the Bloody Rose" = /decl/hierarchy/outfit/job/sisterofbattle/brsister,
-	"Order of Our Martyred Lady" = /decl/hierarchy/outfit/job/sisterofbattle/mlsister,
-		)
+	outfit_type = /decl/hierarchy/outfit/job/sisterofbattle/mlsister
 	auto_rifle_skill = 10
 	semi_rifle_skill = 10
 	sniper_skill = 10

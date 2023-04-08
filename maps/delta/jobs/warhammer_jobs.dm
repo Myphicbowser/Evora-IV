@@ -6,15 +6,16 @@
 	/datum/job/heir,
 	/datum/job/servant,
 	/datum/job/hydro,
+	/datum/job/pathfinder,
 	/*datum/job/inquisitor, */
 	/datum/job/marshal,
 	/datum/job/acolyte,
-	/datum/job/arbitrator,
+	/*datum/job/arbitrator, */
 	/datum/job/enforcer,
 	/*/datum/job/cadet,*/
 	/*datum/job/ig/commissar,*/
 	/datum/job/ig/sergeant,
-	/datum/job/ig/guardsman/sniper,
+	/*datum/job/ig/guardsman/sniper,*/
 	/datum/job/ig/guardsman/sharpshooter,
 	/datum/job/ig/medicae,
 	/datum/job/ig/guardsman,
@@ -38,7 +39,6 @@
 	/*datum/job/kasrkin, */
 	/*datum/job/scavenger, */
 	/*datum/job/preacher, turn preacher into pilgrim fate,  */
-	/datum/job/pathfinder,
 	/datum/job/penitent,
 	/datum/job/citizen,
 	)

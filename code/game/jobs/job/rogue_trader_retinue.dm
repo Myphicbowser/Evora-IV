@@ -10,7 +10,7 @@
 	spawn_positions = 1
 	open_when_dead = 0
 	supervisors = "Yourself."
-	selection_color = "#315dd4"
+	selection_color = "#530606"
 	req_admin_notify = 1
 	access = list() 			//See get_access()
 	minimal_access = list() 	//See get_access()
@@ -41,7 +41,7 @@
 		H.witchblood()
 		H.warfare_faction = IMPERIUM
 		H.verbs += list(/mob/living/carbon/human/proc/hire)
-		to_chat(H, "<span class='notice'><b><font size=3>You are the Rogue Trader, taking residence upon this world to gain power and prestige. You have your mercenaries. Your Veteran and your Xeno. Buy and sell well in your Bazaar. Overthrow the Governorship with or without the heir if the opportunity presents itself.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are the Rogue Trader, a merchant lord who's family has been trapped on this planet for generations. You have mercenaries, gangers, and you have the opportunity to take power in this dying city.</font></b></span>")
 
 
 /datum/job/captain/equip(var/mob/living/carbon/human/H)
@@ -116,6 +116,7 @@
 		H.verbs += list(
 			/mob/living/carbon/human/proc/mercenaryclass,
 		)
+
 
 
 /*
