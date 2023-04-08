@@ -370,7 +370,7 @@
 		H.fully_replace_character_name("Novitiate Sister [current_name]")
 		H.set_trait(new/datum/trait/death_tolerant())
 		H.add_stats(rand(14,18), rand(14,18), rand(10,14), rand(17,18)) //nice stats
-		H.add_skills(rand(6,8),rand(6,8),rand(8,10),rand(3,5),rand(9,11)) //melee, ranged, med, eng, surgery
+		H.add_skills(rand(6,8),rand(6,8),rand(8,10),rand(3,5),rand(5,7)) //melee, ranged, med, eng, surgery
 		H.get_idcard()?.access = list(access_medical, access_village, access_advchapel)
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
@@ -390,8 +390,8 @@
 	department = list("Ministorum", "Medical")
 	department_flag = MED
 	minimal_player_age = 20
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "The Abbess and Sister Superior"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7
@@ -402,18 +402,18 @@
 	access = list(access_advchapel, access_medical, access_village)
 	minimal_access = list(access_advchapel, access_medical, access_village)
 	outfit_type = /decl/hierarchy/outfit/job/preacher
-	auto_rifle_skill = 6
-	semi_rifle_skill = 6
-	sniper_skill = 6
-	shotgun_skill = 6
-	lmg_skill = 6
-	smg_skill = 6
+	auto_rifle_skill = 4
+	semi_rifle_skill = 4
+	sniper_skill = 4
+	shotgun_skill = 4
+	lmg_skill = 4
+	smg_skill = 4
 	cultist_chance = 75 //preaching the word of.... lorgar//
 
 	equip(var/mob/living/carbon/human/H)
 		H.set_trait(new/datum/trait/death_tolerant())
 		H.add_stats(rand(14,16), rand(14,16), rand(10,14), rand(11,14))
-		H.add_skills(rand(5,9),rand(5,9),rand(6,8),rand(2,4),rand(1,4)) //melee, ranged, med, eng, surgery
+		H.add_skills(rand(5,9),rand(5,9),rand(6,8),rand(2,4),rand(8,9)) //melee, ranged, med, eng, surgery
 		H.get_idcard()?.access = list(access_medical, access_village)
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
@@ -422,7 +422,7 @@
 		H.warfare_faction = IMPERIUM
 
 		to_chat(H, "<span class='notice'><b><font size=3>http://is12wiki.xyz/index.php/Guide_to_Medicine</font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>You are the Preacher. You are apart of the Imperial Cult, yet still not apart of the proper priesthood like the Confessor is. It is your job to spread the Truth to this new colony and it's original colonizers, as well as guiding the already faithful.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are the scholar studying under the Sister Dialogus and Abbess. While you are not formally a part of the Ecclesiarchy, you are a valued asset to the Abbey thanks to your medical knowledge.</font></b></span>")
 
 
 // sob outfits
@@ -525,7 +525,7 @@
 	head = /obj/item/clothing/head/preacher
 	uniform = /obj/item/clothing/under/rank/chaplain
 	neck = /obj/item/reagent_containers/food/drinks/canteen
-	id_type = /obj/item/card/id/civilian/confessor
+	id_type = /obj/item/card/id/medical
 	pda_type = null
 	pda_slot = null
 	l_ear = /obj/item/device/radio/headset/headset_sci
@@ -535,8 +535,6 @@
 	back = /obj/item/storage/backpack/satchel/warfare
 	shoes = /obj/item/clothing/shoes/jackboots
 	glasses = /obj/item/clothing/glasses/hud/health
-	suit = /obj/item/clothing/suit/armor/preacher
-	l_hand = /obj/item/staff/ministorumstaff
 	r_hand = null
 	backpack_contents = list(
 	/obj/item/reagent_containers/food/snacks/warfare/rat = 1,

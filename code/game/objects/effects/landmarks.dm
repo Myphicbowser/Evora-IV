@@ -130,6 +130,9 @@ Template:
 /obj/effect/landmark/start/inqmagi/arbitrator
 	name = "Arbitrator"
 
+/obj/effect/landmark/start/inqmagi/marshal
+	name = "Marshal"
+
 /obj/effect/landmark/start/inqmagi/enforcer
 	name = "Enforcer"
 

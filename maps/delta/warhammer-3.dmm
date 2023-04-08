@@ -1452,7 +1452,7 @@
 "df" = (
 /obj/structure/bed/chair/office/dark,
 /obj/effect/landmark/start{
-	name = "Planetary Marshal"
+	name = "Marshal"
 	},
 /turf/simulated/floor/tiled{
 	color = "grey"
