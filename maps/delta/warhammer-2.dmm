@@ -1370,6 +1370,16 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/gatehouse)
+"ei" = (
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/device/cassette/Manortape,
+/obj/item/device/cassette/tape3,
+/turf/simulated/floor/wood{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/villageinside)
 "ek" = (
 /obj/machinery/power/apc{
 	dir = 1;
@@ -3642,6 +3652,7 @@
 /obj/item/reagent_containers/food/drinks/cans/waterbottle,
 /obj/item/reagent_containers/food/drinks/cans/waterbottle,
 /obj/effect/floor_decal/turf/brick,
+/obj/item/reagent_containers/glass/beaker,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -5071,7 +5082,6 @@
 "oW" = (
 /obj/effect/floor_decal/turf/metal/five,
 /obj/structure/table/rack,
-/obj/item/device/cassette/titansbane,
 /obj/item/device/cassette/unknownsoldier,
 /obj/item/device/cassette/western1,
 /obj/item/device/cassette/sombre2,
@@ -6105,6 +6115,7 @@
 	dir = 4;
 	icon_state = "torchwall0"
 	},
+/obj/item/reagent_containers/glass/beaker,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -7681,11 +7692,9 @@
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
 "yx" = (
-/obj/item/device/cassette/church1,
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
-/obj/item/device/cassette/tape6,
 /obj/item/device/boombox,
 /turf/simulated/floor/wood{
 	color = "grey"
@@ -7918,7 +7927,6 @@
 /area/cadiaoutpost/oa/village)
 "zt" = (
 /obj/item/device/radio/headset/red_team,
-/obj/item/device/cassette/titansbane,
 /obj/item/device/cassette/unknownsoldier,
 /obj/item/device/boombox,
 /obj/structure/table/woodentable{
@@ -13185,6 +13193,9 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
+/obj/item/reagent_containers/food/snacks/loadedsteak{
+	pixel_y = 4
+	},
 /turf/simulated/floor/carpet/blue2,
 /area/cadiaoutpost/oa/villageinside)
 "Vy" = (
@@ -13496,11 +13507,12 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "WS" = (
-/obj/item/device/boombox,
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
+/obj/item/device/boombox,
 /obj/item/device/cassette/tape3,
+/obj/item/device/cassette/buildin,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -44304,7 +44316,7 @@ FH
 mx
 mx
 mx
-RJ
+ei
 RJ
 FU
 rM

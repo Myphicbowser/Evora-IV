@@ -526,9 +526,9 @@
 	pixel_x = -2
 	},
 /obj/effect/floor_decal/turf/metal/ten,
-/obj/item/device/cassette/church1,
 /obj/item/clothing/accessory/pcloak,
 /obj/random/maintenance,
+/obj/item/device/cassette/tape1,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2035,13 +2035,17 @@
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "rp" = (
 /obj/structure/table/rack/dark,
-/obj/item/device/cassette/inqlog1{
+/obj/effect/floor_decal/turf/brick/two,
+/obj/item/device/cassette/church2{
+	pixel_y = 10
+	},
+/obj/item/device/cassette/church3{
+	pixel_y = -2
+	},
+/obj/item/device/cassette/church1{
 	pixel_y = -7
 	},
-/obj/item/device/cassette/brokensaint{
-	pixel_y = 4
-	},
-/obj/effect/floor_decal/turf/brick/two,
+/obj/item/device/boombox,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3032,6 +3036,14 @@
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
+"Bb" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/device/cassette/tape7,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/chapel)
 "Bh" = (
 /obj/effect/landmark/animal/rngretaliatespawner{
 	name = "rng rat"
@@ -3898,6 +3910,7 @@
 /obj/item/warflare,
 /obj/random/maintenance,
 /obj/effect/floor_decal/turf/metal/ten,
+/obj/item/device/cassette/tape2,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -4067,6 +4080,12 @@
 /obj/structure/bookcase,
 /turf/simulated/wall/concrete/strong/chapel,
 /area/cadiaoutpost/oa/service/chapel)
+"Ls" = (
+/obj/item/device/cassette/tape7,
+/turf/simulated/floor/tiled{
+	color = "gray"
+	},
+/area/cadiaoutpost/oa/caves/undercity)
 "Lu" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -29041,7 +29060,7 @@ PI
 PI
 SI
 Tn
-wl
+Bb
 wl
 zI
 Tn
@@ -34488,7 +34507,7 @@ HB
 XQ
 aS
 SB
-Ol
+Ls
 Ub
 aS
 od

@@ -579,6 +579,12 @@
 /obj/effect/floor_decal/turf/carpetn00,
 /turf/simulated/floor/new_wood,
 /area/cadiaoutpost/oa/service/chapel/chapeloffice)
+"bm" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/cadiaoutpost/gma/air)
 "bn" = (
 /obj/effect/floor_decal/newcorner/purple/diagonal,
 /obj/effect/floor_decal/industrial/warning{
@@ -1121,6 +1127,13 @@
 /obj/item/card/id/key/grand/master,
 /obj/item/card/id/captains_spare{
 	name = "Margrave's Signet Wring"
+	},
+/obj/item/clothing/suit/armor/prince{
+	name = "Margrave's Plate"
+	},
+/obj/item/clothing/head/philosopher_wig,
+/obj/item/clothing/suit/armor/rtdrip{
+	name = "Margrave's Fancy Robes"
 	},
 /turf/simulated/floor/wood{
 	color = "grey"
@@ -4047,6 +4060,7 @@
 	color = "#36261B"
 	},
 /obj/item/reagent_containers/food/drinks/bottle/amasecexpensive,
+/obj/item/device/boombox,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/supply/cargo)
 "oX" = (
@@ -4252,6 +4266,11 @@
 /obj/structure/curtain/open/bed,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/supply/cargo)
+"qk" = (
+/turf/simulated/wall/concrete{
+	integrity = 3500
+	},
+/area/cadiaoutpost/gma/air)
 "ql" = (
 /obj/structure/table/rack,
 /obj/random/powercell,
@@ -5091,6 +5110,15 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/engineering)
+"vK" = (
+/obj/structure/sink{
+	dir = 1;
+	icon_state = "sink";
+	layer = 50;
+	pixel_y = 20
+	},
+/turf/simulated/floor/tiled/white,
+/area/cadiaoutpost/gma/air)
 "vL" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/table/steel_reinforced,
@@ -5560,17 +5588,22 @@
 	},
 /obj/item/storage/pill_bottle/bicaridine{
 	pixel_x = -5;
-	pixel_y = 5
+	pixel_y = -1
 	},
 /obj/item/storage/pill_bottle/kelotane{
-	pixel_x = 5
+	pixel_x = 4;
+	pixel_y = 11
+	},
+/obj/item/device/cassette/Manortape{
+	pixel_y = 3;
+	pixel_x = 7
 	},
 /obj/effect/floor_decal/carpet/red{
 	dir = 8
 	},
 /obj/item/storage/pill_bottle/dexalin_plus{
 	pixel_x = -5;
-	pixel_y = 15
+	pixel_y = 9
 	},
 /turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
@@ -5698,6 +5731,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
+"Am" = (
+/obj/effect/floor_decal/turf/brick/two,
+/obj/structure/curtain/open/privacy,
+/turf/simulated/floor/tiled/white,
+/area/cadiaoutpost/oa/supply/cargo)
 "An" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/newcorner/plating/quarter{
@@ -6386,6 +6424,9 @@
 	pixel_y = 12;
 	pixel_x = -4
 	},
+/obj/item/device/boombox{
+	pixel_y = 4
+	},
 /turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
 "Ff" = (
@@ -6546,6 +6587,7 @@
 	color = "#36261B"
 	},
 /obj/effect/decal/cleanable/blood/gibs/down,
+/obj/item/device/cassette/tape2,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -6711,7 +6753,6 @@
 /obj/structure/closet/cabinet{
 	color = "grey"
 	},
-/obj/item/clothing/under/wedding/bride_red,
 /obj/item/clothing/under/dress/plaid_red,
 /obj/item/clothing/suit/armor/vest/leather/tailcoat/ladycoat,
 /obj/item/clothing/under/rank/victorian/reddress,
@@ -7417,6 +7458,12 @@
 	dir = 4;
 	icon_state = "torchwall0"
 	},
+/obj/item/device/tape/random{
+	pixel_y = 9
+	},
+/obj/item/device/tape/random{
+	pixel_y = 11
+	},
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/supply/cargo)
 "MK" = (
@@ -7863,6 +7910,9 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/research/robotics)
+"PO" = (
+/turf/simulated/floor/tiled/white,
+/area/cadiaoutpost/gma/air)
 "PS" = (
 /obj/effect/floor_decal/turf/metal/five,
 /obj/machinery/door/window/brigdoor/northleft{
@@ -8013,6 +8063,15 @@
 /obj/item/stack/medical/advanced/bruise_pack,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/research/robotics)
+"Ro" = (
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/device/boombox,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/inn)
 "Rr" = (
 /obj/structure/target_stake,
 /obj/effect/floor_decal/industrial/warning_red{
@@ -8149,6 +8208,11 @@
 	color = "#36261B"
 	},
 /obj/item/card/id/key/grand/monastary/inner,
+/obj/item/device/cassette/heresy2,
+/obj/item/card/id/key/grand/monastary{
+	pixel_x = -7;
+	pixel_y = 5
+	},
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -8439,6 +8503,13 @@
 	},
 /turf/simulated/open,
 /area/cadiaoutpost/oa/service/chapel)
+"Un" = (
+/obj/structure/toilet{
+	icon_state = "toilet00";
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white,
+/area/cadiaoutpost/gma/air)
 "Uo" = (
 /obj/machinery/door/airlock/glass_engineering{
 	color = null;
@@ -9224,6 +9295,11 @@
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/research/robotics)
+"ZC" = (
+/turf/simulated/wall/concrete{
+	integrity = 1500
+	},
+/area/cadiaoutpost/gma/air)
 "ZE" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/spline/plain{
@@ -31477,9 +31553,9 @@ wP
 Bc
 Bc
 oD
-MQ
-MQ
-MQ
+qk
+qk
+qk
 MQ
 MQ
 MQ
@@ -31733,10 +31809,10 @@ CO
 Bc
 pj
 Bc
-oD
-MQ
-MQ
-MQ
+Am
+PO
+Un
+ZC
 MQ
 MQ
 MQ
@@ -31991,9 +32067,9 @@ Bc
 Bc
 lL
 oD
-MQ
-MQ
-MQ
+vK
+bm
+qk
 MQ
 MQ
 MQ
@@ -32247,10 +32323,10 @@ dG
 QD
 dG
 dG
-MQ
-MQ
-MQ
-MQ
+qk
+qk
+qk
+qk
 MQ
 MQ
 MQ
@@ -32757,7 +32833,7 @@ dg
 RF
 Bs
 dg
-eg
+Ro
 IS
 dg
 eC
