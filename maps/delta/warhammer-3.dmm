@@ -448,11 +448,6 @@
 	color = null
 	},
 /area/cadiaoutpost/oa/bridge/offices/heir)
-"aV" = (
-/turf/simulated/wall/ancient{
-	color = null
-	},
-/area/cadiaoutpost/oa/service/kitchen)
 "aW" = (
 /turf/simulated/floor/wood{
 	color = "grey"
@@ -515,7 +510,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "bd" = (
 /turf/simulated/shuttle/wall{
 	color = "grey";
@@ -678,7 +673,7 @@
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/storage/fancy/egg_box,
 /turf/simulated/floor/tiled/freezer,
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "bw" = (
 /obj/effect/floor_decal/carpet/red,
 /turf/simulated/floor/carpet/red,
@@ -1068,7 +1063,7 @@
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/storage/fancy/egg_box,
 /turf/simulated/floor/tiled/freezer,
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "cq" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/closet/secure_closet/engineering_chief{
@@ -1124,6 +1119,9 @@
 	name = "rogue trader's machete"
 	},
 /obj/item/card/id/key/grand/master,
+/obj/item/card/id/captains_spare{
+	name = "Margrave's Signet Wring"
+	},
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -1367,7 +1365,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "cX" = (
 /obj/effect/floor_decal/newcorner/red/diagonal,
 /obj/effect/floor_decal/industrial/warning_red{
@@ -1955,8 +1953,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
 "es" = (
+/obj/machinery/telecomms/allinone,
 /turf/unsimulated/miningtime,
-/area/space)
+/area/cadiaoutpost/oa/caves)
 "et" = (
 /obj/structure/railing{
 	dir = 1
@@ -2356,7 +2355,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "fj" = (
 /obj/structure/torchwall{
 	dir = 4;
@@ -2773,7 +2772,7 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/maintenance/department/bridge)
+/area/cadiaoutpost/oa/bridge/hallway)
 "ge" = (
 /obj/item/pickaxe,
 /turf/simulated/floor/stone,
@@ -3009,7 +3008,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "hX" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/recharger,
@@ -3335,7 +3334,7 @@
 	},
 /obj/effect/decal/cleanable/urine,
 /turf/simulated/floor/tiled/freezer,
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "km" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/structure/showcase{
@@ -3538,7 +3537,6 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/structure/table/rack,
 /obj/item/mop,
 /obj/item/mop,
 /obj/item/reagent_containers/glass/bucket,
@@ -3546,10 +3544,13 @@
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/reagent_containers/spray/cleaner,
 /obj/item/gun/energy/taser,
+/obj/structure/closet/cabinet{
+	color = "grey"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/maintenance/department/bridge)
+/area/cadiaoutpost/oa/bridge/hallway)
 "lz" = (
 /obj/effect/floor_decal/newcorner/plating{
 	dir = 4
@@ -3704,7 +3705,7 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/maintenance/department/bridge)
+/area/cadiaoutpost/oa/bridge/hallway)
 "mt" = (
 /obj/machinery/door/unpowered/administratum{
 	maxhealth = 2000;
@@ -3719,7 +3720,7 @@
 /turf/simulated/wall/ancient{
 	color = null
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "mA" = (
 /obj/structure/railing{
 	dir = 4
@@ -3927,7 +3928,7 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "on" = (
 /obj/effect/floor_decal/turf/plate,
 /obj/structure/cable{
@@ -3966,7 +3967,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "oy" = (
 /obj/effect/floor_decal/carpet/purple{
 	dir = 8
@@ -4309,7 +4310,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "qy" = (
 /obj/structure/sign/double/planet/right,
 /turf/simulated/floor/wood{
@@ -5178,7 +5179,7 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/maintenance/department/bridge)
+/area/cadiaoutpost/oa/bridge/hallway)
 "wn" = (
 /obj/effect/floor_decal/turf/brick/two,
 /obj/structure/table/woodentable{
@@ -5632,7 +5633,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "zE" = (
 /obj/structure/table/rack,
 /obj/random/maintenance,
@@ -6381,8 +6382,9 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
-/obj/machinery/photocopier/faxmachine{
-	department = "Planetary Governor's Office"
+/obj/item/reagent_containers/food/drinks/bottle/amasecexpensive{
+	pixel_y = 12;
+	pixel_x = -4
 	},
 /turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
@@ -6456,7 +6458,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/freezer,
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "FL" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/turf/metal/five,
@@ -6903,7 +6905,7 @@
 /obj/item/reagent_containers/food/snacks/meat,
 /obj/item/reagent_containers/food/snacks/meat,
 /turf/simulated/floor/tiled/freezer,
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "II" = (
 /obj/structure/closet/chefcloset{
 	color = "grey"
@@ -6914,7 +6916,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "IK" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/machinery/power/port_gen/pacman/super,
@@ -6979,7 +6981,7 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/maintenance/department/bridge)
+/area/cadiaoutpost/oa/bridge/hallway)
 "Jp" = (
 /obj/effect/floor_decal/industrial/warning_red{
 	dir = 4
@@ -7056,7 +7058,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "JR" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/bed/chair/comfy{
@@ -7078,7 +7080,7 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/maintenance/department/bridge)
+/area/cadiaoutpost/oa/bridge/hallway)
 "Kk" = (
 /obj/structure/shuttle/engine/propulsion{
 	color = "grey";
@@ -7306,7 +7308,7 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/maintenance/department/bridge)
+/area/cadiaoutpost/oa/bridge/hallway)
 "LL" = (
 /obj/effect/floor_decal/newcorner/purple/diagonal,
 /obj/effect/floor_decal/industrial/warning{
@@ -7656,7 +7658,7 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/maintenance/department/bridge)
+/area/cadiaoutpost/oa/bridge/hallway)
 "Oc" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/machinery/firealarm{
@@ -7815,9 +7817,6 @@
 	},
 /turf/simulated/wall/techno,
 /area/cadiaoutpost/oa/engineering)
-"Py" = (
-/turf/simulated/wall/seolite,
-/area/cadiaoutpost/oa/vault)
 "Pz" = (
 /obj/effect/floor_decal/newcorner/purple/diagonal,
 /obj/effect/floor_decal/industrial/warning{
@@ -7894,7 +7893,7 @@
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "Qz" = (
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -8123,7 +8122,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "RX" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/machinery/light{
@@ -8200,7 +8199,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "SH" = (
 /turf/simulated/wall/concrete{
 	integrity = 2500
@@ -8391,7 +8390,7 @@
 /area/cadiaoutpost/oa/service/inn)
 "Ug" = (
 /turf/simulated/floor/tiled/freezer,
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "Uh" = (
 /obj/structure/torchwall/service{
 	pixel_y = 32
@@ -8769,7 +8768,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "Wg" = (
 /obj/effect/floor_decal/turf/metal/five,
 /turf/simulated/floor/tiled{
@@ -8795,7 +8794,9 @@
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
 "Wq" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/machinery/computer/tithecogitator,
+/obj/machinery/computer/tithecogitator{
+	desc = "An Administratum cogitator used to process taxes and pay this city's tithe."
+	},
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -8811,7 +8812,7 @@
 "Wz" = (
 /obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/tiled/freezer,
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "WA" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -8864,7 +8865,7 @@
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/kitchen)
+/area/cadiaoutpost/oa/bridge/hallway)
 "WR" = (
 /obj/structure/table/steel,
 /obj/item/flame/lighter,
@@ -31106,21 +31107,21 @@ Tf
 Tf
 Tf
 Tf
-es
 Tf
 Tf
 Tf
 Tf
 Tf
-aV
-aV
-aV
-aV
-aV
-KC
-KC
-KC
-KC
+Tf
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
 Tf
 Tf
 Tf
@@ -31369,15 +31370,15 @@ Tf
 Tf
 Tf
 Tf
-aV
+ah
 cp
 Ug
 cp
-aV
+ah
 NY
 wl
 mo
-KC
+ah
 Tf
 Tf
 Tf
@@ -31626,14 +31627,14 @@ Tf
 Tf
 Tf
 Tf
-aV
+ah
 IF
 Ug
 bv
-aV
+ah
 lx
 gd
-gd
+JW
 ME
 ME
 ME
@@ -31883,11 +31884,11 @@ Tf
 Tf
 Tf
 Tf
-aV
+ah
 ki
 Ug
 Ug
-aV
+ah
 JW
 gd
 Jn
@@ -32140,14 +32141,14 @@ Tf
 Tf
 Tf
 Tf
-aV
+ah
 Wz
 FB
 Ug
-aV
-KC
+ah
+ah
 LH
-KC
+ah
 ME
 cc
 cy
@@ -32388,20 +32389,20 @@ Tf
 Tf
 Tf
 Tf
+DM
+DM
+DM
 Tf
 Tf
 Tf
-Tf
-Tf
-Tf
-aV
-aV
-aV
-aV
-aV
-aV
+ah
+ah
+ah
+ah
+ah
+ah
 Qd
-aV
+ah
 VB
 aK
 aK
@@ -32645,20 +32646,20 @@ Tf
 Tf
 Tf
 Tf
+DM
+es
+DM
 Tf
 Tf
 Tf
-Tf
-Tf
-Tf
-aV
-aV
+ah
+ah
 JH
 Wf
 II
 fi
 ox
-aV
+ah
 VB
 aK
 aK
@@ -32902,20 +32903,20 @@ Tf
 du
 du
 du
-du
-du
-du
+DM
+DM
+DM
 du
 Tf
 Tf
-aV
-aV
+ah
+ah
 ox
 ox
 ox
 ox
 ox
-aV
+ah
 fU
 aK
 aK
@@ -33165,14 +33166,14 @@ Tf
 Tf
 Tf
 Tf
-aV
+ah
 hS
 ox
 ox
 ox
 ox
 ox
-aV
+ah
 VB
 aK
 aK
@@ -33422,7 +33423,7 @@ Tf
 Tf
 Tf
 Tf
-aV
+ah
 my
 ox
 ox
@@ -33679,14 +33680,14 @@ Tf
 Tf
 Tf
 Tf
-aV
+ah
 ox
 ox
 ox
 bc
 ox
 ox
-aV
+ah
 VB
 aK
 aK
@@ -33936,14 +33937,14 @@ Tf
 ah
 ah
 ah
-aV
+ah
 my
 ox
 ox
 ox
 ox
 ox
-aV
+ah
 VB
 aK
 aK
@@ -34193,14 +34194,14 @@ Tf
 ah
 Pp
 ah
-aV
+ah
 SG
 ox
 ox
 ox
 ox
 RV
-aV
+ah
 fU
 aK
 aK
@@ -34450,14 +34451,14 @@ ah
 ah
 eB
 ah
-aV
-aV
+ah
+ah
 WO
 qt
-aV
+ah
 ox
 cW
-aV
+ah
 IV
 aK
 aK
@@ -34707,14 +34708,14 @@ mY
 PG
 fA
 ah
-aV
-aV
-aV
-aV
-aV
-aV
-aV
-aV
+ah
+ah
+ah
+ah
+ah
+ah
+ah
+ah
 ah
 uX
 ah
@@ -39854,11 +39855,11 @@ Tf
 Tf
 bQ
 bQ
-Py
-Py
+bQ
+bQ
 Up
-Py
-Py
+bQ
+bQ
 aU
 Kz
 aW
@@ -40111,11 +40112,11 @@ Tf
 Tf
 bQ
 bQ
-Py
+bQ
 Xg
 eq
 aC
-Py
+bQ
 aU
 ap
 aW
@@ -40368,11 +40369,11 @@ Tf
 Tf
 Tf
 Tf
-Py
-Py
+bQ
+bQ
 Wd
-Py
-Py
+bQ
+bQ
 aU
 fm
 wY
@@ -40625,11 +40626,11 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 Xg
 eq
 aC
-Py
+bQ
 aU
 aU
 aU
@@ -40881,13 +40882,13 @@ Tf
 Tf
 Tf
 Tf
-Py
-Py
-Py
+bQ
+bQ
+bQ
 Up
-Py
-Py
-Py
+bQ
+bQ
+bQ
 Tf
 Tf
 Tf
@@ -41138,13 +41139,13 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 eq
 eq
 eq
 eq
 eq
-Py
+bQ
 Tf
 Tf
 Tf
@@ -41395,13 +41396,13 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 hX
 eq
 XH
 eq
 rK
-Py
+bQ
 Tf
 Tf
 Tf
@@ -41652,13 +41653,13 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 UU
 eq
 eq
 eq
 eq
-Py
+bQ
 Tf
 Tf
 Tf
@@ -41909,13 +41910,13 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 sB
 eq
 ej
 eq
 Ok
-Py
+bQ
 Tf
 Tf
 Tf
@@ -42166,13 +42167,13 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 En
 eq
 eq
 eq
 eq
-Py
+bQ
 Tf
 Tf
 Tf
@@ -42423,13 +42424,13 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 gS
 eq
 QH
 eq
 Wk
-Py
+bQ
 Tf
 Tf
 Tf
@@ -42680,13 +42681,13 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 bO
 eq
 eq
 eq
 eq
-Py
+bQ
 Tf
 Tf
 Tf
@@ -42937,13 +42938,13 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 lW
 eq
 eq
 eq
 kg
-Py
+bQ
 Tf
 Tf
 Tf
@@ -43194,13 +43195,13 @@ Tf
 Tf
 Tf
 Tf
-Py
-Py
-Py
+bQ
+bQ
+bQ
 Up
-Py
-Py
-Py
+bQ
+bQ
+bQ
 Tf
 Tf
 Tf
@@ -43452,11 +43453,11 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 eq
 eq
 eq
-Py
+bQ
 Tf
 Tf
 Tf
@@ -43709,11 +43710,11 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 eq
 kd
 eq
-Py
+bQ
 Tf
 Tf
 Tf
@@ -43966,11 +43967,11 @@ Tf
 Tf
 Tf
 Tf
-Py
+bQ
 cz
-Py
+bQ
 zs
-Py
+bQ
 Tf
 Tf
 Tf
@@ -44223,11 +44224,11 @@ Tf
 Tf
 Tf
 Tf
-Py
-Py
-Py
-Py
-Py
+bQ
+bQ
+bQ
+bQ
+bQ
 Tf
 Tf
 Tf

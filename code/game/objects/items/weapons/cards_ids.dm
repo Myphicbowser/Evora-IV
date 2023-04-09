@@ -239,7 +239,7 @@ var/const/NO_EMAG_ACT = -50
 
 /obj/item/card/id/gold
 	name = "golden writ"
-	desc = "A golden writ from the High Lords of Terra naming the owner a Rogue Trader."
+	desc = "A golden signet ring of a Lord."
 	icon_state = "gold"
 	item_state = "gold_id"
 	job_access_type = /datum/job/captain
@@ -701,5 +701,5 @@ var/const/NO_EMAG_ACT = -50
 
 /obj/item/card/id/key/grand/master
 	name = "Royal Master Key"
-	desc = "The Royal Key for the Rogue Trader Themselves, or for people belonging to their retinue. It ONLY has access to the most expensive rooms and treasure this entire planet has. Except for the toaster people's building."
+	desc = "ONLY has access to the most expensive rooms and treasure this entire planet has. Except for the toaster people's building."
 	access = list(access_monastary, access_noble, 331) //331 is rt vault
