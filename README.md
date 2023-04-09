@@ -1,8 +1,8 @@
-## Cadia Station: 40k   
+## EVORA IV: 40k   
 
-[![forinfinityandbyond](https://user-images.githubusercontent.com/5211576/29499758-4efff304-85e6-11e7-8267-62919c3688a9.gif)](https://www.reddit.com/r/SS13/comments/5oplxp/what_is_the_main_problem_with_byond_as_an_engine/dclbu1a)
+**Discord:** https://discord.gg/53K9AZsZcF
 
-**Discord:** https://discord.gg/xthVK85W3M
+--------------------
 
 ## Based off of Interstation12: Warfare
 
