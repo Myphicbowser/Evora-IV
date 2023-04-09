@@ -111,28 +111,28 @@
 
 /obj/item/device/cassette/tape1/New()
 	..()
-	name = "\"The Outside World\'s Greatest Hits Vol.1\" magn-o-tape"
-	a_side = pick('sound/music/boombox1.ogg','sound/music/boombox2.ogg')
+	name = "\"Evora\'s Greatest Hits Vol.1\" magn-o-tape"
+	a_side = pick('sound/music/boombox1.ogg',)
 	b_side = 'sound/music/boombox3.ogg'
 	sound_inside = a_side
 
 /obj/item/device/cassette/tape2/New()
 	..()
-	name = "\"The Outside World\'s Greatest Hits Vol.2\" magn-o-tape"
-	a_side = pick('sound/music/boombox4.ogg', 'sound/music/boombox5.ogg')
-	b_side = 'sound/music/boombox6.ogg'
+	name = "Worn \"Evora\'s Greatest Hits Vol.2\" magn-o-tape"
+	a_side = pick('sound/music/boombox2.ogg', 'sound/music/boombox4.ogg')
+	b_side = 'sound/music/boombox5.ogg'
 	sound_inside = a_side
 
 /obj/item/device/cassette/tape3/New()
 	..()
-	name = "\"The Outside World\'s Greatest Hits Vol.3\" magn-o-tape"
-	a_side = pick('sound/music/boombox7.ogg', 'sound/music/boombox8.ogg')
+	name = "\"Evora\'s Greatest Hits Vol.3\" magn-o-tape"
+	a_side = pick('sound/music/boombox7.ogg', 'sound/music/boombox2.ogg')
 	b_side = pick('sound/music/boombox9.ogg', 'sound/music/boombox10.ogg')
 	sound_inside = a_side
 
 /obj/item/device/cassette/tape4/New()
 	..()
-	name = "\"The Outside World\'s Greatest Hits - Santa Monica Edition\" magn-o-tape"
+	name = "\"Evora\'s Greatest Hits Vol.4\" magn-o-tape"
 	a_side = pick('sound/music/inn.ogg',)
 	b_side = pick('sound/music/boombox9.ogg', 'sound/music/boombox10.ogg')
 	sound_inside = a_side
@@ -147,16 +147,23 @@
 
 /obj/item/device/cassette/tape6/New()
 	..()
-	name = "\"The General Fabricator-Approved Chants\" magn-o-tape"
-	a_side = pick('sound/music/boombox13.ogg')
-	b_side = pick('sound/music/boombox14.ogg')
+	name = "\"The General Fabricator-Approved Music\" magn-o-tape"
+	a_side = pick('sound/newmusic/omnissiah.ogg')
+	b_side = pick('sound/newmusic/omnissiah.ogg')
 	sound_inside = a_side
 
-/obj/item/device/cassette/titansbane/New()
+/obj/item/device/cassette/tape7/New()
 	..()
-	name = "Titansbane - Cadia Stands"
-	a_side = pick('sound/newmusic/TAPE-TITANSBANE.ogg')
-	b_side = pick('sound/newmusic/TAPE-TITANSBANE.ogg')
+	name = "forgotten magn-o-tape"
+	a_side = pick('sound/newmusic/forgotten.ogg')
+	b_side = pick('sound/newmusic/forgotten.ogg')
+	sound_inside = a_side
+
+/obj/item/device/cassette/Manortape/New()
+	..()
+	name = "fancy magn-o-tape"
+	a_side = pick('sound/newmusic/clara2.ogg')
+	b_side = pick('sound/newmusic/clara1.ogg')
 	sound_inside = a_side
 
 /obj/item/device/cassette/unknownsoldier/New()
@@ -171,20 +178,6 @@
 	name = "Da Boss"
 	a_side = pick('sound/newmusic/TAPE-DABOSS1.ogg')
 	b_side = pick('sound/newmusic/TAPE-DABOSS1.ogg')
-	sound_inside = a_side
-
-/obj/item/device/cassette/inqlog1/New()
-	..()
-	name = "Inquisition Log 1"
-	a_side = pick('sound/newmusic/TAPE-INQLOG1.ogg')
-	b_side = pick('sound/newmusic/TAPE-INQLOG1.ogg')
-	sound_inside = a_side
-
-/obj/item/device/cassette/brokensaint/New()
-	..()
-	name = "Broken Saint"
-	a_side = pick('sound/newmusic/TAPE-BROKENSAINT.ogg')
-	b_side = pick('sound/newmusic/TAPE-BROKENSAINT.ogg')
 	sound_inside = a_side
 
 /obj/item/device/cassette/grimdark/New()
@@ -213,6 +206,20 @@
 	name = "Monastery Chants"
 	a_side = pick('sound/newmusic/TUPE-CHURCH1.ogg')
 	b_side = pick('sound/newmusic/TUPE-CHURCH1.ogg')
+	sound_inside = a_side
+
+/obj/item/device/cassette/church2/New()
+	..()
+	name = "Versa est in Luctum"
+	a_side = pick('sound/newmusic/TUPE-CHURCH2.ogg')
+	b_side = pick('sound/newmusic/TUPE-CHURCH2.ogg')
+	sound_inside = a_side
+
+/obj/item/device/cassette/church3/New()
+	..()
+	name = "Cantate Domino"
+	a_side = pick('sound/newmusic/TUPE-CHURCH3.ogg')
+	b_side = pick('sound/newmusic/TUPE-CHURCH3.ogg')
 	sound_inside = a_side
 
 /obj/item/device/cassette/sombre1/New()
@@ -259,9 +266,16 @@
 
 /obj/item/device/cassette/heresy1/New()
 	..()
-	name = "Heretical Tape"
+	name = "Confiscated Tape"
 	a_side = pick('sound/newmusic/TAPE-forbidden.ogg')
 	b_side = pick('sound/newmusic/TAPE-forbidden.ogg')
+	sound_inside = a_side
+
+/obj/item/device/cassette/heresy2/New()
+	..()
+	name = "Sororitas Secret Tape"
+	a_side = pick('sound/newmusic/TAPE-forbidden2.ogg')
+	b_side = pick('sound/newmusic/TAPE-forbidden2.ogg')
 	sound_inside = a_side
 
 /obj/item/device/cassette/inn3/New()
@@ -290,4 +304,11 @@
 	name = "Rip & Tear"
 	a_side = pick('sound/newmusic/TAPE-DEMON.ogg')
 	b_side = pick('sound/newmusic/TAPE-DEMON.ogg')
+	sound_inside = a_side
+
+/obj/item/device/cassette/demon2/New()
+	..()
+	name = "The Archenemy"
+	a_side = pick('sound/newmusic/TAPE-DEMON2.ogg')
+	b_side = pick('sound/newmusic/TAPE-DEMON2.ogg')
 	sound_inside = a_side

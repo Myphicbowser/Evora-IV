@@ -13,8 +13,8 @@
 	latejoin_at_spawnpoints = TRUE
 	supervisors = "The Abbess"
 	selection_color = "#FCFBFA"
-	access = list(access_heads, access_advchapel)
-	minimal_access = list(access_heads, access_advchapel)
+	access = list(access_medical, access_heads, access_advchapel)
+	minimal_access = list(access_medical, access_heads, access_advchapel)
 	announced = FALSE
 	outfit_type = /decl/hierarchy/outfit/job/dialogus
 	auto_rifle_skill = 6
@@ -206,15 +206,21 @@
 	department = "Ministorum"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "The Deacon and Inquisition"
+	supervisors = "The Adeptus Ministorum"
 	selection_color = "#FCFBFA"
 	economic_modifier = 10
 	open_when_dead = FALSE
 	social_class = SOCIAL_CLASS_HIGH
 	latejoin_at_spawnpoints = TRUE
 	announced = FALSE
-	access = list(access_heads, access_advchapel)
-	minimal_access = list(access_heads, access_advchapel)
+	access = list(access_medical, access_heads,
+			access_abbess, access_RC_announce,
+			access_keycard_auth, access_guard_common, access_village, access_advchapel)
+	minimal_access = list(access_medical, access_heads,
+			access_abbess, access_RC_announce,
+			access_keycard_auth, access_guard_common, access_village, access_advchapel)
+	outfit_type = /decl/hierarchy/outfit/job/medical/doctor
+	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
 	outfit_type = /decl/hierarchy/outfit/job/medical/cmo
 	auto_rifle_skill = 10
 	semi_rifle_skill = 10
@@ -306,8 +312,7 @@
 			access_abbess, access_RC_announce,
 			access_keycard_auth, access_guard_common, access_village, access_advchapel)
 	minimal_access = list(access_medical, access_heads,
-			access_abbess, access_RC_announce,
-			access_keycard_auth, access_guard_common, access_village, access_advchapel)
+			access_guard_common, access_village, access_advchapel)
 	outfit_type = /decl/hierarchy/outfit/job/medical/doctor
 	auto_rifle_skill = 7
 	semi_rifle_skill = 7
