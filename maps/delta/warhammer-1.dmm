@@ -436,9 +436,6 @@
 /obj/item/bedsheet/brown,
 /obj/effect/floor_decal/turf/brick/two,
 /obj/structure/curtain/open/bed,
-/obj/effect/landmark/start/ministorum/novice{
-	name = "Progena"
-	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1439,8 +1436,14 @@
 	},
 /area/cadiaoutpost/oa/service/chapel/recovery)
 "mo" = (
-/obj/effect/floor_decal/turf/lfloorscorched1,
-/turf/space,
+/obj/machinery/light/stolb{
+	color = null;
+	light_color = "blue";
+	on = 1
+	},
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
 /area/cadiaoutpost/oa/caves/undercity)
 "mp" = (
 /obj/effect/floor_decal/turf/nf2,
@@ -1982,6 +1985,12 @@
 /obj/item/wrench,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/armory)
+"qY" = (
+/mob/living/simple_animal/hostile/smalldemon/zygote,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/caves/undercity)
 "qZ" = (
 /obj/flamer_fire{
 	burnlevel = 22;
@@ -3253,11 +3262,15 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "Dz" = (
-/obj/effect/floor_decal/turf/plate,
-/mob/living/simple_animal/hostile/scarybat,
-/turf/simulated/floor/tiled{
-	color = "grey"
+/obj/effect/landmark/animal/rngretaliatespawner{
+	name = "rng rat"
 	},
+/obj/structure/bed{
+	desc = "A mass produced sleeping mat, now with actual cloth!";
+	icon_state = "bed_padding1";
+	name = "sleeping mat"
+	},
+/turf/simulated/floor/dirty/indestructable/lightless,
 /area/cadiaoutpost/oa/caves/undercity)
 "DC" = (
 /obj/structure/cult/talisman,
@@ -3769,7 +3782,7 @@
 /area/cadiaoutpost/oa/service/chapel)
 "IQ" = (
 /obj/structure/table/rack/dark,
-/obj/item/clothing/head/helmet/space/void/mining,
+/obj/item/clothing/head/helmet/stalkerhelm,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -5349,9 +5362,12 @@
 	},
 /area/cadiaoutpost/oa/service/chapel/chapeldorm)
 "XN" = (
-/obj/structure/bed/alien{
-	color = "grey"
+/obj/structure/bed{
+	desc = "A mass produced sleeping mat, now with actual cloth!";
+	icon_state = "bed_padding1";
+	name = "sleeping mat"
 	},
+/obj/effect/landmark/start/village,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -5412,7 +5428,9 @@
 /turf/simulated/floor/exoplanet/water/shallow/lightless,
 /area/cadiaoutpost/oa/caves/undercity)
 "YC" = (
-/mob/living/simple_animal/hostile/scarybat,
+/obj/effect/landmark/animal/rngretaliatespawner{
+	name = "rng rat"
+	},
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -5424,10 +5442,6 @@
 /obj/structure/closet/crate{
 	color = "grey"
 	},
-/obj/item/storage/box/survival{
-	color = "grey"
-	},
-/obj/item/storage/box/stunshells,
 /obj/random/loot/randomarmor,
 /turf/simulated/floor/wood{
 	color = "grey"
@@ -28815,7 +28829,7 @@ PI
 aS
 DX
 hS
-qx
+qY
 QP
 aS
 xy
@@ -29584,7 +29598,7 @@ PI
 PI
 PI
 gg
-Dz
+hS
 hS
 hS
 hS
@@ -30613,7 +30627,7 @@ xg
 xg
 gg
 Ub
-Ub
+mo
 JR
 gg
 Dx
@@ -30870,7 +30884,7 @@ PI
 PI
 aS
 Ub
-Ub
+AV
 Ub
 gg
 aS
@@ -31895,7 +31909,7 @@ PI
 aS
 XN
 SP
-YC
+SQ
 XN
 Ub
 Ub
@@ -32408,8 +32422,8 @@ PI
 PI
 aS
 XN
-YC
 SQ
+YC
 XN
 ki
 wy
@@ -33441,7 +33455,7 @@ PI
 gg
 Ub
 Ub
-Ub
+mo
 Ub
 Ub
 Ol
@@ -33963,7 +33977,7 @@ gg
 Ub
 Ub
 Ub
-mo
+pY
 Ub
 aS
 fS
@@ -45002,7 +45016,7 @@ mq
 Oc
 FB
 Nu
-Oc
+Dz
 gg
 PI
 PI

@@ -395,7 +395,7 @@
 	supervisors = "The Abbess and Sister Superior"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7
-	social_class = SOCIAL_CLASS_HIGH
+	social_class = SOCIAL_CLASS_MED
 	open_when_dead = FALSE
 	latejoin_at_spawnpoints = TRUE
 	announced = FALSE
