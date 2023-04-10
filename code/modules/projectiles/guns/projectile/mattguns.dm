@@ -547,7 +547,7 @@
 	w_class = ITEM_SIZE_HUGE
 
 /obj/item/gun/projectile/automatic/heavystubber
-	name = "Messina Pattern Heavy Stubber"
+	name = "Evora Pattern Heavy Stubber"
 	desc = "Belt-fed and with a bipod for stable firing from the prone position, the weapon was fitted with both backsight and foresight, carrying handle, and perforated outer barrel to aid in cooling. Chambered in 5.56"
 	icon_state = "hmg"
 	item_state = "hmg"
@@ -782,8 +782,8 @@
 	wielded_unloaded_icon = "schmeiser-e"
 
 /obj/item/gun/projectile/automatic/agripinaaii
-	name = "Messina Pattern Stub rifle"
-	desc = "A rugged stub rifle of Messina design, The MK II is semi automatic and highly damaging with it's 5.56 rounds. "
+	name = "Evora Pattern Stub rifle"
+	desc = "A rugged stub rifle of Evoran design, The MK II is semi automatic and highly damaging with it's 5.56 rounds. "
 	icon_state = "agripinaa" // Object Icon
 	item_state = "agripinaa" // On-Mob
 	unloaded_icon = "agripinaa_e" // Object Icon
@@ -823,7 +823,7 @@
 
 
 /obj/item/gun/projectile/automatic/messina
-	name = "Messina Pattern Autogun"
+	name = "Evora Pattern Autogun"
 	desc = "A locally produced pattern, chambered in 5.56 and not the highest quality material, to say the least...At least it's automatic"
 	icon_state = "autogun_agrip" // Object Icon
 	item_state = "autorifle" // On-Mob

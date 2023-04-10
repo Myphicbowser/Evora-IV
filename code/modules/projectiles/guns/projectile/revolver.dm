@@ -76,7 +76,7 @@
 	fire_sound = 'sound/weapons/guns/fire/revolver_fire.ogg'
 
 /obj/item/gun/projectile/revolver/messina
-	name = "Messina Pattern Stub Revolver"
+	name = "Evora Pattern Stub Revolver"
 	desc = "A simple stub revolver made locally on the planet from sheet metal, it isn't exactly accurate... Chambered in .357."
 	icon_state = "snubby"
 	item_state = "crevolver"

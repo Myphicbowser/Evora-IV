@@ -117,12 +117,12 @@
 	item_path = /obj/item/gun/projectile/automatic/m22/warmonger/m14/battlerifle
 
 /datum/cargo_entry/weapon/messina
-	name = "Messina Pattern Autogun"
+	name = "Evora Pattern Autogun"
 	cost = 69
 	item_path = /obj/item/gun/projectile/automatic/messina
 
 /datum/cargo_entry/weapon/agripinaa
-	name = "Messina Stub Rifle"
+	name = "Evora Pattern Stub Rifle"
 	cost = 60
 	item_path = /obj/item/gun/projectile/automatic/agripinaaii
 
@@ -207,7 +207,7 @@ datum/cargo_entry/weapon/accapistol
 	item_path = /obj/item/gun/projectile/pistol/villiers
 
 /datum/cargo_entry/weapon/broomhandle
-	name = "Messina Pattern Stub Pistol"
+	name = "Evora Pattern Stub Pistol"
 	cost = 35
 	item_path = /obj/item/gun/projectile/pistol/broomhandle
 
@@ -252,7 +252,7 @@ datum/cargo_entry/weapon/accapistol
 	item_path = /obj/item/gun/projectile/revolver/villiers
 
 /datum/cargo_entry/weapon/messinarevolver
-	name = "Messina Revolver"
+	name = "Evora Pattern Revolver"
 	cost = 20
 	item_path = /obj/item/gun/projectile/revolver/messina
 
@@ -262,7 +262,7 @@ datum/cargo_entry/weapon/accapistol
 	item_path = /obj/item/gun/projectile/revolver/detective/boscelot
 
 /datum/cargo_entry/weapon/agrirevolver
-	name = "Messina Revolver"
+	name = "Aquileia Revolver"
 	cost = 50
 	item_path = /obj/item/gun/projectile/necros
 

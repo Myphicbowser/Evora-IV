@@ -1,16 +1,16 @@
 
 /datum/map/warhammer
-	name = "Eipharius"
-	full_name = "Eipharius"
+	name = "Evora"
+	full_name = "Evora IV"
 	path = "warhammer"
-	station_name  = "Capital City Messina"
-	station_short = "Eipharius"
-	dock_name     = "Eipharius"
-	boss_name     = "Segmentum Command"
-	boss_short    = "SC"
+	station_name  = "The March of Aquileia"
+	station_short = "Aquileia"
+	dock_name     = "Aquileia"
+	boss_name     = "Planetary Command"
+	boss_short    = "PC"
 	company_name  = "Imperium of Man"
 	company_short = "Imperium"
-	system_name = "Helican Subsector"
+	system_name = "Evora-Laanah System"
 
 	lobby_icon = 'maps/delta/fullscreen.dmi'
 	lobby_screens = list("lobby1","lobby2","lobby3","lobby4")
@@ -29,7 +29,7 @@
 	emergency_shuttle_leaving_dock = "The emergency escape shuttle has departed from %dock_name%."
 	emergency_shuttle_called_message = "An emergency escape shuttle has been sent."
 	emergency_shuttle_recall_message = "The emergency shuttle has been recalled"
-	map_lore = "A Rogue Trader has established this outpost to further the reach of the Imperium of Man. We have been stationed here for the past few months without incident, though the guardsmen have begun to worry following the arrival of the black ship 'Simiel' with Inquisitorial Agents. Time will tell what this means, the Agents themselves are cryptic and do not associate with us. Some of my fellow Guardsmen have been disappearing, though when asked about, our Commissar simply refers to them as cowards."
+	map_lore = "The planetoid Evora IV is at the very edge of human influence, far beyond the Laanah rifts of the Segmentum Pacificus and bordering the Halo Stars. This world once thrived as a frontier trading hub, but that all changed on the day of Our Lord of Aquileia when the many faithful in the fair city simultaneously heard a glorious voice, which all who listented understood to be that of the God Emperor himself. Dozens were killed immediately from the pure power of his voice. Warp storms started that day, nearly eighty years later they have not ceased. Our system was cut off and unable to communicate with the rest of humanity. We wonder why our God Emperor has trapped us here, and we can only guess why from the one word uttered that day, 'prepare' "
 
 
 
