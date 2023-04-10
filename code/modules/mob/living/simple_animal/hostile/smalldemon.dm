@@ -107,7 +107,7 @@
 		return
 	custom_emote(1, pick( list("slashes at [target_mob]", "bites [target_mob]") ) )
 
-	var/damage = rand(25,55)
+	var/damage = rand(20,30)
 
 	if(ishuman(target_mob))
 		var/mob/living/carbon/human/H = target_mob
@@ -120,6 +120,90 @@
 		L.adjustBruteLoss(damage)
 		return L
 
+//this section will be creatures that are not canon demons and are instead just sewer creatures
+
+/mob/living/simple_animal/hostile/smalldemon/tzantz
+	name = "Tzantz" // Slow speed. Low HP and medium burn damage.
+	real_name = "Tzantz"
+	desc = "A mass of twitching and squirming limbs, the wretched creature looks like some kind of a slug and a roach fused together." //just a fucked up looking animal
+	icon = 'icons/mob/animal.dmi'
+	icon_state = "tzantz"
+	icon_living = "tzantz"
+	icon_dead = "tzantz2"
+	maxHealth = 50 //soft bodied
+	health = 50
+	speak_emote = list("screeches")
+	emote_hear = list("chirps")
+	response_help  = "gnashes"
+	response_disarm = "shoves"
+	response_harm   = "mauls"
+	attacktext = "Pinches"
+	see_in_dark = 6
+	melee_damage_lower = 8
+	melee_damage_upper = 12
+
+
+/mob/living/simple_animal/hostile/smalldemon/tzantz/AttackingTarget()
+	if(!Adjacent(target_mob))
+		return
+	custom_emote(1, pick( list("bites at [target_mob]", "chomps [target_mob]") ) ) // attack emotes
+
+	var/damage = rand(15,20) // Damage Value
+
+	if(ishuman(target_mob))
+		var/mob/living/carbon/human/H = target_mob
+		var/dam_zone = pick(BP_CHEST, BP_L_HAND, BP_R_HAND, BP_L_LEG, BP_R_LEG)
+		var/obj/item/organ/external/affecting = H.get_organ(ran_zone(dam_zone))
+		H.apply_damage(damage, BRUTE, affecting, H.run_armor_check(affecting, "melee"), DAM_SHARP|DAM_EDGE) // damage type
+		return H
+	else if(isliving(target_mob))
+		var/mob/living/L = target_mob
+		L.adjustBruteLoss(damage)
+		return L
+
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva
+	name = "Tzantz larva" // Slow speed. Low HP and medium burn damage.
+	real_name = "Tzantz larva"
+	desc = "A writhing worm that tries to latch itself onto you." //just a fucked up looking animal
+	icon = 'icons/mob/animal.dmi'
+	icon_state = "worm"
+	icon_living = "worm"
+	icon_dead = "worm_l"
+	maxHealth = 10 //soft bodied
+	health = 10
+	speak_emote = list("blorbles")
+	emote_hear = list("screeches")
+	response_help  = "squirms"
+	response_disarm = "squirms"
+	response_harm   = "squirms"
+	attacktext = "bites"
+	see_in_dark = 6
+	melee_damage_lower = 1
+	melee_damage_upper = 5
+
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva/AttackingTarget()
+	if(!Adjacent(target_mob))
+		return
+	custom_emote(1, pick( list("bites at [target_mob]", "chomps [target_mob]") ) ) // attack emotes
+
+	var/damage = rand(1,5) // Damage Value
+
+	if(ishuman(target_mob))
+		var/mob/living/carbon/human/H = target_mob
+		var/dam_zone = pick(BP_CHEST, BP_L_HAND, BP_R_HAND, BP_L_LEG, BP_R_LEG)
+		var/obj/item/organ/external/affecting = H.get_organ(ran_zone(dam_zone))
+		H.apply_damage(damage, BRUTE, affecting, H.run_armor_check(affecting, "melee"), DAM_SHARP|DAM_EDGE) // damage type
+		return H
+	else if(isliving(target_mob))
+		var/mob/living/L = target_mob
+		L.adjustBruteLoss(damage)
+		return L
+
+
+
+
+
+
 /mob/living/simple_animal/hostile/smalldemon/zygote
 	name = "Zygote" // Slow speed. Low HP and medium burn damage.
 	real_name = "Zygote"
@@ -129,8 +213,8 @@
 	icon_state = "floater"
 	icon_living = "floater"
 	icon_dead = "floater2"
-	maxHealth = 420
-	health = 420
+	maxHealth = 75  //weaker than humans because it is practically falling apart
+	health = 75
 	speak_emote = list("harks")
 	emote_hear = list("growls")
 	response_help  = "gnashes"
@@ -146,7 +230,7 @@
 		return
 	custom_emote(1, pick( list("sloshes at [target_mob]", "pulls [target_mob]") ) ) // attack emotes
 
-	var/damage = rand(30,60) // Damage Value
+	var/damage = rand(15,25) // Damage Value
 
 	if(ishuman(target_mob))
 		var/mob/living/carbon/human/H = target_mob
@@ -167,8 +251,8 @@
 	icon_state = "oormat"
 	icon_living = "oormat"
 	icon_dead = "oormat2"
-	maxHealth = 750
-	health = 750
+	maxHealth = 200
+	health = 200
 	speak_emote = list("harks")
 	emote_hear = list("growls")
 	response_help  = "gnashes"
@@ -184,7 +268,7 @@
 		return
 	custom_emote(1, pick( list("bites at [target_mob]", "crushes [target_mob]") ) ) // attack emotes
 
-	var/damage = rand(75,90) // Damage Value
+	var/damage = rand(25,35) // Damage Value
 
 	if(ishuman(target_mob))
 		var/mob/living/carbon/human/H = target_mob
@@ -205,8 +289,8 @@
 	icon_state = "khorne_daemon" // Average speed. High damage and HP.
 	icon_living = "khorne_daemon"
 	icon_dead = "khorne_daemon_dead_anim"
-	maxHealth = 600
-	health = 600
+	maxHealth = 250
+	health = 250
 	speak_emote = list("harks")
 	emote_hear = list("growls")
 	response_help  = "gnashes"
@@ -222,7 +306,7 @@
 		return
 	custom_emote(1, pick( list("slices at [target_mob]", "tears [target_mob]") ) ) // attack emotes
 
-	var/damage = rand(65,115) // Damage Value
+	var/damage = rand(35,50) // Damage Value
 
 	if(ishuman(target_mob))
 		var/mob/living/carbon/human/H = target_mob
@@ -245,8 +329,8 @@
 	icon_state = "loge"
 	icon_living = "loge"
 	icon_dead = "loge2"
-	maxHealth = 500
-	health = 500
+	maxHealth = 250
+	health = 250
 	speak_emote = list("harks")
 	emote_hear = list("growls")
 	response_help  = "gnashes"
@@ -266,8 +350,8 @@
 	icon_state = "plague"
 	icon_living = "plague"
 	icon_dead = "plague_dead"
-	maxHealth = 400
-	health = 400
+	maxHealth = 150
+	health = 150
 	speak_emote = list("harks")
 	emote_hear = list("growls")
 	response_help  = "gnashes"
@@ -287,8 +371,8 @@
 	icon_state = "goliath"
 	icon_living = "goliath"
 	icon_dead = "goliath_dead"
-	maxHealth = 550
-	health = 550
+	maxHealth = 200
+	health = 200
 	speak_emote = list("harks")
 	emote_hear = list("growls")
 	response_help  = "gnashes"

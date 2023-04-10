@@ -334,10 +334,6 @@
 /turf/simulated/floor/trenches,
 /area/cadiaoutpost/oa/village)
 "aZ" = (
-/obj/structure/stairs/west,
-/obj/structure/railing{
-	dir = 1
-	},
 /turf/simulated/open,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
@@ -626,6 +622,11 @@
 	},
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
+"bR" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "bS" = (
 /obj/effect/floor_decal/turf/metal/ten,
 /obj/machinery/door/blast/bordergater/closed{
@@ -956,6 +957,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
+"cR" = (
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "cS" = (
 /obj/structure/closet/crate/large,
 /turf/simulated/floor/tiled{
@@ -992,8 +997,8 @@
 	},
 /area/cadiaoutpost/oa/villageinside)
 "cY" = (
-/obj/structure/stairs/east,
-/turf/unsimulated/miningtime,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
 "cZ" = (
 /obj/effect/decal/cleanable/snow,
@@ -1436,6 +1441,12 @@
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
+"es" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "et" = (
 /obj/structure/flora/ausbushes/pointybush,
 /turf/simulated/floor/snow,
@@ -1608,6 +1619,11 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/cadiaoutpost/oa/service/hab/inside)
+"eT" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/structure/closet/crate/solar,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "eV" = (
 /obj/machinery/sleeper{
 	color = null
@@ -1796,6 +1812,10 @@
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
+"fC" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/theforest)
 "fD" = (
 /obj/structure/flora/pottedplant/dead,
 /turf/simulated/floor/dirty/tough/lightless,
@@ -3043,6 +3063,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
+"jC" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "jD" = (
 /obj/machinery/door/blast/bordergatec/closed{
 	id = "outergate1";
@@ -5399,6 +5424,14 @@
 /obj/item/pyre/self_lit,
 /turf/simulated/floor/dirty/tough/lightless,
 /area/cadiaoutpost/oa/village)
+"pJ" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/item/newore/gems/quartz,
+/obj/effect/decal/cleanable/snow,
+/obj/structure/closet/crate/solar,
+/obj/random/loot/goodweapon,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "pL" = (
 /obj/structure/table/woodentable{
 	color = "#36261B"
@@ -5535,6 +5568,10 @@
 	icon_state = "dark1"
 	},
 /area/cadiaoutpost/oa/engineering)
+"qh" = (
+/obj/structure/flora/grass/green,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "qi" = (
 /obj/structure/table/steel,
 /obj/item/trash/raisins,
@@ -5568,6 +5605,10 @@
 /area/cadiaoutpost/oa/village)
 "qr" = (
 /obj/item/pyre/self_lit,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves)
+"qt" = (
+/mob/living/simple_animal/hostile/voxslug,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
 "qv" = (
@@ -5634,6 +5675,10 @@
 /obj/item/stack/thrones3/five,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
+"qH" = (
+/obj/effect/decal/cleanable/blood/gibs/limb,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/theforest)
 "qK" = (
 /obj/structure/coatrack,
 /turf/simulated/floor/wood{
@@ -5834,6 +5879,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
+"rz" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/mob/living/simple_animal/hostile/greytusk,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "rA" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/item/storage/pill_bottle/methylphenidate,
@@ -5938,6 +5988,10 @@
 	},
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
+"rR" = (
+/mob/living/simple_animal/hostile/bear/evorasnowbeast,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "rS" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/turf/aesculapius/mori{
@@ -6057,6 +6111,12 @@
 /obj/random/accessory,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
+"ss" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/blood,
+/obj/random/loot/goodweapon,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "su" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/simulated/floor/stone,
@@ -6102,6 +6162,14 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
+"sC" = (
+/obj/machinery/door/airlock/hatch/simiel{
+	name = "Bridge";
+	req_access = list()
+	},
+/obj/effect/floor_decal/newcorner/red/solid,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "sD" = (
 /obj/effect/water/top,
 /obj/effect/water/bottom,
@@ -6403,6 +6471,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
+"tE" = (
+/obj/structure/flora/grass/brown,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "tF" = (
 /obj/machinery/recharge_station{
 	name = "servitor recharging station"
@@ -6456,6 +6528,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
+"tP" = (
+/obj/random/loot/randomitemcaves,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/theforest)
 "tR" = (
 /obj/effect/floor_decal/carpet,
 /turf/simulated/floor/carpet,
@@ -6535,6 +6611,10 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
+"uc" = (
+/mob/living/simple_animal/hostile/snowcat,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "ud" = (
 /obj/effect/decal/cleanable/molten_item,
 /obj/structure/largecrate,
@@ -6765,6 +6845,13 @@
 	},
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
+"uX" = (
+/obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/effect/decal/cleanable/snow,
+/obj/item/rnd/eng5,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "uY" = (
 /obj/effect/floor_decal/snow,
 /obj/effect/decal/cleanable/snow,
@@ -6784,6 +6871,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/supply/mining/office)
+"vb" = (
+/mob/living/simple_animal/hostile/greytusk,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "vc" = (
 /obj/effect/floor_decal/newcorner/white{
 	dir = 4
@@ -6847,12 +6938,11 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "vj" = (
-/obj/structure/torchwall{
-	dir = 4;
-	icon_state = "torchwall0"
+/turf/simulated/shuttle/wall{
+	color = "grey";
+	icon_state = "wall3"
 	},
-/turf/simulated/floor/stone,
-/area/cadiaoutpost/oa/caves)
+/area/cadiaoutpost/oa/theforest)
 "vk" = (
 /obj/structure/catwalkrust/blocked,
 /obj/structure/catwalkrust/blocked,
@@ -6866,6 +6956,15 @@
 "vn" = (
 /turf/unsimulated/miningtime,
 /area/cadiaoutpost/oa/engineering)
+"vs" = (
+/obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/random/loot/badweapon,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "vt" = (
 /obj/structure/closet/body_bag,
 /obj/item/remains/human{
@@ -6878,6 +6977,11 @@
 /obj/effect/decal/cleanable/snow,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
+"vw" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "vx" = (
 /obj/structure/closet/crate/trashcart,
 /obj/item/beartrap,
@@ -7199,6 +7303,20 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
+"wE" = (
+/mob/living/simple_animal/hostile/smalldemon/tzantz,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves)
+"wF" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/structure/bed/chair/comfy/captain{
+	desc = "Comfy chair for luxury and piloting.";
+	dir = 8;
+	icon_state = "capchair_preview";
+	name = "pilot seat"
+	},
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "wH" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/orange,
@@ -7335,6 +7453,18 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/supply/mining/office)
+"xh" = (
+/obj/machinery/button/remote/blast_door/id_scan{
+	id = "warehouseshutter";
+	pixel_x = -5;
+	pixel_y = 0
+	},
+/obj/item/circuitboard/broken,
+/turf/simulated/shuttle/wall{
+	color = "grey";
+	icon_state = "wall3"
+	},
+/area/cadiaoutpost/oa/theforest)
 "xj" = (
 /obj/structure/table/standard{
 	name = "plastic table frame"
@@ -7757,6 +7887,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/supply/mining/office)
+"yH" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "yK" = (
 /obj/effect/decal/cleanable/blood/gibs/xeno/body,
 /turf/simulated/floor/stone,
@@ -7984,6 +8118,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel)
+"zH" = (
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves)
 "zI" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/structure/closet/cabinet{
@@ -8104,6 +8242,9 @@
 /obj/item/device/tape/random,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
+"Ad" = (
+/turf/space,
+/area/cadiaoutpost/oa/caves)
 "Ae" = (
 /obj/structure/largecrate,
 /turf/simulated/floor/stone,
@@ -8150,6 +8291,9 @@
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
+"An" = (
+/turf/simulated/wall/wooden,
+/area/cadiaoutpost/oa/theforest)
 "Ap" = (
 /obj/structure/railing,
 /turf/simulated/wall/ancient{
@@ -8271,6 +8415,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/hab/inside)
+"AQ" = (
+/mob/living/simple_animal/hostile/bear/evorasnowbeast,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/theforest)
 "AS" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 1
@@ -8359,16 +8507,6 @@
 /obj/effect/floor_decal/turf/metal/five,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
-"Bn" = (
-/obj/effect/floor_decal/turf/plate,
-/obj/machinery/door/unpowered/inn/berryfarm{
-	req_access = list(211);
-	name = "the cottage"
-	},
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
 "Bo" = (
 /obj/item/campfire/self_lit,
 /turf/simulated/floor/stone,
@@ -8392,8 +8530,17 @@
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/gatehouse)
 "Bw" = (
-/turf/simulated/open,
-/area/cadiaoutpost/oa/caves)
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
+"Bz" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/blood,
+/obj/item/remains/human,
+/obj/random/loot/randomarmor,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "BA" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/toilet{
@@ -8416,6 +8563,12 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/hab/inside)
+"BC" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/random/loot/heavymelee,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/theforest)
 "BE" = (
 /obj/structure/anti_tank,
 /turf/simulated/floor/tiled/stone,
@@ -8504,6 +8657,17 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/enforcer)
+"BY" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/structure/bed/chair/comfy/captain{
+	desc = "Comfy chair for luxury and piloting.";
+	dir = 4;
+	icon_state = "capchair_preview";
+	name = "pilot seat"
+	},
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "Ca" = (
 /obj/machinery/door/unpowered/inn/berryfarm{
 	name = "Mining Hamlet"
@@ -8522,6 +8686,16 @@
 /obj/structure/curtain/open/bed,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/village/pathfinder)
+"Cd" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	icon_state = "rwindow";
+	maxhealth = 4000
+	},
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/machinery/computer,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "Ce" = (
 /obj/effect/decal/dead/two,
 /turf/simulated/floor/stone,
@@ -8578,6 +8752,11 @@
 	icon_state = "dark1"
 	},
 /area/cadiaoutpost/oa/engineering)
+"Cr" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "Cs" = (
 /obj/machinery/door/airlock/glass_engineering{
 	explosion_resistance = 100;
@@ -8669,14 +8848,11 @@
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/village/pathfinder)
 "CO" = (
-/obj/machinery/door/unpowered/inn/berryfarm{
-	name = "wooden loghouse";
-	req_access = list(34)
-	},
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood,
+/mob/living/simple_animal/hostile/greatboar,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "CP" = (
 /obj/random/junk,
 /turf/simulated/floor/dirty/tough/lightless,
@@ -8795,6 +8971,10 @@
 	icon_state = "dark1"
 	},
 /area/cadiaoutpost/oa/engineering)
+"Dh" = (
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "Di" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/grass/brown,
@@ -8822,6 +9002,14 @@
 	icon_state = "dark1"
 	},
 /area/cadiaoutpost/oa/engineering)
+"Do" = (
+/obj/structure/table/steel_reinforced,
+/obj/effect/floor_decal/spline/plain{
+	dir = 4
+	},
+/obj/effect/floor_decal/newcorner/red/solid,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "Dt" = (
 /obj/machinery/button/remote/blast_door/id_scan{
 	id = "warehouseshutter";
@@ -9179,6 +9367,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/supply/mining/office)
+"EP" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/effect/decal/dead,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "EQ" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/decal/cleanable/snow,
@@ -9276,6 +9469,7 @@
 /area/cadiaoutpost/oa/service/hab/inside)
 "Fm" = (
 /obj/random/loot/heavymelee,
+/obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
 "Fn" = (
@@ -9311,8 +9505,8 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
 "Ft" = (
-/mob/living/simple_animal/hostile/scarybat,
-/turf/simulated/floor/tiled/dark,
+/mob/living/simple_animal/hostile/smalldemon/zygote,
+/turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
 "Fu" = (
 /obj/structure/window_frame,
@@ -9385,6 +9579,11 @@
 "FK" = (
 /turf/simulated/floor/dirty/tough/lightless,
 /area/cadiaoutpost/oa/groxpen)
+"FM" = (
+/mob/living/simple_animal/hostile/shafra,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves)
 "FO" = (
 /obj/machinery/light/small{
 	dir = 4;
@@ -9605,6 +9804,13 @@
 /obj/effect/decal/cleanable/snow,
 /turf/simulated/floor/tiled/stone,
 /area/cadiaoutpost/oa/village)
+"GS" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/item/rnd/power3,
+/obj/effect/decal/cleanable/snow,
+/obj/random/loot/randomarmor,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "GU" = (
 /obj/structure/flora/tree/dead,
 /turf/simulated/floor/stone,
@@ -9638,6 +9844,10 @@
 	},
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
+"Hf" = (
+/obj/structure/grille/broken,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "Hg" = (
 /obj/item/trash/raisins,
 /obj/structure/closet/crate/bin,
@@ -9954,6 +10164,17 @@
 "Ih" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
+"Ij" = (
+/obj/effect/decal/cleanable/blood,
+/obj/random/loot/randomitemcaves,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
+"Il" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/effect/decal/cleanable/snow,
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/tiled,
 /area/cadiaoutpost/oa/theforest)
 "Im" = (
 /obj/effect/floor_decal/newcorner/yellow/diagonal,
@@ -10493,6 +10714,13 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel)
+"Kc" = (
+/obj/effect/decal/cleanable/snow,
+/obj/structure/closet/crate/solar,
+/obj/item/stack/thrones2/five,
+/obj/item/stack/thrones3/three,
+/turf/simulated/floor/wood,
+/area/cadiaoutpost/oa/theforest)
 "Ke" = (
 /obj/structure/warfare/barricade/concrete_barrier{
 	dir = 4
@@ -10550,6 +10778,11 @@
 	icon_state = "dark1"
 	},
 /area/cadiaoutpost/oa/engineering)
+"Kt" = (
+/obj/effect/decal/cleanable/snow,
+/obj/structure/disposalpipe/broken,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "Kv" = (
 /obj/structure/warfare/barricade/concrete_barrier{
 	dir = 4
@@ -10664,15 +10897,6 @@
 /obj/effect/decal/cleanable/snow,
 /obj/effect/decal/cleanable/snow,
 /turf/simulated/floor/tiled/stone,
-/area/cadiaoutpost/oa/village)
-"KW" = (
-/obj/item/card/id/key/super/hab{
-	access = list(34);
-	name = "loghouse key";
-	desc = "A key to a bunkhouse at sweetberry farm."
-	},
-/obj/item/pyre/self_lit,
-/turf/simulated/floor/dirty/tough/lightless,
 /area/cadiaoutpost/oa/village)
 "KX" = (
 /obj/effect/floor_decal/newcorner/reinforced,
@@ -10919,6 +11143,14 @@
 	icon_state = "dark1"
 	},
 /area/cadiaoutpost/oa/engineering)
+"LN" = (
+/obj/structure/shuttle/engine/propulsion{
+	color = "grey"
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/theforest)
 "LO" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -11242,6 +11474,10 @@
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
+"Nd" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "Nh" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/simulated/floor/stone,
@@ -11300,6 +11536,14 @@
 /obj/item/trash/warfare_can,
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
+"Nr" = (
+/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/wingrille_spawn/reinforced,
+/turf/simulated/floor/tiled{
+	color = "grey";
+	icon_state = "dark1"
+	},
+/area/cadiaoutpost/oa/theforest)
 "Ns" = (
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
@@ -11343,6 +11587,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
+"NB" = (
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves)
 "NC" = (
 /obj/structure/railing{
 	dir = 4
@@ -11403,7 +11651,10 @@
 /area/cadiaoutpost/oa/bridge/hallway)
 "NI" = (
 /obj/effect/floor_decal/turf/plate,
-/obj/machinery/door/unpowered/inn/berryfarm,
+/obj/machinery/door/unpowered/inn/berryfarm{
+	req_access = list(211);
+	name = "bunkhouse"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -11563,6 +11814,14 @@
 /obj/item/pyre/self_lit,
 /turf/simulated/floor/tiled/stone,
 /area/cadiaoutpost/oa/bridge/hallway)
+"OE" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/simulated/wall/wooden,
+/area/cadiaoutpost/oa/theforest)
+"OF" = (
+/obj/item/campfire,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/theforest)
 "OJ" = (
 /obj/effect/wingrille_spawn/reinforced,
 /obj/effect/wingrille_spawn/reinforced,
@@ -11578,6 +11837,10 @@
 /obj/item/device/flashlight/lamp/green,
 /turf/simulated/floor/carpet/blue2,
 /area/cadiaoutpost/oa/villageinside)
+"OM" = (
+/obj/random/loot/randomitemcaves,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "ON" = (
 /obj/effect/floor_decal/turf/metal/five,
 /obj/structure/railing{
@@ -12398,6 +12661,15 @@
 /obj/structure/toilet,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/village/pathfinder)
+"Sx" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/structure/closet/crate/solar_assembly,
+/obj/random/loot/randomlasammo,
+/obj/random/loot/randomlasammo,
+/obj/item/rnd/eng8,
+/obj/item/gun/energy/taser,
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "Sy" = (
 /obj/effect/floor_decal/turf/brick,
 /turf/simulated/floor/carpet/red,
@@ -12533,6 +12805,11 @@
 /obj/effect/floor_decal/industrial/outline/orange,
 /turf/simulated/floor,
 /area/cadiaoutpost/oa/engineering/engine)
+"SV" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "SW" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/spline/plain{
@@ -13018,6 +13295,10 @@
 /obj/structure/bookcase,
 /turf/simulated/floor/carpet/blue2,
 /area/cadiaoutpost/oa/villageinside)
+"UL" = (
+/obj/structure/flora/grass/both,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "UM" = (
 /obj/machinery/door/unpowered/inn{
 	name = "Hab Block"
@@ -13198,6 +13479,10 @@
 	},
 /turf/simulated/floor/carpet/blue2,
 /area/cadiaoutpost/oa/villageinside)
+"Vv" = (
+/mob/living/simple_animal/hostile/bear/evorasnowbeast,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves)
 "Vy" = (
 /obj/effect/floor_decal/newcorner/red/solid,
 /obj/structure/closet/emcloset,
@@ -13427,6 +13712,17 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
+"WD" = (
+/obj/effect/floor_decal/newcorner/red/solid,
+/obj/structure/bed/chair/comfy/captain{
+	desc = "Comfy chair for luxury and piloting.";
+	dir = 1;
+	icon_state = "capchair_preview";
+	name = "pilot seat"
+	},
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "WF" = (
 /obj/effect/floor_decal/turf/rectangles,
 /obj/structure/sink{
@@ -13716,6 +14012,10 @@
 	integrity = 850
 	},
 /area/cadiaoutpost/oa/villageinside)
+"XA" = (
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/wood,
+/area/cadiaoutpost/oa/theforest)
 "XC" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/storage/box/cups,
@@ -13806,14 +14106,10 @@
 /turf/simulated/floor/exoplanet/water/shallow/lightless,
 /area/cadiaoutpost/oa/engineering)
 "XR" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/structure/torchwall{
-	pixel_y = 16
-	},
-/turf/simulated/floor/stone,
-/area/cadiaoutpost/oa/caves)
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "XS" = (
 /mob/living/simple_animal/hostile/smalldemon/bubblingmass,
 /turf/simulated/floor/stone,
@@ -14026,6 +14322,13 @@
 /obj/random/loot/heavymelee,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
+"YI" = (
+/obj/machinery/door/airlock/hatch/simiel{
+	name = "Bridge";
+	req_access = list()
+	},
+/turf/simulated/floor/tiled,
+/area/cadiaoutpost/oa/theforest)
 "YJ" = (
 /obj/structure/bed/chair{
 	dir = 4
@@ -14139,6 +14442,17 @@
 /obj/structure/catwalkrust/blocked,
 /turf/simulated/floor/exoplanet/water/shallow/lightless,
 /area/cadiaoutpost/oa/village)
+"Zg" = (
+/obj/machinery/button/remote/blast_door/id_scan{
+	id = "warehouseshutter";
+	pixel_x = -5;
+	pixel_y = 0
+	},
+/turf/simulated/shuttle/wall{
+	color = "grey";
+	icon_state = "wall3"
+	},
+/area/cadiaoutpost/oa/theforest)
 "Zh" = (
 /obj/machinery/door/blast/bordergatel/closed{
 	health = 10000;
@@ -14325,6 +14639,12 @@
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
+"ZQ" = (
+/obj/effect/decal/cleanable/blood,
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/item/reagent_containers/food/snacks/meat/grox,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "ZR" = (
 /obj/effect/floor_decal/turf/metal/six,
 /obj/effect/floor_decal/turf/metal/five,
@@ -18315,7 +18635,7 @@ ae
 ae
 ae
 ae
-hI
+ae
 ae
 xE
 xE
@@ -18617,7 +18937,7 @@ ae
 ae
 ae
 ae
-vj
+ae
 ae
 rO
 rO
@@ -18626,7 +18946,7 @@ rO
 ae
 ae
 ae
-hI
+ae
 ae
 ae
 ae
@@ -18875,7 +19195,7 @@ ae
 ae
 ae
 ae
-vj
+ae
 aZ
 rO
 xE
@@ -19130,9 +19450,9 @@ rO
 rO
 rO
 rO
-XR
+yT
 ae
-ae
+Vv
 ae
 rO
 rO
@@ -19387,7 +19707,7 @@ xE
 xE
 xE
 rO
-Bw
+ae
 ae
 ae
 ae
@@ -19905,16 +20225,16 @@ rO
 aC
 ae
 ae
-ae
+nb
+nb
 rO
 rO
 rO
-rO
 xE
 xE
 xE
 xE
-xE
+Ad
 xE
 xE
 xE
@@ -20162,9 +20482,9 @@ rO
 rO
 yT
 rO
-rO
-rO
-rO
+nb
+nb
+nb
 rO
 rO
 rO
@@ -20185,7 +20505,7 @@ ro
 ro
 ro
 ro
-ro
+uc
 Ty
 ro
 ro
@@ -20428,7 +20748,7 @@ ro
 ro
 rO
 rO
-ro
+wJ
 rO
 rO
 rO
@@ -20684,10 +21004,10 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
+wJ
 ro
 ro
 ro
@@ -20941,18 +21261,18 @@ ro
 ro
 ro
 ro
+wJ
+wJ
+wJ
+wJ
 ro
 ro
 ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
+uc
+Dh
 ro
 ro
 ro
@@ -21198,10 +21518,10 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
+wJ
 ro
 ro
 ro
@@ -21209,13 +21529,13 @@ ro
 ro
 NS
 ro
-ro
+Dh
 ro
 ro
 ro
 Ss
 ro
-ro
+OM
 ro
 ro
 ro
@@ -21455,18 +21775,18 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
+wJ
+wJ
 ro
 ro
 ro
 NS
 ro
-ro
-ro
+Ij
+ZQ
 ro
 ZH
 ro
@@ -21715,19 +22035,19 @@ ro
 ro
 ro
 ro
+wJ
+wJ
 ro
 ro
 ro
 ro
 ro
+uc
+ro
+uc
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
+uc
 ro
 ro
 ro
@@ -21972,17 +22292,17 @@ ro
 ro
 ZH
 ro
+wJ
+wJ
+wJ
+Nd
+ro
+Nd
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+Dh
+Dh
 ro
 ZH
 gs
@@ -22142,7 +22462,7 @@ xE
 xE
 ae
 ae
-hI
+ae
 ui
 ae
 ae
@@ -22230,8 +22550,8 @@ ro
 ro
 ro
 ro
-ro
-ro
+wJ
+wJ
 ro
 ro
 ro
@@ -22239,8 +22559,8 @@ ro
 ro
 NS
 ro
-ro
-ro
+Dh
+Dh
 ro
 ro
 ro
@@ -22488,7 +22808,7 @@ ro
 NS
 ro
 ro
-ro
+Nd
 ro
 ZH
 ro
@@ -22716,11 +23036,11 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
+rO
+rO
+rO
+rO
+rO
 xE
 xE
 xE
@@ -22971,16 +23291,16 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
+rO
+rO
+rO
+ro
+ro
+ro
+rO
+rO
+rO
+rO
 xE
 xE
 xE
@@ -23014,8 +23334,8 @@ ro
 ro
 NS
 ro
-ro
-ro
+wJ
+wJ
 ro
 ro
 ro
@@ -23228,16 +23548,16 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
+rO
+ro
+ro
+ro
+jR
+jR
+ro
+ro
+ro
+rO
 xE
 xE
 xE
@@ -23271,9 +23591,9 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
 ro
 ro
 rO
@@ -23485,16 +23805,16 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
+rO
+ro
+UL
+UL
+ss
+Bz
+jC
+ro
+ZH
+rO
 xE
 xE
 rO
@@ -23529,7 +23849,7 @@ ro
 ro
 ro
 ro
-ro
+wJ
 ro
 ro
 wJ
@@ -23742,16 +24062,16 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
+rO
+ro
+UL
+UL
+es
+CO
+Nd
+UL
+ro
+rO
 xE
 rO
 ro
@@ -23781,9 +24101,9 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
 ro
 ro
 ro
@@ -23999,15 +24319,15 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
 rO
-rO
-rO
-rO
+qh
+UL
+tE
+vw
+SV
+Cr
+UL
+Ih
 rO
 rO
 ro
@@ -24037,9 +24357,9 @@ ro
 NS
 Ss
 ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
 ro
 ro
 ro
@@ -24256,14 +24576,14 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
 rO
-ro
-ro
+qh
+qh
+tE
+Dh
+Nd
+ZH
+ZH
 ZH
 ro
 ro
@@ -24294,9 +24614,9 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
 ro
 ro
 ro
@@ -24513,13 +24833,13 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
 rO
 ro
+tE
+tE
+ro
+Ih
+Ih
 ro
 ro
 ro
@@ -24552,7 +24872,7 @@ ro
 ro
 ro
 ro
-ro
+wJ
 ro
 ro
 ro
@@ -24769,12 +25089,7 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
-xE
+rO
 rO
 ro
 ro
@@ -24782,6 +25097,11 @@ ro
 ro
 ro
 ro
+ro
+ro
+ro
+ro
+bR
 ro
 ro
 ro
@@ -25027,12 +25347,12 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
-xE
-xE
 rO
+ro
+ro
+jR
+jR
+ro
 ro
 NS
 NS
@@ -25284,13 +25604,13 @@ xE
 xE
 xE
 xE
-xE
-xE
-xE
 rO
 rO
 rO
 ro
+ro
+ro
+An
 ro
 ro
 ro
@@ -25544,13 +25864,13 @@ xE
 xE
 xE
 rO
-rO
-rO
+An
+An
 ro
 ro
-ro
-ro
-ZH
+jR
+An
+An
 ro
 ro
 ro
@@ -25801,13 +26121,13 @@ rO
 rO
 rO
 rO
+An
+Kc
+XA
 ro
 ro
-ro
-ro
-ro
-ro
-ro
+XR
+An
 ro
 ro
 ro
@@ -26058,9 +26378,9 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
+An
+An
+An
 ro
 ro
 ro
@@ -26320,7 +26640,7 @@ ro
 ro
 ZH
 ro
-ro
+An
 ro
 ro
 ro
@@ -27340,8 +27660,8 @@ ro
 ro
 ro
 ro
-ro
-ro
+Lj
+Lj
 ZH
 ro
 ro
@@ -27596,10 +27916,10 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
+Lj
+Lj
+Lj
+Lj
 ro
 ro
 ro
@@ -27853,14 +28173,14 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+Lj
+Lj
+Lj
+Lj
+Lj
+Lj
+Lj
+Lj
 ro
 ro
 ZH
@@ -28110,14 +28430,14 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+Lj
+Lj
+Lj
+Lj
+Lj
+Lj
+Lj
+Lj
 ro
 ro
 ro
@@ -28367,14 +28687,14 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-NS
-NS
-ZH
-ro
+sL
+Lj
+Lj
+Lj
+Lj
+Lj
+Lj
+Lj
 ro
 ro
 ro
@@ -28624,13 +28944,13 @@ rO
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+dm
+Lj
+Lj
+Lj
+Lj
+Lj
+Lj
 ro
 ro
 ro
@@ -28880,13 +29200,13 @@ xE
 rO
 ro
 ro
+Ih
 ro
 ro
-ro
-ro
-NS
-Ss
-ro
+Lj
+Lj
+Lj
+Lj
 ro
 ro
 ro
@@ -29140,10 +29460,10 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
+Lj
+Lj
+Lj
+Lj
 ro
 ro
 ro
@@ -30460,11 +30780,11 @@ ro
 ro
 ro
 ro
+JB
+An
 ro
-ro
-ro
-ro
-ro
+An
+An
 ro
 ro
 ZH
@@ -30589,7 +30909,7 @@ xE
 xE
 ae
 ae
-hI
+ae
 ae
 ae
 xE
@@ -30716,12 +31036,12 @@ ro
 ro
 ro
 ro
+JB
 ro
-ro
-ro
-ro
-ro
-ro
+An
+JB
+JB
+An
 ro
 ro
 ro
@@ -30972,13 +31292,13 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+An
+OF
+BC
+JB
+JB
+AQ
+An
 ro
 ro
 ro
@@ -31229,12 +31549,12 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
+An
+fC
+qH
+An
+tP
+JB
 ro
 ro
 ro
@@ -31486,11 +31806,11 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
+An
+OE
+fC
+An
+JB
 ro
 ro
 ro
@@ -31744,10 +32064,10 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
+An
+An
+An
+An
 ro
 ro
 ZH
@@ -32004,7 +32324,7 @@ ro
 ro
 ro
 ro
-ro
+An
 ro
 ro
 ro
@@ -52790,7 +53110,7 @@ AV
 bu
 Rn
 KY
-KW
+gg
 NO
 kf
 kf
@@ -53039,14 +53359,14 @@ NO
 NO
 kf
 kf
-Bn
+NI
 bu
 bu
 Jw
 tR
 bu
 bu
-Bn
+NI
 NO
 NO
 NO
@@ -53545,8 +53865,8 @@ oi
 Ns
 Ns
 Ns
-Ns
-GU
+MH
+kf
 rv
 ZW
 ZW
@@ -53620,13 +53940,13 @@ ro
 ro
 ro
 ae
-ae
+Vv
 ae
 av
 ae
 ae
 ae
-xE
+rO
 xE
 xE
 xE
@@ -53813,7 +54133,7 @@ NO
 KY
 KY
 KY
-CO
+NI
 KY
 KY
 KY
@@ -53883,7 +54203,7 @@ rO
 ae
 ae
 ae
-xE
+rO
 xE
 xE
 xE
@@ -54140,7 +54460,7 @@ rO
 rO
 rO
 ae
-xE
+rO
 xE
 xE
 xE
@@ -54397,7 +54717,7 @@ rO
 rO
 rO
 ae
-xE
+rO
 xE
 xE
 xE
@@ -54654,7 +54974,7 @@ rO
 rO
 rO
 rO
-xE
+rO
 xE
 xE
 xE
@@ -54901,7 +55221,7 @@ ro
 ro
 ro
 ro
-ro
+rR
 ro
 ro
 rO
@@ -54911,7 +55231,7 @@ rO
 rO
 rO
 rO
-xE
+rO
 xE
 xE
 xE
@@ -55098,7 +55418,7 @@ NO
 KY
 KY
 KY
-CO
+NI
 KY
 KY
 oL
@@ -55156,7 +55476,7 @@ ro
 ro
 ro
 ro
-NS
+ro
 ro
 ro
 ro
@@ -55168,7 +55488,7 @@ ae
 rO
 rO
 rO
-xE
+rO
 xE
 xE
 xE
@@ -55410,8 +55730,8 @@ ro
 ro
 ro
 ro
-ro
-ro
+wJ
+wJ
 ro
 ZH
 ro
@@ -55421,11 +55741,11 @@ ro
 ae
 ae
 ae
-ae
+Vv
 ae
 rO
 ae
-xE
+rO
 xE
 xE
 xE
@@ -55667,9 +55987,9 @@ ro
 ro
 ro
 Ss
-ro
-ro
-ro
+wJ
+wJ
+wJ
 ro
 ro
 ro
@@ -55682,7 +56002,7 @@ rO
 ae
 ae
 ae
-xE
+rO
 xE
 xE
 xE
@@ -55924,14 +56244,14 @@ ro
 ro
 NS
 ro
+wJ
+wJ
+wJ
 ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
+rO
 rO
 rO
 rO
@@ -55939,7 +56259,7 @@ rO
 rO
 ae
 rO
-xE
+rO
 xE
 xE
 xE
@@ -56180,23 +56500,23 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
 ZH
 ro
 ro
 ro
 ro
-ro
+rO
 rO
 rO
 rO
 rO
 ae
 ae
+ae
 rO
-xE
 xE
 xE
 xE
@@ -56421,15 +56741,10 @@ NS
 ro
 ro
 ro
+Ss
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-NS
 ro
 ro
 ro
@@ -56440,20 +56755,25 @@ ro
 ro
 ro
 ro
-NS
+wJ
+wJ
+wJ
+wJ
 ro
 ro
 ro
 ro
 ro
+ro
+rO
 rO
 rO
 rO
 ae
 ae
 rO
+ae
 rO
-xE
 xE
 xE
 xE
@@ -56679,38 +56999,38 @@ ro
 ro
 ro
 ro
-kB
+ro
+ro
+xh
+ro
+ro
+vj
+LN
 ro
 ro
 ro
 ro
 ro
 ro
+wJ
+wJ
+wJ
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+NS
 ro
 ro
 ZH
 ro
-ro
+rO
 rO
 rO
 ae
 Uj
 rO
+ae
+ae
 rO
-rO
-xE
 xE
 xE
 xE
@@ -56935,39 +57255,39 @@ ro
 ro
 ro
 ro
-NS
+ro
+vj
 ro
 ro
+GS
+vj
+vj
+vj
 ro
 ro
-NS
 ZH
 ro
 ro
-ro
-ZH
-ro
-ro
 NS
 ro
+wJ
+wJ
+wJ
 ro
 ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
-ro
+rO
+rO
 rO
 rO
 ae
 rO
 rO
+ae
 rO
 rO
-xE
 xE
 xE
 xE
@@ -57189,42 +57509,42 @@ Ns
 ro
 ro
 ro
+Hf
+Cd
+cR
+ro
+vj
+Bw
+BY
+Kt
+vj
+EP
+eT
+Sx
 ro
 ro
 ro
 ro
 ro
 ro
+wJ
+wJ
+wJ
 ro
 ro
 ro
 ro
 ro
-ro
-NS
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ae
-ae
-ae
 rO
 rO
 rO
 ae
-xE
+ae
+rO
+rO
+ae
+ae
+rO
 xE
 xE
 xE
@@ -57446,34 +57766,34 @@ Ns
 ro
 ro
 ro
+vj
+Do
+uX
+Bw
+cR
+rz
+yH
+Bw
+sC
+yH
+Bw
+Bw
 ro
-NS
-ro
-ro
-ro
-ro
-ro
-NS
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+vb
 ro
 ro
 ro
 ro
 ro
+wJ
+wJ
 ZH
 ro
 ro
 ro
 ro
-ro
-ro
+rO
+rO
 rO
 ae
 rO
@@ -57481,8 +57801,8 @@ rO
 rO
 av
 ae
-xE
-xE
+rO
+rO
 xE
 xE
 xE
@@ -57702,19 +58022,19 @@ Ns
 un
 ro
 ro
+wJ
+vj
+Do
+vs
+Bw
+YI
+yH
 ro
-ro
-ro
-ro
-sL
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+yH
+sC
+yH
+rz
+cR
 ro
 ro
 ro
@@ -57729,17 +58049,17 @@ ro
 ro
 NS
 ro
-ro
-ro
-ae
+rO
+rO
+rO
 ae
 rO
 rO
 aC
 ae
 ae
-xE
-xE
+rO
+rO
 xE
 xE
 xE
@@ -57929,7 +58249,7 @@ FR
 FR
 kf
 Ns
-un
+Ns
 Ns
 Ns
 Ns
@@ -57959,13 +58279,19 @@ Ns
 Ns
 ro
 ro
-ZH
-ro
-ro
-ro
-ro
-ro
-ro
+wJ
+Nr
+Cd
+WD
+vb
+vj
+yH
+wF
+Bw
+vj
+Bw
+Il
+Il
 ro
 ro
 ro
@@ -57978,16 +58304,10 @@ ro
 ro
 ro
 ro
-NS
 ro
 ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+rO
+rO
 rO
 ae
 rO
@@ -57995,8 +58315,8 @@ rO
 rO
 ae
 ae
-xE
-xE
+rO
+rO
 xE
 xE
 xE
@@ -58180,7 +58500,7 @@ Ns
 Ns
 Ns
 Ns
-un
+Ns
 Ns
 Ns
 Ns
@@ -58216,24 +58536,20 @@ Ns
 Ns
 ro
 ro
+wJ
+wJ
+wJ
+vj
 ro
+vj
+vj
+Zg
+pJ
 ro
-ro
-ro
-ro
-NS
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
-ro
+vj
+vj
+vj
+vj
 ro
 ro
 ro
@@ -58245,6 +58561,10 @@ ro
 ro
 ro
 ro
+ro
+wJ
+wJ
+rO
 rO
 ae
 ae
@@ -58252,8 +58572,8 @@ rO
 rO
 rO
 rO
-xE
-xE
+rO
+rO
 xE
 xE
 xE
@@ -58370,7 +58690,7 @@ xE
 rO
 ae
 ae
-ae
+wE
 ae
 ae
 rO
@@ -58474,17 +58794,17 @@ Ns
 ro
 NS
 ro
+wJ
+wJ
+vj
 ro
 ro
 ro
+vj
+cR
 ro
-ro
-gs
-ro
-ro
-ro
-NS
-ro
+vj
+LN
 ro
 ro
 ro
@@ -58499,9 +58819,9 @@ ro
 ro
 ro
 rO
-ro
-ro
-ro
+wJ
+wJ
+rO
 rO
 rO
 ae
@@ -58731,15 +59051,15 @@ Ns
 ro
 ro
 ro
+wJ
+wJ
+wJ
 ro
 ro
 ro
 ro
 ro
-ro
-ro
-ro
-ro
+vb
 ro
 ro
 ro
@@ -58756,9 +59076,9 @@ ro
 ro
 Ss
 rO
-ro
-ro
-ro
+wJ
+wJ
+rO
 rO
 rO
 rO
@@ -58885,7 +59205,7 @@ xE
 ae
 ae
 ae
-ae
+NB
 ae
 ae
 ae
@@ -58950,7 +59270,7 @@ Ns
 Ns
 Ns
 Ns
-Ns
+un
 Ns
 Ns
 Ns
@@ -58989,8 +59309,8 @@ ro
 ro
 ro
 ro
-ro
-ro
+wJ
+wJ
 gs
 ro
 ro
@@ -59012,9 +59332,9 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
 rO
 rO
 rO
@@ -59141,8 +59461,8 @@ xE
 xE
 ae
 ae
-ae
-ae
+NB
+NB
 ae
 ae
 ae
@@ -59246,6 +59566,9 @@ ro
 NS
 ro
 ro
+wJ
+wJ
+wJ
 ro
 ro
 ro
@@ -59266,12 +59589,9 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
-ZH
-ro
-ro
+wJ
+wJ
+wJ
 rO
 rO
 rO
@@ -59394,26 +59714,26 @@ xE
 xE
 xE
 xE
-hI
+ae
+xE
+ae
+ae
+NB
+ae
+ae
+xE
+xE
+xE
+xE
 xE
 ae
 ae
 ae
-ae
-ae
-xE
-xE
-xE
-xE
-xE
-ae
-ae
-ae
-ae
+NB
 ae
 UW
 UW
-UW
+YO
 UW
 UW
 UW
@@ -59504,7 +59824,7 @@ ro
 ro
 ro
 ro
-ro
+wJ
 ro
 ro
 ro
@@ -59525,9 +59845,9 @@ ro
 ro
 ro
 ro
-ro
-ro
-ro
+wJ
+wJ
+wJ
 rO
 rO
 rO
@@ -59782,8 +60102,8 @@ NS
 ro
 ZH
 ro
-ro
-ro
+wJ
+wJ
 rO
 rO
 xE
@@ -59911,7 +60231,7 @@ xE
 xE
 ae
 ae
-ae
+wE
 ae
 rO
 ae
@@ -60038,8 +60358,8 @@ ro
 ro
 ro
 ro
-ro
-ro
+wJ
+wJ
 rO
 rO
 xE
@@ -60295,7 +60615,7 @@ ro
 ro
 ro
 rO
-ro
+wJ
 rO
 rO
 xE
@@ -60551,7 +60871,7 @@ ro
 ro
 ro
 ro
-ro
+wJ
 rO
 rO
 xE
@@ -62083,8 +62403,8 @@ ro
 ro
 ro
 ro
-ro
-ro
+wJ
+wJ
 rO
 ro
 rO
@@ -62835,7 +63155,7 @@ ae
 Wm
 lm
 ae
-ae
+qt
 rO
 xE
 rO
@@ -62877,7 +63197,7 @@ rO
 rO
 rO
 ae
-ae
+NB
 ae
 rO
 xE
@@ -63135,7 +63455,7 @@ ae
 rO
 ae
 ae
-ae
+wE
 rO
 xE
 xE
@@ -63392,7 +63712,7 @@ ae
 ae
 ae
 ae
-hI
+ae
 ae
 xE
 xE
@@ -63650,7 +63970,7 @@ rO
 ae
 ae
 ae
-ae
+NB
 xE
 xE
 xE
@@ -63904,7 +64224,7 @@ rO
 Uj
 ae
 rO
-ae
+wE
 ae
 Uj
 rO
@@ -64107,7 +64427,7 @@ ae
 ae
 ae
 ae
-ae
+qt
 ae
 Uj
 ae
@@ -65678,7 +65998,7 @@ xE
 Gl
 Yd
 sW
-Ft
+sW
 Gl
 xE
 xE
@@ -66071,7 +66391,7 @@ xE
 xE
 xE
 ae
-ae
+Ft
 ae
 ae
 ye
@@ -66177,7 +66497,7 @@ xE
 xE
 xE
 rO
-hI
+ae
 ae
 ae
 rO
@@ -66588,7 +66908,7 @@ ae
 tZ
 ae
 ae
-ae
+Ft
 LD
 ae
 GB
@@ -68231,7 +68551,7 @@ xE
 rO
 rO
 ae
-ae
+NB
 ae
 rO
 rO
@@ -68530,7 +68850,7 @@ ae
 ae
 ae
 ae
-hI
+ae
 ae
 xE
 xE
@@ -68646,11 +68966,11 @@ xE
 xE
 xE
 xE
+NB
 ae
 ae
 ae
-ae
-ae
+NB
 ae
 ae
 xE
@@ -68902,11 +69222,11 @@ xE
 xE
 xE
 ae
-hI
+ae
 ae
 xE
 ae
-ae
+NB
 ae
 xE
 ae
@@ -69159,7 +69479,7 @@ xE
 xE
 xE
 xE
-ae
+wE
 ae
 xE
 xE
@@ -69257,7 +69577,7 @@ xE
 rO
 rO
 ae
-ae
+NB
 ae
 rO
 rO
@@ -70760,7 +71080,7 @@ ae
 ae
 ae
 ae
-ae
+NB
 ae
 ae
 ae
@@ -70797,7 +71117,7 @@ ae
 ae
 ae
 ae
-ae
+wE
 ae
 xE
 ae
@@ -71013,22 +71333,22 @@ ae
 ae
 ae
 ae
+NB
 ae
-ae
-ae
-ae
-ae
-rO
-rO
+wE
 ae
 ae
 rO
+rO
+ae
+ae
+rO
 ae
 ae
 ae
 ae
 ae
-cY
+xE
 ae
 ae
 ae
@@ -71325,7 +71645,7 @@ rf
 ns
 rf
 rO
-hI
+ae
 ae
 rO
 rO
@@ -71529,7 +71849,7 @@ rO
 ae
 ae
 ae
-ae
+NB
 ae
 ae
 ae
@@ -71570,7 +71890,7 @@ ae
 ab
 ae
 ae
-ae
+NB
 ae
 ae
 xE
@@ -71823,11 +72143,11 @@ ae
 ae
 ae
 ae
+wE
 ae
 ae
-ae
-ae
-ae
+NB
+NB
 ae
 xE
 xE
@@ -72045,7 +72365,7 @@ xE
 xE
 xE
 rO
-hI
+ae
 ae
 ae
 gn
@@ -72335,6 +72655,7 @@ ae
 ae
 ae
 ae
+NB
 ae
 ae
 ae
@@ -72343,7 +72664,6 @@ ae
 ae
 ae
 ae
-hI
 xE
 xE
 xE
@@ -72595,7 +72915,7 @@ ae
 ae
 ae
 ae
-ae
+NB
 ae
 ae
 ae
@@ -72855,7 +73175,7 @@ ae
 ae
 ae
 ae
-ae
+wE
 ae
 ae
 xE
@@ -73378,7 +73698,7 @@ xE
 xE
 ae
 ae
-ae
+NB
 ae
 ae
 rO
@@ -73877,7 +74197,7 @@ rO
 ae
 ae
 ae
-ae
+NB
 ae
 ae
 ae
@@ -74143,7 +74463,7 @@ rO
 ae
 ae
 ae
-ae
+NB
 ae
 ae
 ae
@@ -75935,7 +76255,7 @@ ae
 ae
 av
 ae
-ae
+zH
 ae
 ae
 xE
@@ -76192,7 +76512,7 @@ ae
 ae
 ae
 ae
-ae
+zH
 ae
 ae
 ae
@@ -76440,7 +76760,7 @@ xE
 xE
 xE
 xE
-hI
+ae
 ae
 xE
 xE
@@ -76449,9 +76769,9 @@ ae
 ae
 ae
 Fm
-ae
+cY
 ui
-ae
+zH
 ae
 ae
 xE
@@ -76706,9 +77026,9 @@ xE
 ae
 ae
 ae
-ae
-ae
-ae
+cY
+cY
+cY
 ae
 xE
 xE
@@ -76964,8 +77284,8 @@ xE
 ae
 ae
 ae
-ae
-ae
+cY
+zH
 xE
 xE
 xE
@@ -77222,8 +77542,8 @@ xE
 xE
 ae
 aB
-ae
-ae
+cY
+cY
 xE
 xE
 xE
@@ -77351,41 +77671,10 @@ xE
 xE
 xE
 xE
-hI
 ae
 ae
 ae
 ae
-ae
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-ae
-xE
-xE
-xE
-xE
-ae
-ae
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-ae
-xE
-xE
-xE
 ae
 ae
 xE
@@ -77399,6 +77688,37 @@ xE
 xE
 xE
 xE
+ae
+xE
+xE
+xE
+xE
+ae
+ae
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+ae
+xE
+xE
+xE
+ae
+ae
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
 xE
 xE
 xE
@@ -77480,7 +77800,7 @@ xE
 ae
 ae
 ae
-ae
+cY
 xE
 xE
 xE
@@ -77737,7 +78057,7 @@ xE
 xE
 xE
 ae
-AG
+FM
 xE
 xE
 xE
