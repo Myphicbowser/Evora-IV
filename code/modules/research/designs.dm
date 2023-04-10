@@ -2129,7 +2129,7 @@ CIRCUITS BELOW
 	sort_string = "ZACK"
 
 /datum/design/item/heavystubber
-	name = "Messina Pattern Heavy Stubber"
+	name = "Evora Pattern Heavy Stubber"
 	id = "messinaheavy"
 	req_tech = list(TECH_MATERIAL = 4, TECH_ENGINEERING = 3, TECH_COMBAT = 3)
 	materials = list(DEFAULT_WALL_MATERIAL = 4000, "diamond" = 1400)
@@ -2177,7 +2177,7 @@ CIRCUITS BELOW
 	sort_string = "ZACP"
 
 /datum/design/item/messinastub
-	name = "Messina Pattern Stub Rifle"
+	name = "Evora Pattern Stub Rifle"
 	id = "stubriflemessina"
 	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3, TECH_COMBAT = 3)
 	materials = list(DEFAULT_WALL_MATERIAL = 1600, "diamond" = 1400)
@@ -2185,7 +2185,7 @@ CIRCUITS BELOW
 	sort_string = "ZACQ"
 
 /datum/design/item/autogun/messina
-	name = "Messina Pattern Autogun"
+	name = "Evora Pattern Autogun"
 	id = "autogunmessina"
 	req_tech = list(TECH_MATERIAL = 3, TECH_ENGINEERING = 3, TECH_COMBAT = 4)
 	materials = list(DEFAULT_WALL_MATERIAL = 1600, "diamond" = 1200)
@@ -2241,7 +2241,7 @@ CIRCUITS BELOW
 	sort_string = "ZAAX"
 
 /datum/design/item/revolver/messina
-	name = "Messina Slug Revolver"
+	name = "Evora Slug Revolver"
 	id = "messinarevolver"
 	req_tech = list(TECH_MATERIAL = 2, TECH_ENGINEERING = 2, TECH_COMBAT = 3)
 	materials = list(DEFAULT_WALL_MATERIAL = 600, "diamond" = 600)
@@ -2402,7 +2402,7 @@ CIRCUITS BELOW
 	materials = list(DEFAULT_WALL_MATERIAL = 500, "diamond" = 500, "phoron" = 1000)
 	build_path = /obj/item/grenade/frag/high_yield/krak
 	sort_string = "XBAB"
-	
+
 /datum/design/grenade/krak2
 	name = "Mechanicus Krak Grenade"
 	id = "krak2"

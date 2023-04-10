@@ -353,7 +353,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/governor
 	name = "Planetary Governor's Mantle"
-	desc = "The extra, extra, extra large exotic mantle of the Governor of Eipharius. Custom tailor made for his superb frame. It is interwoven into his flesh and unremovable"
+	desc = "The extra, extra, extra large exotic mantle of the Margrave of Aquileia. Custom tailor made for his superb frame. It is interwoven into his flesh and unremovable"
 	icon_state = "taxstomach"
 	item_state = "taxstomach"
 	allowed = list(/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/cell,/obj/item/gun/energy/las/lasgun)
@@ -365,7 +365,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/governor/mechanicus
 	name = "Planetary Governor's Mantle(M)"
-	desc = "The extra, extra, extra large exotic mantle of the Governor of Eipharius, improved by the Mechanicus. Custom tailor made for his superb frame. It is interwoven into his flesh and unremovable"
+	desc = "The extra, extra, extra large exotic mantle of the Margrave of Aquileia, improved by the Mechanicus. Custom tailor made for his superb frame. It is interwoven into his flesh and unremovable"
 	armor = list(melee = 45, bullet = 55, laser = 55, energy = 35, bomb = 50, bio = 30, rad = 30) //Hidden armoured plates
 
 /obj/item/clothing/suit/armor/rtdrip
@@ -570,7 +570,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/enforcer2// Old enforcer armor for reference.
 	name = "Patrol Armor - Enforcer"
-	desc = "The flak armor worn by a Messina Enforcer. Light and robust in the colour blue, designed to protect against blast and small arms fire."
+	desc = "The flak armor worn by an Aquileian Enforcer. Light and robust in the colour blue, designed to protect against blast and small arms fire."
 	icon_state = "Judge"
 	item_state = "Judge"
 	allowed = list(/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/cell,/obj/item/gun/energy/las/lasgun)
@@ -582,7 +582,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/enforcer
 	name = "Enforcer Patrol Jacket"
-	desc = "The flak jacket worn by a Messina Enforcer. Light and robust in the colour black, designed to protect against blast and small arms fire."
+	desc = "The flak jacket worn by an Aquileian Enforcer. Light and robust in the colour black, designed to protect against blast and small arms fire."
 	icon_state = "enforcercoat"
 	item_state = "enforcercoat"
 	allowed = list(/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/cell,/obj/item/gun/energy/las/lasgun)
@@ -594,13 +594,13 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/enforcer/mechanicus
 	name = "Enforcer Patrol Jacket(M)"
-	desc = "The flak jacket worn by a Messina Enforcer improved by the Mechanicus. Light and robust in the colour black, designed to protect against blast and small arms fire."
+	desc = "The flak jacket worn by an Aquileian Enforcer improved by the Mechanicus. Light and robust in the colour black, designed to protect against blast and small arms fire."
 	armor = list(melee = 46, bullet = 46, laser = 41, energy = 35, bomb = 40, bio = 30, rad = 30)
 	sales_price = 25
 
 /obj/item/clothing/suit/armor/enforcer/marshal
 	name = "Marshal's Patrol Jacket"
-	desc = "The flak jacket worn by a Messina Enforcer. Light and robust in the colour black, designed to protect against blast and small arms fire."
+	desc = "The flak jacket worn by an Aquileian Enforcer. Light and robust in the colour black, designed to protect against blast and small arms fire."
 	icon_state = "enforcercoat"
 	item_state = "enforcercoat"
 	allowed = list(/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/cell,/obj/item/gun/energy/las/lasgun)
@@ -612,7 +612,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/enforcer/marshal/mechanicus
 	name = "Marshal's Patrol Jacket(M)"
-	desc = "The flak jacket worn by a Messina Enforcer improved by the Mechanicus. Light and robust in the colour black, designed to protect against blast and small arms fire."
+	desc = "The flak jacket worn by an Aquileian Enforcer improved by the Mechanicus. Light and robust in the colour black, designed to protect against blast and small arms fire."
 	armor = list(melee = 51, bullet = 53, laser = 50, energy = 35, bomb = 50, bio = 40, rad = 40)
 	sales_price = 35
 
@@ -631,13 +631,13 @@ obj/item/clothing/suit/armor
 */
 /obj/item/clothing/suit/armor/enforcer/newenforcer
 	name = "knightly jacket"
-	desc = "The flak jacket worn by a Messina Enforcer. Light and robust in the colour black, designed to protect against blast and small arms fire."
+	desc = "The flak jacket worn by an Aquileian Enforcer. Light and robust in the colour black, designed to protect against blast and small arms fire."
 	icon_state = "enforcer"
 	item_state = "enforcer"
 
 /obj/item/clothing/suit/armor/marshal
 	name = "Carapace Patrol Jacket"
-	desc = "The carapace patrol jacket worn by a Messina Marshal. Light and robust in the colour black, designed to protect against direct blasts and small arms fire."
+	desc = "The carapace patrol jacket worn by an Evoran Marshal. Light and robust in the colour black, designed to protect against direct blasts and small arms fire."
 	icon_state = "towntrench_heavy"
 	item_state = "towntrench_heavy"
 	allowed = list(/obj/item/ammo_magazine,/obj/item/ammo_casing,/obj/item/cell,/obj/item/gun/energy/las/lasgun)
@@ -1168,7 +1168,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/sisterofbattle/training
 	name = "Novice Power Armor"
-	desc = "The Ancient and Deconsecrated Power Armour adorned by Novice Militants during their training in Eipharius' Monastarium. Stripped of almost all iconography and with damaged plating, and has scriptures across it's surface speaking of The Beatie and her crusade across the Sabbat worlds."
+	desc = "The Ancient and Deconsecrated Power Armour adorned by Novice Militants in Aquileia. Stripped of almost all iconography and with damaged plating, and has scriptures across it's surface speaking of The Beata and her crusade across the Sabbat worlds. They will earn the armor of a greater sister through glorious battle."
 	icon_state = "ooml"
 	item_state = "ooml"
 	armor = list(melee = 54, bullet = 60, laser = 60, energy = 50, bomb = 60, bio = 80, rad = 70)
@@ -1189,7 +1189,7 @@ obj/item/clothing/suit/armor
 	icon = 'icons/obj/clothing/suits.dmi'
 	icon_state = "ooml"
 	item_state = "ooml"
-	armor = list(melee = 80, bullet = 80, laser = 80, energy = 10, bomb = 10, bio = 100, rad = 100) //people were getting it and just being a second SOB. so shit stats
+	armor = list(melee = 30, bullet = 30, laser = 30, energy = 10, bomb = 10, bio = 100, rad = 100) //people were getting it and just being a second SOB. so shit stats
 	sales_price = 140
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
 	cold_protection = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
@@ -1269,7 +1269,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/trinet
 	name = "Iron Cuirass"
-	desc = "An iron-alloy breastplate forged by local hands, it's craftsmanship is questionable but the exotic alloy is remarkbly unique to Eipharius."
+	desc = "An iron-alloy breastplate forged by local hands, it's craftsmanship is questionable but the exotic alloy is remarkbly unique to Evora."
 	icon_state = "trinet"
 	item_state = "trinet"
 	armor = list(melee = 56, bullet = 34, laser = 38, energy = 25, bomb = 30, bio = 30, rad = 30)
@@ -1283,7 +1283,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/breastplate
 	name = "Iron Breastplate"
-	desc = "An iron-alloy breastplate forged by local hands, it's craftsmanship is questionable but the exotic alloy is remarkbly unique to Eipharius."
+	desc = "An iron-alloy breastplate forged by local hands, it's craftsmanship is questionable but the exotic alloy is remarkbly unique to Evora."
 	icon_state = "bmerc2"
 	item_state = "bmerc2"
 	armor = list(melee = 47, bullet = 32, laser = 36, energy = 25, bomb = 10, bio = 10, rad = 10)
@@ -1309,7 +1309,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/iplate
 	name = "Heavy Plate Cuirass"
-	desc = "An iron-alloy heavy plate cuirass forged by local hands, it's craftsmanship is remarkable and benefits from the exotic alloy unique to Eipharius."
+	desc = "An iron-alloy heavy plate cuirass forged by local hands, it's craftsmanship is remarkable and benefits from the exotic alloy unique to Evora."
 	icon_state = "iplate"
 	item_state = "iplate"
 	armor = list(melee = 68, bullet = 42, laser = 44, energy = 25, bomb = 40, bio = 40, rad = 40)
@@ -1323,7 +1323,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/templar
 	name = "Full Plate Armor"
-	desc = "An iron-alloy heavy plate cuirass forged by local hands, it's craftsmanship is remarkable and benefits from the exotic alloy unique to Eipharius."
+	desc = "An iron-alloy heavy plate cuirass forged by local hands, it's craftsmanship is remarkable and benefits from the exotic alloy unique to Evora."
 	icon_state = "templar"
 	item_state = "templar"
 	armor = list(melee = 68, bullet = 42, laser = 44, energy = 25, bomb = 40, bio = 40, rad = 40)
@@ -1337,7 +1337,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/knighthosp
 	name = "Frateris Plate"
-	desc = "An iron-alloy heavy plate cuirass forged by local hands, it's craftsmanship is remarkable and benefits from the exotic alloy unique to Eipharius."
+	desc = "An iron-alloy heavy plate cuirass forged by local hands, it's craftsmanship is remarkable and benefits from the exotic alloy unique to Evora."
 	icon_state = "knight_hospitaller"
 	item_state = "knight_hospitaller"
 	armor = list(melee = 68, bullet = 42, laser = 44, energy = 25, bomb = 40, bio = 40, rad = 40)
@@ -1379,7 +1379,7 @@ obj/item/clothing/suit/armor
 
 /obj/item/clothing/suit/armor/armoredtrench
 	name = "Armored Trenchcoat"
-	desc = "A heavy armored trenchcoat with carapace plates inserted into the front and back. Attached also are iron-alloy chausses and pauldrons, a true masterwork of Eipharius."
+	desc = "A heavy armored trenchcoat with carapace plates inserted into the front and back. Attached also are iron-alloy chausses and pauldrons, a true masterwork of Evora."
 	icon_state = "towntrench_heavy"
 	item_state = "towntrench_heavy"
 	armor = list(melee = 56, bullet = 58, laser = 56, energy = 25, bomb = 40, bio = 50, rad = 40)

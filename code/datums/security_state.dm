@@ -193,7 +193,7 @@
 	overlay_alarm = "alarm_green"
 	overlay_status_display = "status_display_green"
 
-	down_description = "All threats to the station have passed. Security may not have weapons visible, privacy laws are once again fully enforced."
+	down_description = "All threats to the city have passed. The Planetary Defense Force should return to their normal stations and citizens should return to their normal duties."
 
 /decl/security_level/default/code_blue
 	name = "code blue"
@@ -206,8 +206,8 @@
 	overlay_alarm = "alarm_blue"
 	overlay_status_display = "status_display_blue"
 
-	up_description = "The station has received reliable information about possible hostile activity on the station. Security staff may have weapons visible, random searches are permitted."
-	down_description = "The immediate threat has passed. Security may no longer have weapons drawn at all times, but may continue to have them visible. Random searches are still allowed."
+	up_description = "There is an active security situation within the city. Cooperate with any and all instruction from Planetary Enforcers or you may be fired upon."
+	down_description = "The immediate threat has passed. Citizens and Enforcers should return to their normal duties."
 
 /decl/security_level/default/code_red
 	name = "code red"
@@ -220,8 +220,7 @@
 	overlay_alarm = "alarm_red"
 	overlay_status_display = "status_display_red"
 
-	up_description = "There is an immediate serious threat to the station. Security may have weapons unholstered at all times. Random searches are allowed and advised."
-	down_description = "The self-destruct mechanism has been deactivated, there is still however an immediate serious threat to the station. Security may have weapons unholstered at all times, random searches are allowed and advised."
+	up_description = "The city is now in a state of emergency. The Enforcers and Planetary Defense Force members no longer have restricted jurisdiction. Cooperate with orders or you may be fired upon."
 
 /decl/security_level/default/code_delta
 	name = "code delta"

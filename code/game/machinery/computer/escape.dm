@@ -69,7 +69,7 @@
 			to_chat(usr, "We are already leaving, Lord!")
 			return
 		else
-			to_world("<span class='warning'><font size='4'>The foul taste of psyker magicks fills your mouth. Over a loud speaker you hear the call for evacuation. In ten minutes the ships will depart for the Messina Spaceport!</span></font>")
+			to_world("<span class='warning'><font size='4'>The foul taste of psyker magicks fills your mouth. Over a loud speaker you hear the call for evacuation. In ten minutes the ships will depart for the Aquilea Spaceport!</span></font>")
 			leaving()
 			sleep(3000)
 			to_world("<span class='warning'><font size='4'>Only five minutes remain, the first hints of a crackling portal are beginning to form at the escape platform!</span></font>")
