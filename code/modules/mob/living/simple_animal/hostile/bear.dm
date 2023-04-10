@@ -130,20 +130,95 @@
 		L.adjustBruteLoss(damage)
 		return L
 
+/mob/living/simple_animal/hostile/bear/evorasnowbeast
+	name = "snow beast"
+	desc = "A hulking creature native to the woodlands of Evora IV. It stinks like rotting animal fat."
+	icon = 'icons/mob/64x64.dmi'
+	icon_state = "snowbear"
+	icon_dead = "snowbeardead"
+	maxHealth = 200
+	health = 200
+	melee_damage_lower = 30
+	melee_damage_upper = 33
+	see_in_dark = 6
+	wander = 1
+	pixel_x = -16
+	attacktext = "mauls"
+	meat_amount = 3
+
+
+/mob/living/simple_animal/hostile/snowcat
+	name = "Evoran snowcat"
+	desc = "not for petting"
+	icon = 'icons/mob/64x64.dmi'
+	icon_state = "bigcat"
+	icon_living = "bigcat"
+	icon_dead = "bigcat_dead"
+	speak = list("RAWR!","Rawr!","GRR!","Growl!")
+	speak_emote = list("growls", "roars")
+	emote_hear = list("rawrs","grumbles","grawls")
+	emote_see = list("stares ferociously", "stomps")
+	speak_chance = 1
+	turns_per_move = 5
+	see_in_dark = 6
+	wander = 1
+	attacktext = "scratches"
+	stop_automated_movement_when_pulled = 0
+	maxHealth = 140
+	health = 140
+	melee_damage_lower = 25
+	melee_damage_upper = 35
+	pixel_x = -16
+	meat_amount = 2
 
 
 
+/mob/living/simple_animal/hostile/greatboar
+	name = "Evoran Snowboar"
+	desc = "A massive, squeeling beast with tusks large enough to impale a man. It has seen many battles and will fight many more. A fantastic mark for any hunter."
+	icon = 'icons/mob/64x64.dmi'
+	icon_state = "greatboar"
+	icon_living = "greatboar"
+	icon_dead = "greatboar_dead"
+	speak = list("SUEEEEEEEEEEE!","GRR!","Growl!")
+	speak_emote = list("growls", "squeals")
+	emote_hear = list("squeals","grumbles","grawls")
+	emote_see = list("stares ferociously", "stomps")
+	speak_chance = 1
+	turns_per_move = 5
+	see_in_dark = 6
+	wander = 1
+	attacktext = "gores"
+	stop_automated_movement_when_pulled = 0
+	maxHealth = 300
+	health = 300
+	melee_damage_lower = 35
+	melee_damage_upper = 50
+	meat_amount = 5
 
 
-
-
-
-
-
-
-
-
-
+/mob/living/simple_animal/hostile/greytusk
+	name = "Evoran Greytusk"
+	desc = "A wild animal native to Evora IV. It is incredibly muscular. It looks like a cross between a gorilla, a boar, and an elephant."
+	icon = 'icons/mob/animal.dmi'
+	icon_state = "brute"
+	icon_living = "brute_dead"
+	icon_dead = "brownbear_dead"
+	icon_gib = "brownbear_gib"
+	speak = list("RAWR!","Rawr!","GRR!","Growl!")
+	speak_emote = list("growls", "roars")
+	emote_hear = list("rawrs","grumbles","grawls")
+	emote_see = list("stares ferociously", "stomps")
+	speak_chance = 1
+	turns_per_move = 5
+	see_in_dark = 6
+	wander = 1
+	stop_automated_movement_when_pulled = 0
+	maxHealth = 170
+	health = 170
+	melee_damage_lower = 20
+	melee_damage_upper = 25
+	meat_amount = 1
 
 
 

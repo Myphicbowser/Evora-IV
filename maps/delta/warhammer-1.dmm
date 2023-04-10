@@ -261,7 +261,7 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "bZ" = (
-/obj/effect/landmark/animal/zygote1,
+/mob/living/simple_animal/hostile/smalldemon/tzantz,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -364,6 +364,15 @@
 	integrity = 3500
 	},
 /area/cadiaoutpost/oa/service/chapel/chapeldorm)
+"cZ" = (
+/obj/structure/torchwall{
+	pixel_y = 30
+	},
+/mob/living/simple_animal/hostile/voxslug,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/caves/undercity)
 "dc" = (
 /obj/effect/floor_decal/turf/tunnelchess,
 /obj/effect/decal/cleanable/blood/gibs/limb,
@@ -744,10 +753,11 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "gj" = (
-/obj/item/archaeological_find/remains/xeno{
+/obj/effect/floor_decal/turf/plate,
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
+/turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/turf/simulated/floor/tiled,
 /area/cadiaoutpost/oa/caves/undercity)
 "gm" = (
 /obj/effect/floor_decal/turf/plate,
@@ -1216,6 +1226,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel/chapeldorm)
+"kl" = (
+/obj/structure/closet/crate/miningcrate,
+/turf/unsimulated/miningtime,
+/area/cadiaoutpost/oa/caves/undercity)
 "km" = (
 /obj/structure/bed{
 	desc = "A mass produced sleeping mat, now with actual cloth!";
@@ -1281,8 +1295,10 @@
 /area/cadiaoutpost/oa/caves/dark)
 "kQ" = (
 /obj/structure/catwalkrust/blocked,
-/turf/unsimulated/miningtime,
-/area/cadiaoutpost/oa/caves/undercity)
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/space)
 "kR" = (
 /obj/structure/closet/crate{
 	color = "grey"
@@ -1774,6 +1790,11 @@
 /obj/effect/cleanable/heretic_rune/khorne,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/dark)
+"pw" = (
+/obj/effect/floor_decal/turf/plating,
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves/undercity)
 "pB" = (
 /obj/machinery/status_display{
 	color = "grey";
@@ -1921,10 +1942,8 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "qx" = (
-/mob/living/simple_animal/hostile/scarybat,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
+/mob/living/simple_animal/hostile/smalldemon/tzantz,
+/turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
 "qz" = (
 /obj/machinery/reagentgrinder,
@@ -1986,7 +2005,7 @@
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/armory)
 "qY" = (
-/mob/living/simple_animal/hostile/smalldemon/zygote,
+/mob/living/simple_animal/hostile/voxslug,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2076,10 +2095,7 @@
 	},
 /area/cadiaoutpost/oa/service/chapel)
 "rD" = (
-/obj/structure/torchwall{
-	dir = 8;
-	icon_state = "torchwall0"
-	},
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2875,8 +2891,11 @@
 /turf/simulated/floor,
 /area/cadiaoutpost/oa/caves/undercity)
 "zh" = (
-/obj/structure/closet/cabinet,
-/turf/simulated/floor/stone,
+/obj/effect/floor_decal/turf/plating,
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
 /area/cadiaoutpost/oa/caves/undercity)
 "zl" = (
 /obj/effect/floor_decal/turf/plate,
@@ -3220,6 +3239,12 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/security/armory)
+"CO" = (
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/caves/undercity)
 "CZ" = (
 /obj/structure/bed{
 	desc = "A mass produced sleeping mat, now with actual cloth!";
@@ -3429,6 +3454,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
+"EN" = (
+/obj/effect/floor_decal/turf/plate,
+/mob/living/simple_animal/hostile/smalldemon/tzantz,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/caves/undercity)
 "EO" = (
 /obj/effect/water/bottom,
 /obj/effect/water/top,
@@ -3546,7 +3578,7 @@
 	},
 /area/cadiaoutpost/oa/security/armory)
 "FK" = (
-/mob/living/simple_animal/hostile/scarybat,
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
 "FM" = (
@@ -3730,7 +3762,7 @@
 	dir = 8;
 	icon_state = "torchwall0"
 	},
-/mob/living/simple_animal/hostile/fire_roach,
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -3923,6 +3955,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel/armory)
+"Kb" = (
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
+/turf/unsimulated/mineral,
+/area/cadiaoutpost/oa/caves/undercity)
 "Kc" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -4652,11 +4688,7 @@
 	},
 /area/cadiaoutpost/oa/security/armory)
 "Qz" = (
-/obj/item/clothing/under/rank/medical/scrubs/purple,
-/obj/item/clothing/under/rank/medical/scrubs/green,
-/obj/item/clothing/under/rank/nursesuit,
-/obj/item/clothing/under/rank/nurse,
-/obj/item/clothing/under/ert,
+/obj/random/loot/randomitemcaves,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -4959,6 +4991,13 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
+"Tj" = (
+/obj/effect/water/bottom,
+/obj/effect/water/top,
+/obj/effect/decal/cleanable/poo,
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves/undercity)
 "Tm" = (
 /obj/item/paper/crumpled/bloody{
 	desc = "This document seems to be a list of names, purchases and dates for varying amounts of contraband. On the last page of the book is a list of official looking titles and numbers attached to each name ascribed to weekly deliveries.";
@@ -5159,10 +5198,11 @@
 /turf/simulated/wall/concrete/strong/chapel,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Vq" = (
-/obj/effect/water/bottom,
-/obj/effect/water/top,
-/mob/living/simple_animal/hostile/retaliate/roach/hunter,
-/turf/simulated/floor/exoplanet/water/shallow/lightless,
+/obj/effect/floor_decal/turf/splate,
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
+	},
 /area/cadiaoutpost/oa/caves/undercity)
 "Vr" = (
 /obj/effect/decal/cleanable/dirt{
@@ -5232,7 +5272,6 @@
 /area/cadiaoutpost/oa/service/chapel/chapeldorm)
 "Wr" = (
 /obj/effect/decal/cleanable/blood/gibs/body,
-/mob/living/simple_animal/hostile/scarybat,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
 "Ws" = (
@@ -5362,10 +5401,8 @@
 /turf/unsimulated/wall/cult,
 /area/cadiaoutpost/oa/caves/dark)
 "XE" = (
-/mob/living/simple_animal/hostile/fire_roach,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
+/obj/structure/catwalkrust/blocked,
+/turf/space,
 /area/cadiaoutpost/oa/caves/undercity)
 "XF" = (
 /obj/effect/floor_decal/turf/tunneldirty,
@@ -5568,6 +5605,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/security/barracks)
+"ZU" = (
+/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
+/turf/unsimulated/miningtime,
+/area/cadiaoutpost/oa/caves/undercity)
 "ZV" = (
 /obj/structure/table/rack/dark,
 /obj/item/stack/barbwire,
@@ -28598,7 +28639,7 @@ qL
 Dx
 Qz
 Wt
-Dx
+qY
 aS
 PI
 PI
@@ -28847,13 +28888,13 @@ PI
 PI
 aS
 DX
-hS
-qY
+gj
+Dx
 QP
 aS
 xy
 qD
-Dx
+rD
 Dx
 Dx
 aS
@@ -29110,9 +29151,9 @@ hS
 YV
 Dx
 wR
-XE
+Dx
 Wt
-yC
+Dx
 aS
 PI
 PI
@@ -29360,7 +29401,7 @@ PI
 PI
 PI
 gg
-hS
+EN
 Dj
 Nq
 TG
@@ -29369,7 +29410,7 @@ yE
 Dx
 Dx
 Dx
-Dx
+rD
 aS
 PI
 PI
@@ -29624,9 +29665,9 @@ hS
 aS
 Dx
 Dx
-yC
 Dx
-XE
+Dx
+Dx
 aS
 PI
 PI
@@ -34771,8 +34812,8 @@ ME
 ME
 ME
 aS
-fS
-fS
+kl
+ZU
 wg
 wg
 wg
@@ -35028,14 +35069,14 @@ ME
 ME
 ME
 aS
+kl
 fS
-fS
-zh
+wg
 wg
 WZ
 wg
+qx
 wg
-FK
 wg
 wg
 PI
@@ -35274,7 +35315,7 @@ SI
 aS
 xy
 Dx
-Dx
+qY
 Ub
 aS
 gv
@@ -35287,14 +35328,14 @@ ME
 mq
 mq
 mq
-wg
+FK
 wg
 wg
 wg
 wg
 it
 FK
-FK
+wg
 PI
 PI
 PI
@@ -35536,7 +35577,7 @@ Ub
 gg
 VT
 QO
-gj
+RU
 aS
 un
 AT
@@ -35545,11 +35586,11 @@ mq
 OE
 GA
 wg
-wg
-wg
+qx
 wg
 FK
-FK
+wg
+wg
 Wr
 wg
 PI
@@ -36061,7 +36102,7 @@ PZ
 WY
 hj
 hj
-wg
+qx
 gg
 PI
 PI
@@ -36317,7 +36358,7 @@ AL
 hj
 GA
 hj
-hj
+pw
 wg
 gg
 PI
@@ -38632,7 +38673,7 @@ gg
 mq
 BI
 Dx
-Dx
+rD
 Dx
 mq
 Dx
@@ -38893,7 +38934,7 @@ Dx
 Dx
 mq
 Dx
-Dx
+rD
 Dx
 Kf
 mq
@@ -39145,7 +39186,7 @@ PA
 lS
 Zt
 Zt
-Zt
+Kb
 Dx
 Dx
 mq
@@ -39404,10 +39445,10 @@ mq
 Zt
 Dx
 Dx
-Dx
+rD
 mq
 WS
-rD
+Dx
 FM
 CZ
 mq
@@ -40176,7 +40217,7 @@ Dx
 Dx
 mq
 Dx
-Dx
+rD
 Dx
 tt
 mq
@@ -40947,7 +40988,7 @@ Dx
 lt
 mq
 Sl
-Dx
+bZ
 Dx
 zc
 mq
@@ -41711,7 +41752,7 @@ ME
 ME
 ME
 ME
-kQ
+XE
 ME
 mq
 Dx
@@ -42224,8 +42265,8 @@ Wy
 ME
 ME
 ME
-kQ
-kQ
+XE
+fS
 fS
 aS
 aS
@@ -42481,7 +42522,7 @@ aS
 od
 AT
 AT
-od
+zh
 aS
 aS
 aS
@@ -42993,7 +43034,7 @@ PI
 PI
 aS
 Dx
-Dx
+bZ
 AT
 Dx
 cn
@@ -43250,7 +43291,7 @@ PI
 PI
 aS
 aS
-Dx
+rD
 AT
 Ub
 cn
@@ -43509,7 +43550,7 @@ PI
 aS
 Ub
 dC
-Ub
+CO
 cn
 cn
 AT
@@ -43768,7 +43809,7 @@ wJ
 dC
 No
 lS
-gE
+Vq
 AT
 AT
 gE
@@ -44538,7 +44579,7 @@ aS
 Dx
 dC
 Dx
-qx
+Dx
 AT
 AT
 AT
@@ -44792,7 +44833,7 @@ PI
 PI
 aS
 aS
-qx
+Dx
 dC
 Dx
 AT
@@ -45565,7 +45606,7 @@ gg
 aS
 wJ
 dC
-qx
+Dx
 aS
 aS
 Qf
@@ -46082,7 +46123,7 @@ od
 Ub
 gg
 ps
-Ub
+CO
 WX
 aS
 PI
@@ -47343,7 +47384,7 @@ PI
 PI
 aS
 Dx
-Vq
+dC
 Dx
 gg
 PI
@@ -47599,7 +47640,7 @@ PI
 PI
 PI
 aS
-XE
+Dx
 dC
 Dx
 gg
@@ -47856,7 +47897,7 @@ PI
 PI
 PI
 aS
-wJ
+cZ
 dC
 Dx
 gg
@@ -49658,7 +49699,7 @@ aS
 AT
 Dx
 Dx
-Dx
+rD
 Dx
 Dx
 dm
@@ -50430,10 +50471,10 @@ hn
 AT
 AT
 Dx
-Dx
+rD
 Dx
 dm
-eB
+Tj
 dm
 Jd
 PI
@@ -50926,7 +50967,7 @@ PI
 Dx
 Dx
 Dx
-Dx
+rD
 Dx
 Dx
 Dx
@@ -51438,7 +51479,7 @@ PI
 PI
 PI
 Dx
-Dx
+rD
 gg
 aS
 aS

@@ -74,7 +74,7 @@ Pilgrim Fate System
 		return
 
 	var/mob/living/carbon/human/U = src
-	var/fates = list("Mercenary","Penitent","Rat Catcher","Drug Dealer")
+	var/fates = list("Penitent","Rat Catcher","Drug Dealer")
 
 
 	var/classchoice = input("Choose your fate", "Available fates") as anything in fates
@@ -164,7 +164,7 @@ Pilgrim Fate System
 		return
 
 	var/mob/living/carbon/human/U = src
-	var/fates = list("Merchant","Miner","Private Investigator", "Musician", "Hunter", "Mercenary", "Farmhand")
+	var/fates = list("Merchant","Miner","Private Investigator", "Musician", "Hunter", "Farmhand")
 
 
 	var/classchoice = input("Choose your fate", "Available fates") as anything in fates
