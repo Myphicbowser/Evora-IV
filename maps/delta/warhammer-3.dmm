@@ -511,12 +511,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
-"bd" = (
-/turf/simulated/shuttle/wall{
-	color = "grey";
-	icon_state = "wall3"
-	},
-/area/cadiaoutpost/oa/service/enforcer)
 "be" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/machinery/light{
@@ -2147,30 +2141,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/research)
-"eL" = (
-/obj/item/clothing/accessory/holster/waist,
-/obj/item/stack/thrones{
-	amount = 10
-	},
-/obj/item/clothing/suit/greatcoat{
-	desc = "A heavy great coat. Provides no armor, yet is very stylish."
-	},
-/obj/item/stack/thrones2{
-	amount = 10
-	},
-/obj/random/loot/goodweapon,
-/obj/item/stack/thrones3{
-	amount = 20
-	},
-/obj/structure/closet/secure_closet{
-	req_access = list(2);
-	name = "Marshall's locker"
-	},
-/obj/item/ammo_box/shotgun,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/enforcer)
 "eM" = (
 /obj/machinery/door/airlock/glass_research{
 	color = null;
@@ -2614,16 +2584,6 @@
 /area/cadiaoutpost/oa/engineering)
 "fK" = (
 /obj/item/storage/box/bodybags,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/enforcer)
-"fL" = (
-/obj/machinery/door/unpowered/inn/magistratum{
-	maxhealth = 900;
-	name = "Arbites Office";
-	req_access = list(3)
-	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3697,18 +3657,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/inn)
-"ml" = (
-/obj/structure/table/steel,
-/obj/item/material/ashtray/bronze,
-/obj/random/smokes,
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/item/stack/thrones2/twenty,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/enforcer)
 "mo" = (
 /obj/item/instrument/guitar,
 /obj/structure/table/woodentable{
@@ -5531,15 +5479,6 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
-"yu" = (
-/obj/structure/sign/art/lordgovenor{
-	pixel_y = 30
-	},
-/turf/simulated/shuttle/wall{
-	color = "grey";
-	icon_state = "wall3"
-	},
-/area/cadiaoutpost/oa/service/enforcer)
 "yK" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /obj/structure/table/woodentable{
@@ -6035,16 +5974,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/vault)
-"Cr" = (
-/obj/structure/table/steel,
-/obj/item/card/id/key/grand/inq{
-	access = list(3)
-	},
-/obj/item/clothing/accessory/holster,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/enforcer)
 "Ct" = (
 /obj/effect/floor_decal/industrial/warning_red/corner,
 /obj/effect/floor_decal/newcorner/red/diagonal,
@@ -7510,19 +7439,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel)
-"MT" = (
-/obj/structure/window_frame{
-	color = "grey"
-	},
-/obj/structure/curtain/black,
-/obj/structure/grille{
-	color = "grey";
-	health = 50
-	},
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/enforcer)
 "MV" = (
 /obj/machinery/light{
 	dir = 1;
@@ -7582,16 +7498,6 @@
 	maxhealth = 700
 	},
 /turf/simulated/floor/wood{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/enforcer)
-"Nr" = (
-/obj/structure/bed/chair/wood{
-	dir = 1;
-	icon_state = "wooden_chair_preview"
-	},
-/obj/effect/landmark/start/inqmagi/arbitrator,
-/turf/simulated/floor/tiled{
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/enforcer)
@@ -7782,12 +7688,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
-"OP" = (
-/obj/structure/bed/chair/office/dark,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/enforcer)
 "OX" = (
 /obj/effect/floor_decal/newcorner/purple/diagonal,
 /obj/effect/floor_decal/industrial/warning{
@@ -39483,13 +39383,13 @@ kS
 gv
 Nq
 Cd
-bd
-bd
-bd
-bd
-yu
-bd
-bd
+gw
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
 MQ
 MQ
 MQ
@@ -39740,13 +39640,13 @@ Mb
 gv
 gv
 AS
-bd
-Km
-dn
-dn
-dn
-dn
-bd
+gw
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
 MQ
 MQ
 MQ
@@ -39997,13 +39897,13 @@ dY
 gv
 gv
 gv
-bd
-dn
-Bj
-Cr
-dn
-eL
-bd
+gw
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
 MQ
 MQ
 MQ
@@ -40254,13 +40154,13 @@ gv
 gv
 gv
 gv
-fL
-OP
-mF
-Nr
-dn
-dn
-bd
+gw
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
 MQ
 MQ
 MQ
@@ -40511,13 +40411,13 @@ gv
 gv
 gv
 JC
-bd
-dn
-ml
-dn
-dn
-KM
-bd
+gw
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
 MQ
 MQ
 MQ
@@ -40768,13 +40668,13 @@ Uc
 cJ
 cJ
 Yg
-bd
-bd
-MT
-MT
-MT
-bd
-bd
+gw
+MQ
+MQ
+MQ
+MQ
+MQ
+MQ
 MQ
 MQ
 MQ

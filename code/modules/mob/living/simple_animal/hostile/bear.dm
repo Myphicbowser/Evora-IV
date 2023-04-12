@@ -135,7 +135,7 @@
 	desc = "A hulking creature native to the woodlands of Evora IV. It stinks like rotting animal fat."
 	icon = 'icons/mob/64x64.dmi'
 	icon_state = "snowbear"
-	icon_dead = "snowbeardead"
+	icon_dead = "snowbear_dead"
 	maxHealth = 200
 	health = 200
 	melee_damage_lower = 30
@@ -202,9 +202,9 @@
 	desc = "A wild animal native to Evora IV. It is incredibly muscular. It looks like a cross between a gorilla, a boar, and an elephant."
 	icon = 'icons/mob/animal.dmi'
 	icon_state = "brute"
-	icon_living = "brute_dead"
-	icon_dead = "brownbear_dead"
-	icon_gib = "brownbear_gib"
+	icon_living = "brute"
+	icon_dead = "brute"
+	icon_dead = "brute_dead"
 	speak = list("RAWR!","Rawr!","GRR!","Growl!")
 	speak_emote = list("growls", "roars")
 	emote_hear = list("rawrs","grumbles","grawls")
@@ -219,13 +219,3 @@
 	melee_damage_lower = 20
 	melee_damage_upper = 25
 	meat_amount = 1
-
-
-
-
-
-
-
-
-
-
