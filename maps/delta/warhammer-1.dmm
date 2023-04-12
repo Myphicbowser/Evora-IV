@@ -9,6 +9,13 @@
 	dir = 4;
 	icon_state = "torchwall0"
 	},
+/obj/structure/table/rack/shelf,
+/obj/item/device/cassette/church1,
+/obj/item/device/cassette/church2,
+/obj/item/device/cassette/church3{
+	pixel_y = -10
+	},
+/obj/item/device/boombox,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -27,10 +34,8 @@
 /area/cadiaoutpost/oa/security/armory)
 "ae" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 8;
-	icon_state = "spline_fancy"
-	},
+/obj/structure/table/woodentable,
+/obj/item/melee/whip/censer,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -304,9 +309,9 @@
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "cA" = (
 /obj/effect/floor_decal/turf/brick/two,
-/obj/structure/torchwall/service{
-	dir = 8;
-	icon_state = "torchwall0"
+/obj/structure/cult/talisman,
+/obj/item/rosarius/broken{
+	name = "Rosarius of the Saint"
 	},
 /turf/simulated/floor/tiled{
 	color = "grey"
@@ -516,15 +521,24 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
-"es" = (
-/obj/structure/table/woodentable{
-	color = "#36261B"
+"er" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10;
+	icon_state = "spline_fancy"
 	},
+/obj/item/pyre/self_lit,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
+"es" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable,
 /obj/item/book/manual{
 	desc = "The Emperor once walked among men, but He is, and always has been, a god. The Emperor is the one true god, regardless of what past faiths any human may have worshipped. To purge the heretic, beware the psyker and mutant, and abhor the alien. Every human being has a place within the Emperor's divine order. To unquestionably obey the authority of the Imperial government and one's superiors.";
 	name = "Lectitio Divinitatus"
 	},
-/obj/effect/floor_decal/turf/brick,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -670,15 +684,20 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/security/armory)
+"fE" = (
+/obj/structure/table/rack/shelf,
+/obj/item/storage/firstaid/surgery,
+/obj/item/toothpuller,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/armory)
 "fS" = (
 /turf/unsimulated/miningtime,
 /area/cadiaoutpost/oa/caves/undercity)
 "fT" = (
-/obj/effect/floor_decal/turf/brick,
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 10;
-	icon_state = "spline_fancy"
-	},
+/obj/effect/floor_decal/turf/brick/two,
+/obj/structure/warfare/barricade/concrete_barrier,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -734,7 +753,6 @@
 	},
 /area/cadiaoutpost/oa/service/chapel/armory)
 "gf" = (
-/obj/structure/table/rack/dark,
 /obj/item/clothing/suit/armor/templar,
 /obj/item/clothing/suit/armor/knighthosp,
 /obj/effect/floor_decal/turf/brick/two,
@@ -743,6 +761,7 @@
 /obj/item/clothing/head/helmet/hauberk,
 /obj/item/clothing/head/helmet/hauberk,
 /obj/item/clothing/head/helmet/hauberk,
+/obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -901,6 +920,9 @@
 	dir = 8;
 	icon_state = "torchwall0"
 	},
+/obj/item/melee/sword/broadsword,
+/obj/item/melee/sword/broadsword,
+/obj/item/melee/sword/broadsword,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/armory)
 "hh" = (
@@ -1166,9 +1188,8 @@
 /turf/simulated/floor/dirty/indestructable/mud,
 /area/cadiaoutpost/oa/caves/undercity)
 "jR" = (
-/obj/structure/cult/tome{
-	desc = "A desk covered in manuscripts and tomes in high gothic."
-	},
+/obj/structure/table/rack/shelf,
+/obj/item/stack/barbwire,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1193,6 +1214,26 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel)
+"kd" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1;
+	icon_state = "spline_fancy"
+	},
+/obj/structure/closet/crate{
+	desc = "A solid wooden chest.";
+	name = "chest"
+	},
+/obj/item/ammo_magazine/bolt_rifle_magazine/sister,
+/obj/item/ammo_magazine/bolt_rifle_magazine/sister,
+/obj/item/ammo_magazine/bolt_pistol_magazine,
+/obj/item/ammo_magazine/bolt_pistol_magazine,
+/obj/item/ammo_magazine/bolt_pistol_magazine,
+/obj/item/ammo_magazine/bolt_pistol_magazine,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "ke" = (
 /turf/simulated/wall/ancient{
 	color = null
@@ -1328,8 +1369,16 @@
 /turf/simulated/floor/dirty/indestructable,
 /area/cadiaoutpost/oa/caves/dark)
 "lr" = (
-/obj/structure/sign/art/blindfolds,
-/turf/simulated/wall/concrete/strong/chapel,
+/obj/structure/torchwall/service{
+	dir = 8;
+	icon_state = "torchwall0"
+	},
+/obj/effect/landmark/start{
+	name = "Interrogator"
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
 /area/cadiaoutpost/oa/service/chapel/armory)
 "lt" = (
 /obj/random/loot/heavymelee,
@@ -1548,14 +1597,22 @@
 	},
 /area/cadiaoutpost/oa/security/armory)
 "no" = (
-/obj/structure/table/rack/dark,
-/obj/item/clothing/suit/ministorumrobes,
-/obj/item/clothing/suit/ministorumrobes,
-/obj/item/clothing/suit/ministorumrobes,
 /obj/effect/floor_decal/turf/brick/two,
-/turf/simulated/floor/tiled{
-	color = "grey"
+/obj/structure/statue/tomb{
+	pixel_y = 22
 	},
+/obj/item/remains/human{
+	pixel_y = 8;
+	pixel_x = 18
+	},
+/obj/item/remains/human{
+	pixel_x = -4;
+	pixel_y = -3
+	},
+/obj/item/remains/human{
+	pixel_x = 13
+	},
+/turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/service/chapel/vault)
 "np" = (
 /obj/effect/floor_decal/turf/metal/two,
@@ -1605,6 +1662,17 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/magistratumpost)
+"nV" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "nX" = (
 /obj/structure/grille{
 	color = "grey"
@@ -1732,18 +1800,12 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "oN" = (
-/obj/structure/table/rack/dark,
-/obj/item/melee/whip/censer,
-/obj/effect/floor_decal/turf/brick/two,
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box,
-/obj/item/storage/fancy/candle_box,
+/obj/item/device/assembly/mousetrap/armed,
+/obj/item/reagent_containers/food/snacks/cheesewedge,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/chapel/vault)
+/area/cadiaoutpost/oa/service/chapel)
 "oQ" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/turf/carpetn00,
@@ -1828,11 +1890,10 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
 "pO" = (
-/obj/structure/cult/talisman,
-/obj/item/ammo_magazine/bolt_pistol_magazine,
-/obj/item/ammo_magazine/bolt_pistol_magazine,
-/obj/item/ammo_magazine/bolt_pistol_magazine,
-/obj/item/ammo_magazine/bolt_pistol_magazine,
+/obj/structure/table/rack/shelf,
+/obj/structure/table/rack/shelf,
+/obj/item/handcuffs,
+/obj/item/handcuffs,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1863,24 +1924,10 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "qa" = (
-/obj/structure/closet/crate,
-/obj/structure/window/reinforced{
-	color = "grey"
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
 	},
-/obj/structure/window/reinforced{
-	color = "grey";
-	dir = 1
-	},
-/obj/machinery/door/window/eastright{
-	color = "grey";
-	name = "Sanctified Monastary Glass";
-	req_access = list(333)
-	},
-/obj/effect/floor_decal/turf/brick/two,
-/obj/item/clothing/suit/sisterofbattle/sobrelic{
-	anchored = 1
-	},
-/obj/item/rosarius/broken,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2053,21 +2100,14 @@
 	},
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "rp" = (
-/obj/structure/table/rack/dark,
 /obj/effect/floor_decal/turf/brick/two,
-/obj/item/device/cassette/church2{
-	pixel_y = 10
+/obj/item/remains/human{
+	pixel_x = 8
 	},
-/obj/item/device/cassette/church3{
-	pixel_y = -2
+/obj/item/remains{
+	pixel_y = 9
 	},
-/obj/item/device/cassette/church1{
-	pixel_y = -7
-	},
-/obj/item/device/boombox,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
+/turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/service/chapel/vault)
 "rr" = (
 /obj/structure/sewers/pipeflow,
@@ -2076,14 +2116,14 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "rw" = (
-/obj/structure/cult/tome{
-	desc = "A desk covered in manuscripts and tomes in high gothic."
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 10
 	},
-/obj/item/melee/sword/broadsword,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/chapel/armory)
+/area/cadiaoutpost/oa/service/chapel/vault)
 "ry" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/structure/torchwall/service{
@@ -2118,8 +2158,7 @@
 	},
 /area/cadiaoutpost/oa/service/chapel/chapeldorm)
 "sb" = (
-/obj/structure/cult/talisman,
-/obj/item/ammo_magazine/bolt_rifle_magazine/sister,
+/obj/structure/statue/cage,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2137,10 +2176,20 @@
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "sd" = (
-/obj/structure/statue/cage,
-/obj/effect/floor_decal/turf/nf2,
-/turf/simulated/floor/stone,
-/area/cadiaoutpost/oa/magistratumpost)
+/obj/effect/floor_decal/turf/brick/two,
+/obj/structure/warfare/barricade/concrete_barrier,
+/obj/item/remains{
+	pixel_y = 29;
+	pixel_x = 31
+	},
+/obj/item/remains/human{
+	pixel_x = 13;
+	pixel_y = 27
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "sf" = (
 /obj/effect/floor_decal/newcorner/plating{
 	dir = 4
@@ -2236,8 +2285,9 @@
 	},
 /area/cadiaoutpost/oa/security/barracks)
 "td" = (
-/obj/item/pyre/self_lit,
 /obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable,
+/obj/item/staff/ministorumstaff,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2278,13 +2328,11 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "ts" = (
-/obj/structure/table/rack/dark,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
 /obj/effect/floor_decal/turf/brick/two,
+/obj/structure/table/rack/shelf,
+/obj/item/clothing/suit/ministorumrobes,
+/obj/item/clothing/suit/ministorumrobes,
+/obj/item/clothing/suit/ministorumrobes,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2543,12 +2591,12 @@
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "vn" = (
-/obj/structure/table/rack/dark,
 /obj/item/clothing/suit/storage/sistersuit,
 /obj/item/clothing/suit/storage/sistersuit,
 /obj/item/clothing/head/hospitallerhelm,
 /obj/item/clothing/head/hospitallerhelm,
 /obj/effect/floor_decal/turf/brick/two,
+/obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2652,14 +2700,16 @@
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/chapel)
 "wx" = (
-/obj/structure/table/rack/dark,
-/obj/item/staff/ministorumstaff{
-	armor = list("melee"=30,"bullet"=30,"laser"=30,"energy"=0,"bomb"=0,"bio"=0,"rad"=0);
-	body_parts_covered = 1656;
-	force = 20;
-	name = "staff of messina"
-	},
 /obj/effect/floor_decal/turf/brick/two,
+/obj/structure/torchwall/service{
+	dir = 4;
+	icon_state = "torchwall0"
+	},
+/obj/structure/cult/talisman,
+/obj/item/clothing/head/helmet/sisterofbattle/repentia{
+	name = "Cowl of the Saint";
+	pixel_x = 1
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2686,6 +2736,15 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
+"wQ" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "wR" = (
 /obj/item/archaeological_find/remains/xeno{
 	color = "grey"
@@ -2697,8 +2756,21 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "wS" = (
-/turf/unsimulated/mineral,
-/area/cadiaoutpost/oa/service/chapel)
+/obj/effect/floor_decal/turf/brick/two,
+/obj/structure/cult/talisman,
+/obj/item/clothing/suit/sisterofbattle/repentia{
+	name = "Garb of the Saint";
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/item/remains{
+	pixel_y = 9;
+	pixel_x = 34
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "xd" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled{
@@ -2810,11 +2882,8 @@
 	},
 /area/cadiaoutpost/oa/service/chapel)
 "ye" = (
-/obj/item/gun/projectile/bolter_pistol/sisterofbattle,
-/obj/structure/cult/talisman,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
+/obj/structure/sign/inkvd/two,
+/turf/simulated/wall/concrete/strong/chapel,
 /area/cadiaoutpost/oa/service/chapel/armory)
 "yh" = (
 /turf/simulated/mineral/random,
@@ -2870,6 +2939,17 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
+"yP" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9;
+	icon_state = "spline_fancy"
+	},
+/obj/item/pyre/self_lit,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "zc" = (
 /obj/structure/table/steel_reinforced,
 /obj/item/reagent_containers/pill/methylphenidate,
@@ -2970,6 +3050,17 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/magistratumpost)
+"zW" = (
+/obj/effect/floor_decal/turf/brick/two,
+/obj/structure/cult/talisman,
+/obj/item/clothing/shoes/jackboots/sisterofbattle/repentia{
+	name = "Sandals of the Saint";
+	pixel_y = 5
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "zX" = (
 /obj/effect/decal/dead,
 /obj/random/loot/badweapon,
@@ -3310,12 +3401,14 @@
 /turf/simulated/floor/dirty/indestructable/lightless,
 /area/cadiaoutpost/oa/caves/undercity)
 "DC" = (
-/obj/structure/cult/talisman,
-/obj/item/melee/baton,
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 9
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/service/chapel/armory)
+/area/cadiaoutpost/oa/service/chapel/vault)
 "DD" = (
 /obj/structure/bed{
 	desc = "A mass produced sleeping mat, now with actual cloth!";
@@ -3666,10 +3759,10 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "Gs" = (
-/obj/structure/table/rack/dark,
 /obj/item/clothing/suit/sisterofbattle/training,
 /obj/effect/floor_decal/turf/brick/two,
 /obj/item/clothing/suit/sisterofbattle/training,
+/obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3832,9 +3925,22 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "IY" = (
-/obj/effect/floor_decal/turf/brick,
-/obj/item/reagent_containers/spray/cleaner,
-/turf/simulated/floor/stone/chapel,
+/obj/flamer_fire{
+	burnlevel = 33;
+	firelevel = 1.#INF
+	},
+/obj/effect/floor_decal/turf/metal/five,
+/obj/structure/window_frame{
+	color = "grey";
+	desc = "Once, a Novice Cantus came to me, troubled and uncertain. A slip of a girl, only a few strides down the eternal path leading her to the Golden Throne. She asked me a question. She asked me how we can ever truly understand what faith is. I told her that there is no coin to measure what we feel in our hearts. There are no scales upon which we might weigh the faith of one woman against another. There is only duty and blood. There are only deeds and words. There is only the service to the God-Emperor, and the price that demands from each Sister can only be known by Him. But know that whatever fears must be faced, whatever hardships endured, that price is forever worth its full cost.";
+	health = 16000;
+	maxhealth = 16000;
+	name = "Eternal Brazier of Saint Katherine"
+	},
+/turf/simulated/floor/tiled{
+	color = "grey";
+	icon_state = "white1"
+	},
 /area/cadiaoutpost/oa/service/chapel/armory)
 "Jd" = (
 /turf/simulated/wall/rust{
@@ -3917,6 +4023,15 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel/armory)
+"JJ" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 6
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "JL" = (
 /obj/effect/decal/cleanable/blood,
 /obj/effect/floor_decal/turf/plating,
@@ -3948,13 +4063,23 @@
 	},
 /area/cadiaoutpost/oa/security/barracks)
 "JV" = (
-/obj/structure/cult/talisman,
-/obj/item/ammo_magazine/bolt_rifle_magazine/sister,
-/obj/item/ammo_magazine/bolt_rifle_magazine/sister,
-/turf/simulated/floor/tiled{
-	color = "grey"
+/obj/flamer_fire{
+	burnlevel = 33;
+	firelevel = 1.#INF
 	},
-/area/cadiaoutpost/oa/service/chapel/armory)
+/obj/effect/floor_decal/turf/metal/five,
+/obj/structure/window_frame{
+	color = "grey";
+	desc = "Once, a Novice Cantus came to me, troubled and uncertain. A slip of a girl, only a few strides down the eternal path leading her to the Golden Throne. She asked me a question. She asked me how we can ever truly understand what faith is. I told her that there is no coin to measure what we feel in our hearts. There are no scales upon which we might weigh the faith of one woman against another. There is only duty and blood. There are only deeds and words. There is only the service to the God-Emperor, and the price that demands from each Sister can only be known by Him. But know that whatever fears must be faced, whatever hardships endured, that price is forever worth its full cost.";
+	health = 16000;
+	maxhealth = 16000;
+	name = "Eternal Brazier of Saint Katherine"
+	},
+/turf/simulated/floor/tiled{
+	color = "grey";
+	icon_state = "white1"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "Kb" = (
 /mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
 /turf/unsimulated/mineral,
@@ -3965,6 +4090,7 @@
 	dir = 6;
 	icon_state = "spline_fancy"
 	},
+/obj/item/pyre/self_lit,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -4125,8 +4251,7 @@
 "Lu" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1;
-	icon_state = "spline_fancy"
+	dir = 5
 	},
 /turf/simulated/floor/tiled{
 	color = "grey"
@@ -4142,6 +4267,15 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/security/armory)
+"LC" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 4
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "LO" = (
 /obj/structure/bed/chair/wood,
 /obj/effect/floor_decal/turf/nf2,
@@ -4155,29 +4289,9 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "LT" = (
-/obj/structure/closet/crate,
-/obj/structure/window/reinforced{
-	color = "grey"
-	},
-/obj/structure/window/reinforced{
-	color = "grey";
-	dir = 1
-	},
-/obj/machinery/door/window/eastleft{
-	color = "grey";
-	name = "Sanctified Monastary Glass";
-	req_access = list(333)
-	},
 /obj/effect/floor_decal/turf/brick/two,
-/obj/item/clothing/suit/sisterofbattle/repentia,
-/obj/item/clothing/shoes/jackboots/sisterofbattle/repentia,
-/obj/item/clothing/head/helmet/sisterofbattle/repentia,
-/obj/item/melee/chain/mercycs{
-	color = "#808080";
-	name = "Order of Our Martyred Lady's Primeval Chainsword";
-	force_wielded = 85;
-	desc = "The Sacred chainsword of the chosen Repentia. Women whom are not Repentia and wield this should be punished."
-	},
+/obj/structure/warfare/barricade/concrete_barrier,
+/obj/structure/sign/aquilalong,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -4202,7 +4316,7 @@
 "Mk" = (
 /obj/effect/floor_decal/turf/plate,
 /obj/machinery/door/airlock/highsecurity/imperiumdoor{
-	name = "Imperialis Doorway - Storage";
+	name = "Imperialis Doorway - Penance Chamber";
 	req_access = list(213)
 	},
 /turf/simulated/floor/tiled{
@@ -4499,10 +4613,13 @@
 /turf/unsimulated/miningtime,
 /area/cadiaoutpost/oa/caves/dark)
 "Pz" = (
-/obj/structure/sign/art/blindfolds{
-	pixel_y = 32
+/obj/effect/floor_decal/turf/brick,
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
 	},
-/turf/simulated/wall/concrete/strong/chapel,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
 /area/cadiaoutpost/oa/service/chapel/vault)
 "PA" = (
 /obj/effect/floor_decal/turf/plating,
@@ -4530,18 +4647,6 @@
 "PK" = (
 /obj/structure/closet/crate{
 	name = "RESTRICTED"
-	},
-/obj/structure/window/reinforced{
-	color = "grey"
-	},
-/obj/structure/window/reinforced{
-	color = "grey";
-	dir = 1
-	},
-/obj/machinery/door/window/eastright{
-	color = "grey";
-	name = "Sanctified Monastary Glass";
-	req_access = list(333)
 	},
 /obj/effect/floor_decal/turf/brick/two,
 /obj/item/device/cassette/heresy1,
@@ -4743,28 +4848,8 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "QR" = (
-/obj/structure/closet/crate,
-/obj/structure/window/reinforced{
-	color = "grey"
-	},
-/obj/structure/window/reinforced{
-	color = "grey";
-	dir = 1
-	},
-/obj/item/card/id/key/grand/monastary{
-	access = list(213,211)
-	},
-/obj/item/card/id/key/grand/monastary{
-	access = list(213,211)
-	},
-/obj/machinery/door/window/eastleft{
-	color = "grey";
-	name = "Sanctified Monastary Glass";
-	req_access = list(333)
-	},
 /obj/effect/floor_decal/turf/brick/two,
-/obj/item/card/id/key/grand/monastary/inner,
-/obj/item/card/id/key/grand/monastary/inner,
+/obj/effect/floor_decal/plaque,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -4925,6 +5010,7 @@
 	dir = 5;
 	icon_state = "spline_fancy"
 	},
+/obj/item/pyre/self_lit,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -5010,6 +5096,25 @@
 "Tn" = (
 /turf/simulated/wall/concrete/strong/chapel,
 /area/cadiaoutpost/oa/service/chapel)
+"Tq" = (
+/obj/effect/floor_decal/turf/brick/two,
+/obj/structure/torchwall/service{
+	dir = 8;
+	icon_state = "torchwall0"
+	},
+/obj/structure/table/rack/shelf,
+/obj/item/card/id/key/grand/monastary/inner,
+/obj/item/card/id/key/grand/monastary/inner,
+/obj/item/card/id/key/grand/monastary{
+	access = list(213,211)
+	},
+/obj/item/card/id/key/grand/monastary{
+	access = list(213,211)
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/vault)
 "Tr" = (
 /obj/effect/floor_decal/turf/basalt3,
 /obj/effect/floor_decal/turf/basalt1,
@@ -5126,7 +5231,6 @@
 	},
 /area/cadiaoutpost/oa/security/armory)
 "UD" = (
-/obj/structure/statue/cage,
 /obj/effect/floor_decal/turf/nf2,
 /obj/item/remains/human,
 /turf/simulated/floor/stone,
@@ -5187,8 +5291,14 @@
 "Vg" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 9;
+	dir = 1;
 	icon_state = "spline_fancy"
+	},
+/obj/item/gun/projectile/bolter_pistol/sisterofbattle,
+/obj/item/gun/projectile/bolter_pistol/sisterofbattle,
+/obj/structure/closet/crate{
+	desc = "A solid wooden chest.";
+	name = "chest"
 	},
 /turf/simulated/floor/tiled{
 	color = "grey"
@@ -5239,6 +5349,12 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/security/barracks)
+"VO" = (
+/obj/structure/bed/chair/cage,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/armory)
 "VT" = (
 /obj/structure/closet/crate/solar,
 /obj/random/loot/randomsupply,
@@ -10572,8 +10688,8 @@ PI
 PI
 PI
 PI
-PI
-PI
+SI
+SI
 SI
 SI
 SI
@@ -10828,7 +10944,7 @@ PI
 PI
 PI
 PI
-PI
+SI
 iD
 iD
 iD
@@ -11083,8 +11199,8 @@ PI
 PI
 PI
 PI
-PI
-PI
+SI
+SI
 iD
 iD
 iD
@@ -11340,7 +11456,7 @@ PI
 PI
 PI
 PI
-PI
+SI
 iD
 iD
 qZ
@@ -11597,7 +11713,7 @@ PI
 PI
 PI
 PI
-PI
+SI
 iD
 sl
 qZ
@@ -11854,7 +11970,7 @@ PI
 PI
 PI
 PI
-PI
+SI
 iD
 sl
 sl
@@ -12111,7 +12227,7 @@ PI
 PI
 PI
 PI
-PI
+SI
 iD
 qZ
 sl
@@ -12367,8 +12483,8 @@ PI
 PI
 PI
 PI
-PI
-PI
+SI
+SI
 iD
 qZ
 sl
@@ -12624,7 +12740,7 @@ PI
 PI
 PI
 PI
-PI
+SI
 iD
 iD
 sl
@@ -15192,9 +15308,9 @@ PI
 PI
 PI
 PI
-PI
-PI
-PI
+SI
+SI
+SI
 SI
 iD
 iD
@@ -15449,8 +15565,8 @@ PI
 PI
 PI
 PI
-PI
-PI
+SI
+SI
 Px
 Px
 Px
@@ -15706,8 +15822,8 @@ PI
 PI
 PI
 PI
-PI
-PI
+SI
+SI
 Px
 mc
 mc
@@ -15963,8 +16079,8 @@ PI
 PI
 PI
 PI
-PI
-PI
+SI
+SI
 Px
 mc
 mc
@@ -16220,8 +16336,8 @@ PI
 PI
 PI
 PI
-PI
-PI
+SI
+SI
 Px
 mc
 mc
@@ -16477,8 +16593,8 @@ PI
 PI
 PI
 PI
-PI
-PI
+SI
+SI
 Px
 Px
 Px
@@ -16486,15 +16602,15 @@ Px
 Px
 Px
 Px
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
+SI
+SI
+SI
+SI
+SI
+SI
+SI
+SI
+SI
 PI
 PI
 PI
@@ -16735,15 +16851,15 @@ PI
 PI
 PI
 PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
+SI
+SI
+SI
+SI
+SI
+SI
+SI
+SI
+SI
 PI
 PI
 PI
@@ -18831,17 +18947,17 @@ PI
 PI
 PI
 PI
-SI
-SI
-SI
-SI
-SI
-SI
-SI
-SI
-SI
-SI
-SI
+PI
+PI
+PI
+PI
+PI
+PI
+PI
+PI
+PI
+PI
+PI
 PI
 PI
 PI
@@ -19087,19 +19203,19 @@ PI
 PI
 PI
 PI
+PI
 SI
 SI
-io
-io
-Pz
-io
-io
-io
-Pz
-io
-io
 SI
 SI
+SI
+SI
+SI
+SI
+SI
+SI
+PI
+PI
 PI
 PI
 PI
@@ -19345,17 +19461,17 @@ PI
 PI
 PI
 SI
+SI
 io
 io
-LT
-dI
-QR
-dI
-qa
-dI
-PK
 io
 io
+io
+io
+io
+io
+io
+SI
 SI
 PI
 PI
@@ -19600,18 +19716,18 @@ PI
 PI
 PI
 PI
-PI
+SI
 SI
 io
-ab
+io
+LT
 dI
 dI
 dI
 dI
 dI
-dI
-dI
-ab
+PK
+io
 io
 SI
 PI
@@ -19857,18 +19973,18 @@ PI
 PI
 PI
 PI
-PI
+SI
 SI
 io
 wx
+fT
+QR
+DC
+qa
+rw
+QR
 dI
-dI
-dI
-dI
-dI
-dI
-dI
-ts
+ab
 io
 SI
 PI
@@ -20114,18 +20230,18 @@ PI
 PI
 PI
 PI
-PI
 SI
 io
-no
+JV
+wS
+LT
+yP
+Pz
+nV
+wQ
+er
 dI
-Vg
-ae
-ae
-ae
-fT
-dI
-Gs
+ts
 io
 SI
 PI
@@ -20371,18 +20487,18 @@ PI
 PI
 PI
 PI
-PI
+SI
 SI
 io
-rp
-dI
-Lu
-td
-es
-td
+no
+sd
+Vg
+ff
+ae
+ff
 Ur
 dI
-gf
+Gs
 io
 SI
 PI
@@ -20628,18 +20744,18 @@ PI
 PI
 PI
 PI
-PI
+SI
 SI
 io
-oN
-dI
-SE
-EA
+rp
+fT
+kd
 ff
-Pr
-Kc
+es
+ff
+Ur
 dI
-vn
+gf
 io
 SI
 PI
@@ -20885,18 +21001,18 @@ PI
 PI
 PI
 PI
-PI
 SI
 io
-cA
+JV
+zW
+LT
+SE
+EA
+td
+Pr
+Kc
 dI
-dI
-Lu
-ff
-Ur
-dI
-dI
-cA
+vn
 io
 SI
 PI
@@ -21145,15 +21261,15 @@ PI
 PI
 SI
 io
-io
-dI
-dI
+cA
+fT
+QR
 Lu
-ff
-Ur
+LC
+JJ
+QR
 dI
-dI
-io
+Tq
 io
 SI
 PI
@@ -21401,17 +21517,17 @@ PI
 PI
 PI
 SI
-SI
 io
 io
+LT
+dI
+dI
+dI
+dI
+dI
+dI
 io
 io
-DJ
-io
-io
-io
-io
-SI
 SI
 PI
 PI
@@ -21657,17 +21773,17 @@ PI
 PI
 PI
 PI
-PI
 SI
 SI
-SI
-Zq
-Zq
-Ac
-Ac
-Zq
-SI
-SI
+io
+io
+io
+io
+DJ
+io
+io
+io
+io
 SI
 SI
 SI
@@ -21910,7 +22026,6 @@ rk
 rk
 aM
 Vi
-PI
 Zq
 Zq
 Zq
@@ -21920,6 +22035,7 @@ Zq
 Zq
 Zq
 Zq
+Ac
 Ac
 Ac
 Zq
@@ -22167,25 +22283,25 @@ rk
 rk
 Bl
 Vi
-PI
 Zq
+hK
 hK
 gD
 hK
 hK
 hK
 gD
-hK
 Zq
+Ac
 Ac
 Ac
 Zq
 sb
+Pm
 JH
 Pm
-JV
+Pm
 JH
-ye
 Zq
 SI
 PI
@@ -22424,25 +22540,25 @@ rk
 rk
 QM
 Vi
-PI
 Zq
+FZ
 hK
 QK
 PF
 qV
 vL
 hT
-FZ
 Zq
 Ac
+IY
 aR
-Zq
+ye
+Pm
+Pm
+Pm
+Pm
+Pm
 jR
-Pm
-Pm
-rw
-Pm
-Pm
 Zq
 SI
 PI
@@ -22681,9 +22797,8 @@ rk
 rk
 mj
 Vi
-PI
 Zq
-IY
+hK
 hK
 hK
 hK
@@ -22692,11 +22807,12 @@ hK
 hK
 Zq
 Ac
+IY
 Ac
 Mk
 Pm
 Pm
-Pm
+VO
 Pm
 Pm
 pO
@@ -22938,25 +23054,25 @@ rk
 rk
 jC
 Vi
-PI
 Zq
+ol
 hK
 MW
 nq
 Fj
 PF
 UU
-ol
 Zq
 Ac
+IY
 aR
-Zq
-DC
+ye
 Pm
 Pm
-sb
 Pm
 Pm
+Pm
+fE
 Zq
 SI
 PI
@@ -23195,7 +23311,6 @@ rk
 rk
 of
 Vi
-PI
 Zq
 hK
 hK
@@ -23207,13 +23322,14 @@ hK
 Zq
 Ac
 Ac
+Ac
 Zq
-jR
+sb
+Pm
 gd
 Pm
-rw
 gd
-ye
+lr
 Zq
 SI
 PI
@@ -23452,16 +23568,16 @@ rk
 rk
 Wv
 Vi
-PI
 Zq
+hK
 he
 iA
 hK
 hK
-hK
-Po
 KW
+Po
 Zq
+Ac
 Ac
 Ac
 Zq
@@ -23709,7 +23825,7 @@ Vi
 Vi
 Vi
 Vi
-Tn
+Zq
 Zq
 Zq
 Zq
@@ -23718,9 +23834,9 @@ Xf
 Zq
 Zq
 Zq
-lr
+Zq
 ii
-lr
+Zq
 Zq
 Ej
 ux
@@ -25010,7 +25126,7 @@ Tn
 nZ
 kB
 kB
-kB
+oN
 Tn
 Tn
 Tn
@@ -27309,7 +27425,7 @@ yB
 Lq
 Tn
 Tn
-wS
+Tn
 Tn
 Of
 Tn
@@ -35542,7 +35658,7 @@ PI
 PI
 PI
 aX
-sd
+wf
 ob
 TN
 ob

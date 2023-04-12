@@ -5,8 +5,8 @@
 
 /obj/structure/cult/talisman
 	name = "Altar"
-	desc = "A bloodstained altar dedicated to Nar-Sie."
-	icon_state = "talismanaltar"
+	desc = "A stone altar with an ornate red cloth over it."
+	icon_state = "churchaltar"
 
 
 /obj/structure/cult/forge

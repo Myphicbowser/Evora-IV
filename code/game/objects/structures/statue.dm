@@ -67,6 +67,17 @@
 	plane = ABOVE_HUMAN_PLANE
 	bound_width = 64
 
+/obj/structure/statue/tomb
+	name = "Tomb of the Martyred Sister"
+	desc = "A black stone sarcophagus of an unidentified sister. Her body was found alongside the Beata."
+	icon = 'icons/obj/64x64.dmi'
+	icon_state = "tomb"
+	anchored = 1
+	density = 1
+	layer = 4
+	plane = ABOVE_HUMAN_PLANE
+	bound_width = 64
+
 /obj/structure/statue/bigstatue
 	name = "big statue"
 	desc = "A strange object of stone and malice."

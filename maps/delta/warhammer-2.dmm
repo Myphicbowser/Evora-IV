@@ -55,6 +55,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
+"al" = (
+/obj/effect/decal/cleanable/blood,
+/mob/living/simple_animal/hostile/snowcat,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "am" = (
 /obj/structure/torchwall{
 	dir = 4;
@@ -1364,9 +1369,9 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
 "ef" = (
-/obj/structure/statue/bigstatue2,
-/turf/simulated/floor/tiled/stone,
-/area/cadiaoutpost/oa/village)
+/mob/living/simple_animal/hostile/greytusk,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves)
 "eg" = (
 /obj/machinery/light{
 	dir = 4
@@ -1427,6 +1432,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
+"ep" = (
+/obj/effect/decal/cleanable/snow,
+/mob/living/simple_animal/hostile/greytusk,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "eq" = (
 /obj/structure/table/woodentable{
 	color = "#36261B"
@@ -8481,13 +8491,10 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/engineering)
 "Bg" = (
-/obj/structure/statue/bigstatue2,
-/obj/item/pyre/self_lit{
-	invisibility = 100;
-	name = "Invisible Light"
-	},
-/turf/simulated/floor/tiled/stone,
-/area/cadiaoutpost/oa/village)
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/item/beartrap,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/theforest)
 "Bh" = (
 /obj/effect/decal/cleanable/molten_item,
 /turf/simulated/floor/stone,
@@ -9859,6 +9866,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/supply/mining/office)
+"Hh" = (
+/mob/living/simple_animal/hostile/greatboar,
+/turf/simulated/floor/snow,
+/area/cadiaoutpost/oa/theforest)
 "Hk" = (
 /obj/structure/torchwall{
 	dir = 8;
@@ -19995,7 +20006,7 @@ ro
 ro
 ro
 ro
-ro
+uc
 ro
 wJ
 xE
@@ -20501,7 +20512,7 @@ ro
 ro
 ro
 NS
-ro
+uc
 ro
 ro
 ro
@@ -20765,7 +20776,7 @@ ro
 ro
 ro
 ro
-ro
+uc
 ro
 Ty
 ro
@@ -21276,7 +21287,7 @@ Dh
 ro
 ro
 ro
-ro
+uc
 ro
 ro
 ro
@@ -22300,9 +22311,9 @@ ro
 Nd
 ro
 ro
-ro
+uc
 Dh
-Dh
+al
 ro
 ZH
 gs
@@ -22563,7 +22574,7 @@ Dh
 Dh
 ro
 ro
-ro
+uc
 ro
 ro
 ro
@@ -23550,7 +23561,7 @@ xE
 xE
 rO
 ro
-ro
+Hh
 ro
 jR
 jR
@@ -23579,7 +23590,7 @@ ro
 ro
 ro
 ro
-ro
+uc
 ro
 ro
 NS
@@ -24107,7 +24118,7 @@ wJ
 ro
 ro
 ro
-ro
+uc
 ro
 wJ
 rO
@@ -24869,7 +24880,7 @@ ro
 ro
 ro
 ro
-ro
+uc
 ro
 ro
 wJ
@@ -25092,7 +25103,7 @@ xE
 rO
 rO
 ro
-ro
+Hh
 ro
 ro
 ro
@@ -26418,7 +26429,7 @@ ro
 ro
 NS
 ro
-ro
+uc
 ro
 ro
 ro
@@ -30011,7 +30022,7 @@ ro
 ro
 ro
 ro
-ro
+rR
 ro
 ro
 ro
@@ -31304,7 +31315,7 @@ ro
 ro
 ro
 ro
-ro
+rR
 ro
 ro
 ro
@@ -31808,7 +31819,7 @@ ro
 ro
 An
 OE
-fC
+Bg
 An
 JB
 ro
@@ -32586,7 +32597,7 @@ ro
 ro
 ro
 ro
-ro
+rR
 ro
 ro
 ro
@@ -33873,7 +33884,7 @@ ro
 ro
 ro
 ro
-ro
+rR
 ro
 ro
 ro
@@ -36133,7 +36144,7 @@ iB
 vX
 io
 oL
-ef
+oL
 oL
 DO
 LQ
@@ -37418,7 +37429,7 @@ iB
 zz
 zz
 zz
-Bg
+mp
 oL
 oL
 LQ
@@ -56750,7 +56761,7 @@ ro
 ro
 ro
 ro
-ro
+vb
 ro
 ro
 ro
@@ -57258,7 +57269,7 @@ ro
 ro
 vj
 ro
-ro
+vb
 GS
 vj
 vj
@@ -57511,7 +57522,7 @@ ro
 ro
 Hf
 Cd
-cR
+ep
 ro
 vj
 Bw
@@ -63673,7 +63684,7 @@ rO
 rO
 xE
 ae
-ae
+ef
 su
 ro
 ro
@@ -64191,7 +64202,7 @@ rO
 ae
 rO
 ae
-ae
+ef
 rO
 rO
 xE
