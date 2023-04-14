@@ -5766,11 +5766,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/villageinside)
-"ra" = (
-/obj/effect/decal/cleanable/snow,
-/obj/effect/landmark/start/village,
-/turf/simulated/floor/stone,
-/area/cadiaoutpost/oa/village)
 "rb" = (
 /obj/item/card/id/key/super/hab,
 /turf/simulated/floor/wood{
@@ -34064,7 +34059,7 @@ pE
 pE
 pE
 kl
-ra
+gN
 kf
 fX
 zz
@@ -64983,7 +64978,7 @@ lT
 sW
 sW
 sW
-sW
+md
 xE
 xE
 xE
