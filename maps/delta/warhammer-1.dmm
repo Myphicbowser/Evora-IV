@@ -645,6 +645,10 @@
 /obj/structure/closet/secure_closet/freezer/meat,
 /obj/item/storage/fancy/egg_box,
 /obj/item/storage/fancy/egg_box,
+/obj/item/reagent_containers/food/drinks/milk,
+/obj/item/reagent_containers/food/drinks/milk,
+/obj/item/reagent_containers/food/drinks/milk,
+/obj/item/reagent_containers/food/drinks/milk,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -685,9 +689,11 @@
 	},
 /area/cadiaoutpost/oa/security/armory)
 "fE" = (
-/obj/structure/table/rack/shelf,
 /obj/item/storage/firstaid/surgery,
 /obj/item/toothpuller,
+/obj/structure/table/rack/shelf{
+	color = "grey"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1049,6 +1055,7 @@
 	},
 /obj/effect/floor_decal/turf/carpetn00,
 /obj/structure/toilet,
+/obj/structure/curtain/open/privacy,
 /turf/simulated/floor/new_wood,
 /area/cadiaoutpost/oa/service/chapel/chapeldorm)
 "iD" = (
@@ -1188,23 +1195,16 @@
 /turf/simulated/floor/dirty/indestructable/mud,
 /area/cadiaoutpost/oa/caves/undercity)
 "jR" = (
-/obj/structure/table/rack/shelf,
 /obj/item/stack/barbwire,
+/obj/structure/table/rack/shelf{
+	color = "grey"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel/armory)
 "jV" = (
-/obj/effect/floor_decal/turf/nf2,
-/obj/effect/floor_decal/turf/brick/two,
-/obj/structure/sign/inkvd{
-	color = "grey";
-	pixel_y = 30
-	},
-/obj/machinery/door_timer{
-	pixel_x = -30
-	},
-/turf/simulated/floor/stone,
+/turf/unsimulated/miningtime,
 /area/cadiaoutpost/oa/magistratumpost)
 "jW" = (
 /obj/structure/closet/chefcloset{
@@ -1369,10 +1369,6 @@
 /turf/simulated/floor/dirty/indestructable,
 /area/cadiaoutpost/oa/caves/dark)
 "lr" = (
-/obj/structure/torchwall/service{
-	dir = 8;
-	icon_state = "torchwall0"
-	},
 /obj/effect/landmark/start{
 	name = "Interrogator"
 	},
@@ -1890,10 +1886,14 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
 "pO" = (
-/obj/structure/table/rack/shelf,
-/obj/structure/table/rack/shelf,
 /obj/item/handcuffs,
 /obj/item/handcuffs,
+/obj/structure/table/rack/shelf{
+	color = "grey"
+	},
+/obj/item/card/id/key/grand/monastary{
+	access = list(213,211)
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2412,6 +2412,10 @@
 /area/cadiaoutpost/oa/security/barracks)
 "tX" = (
 /obj/effect/floor_decal/turf/carpetn00,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -15
+	},
 /turf/simulated/floor/new_wood,
 /area/cadiaoutpost/oa/service/chapel/chapeldorm)
 "ub" = (
@@ -2685,10 +2689,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/security/barracks)
-"wf" = (
-/obj/effect/floor_decal/turf/nf2,
-/turf/simulated/floor/stone,
-/area/cadiaoutpost/oa/magistratumpost)
 "wg" = (
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
@@ -3089,21 +3089,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/security/barracks)
-"AJ" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 6;
-	icon_state = "spline_fancy"
-	},
-/obj/effect/floor_decal/turf/carpetn00,
-/obj/structure/mirror{
-	pixel_y = -32
-	},
-/obj/structure/sink{
-	dir = 1;
-	pixel_y = -15
-	},
-/turf/simulated/floor/new_wood,
-/area/cadiaoutpost/oa/service/chapel/chapeldorm)
 "AL" = (
 /obj/effect/floor_decal/turf/plating,
 /turf/simulated/floor/plating,
@@ -3208,6 +3193,7 @@
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/condiment/flour,
+/obj/item/reagent_containers/glass/jar/sugar,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -3474,16 +3460,13 @@
 /obj/item/reagent_containers/food/condiment/enzyme,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /obj/item/reagent_containers/food/condiment/small/peppermill,
+/obj/item/storage/box/beakers,
 /obj/item/reagent_containers/food/condiment/small/saltshaker,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel)
 "Em" = (
-/obj/structure/sign/inkvd{
-	color = "grey";
-	pixel_y = 30
-	},
 /obj/machinery/door_timer{
 	pixel_x = 30
 	},
@@ -3714,6 +3697,11 @@
 /area/cadiaoutpost/oa/service/chapel/armory)
 "Gd" = (
 /obj/structure/sewers/wallholebigbrk,
+/obj/item/beartrap{
+	color = "grey";
+	deployed = 1;
+	icon_state = "beartrap1"
+	},
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -3991,7 +3979,11 @@
 	},
 /area/cadiaoutpost/oa/security/armory)
 "JB" = (
-/obj/structure/sewers/wallholebigbrk,
+/obj/item/beartrap{
+	color = "grey";
+	deployed = 1;
+	icon_state = "beartrap1"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -5231,9 +5223,8 @@
 	},
 /area/cadiaoutpost/oa/security/armory)
 "UD" = (
-/obj/effect/floor_decal/turf/nf2,
-/obj/item/remains/human,
-/turf/simulated/floor/stone,
+/obj/structure/banner/red,
+/turf/simulated/wall/concrete,
 /area/cadiaoutpost/oa/magistratumpost)
 "UH" = (
 /obj/effect/floor_decal/turf/brick,
@@ -22814,7 +22805,7 @@ Pm
 Pm
 VO
 Pm
-Pm
+lr
 pO
 Zq
 SI
@@ -23329,7 +23320,7 @@ Pm
 gd
 Pm
 gd
-lr
+gd
 Zq
 SI
 PI
@@ -27189,8 +27180,8 @@ QW
 QW
 QW
 uy
-tX
 XU
+tX
 XI
 XI
 PI
@@ -27705,7 +27696,7 @@ rZ
 XI
 iC
 JE
-AJ
+JE
 XI
 PI
 PI
@@ -35401,8 +35392,8 @@ PI
 PI
 PI
 aX
-aX
-jV
+UD
+iZ
 ob
 ob
 aW
@@ -35657,8 +35648,8 @@ PI
 PI
 PI
 PI
+jV
 aX
-wf
 ob
 TN
 ob
@@ -35914,8 +35905,8 @@ PI
 PI
 PI
 PI
+jV
 aX
-wf
 LO
 og
 PP
@@ -36171,8 +36162,8 @@ PI
 PI
 PI
 PI
+jV
 aX
-UD
 ob
 Nt
 ob
@@ -36429,7 +36420,7 @@ PI
 PI
 PI
 aX
-aX
+UD
 Em
 ob
 ob
