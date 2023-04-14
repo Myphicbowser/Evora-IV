@@ -1284,6 +1284,7 @@
 #include "code\modules\client\preference_setup\general\01_basic.dm"
 #include "code\modules\client\preference_setup\general\03_body.dm"
 #include "code\modules\client\preference_setup\general\04_equipment.dm"
+#include "code\modules\client\preference_setup\general\06_flavor.dm"
 #include "code\modules\client\preference_setup\global\01_ui.dm"
 #include "code\modules\client\preference_setup\global\02_prefixes.dm"
 #include "code\modules\client\preference_setup\global\03_pai.dm"
