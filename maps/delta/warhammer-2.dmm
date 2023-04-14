@@ -4743,8 +4743,8 @@
 /area/cadiaoutpost/oa/villageinside)
 "nZ" = (
 /obj/machinery/door/unpowered/inn/berryfarm{
-	req_access = list(211);
-	name = "the cottage"
+	name = "Sweetberry Cottage";
+	req_access = list(34)
 	},
 /turf/simulated/floor/wood{
 	color = "grey"
@@ -6529,6 +6529,7 @@
 	},
 /obj/item/clothing/shoes/jackboots/noble,
 /obj/item/stack/thrones2/ten,
+/obj/item/clothing/suit/armor/vest/leather/tailcoat/black,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
