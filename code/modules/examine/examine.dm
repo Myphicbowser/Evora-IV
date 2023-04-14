@@ -48,7 +48,7 @@
 	description_holders["name"] = "[A.name]"
 	description_holders["icon"] = "\icon[A]"
 	description_holders["desc"] = A.desc
-/*
+
 /mob/Stat()
 	. = ..()
 	if(client && statpanel("Examine"))
@@ -60,7 +60,7 @@
 			stat(null,"<font color='#298a08'><b>[client.description_holders["fluff"]]</b></font>") //Yellow, fluff-related text.
 		if(client.description_holders["antag"])
 			stat(null,"<font color='#8a0808'><b>[client.description_holders["antag"]]</b></font>") //Red, malicious antag-related text
-*/
+
 
 //override examinate verb to update description holders when things are examined
 /mob/examinate(atom/A as mob|obj|turf in view())
