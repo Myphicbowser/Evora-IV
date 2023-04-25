@@ -40,9 +40,7 @@
 
 /decl/hierarchy/outfit/job/service/gardener
 	name = OUTFIT_JOB_NAME("Farmer")
-	uniform = /obj/item/clothing/under/rank/hydroponics
-	suit = /obj/item/clothing/suit/farmer
-	gloves = /obj/item/clothing/gloves/thick/botany
+	uniform = /obj/item/clothing/under/suit_jacket/really_black
 	r_pocket = /obj/item/device/analyzer/plant_analyzer
 	id_type = /obj/item/card/id/civilian/botanist
 	pda_type = null
@@ -52,7 +50,6 @@
 	back = /obj/item/storage/backpack/satchel/warfare
 	shoes = /obj/item/clothing/shoes/jackboots
 	neck = /obj/item/reagent_containers/food/drinks/canteen
-	l_hand = /obj/item/farmshovel
 	belt = /obj/item/storage/plants
 	backpack_contents = list(/obj/item/seeds/potatoseed = 1,
 	/obj/item/seeds/wheatseed = 1,

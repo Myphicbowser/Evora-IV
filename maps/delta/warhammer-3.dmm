@@ -821,6 +821,7 @@
 	req_access = list(213)
 	},
 /obj/effect/floor_decal/turf/carpetn00,
+/obj/effect/landmark/start/ministorum/sisterdialogus,
 /turf/simulated/floor/new_wood,
 /area/cadiaoutpost/oa/service/chapel/chapeloffice)
 "bL" = (
@@ -6205,7 +6206,7 @@
 /area/cadiaoutpost/oa/bridge/hallway)
 "DR" = (
 /obj/effect/floor_decal/turf/carpetn00,
-/obj/structure/flora/yes/cross,
+/obj/structure/bookcase,
 /turf/simulated/floor/new_wood,
 /area/cadiaoutpost/oa/service/chapel/chapeloffice)
 "DU" = (
@@ -7196,6 +7197,7 @@
 /obj/effect/floor_decal/turf/carpetn00,
 /obj/item/stack/thrones2,
 /obj/structure/closet/cabinet,
+/obj/item/staff/ministorumstaff,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/chapeloffice)
 "Lb" = (
@@ -32961,7 +32963,7 @@ UX
 aw
 UX
 dD
-rT
+DR
 rT
 bl
 Id

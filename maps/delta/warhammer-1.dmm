@@ -3435,11 +3435,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
-"Ec" = (
-/obj/effect/floor_decal/turf/brick,
-/obj/effect/landmark/start/ministorum/sisterdialogus,
-/turf/simulated/floor/tiled/dark,
-/area/cadiaoutpost/oa/service/chapel)
 "Ef" = (
 /obj/effect/decal/dead,
 /obj/random/loot/badweaponlas,
@@ -28695,7 +28690,7 @@ SI
 Tn
 Tn
 Lq
-Ec
+yB
 yB
 Tn
 Tn

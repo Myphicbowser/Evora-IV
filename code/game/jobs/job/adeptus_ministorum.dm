@@ -42,7 +42,7 @@
 		H.h_style = "Bobcurl"
 		H.vice = "Piety"
 
-		to_chat(H, "<span class='notice'><b><font size=3>You are a Sister Dialogus, a member of the Adeptus Sororitas dedicated to record keeping, translation, oration, and other scholarly endeavors. It is your job to instill faith in The God Emperor of Man and protect the political position of the church.You are also the foremost expert on canon law and may be called upon to judge your fellow servants of the God Emperor.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are a Sister Dialogus, a member of the Order of the Quill. You are responsible for record-keeping, translation, oration, and other scholarly endeavors. It is your job to instill faith in The God Emperor of Man and protect the political position of the church.You are also the foremost expert on canon law and may be called upon to judge your fellow servants of the God Emperor.</font></b></span>")
 
 	equip(var/mob/living/carbon/human/H, var/alt_title, var/ask_questions = TRUE)
 		. = ..()
