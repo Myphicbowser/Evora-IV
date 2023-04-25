@@ -34,7 +34,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
 		..()
-		H.fully_replace_character_name("Margrave [current_name]")
+		H.fully_replace_character_name("Margrave [current_name]-Redd")
 		H.add_stats(rand(14,18), rand(14,18), rand(14,18), rand(14,18))
 		H.add_skills(rand(6,10),rand(6,10),rand(5,6),rand(1,8),rand(1,8)) //melee, ranged, med, eng, surgery
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC)
@@ -42,7 +42,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 		H.adjustStaminaLoss(-INFINITY)
 		H.warfare_faction = IMPERIUM
 		H.verbs += list(/mob/living/carbon/human/proc/hire)
-		to_chat(H, "<span class='notice'><b><font size=3> The Lord of Aquileia, the city your family has ruled since they came to this planet. You have close blood ties with the Planetary Governor, but are not part of the same noble house. You command a detachment of the Planetary Defesne Force to protect your city. Lately tensions with the Rogue Trader have been increasing as they make increasingly bold grabs for power, but you cannot act against them without approval from the Planetary Governor.  </font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3> The Lord of Aquileia, the city your family has ruled since they came to this planet. You have close blood ties with the Planetary Governor, but have married into their family and have less political influence than the main house. You command a detachment of the Planetary Defesne Force to protect your city. Lately tensions with the Rogue Trader have been increasing as they make increasingly bold grabs for power, but you cannot act against them without approval from the Planetary Governor.  </font></b></span>")
 
 		H.get_idcard()?.access = list(20, 331, access_RC_announce, access_ai_upload, access_heads)
 

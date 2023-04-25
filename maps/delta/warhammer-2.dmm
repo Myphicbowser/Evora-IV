@@ -9815,8 +9815,10 @@
 /turf/simulated/floor/tiled,
 /area/cadiaoutpost/oa/theforest)
 "GU" = (
-/obj/structure/flora/tree/dead,
-/turf/simulated/floor/stone,
+/obj/structure/flora/tree/pine{
+	pixel_y = -18
+	},
+/turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
 "GX" = (
 /obj/machinery/vending/engineering,
@@ -54676,7 +54678,7 @@ ac
 ac
 SM
 NO
-GU
+kf
 NO
 NO
 NO
@@ -56984,7 +56986,7 @@ Ns
 Ns
 Ns
 Ns
-un
+Ns
 Ns
 Ns
 Ns
@@ -57197,7 +57199,7 @@ NO
 NO
 kf
 Ns
-un
+GU
 TS
 iN
 Ns
