@@ -342,6 +342,16 @@
 	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
 	sales_price = 20
 
+/obj/item/clothing/head/dialogushelm
+	name = "Blessed Cornette"
+	desc = "The holy hair covering marking the wearer as a member of the Adeptus Sororitas"
+	icon_state = "dialogus_cornette"
+	item_state = "dialogus_cornette"
+	cold_protection = HEAD
+	min_cold_protection_temperature = SPACE_SUIT_MIN_COLD_PROTECTION_TEMPERATURE
+	flags_inv = BLOCKHAIR
+	sales_price = 20
+
 /obj/item/clothing/head/chaossack
 	name = "cultist sack"
 	desc = "A hood made of cloth, made to chant the hymns of the dark gods."
