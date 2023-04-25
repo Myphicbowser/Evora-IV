@@ -633,8 +633,9 @@
 			else
 				var/msg = sanitize(input(usr,"Update the flavor text for your [href_list["flavor_change"]].","Flavor Text",html_decode(flavor_texts[href_list["flavor_change"]])) as message, extra = 0)
 				flavor_texts[href_list["flavor_change"]] = sanitize(msg, extra = 0)
-			//	set_flavor()
+				set_flavor()
 				return
+
 	//Crafting
 	if (href_list["craft"])
 		var/turf/T = get_step(src, dir)
