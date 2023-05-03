@@ -390,7 +390,7 @@
 		to_chat(H, "<span class='notice'><b><font size=3>You are a recent arrival to the Abbey in Aquileia, coming from the scholam established in the captial of Evora IV after the warp storms cut off the world from the rest of the Imperium. Novitiates are usually stationed in dangerous places to be tempered by battle, but you have the honor of protecting the reliquary and the artifacts of the beata.</font></b></span>")
 		to_chat(H, "<span class='notice'><b><font size=3>Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement but protectors of the faith. Your primary purpose is to protect the reliquary.</font></b></span>")
 
-/datum/job/preacher
+/datum/job/scholar
 	title = "Scholar"
 	department = list("Ministorum", "Medical")
 	department_flag = MED
@@ -406,7 +406,7 @@
 	announced = FALSE
 	access = list(access_advchapel, access_medical, access_village)
 	minimal_access = list(access_advchapel, access_medical, access_village)
-	outfit_type = /decl/hierarchy/outfit/job/preacher
+	outfit_type = /decl/hierarchy/outfit/job/scholar
 	auto_rifle_skill = 4
 	semi_rifle_skill = 4
 	sniper_skill = 4
