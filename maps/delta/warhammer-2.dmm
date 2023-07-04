@@ -1532,12 +1532,11 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "eB" = (
-/obj/effect/floor_decal/turf/plating,
-/obj/random/medical/lite,
-/turf/simulated/floor/tiled{
-	color = "grey"
+/mob/living/simple_animal/hostile/mining_borg/minesect{
+	name = "Hellgramite Razordrone"
 	},
-/area/cadiaoutpost/oa/bridge/hallway)
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/caves)
 "eG" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/grass/both,
@@ -1962,6 +1961,10 @@
 /obj/random/loot/sidearmammo,
 /obj/random/loot/sidearmammo,
 /turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves)
+"gp" = (
+/obj/machinery/cryopod,
+/turf/simulated/mineral/snowycave,
 /area/cadiaoutpost/oa/caves)
 "gq" = (
 /obj/effect/floor_decal/turf/barnew,
@@ -2489,6 +2492,11 @@
 /obj/effect/floor_decal/turf/checkers,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/village/pathfinder)
+"hX" = (
+/obj/structure/flora/grass/green,
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/dirty/tough/lightless,
+/area/cadiaoutpost/oa/village)
 "hY" = (
 /obj/effect/floor_decal/turf/brick/two,
 /obj/structure/closet/coffin,
@@ -3200,6 +3208,10 @@
 /obj/machinery/recharger{
 	pixel_y = 32
 	},
+/obj/machinery/button/remote/blast_door/lever{
+	id = "outergate1";
+	name = "PDF DEPOT LEVER"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3261,16 +3273,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "kc" = (
-/obj/structure/statue/verina{
-	color = "grey";
-	name = "old statue";
-	pixel_x = -15
-	},
-/turf/simulated/floor/tiled{
-	color = "grey";
-	icon_state = "dark1"
-	},
-/area/cadiaoutpost/oa/engineering)
+/obj/machinery/cryopod,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/caves)
 "kd" = (
 /obj/effect/floor_decal/turf/brick/two,
 /obj/structure/closet/cabinet{
@@ -3918,7 +3923,7 @@
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
 "lT" = (
-/mob/living/simple_animal/manofiron,
+/obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/caves)
 "lU" = (
@@ -3996,9 +4001,9 @@
 	},
 /area/cadiaoutpost/oa/supply/cargo/office)
 "md" = (
-/mob/living/simple_animal/hostile/mining_borg/behemoth{
-	name = "Man of Iron"
-	},
+/obj/effect/decal/dead,
+/obj/effect/decal/cleanable/blood/gibs/down,
+/obj/effect/decal/cleanable/blood/gibs,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/caves)
 "mf" = (
@@ -5489,6 +5494,7 @@
 /area/cadiaoutpost/oa/engineering)
 "pT" = (
 /obj/random/advdevice,
+/obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/caves)
 "pU" = (
@@ -5680,6 +5686,12 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/supply/mining/office)
+"qF" = (
+/obj/machinery/cryopod,
+/turf/simulated/wall/techno{
+	integrity = 1000
+	},
+/area/cadiaoutpost/oa/engineering)
 "qG" = (
 /obj/effect/decal/dead,
 /obj/item/stack/thrones3/five,
@@ -6354,6 +6366,13 @@
 /obj/effect/floor_decal/turf/metal/five,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
+"tg" = (
+/obj/structure/statue/column3,
+/turf/simulated/floor/tiled{
+	color = "grey";
+	icon_state = "dark1"
+	},
+/area/cadiaoutpost/oa/engineering)
 "tj" = (
 /obj/effect/floor_decal/newcorner/red/diagonal,
 /obj/effect/floor_decal/turf/metal/six,
@@ -6767,6 +6786,11 @@
 	icon_state = "dark1"
 	},
 /area/cadiaoutpost/oa/engineering)
+"uF" = (
+/obj/structure/flora/grass/brown,
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/village)
 "uJ" = (
 /obj/random/action_figure,
 /turf/simulated/floor/stone,
@@ -7273,6 +7297,11 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/cadiaoutpost/oa/villageinside)
+"wt" = (
+/obj/structure/flora/grass/green,
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/village)
 "wu" = (
 /obj/effect/floor_decal/newcorner/yellow/diagonal,
 /obj/effect/floor_decal/industrial/warning_red{
@@ -9242,12 +9271,11 @@
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
 "En" = (
-/obj/machinery/cryopod,
-/obj/effect/floor_decal/turf/plating,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/bridge/hallway)
+/obj/random/tech_supply,
+/obj/effect/decal/dead/two,
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/caves)
 "Eo" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -9263,14 +9291,11 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/village)
 "Es" = (
-/obj/effect/floor_decal/turf/plating,
-/obj/machinery/firealarm{
-	pixel_x = 32
-	},
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/bridge/hallway)
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/grass/green,
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/village)
 "Eu" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -9529,6 +9554,10 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/hab/inside)
+"Fx" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/caves)
 "Fy" = (
 /obj/structure/flora/ausbushes/minishroom,
 /turf/simulated/floor/stone,
@@ -9609,16 +9638,10 @@
 /turf/simulated/wall/wooden,
 /area/cadiaoutpost/oa/village)
 "FT" = (
-/obj/effect/floor_decal/turf/plating,
-/obj/machinery/power/apc{
-	dir = 1;
-	pixel_y = 32
+/turf/simulated/wall/techno{
+	integrity = 1000
 	},
-/obj/random/firstaid,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/bridge/hallway)
+/area/cadiaoutpost/oa/caves)
 "FU" = (
 /turf/simulated/wall/concrete{
 	integrity = 3500
@@ -11993,6 +12016,11 @@
 	icon_state = "dark1"
 	},
 /area/cadiaoutpost/oa/engineering)
+"Ps" = (
+/obj/structure/flora/grass/both,
+/obj/effect/decal/cleanable/snow,
+/turf/simulated/floor/stone,
+/area/cadiaoutpost/oa/village)
 "Pu" = (
 /mob/living/simple_animal/hostile/retaliate/goat/grox/calf,
 /turf/simulated/floor/dirty,
@@ -12116,14 +12144,9 @@
 	},
 /area/cadiaoutpost/oa/medicae/mansion/medicae)
 "PY" = (
-/obj/effect/floor_decal/turf/plating,
-/obj/machinery/computer/cryopod{
-	pixel_y = 30
-	},
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/bridge/hallway)
+/obj/structure/statue/column,
+/turf/simulated/floor/tiled/stone,
+/area/cadiaoutpost/oa/village)
 "PZ" = (
 /obj/structure/closet/firecloset,
 /turf/simulated/floor/tiled{
@@ -12608,6 +12631,13 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
+"Sf" = (
+/mob/living/simple_animal/hostile/mining_borg/minesect{
+	name = "Hellgramite Razordrone"
+	},
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/caves)
 "Sj" = (
 /obj/structure/table/rack/dark,
 /obj/item/stack/material/glass/reinforced/ten,
@@ -13316,6 +13346,17 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/hab/inside)
+"UN" = (
+/obj/machinery/cryopod,
+/turf/simulated/wall/concrete/strong{
+	integrity = 3000
+	},
+/area/cadiaoutpost/oa/villageinside)
+"UO" = (
+/turf/simulated/wall/concrete/strong{
+	integrity = 2000
+	},
+/area/cadiaoutpost/oa/caves)
 "UQ" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/turf/aesculapius/mem{
@@ -14593,6 +14634,10 @@
 /obj/effect/floor_decal/newcorner/red/solid,
 /turf/simulated/floor/tiled,
 /area/cadiaoutpost/oa/villageinside)
+"ZC" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/caves)
 "ZD" = (
 /obj/effect/floor_decal/newcorner/yellow/diagonal,
 /obj/structure/cable{
@@ -34571,9 +34616,9 @@ pE
 pE
 ed
 ed
-GM
-lD
-dt
+ed
+ed
+ed
 pE
 pE
 oL
@@ -36369,9 +36414,9 @@ pE
 pE
 pE
 ed
-ed
-ed
-eg
+GM
+lD
+dt
 ed
 pE
 pE
@@ -38905,14 +38950,14 @@ xE
 xE
 xE
 xE
-NH
-NH
-NH
-NH
-NH
-NH
-NH
-NH
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
 NH
 NC
 Lu
@@ -39162,14 +39207,14 @@ xE
 xE
 xE
 xE
-NH
-En
-rE
-En
-rE
-En
-rE
-En
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
 NH
 XJ
 Lu
@@ -39419,14 +39464,14 @@ xE
 xE
 xE
 xE
-NH
-PY
-rE
-rE
-rE
-eB
-rE
-rE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
 NH
 Xr
 Lu
@@ -39676,14 +39721,14 @@ xE
 xE
 xE
 xE
-NH
-En
-YW
-En
-rE
-En
-rE
-En
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
 NH
 XJ
 Lu
@@ -39933,14 +39978,14 @@ xE
 xE
 xE
 xE
-NH
-FT
-rE
-rE
-rE
-rE
-rE
-eB
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
 NH
 ff
 Lu
@@ -40190,14 +40235,14 @@ xE
 xE
 xE
 xE
-NH
-En
-Es
-En
-CU
-En
-rE
-En
+xE
+xE
+xE
+xE
+xE
+xE
+xE
+xE
 NH
 fe
 Yx
@@ -40447,13 +40492,13 @@ xE
 xE
 xE
 xE
-NH
-NH
-NH
-NH
+xE
+xE
+xE
+xE
 NH
 NC
-ZA
+NH
 NH
 NH
 NH
@@ -47166,7 +47211,7 @@ xE
 xE
 xE
 xE
-rO
+gp
 aG
 aG
 aG
@@ -47423,7 +47468,7 @@ xE
 xE
 xE
 xE
-rO
+gp
 aG
 aG
 aG
@@ -47680,7 +47725,7 @@ xE
 xE
 xE
 xE
-rO
+gp
 aG
 aG
 aG
@@ -53557,7 +53602,7 @@ xE
 xE
 xE
 xE
-oP
+UN
 xr
 cq
 gx
@@ -53814,7 +53859,7 @@ xE
 xE
 xE
 xE
-oP
+UN
 xr
 cq
 wP
@@ -56964,7 +57009,7 @@ Ns
 Ns
 kf
 kf
-kf
+oL
 FR
 FR
 fV
@@ -57220,7 +57265,7 @@ Ns
 EY
 Ns
 Ns
-Ek
+Xt
 kf
 FR
 YX
@@ -57476,8 +57521,8 @@ Ns
 Ns
 Ns
 Ns
-Ns
-Ns
+kf
+oL
 kf
 FR
 kf
@@ -57486,14 +57531,14 @@ FR
 kf
 YX
 FR
+kf
+kf
+kf
+kf
+kf
+kf
 Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+pw
 Ns
 Ek
 Ns
@@ -57733,24 +57778,24 @@ Ns
 Ns
 un
 Ns
-Ns
-Ns
-un
-FR
+oL
 kf
 kf
 FR
 kf
 kf
 FR
+kf
+kf
+FR
+kf
+Xt
+kf
+kf
+oL
+Es
 Ns
-Ek
-Ns
-Ns
-Ns
-Ns
-Ns
-un
+pw
 Ns
 Ns
 Ns
@@ -57991,8 +58036,8 @@ Ns
 Ns
 Ns
 Ns
-Ns
-Ns
+oL
+kf
 FR
 FR
 kf
@@ -58000,14 +58045,14 @@ FR
 kf
 FR
 FR
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+kf
+oL
+oL
+oL
+oL
+kf
+pw
+pw
 Ns
 Ns
 Ns
@@ -58248,8 +58293,8 @@ Ns
 Ns
 Ns
 Ns
-Ns
-Ns
+oL
+kf
 kf
 FR
 FR
@@ -58257,13 +58302,13 @@ FR
 FR
 FR
 kf
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+kf
+oL
+NO
+oL
+oL
+kf
+nu
 Ns
 Ns
 Ns
@@ -58505,22 +58550,22 @@ un
 Ns
 Ns
 Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+oL
+kf
+kf
+kf
+kf
+kf
+kf
+NO
+NO
+NO
+NO
+NO
+NO
+kf
+kf
+pw
 Ns
 Ns
 Ns
@@ -58762,34 +58807,34 @@ Ns
 Ns
 Ns
 Ns
+oL
+oL
+oL
+oL
+oL
+Ps
+NO
+oL
+oL
+NO
+wt
+oL
+kf
+nu
 Ns
 Ns
 Ns
 Ns
+kf
+kf
+kf
 Ns
 Ns
 Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-un
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+kf
+kf
+kf
+kf
 Ns
 Ns
 Ns
@@ -59019,35 +59064,35 @@ Ns
 Ns
 Ns
 Ns
-un
+Ns
+oL
+oL
+kf
+oL
+oL
+oL
+NO
+NO
+NO
+NO
+oL
+Es
 Ns
 Ns
 Ns
 Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-oi
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+kf
+kf
+kf
+kf
+kf
+kf
+kf
+kf
+kf
+kf
+kf
+kf
 Ns
 Ns
 Ns
@@ -59278,18 +59323,18 @@ Ns
 Ns
 Ns
 Ns
-Ns
-un
-Ns
-Ns
-Ns
-Ns
-un
-Ns
-Ns
-Ns
-Ns
-Ns
+oL
+kf
+oL
+oL
+oL
+oL
+hX
+NO
+oL
+oL
+kf
+pw
 Ns
 Ns
 rO
@@ -59536,16 +59581,16 @@ Ns
 Ns
 Ns
 Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+uF
+kf
+kf
+NO
+NO
+NO
+NO
+oL
+kf
+kf
 Ns
 Ns
 Ns
@@ -59789,20 +59834,20 @@ Ns
 Ns
 Ns
 Ns
+EY
 Ns
 Ns
+pw
 Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+oL
+NO
+NO
+NO
+NO
+oL
+oL
+kf
+kf
 Ns
 Ns
 rO
@@ -60051,13 +60096,13 @@ Ns
 Ns
 Ns
 Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+oL
+NO
+kf
+oL
+NO
+oL
+kf
 Ns
 Ns
 Ns
@@ -60308,13 +60353,13 @@ Ns
 Ns
 Ns
 Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+kl
+kf
+kf
+oL
+oL
+kf
+kl
 Ns
 Ns
 rO
@@ -60564,15 +60609,15 @@ Ns
 rO
 rO
 Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
-Ns
+PY
+kf
+kf
+oL
+oL
+kf
+oL
+kf
+PY
 Ns
 rO
 Wm
@@ -60821,15 +60866,15 @@ Ns
 rO
 rO
 rO
-rO
-rO
-rO
-rO
-rO
-rO
-rO
-rO
-rO
+UO
+kc
+kc
+kc
+kc
+kc
+kc
+kc
+UO
 rO
 rO
 Wm
@@ -61078,14 +61123,14 @@ kf
 rO
 xE
 xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
-xE
+Wm
+Wm
+Wm
+Wm
+Wm
+Wm
+Wm
+Wm
 rO
 rO
 rO
@@ -63086,10 +63131,10 @@ qA
 Zz
 Tv
 HR
-kc
+Ip
 zL
-xE
-xE
+Wm
+Wm
 xE
 xE
 xE
@@ -63343,10 +63388,10 @@ rt
 Lf
 UD
 fj
-Ip
+tg
 zL
-xE
-xE
+FT
+Wm
 xE
 xE
 xE
@@ -63601,9 +63646,9 @@ Zz
 Tv
 HR
 Ip
-zL
-xE
-xE
+qF
+FT
+Wm
 xE
 xE
 xE
@@ -63858,9 +63903,9 @@ Lf
 UD
 fj
 Ip
-zL
-xE
-xE
+qF
+FT
+Wm
 xE
 xE
 xE
@@ -64115,9 +64160,9 @@ YY
 Tv
 HR
 Ip
-zL
-xE
-xE
+qF
+FT
+Wm
 xE
 xE
 xE
@@ -64371,10 +64416,10 @@ XQ
 Ct
 UD
 fj
-Ip
+tg
 zL
-xE
-xE
+FT
+Wm
 xE
 xE
 xE
@@ -64628,10 +64673,10 @@ QH
 rt
 Tv
 HR
-kc
+Ip
 zL
-xE
-xE
+Wm
+Wm
 xE
 xE
 xE
@@ -64717,10 +64762,10 @@ ae
 rO
 rO
 rO
-ae
+cY
 Gl
 wV
-sW
+eB
 sW
 HE
 Gl
@@ -64974,13 +65019,13 @@ ae
 ae
 ae
 ae
-ae
-sW
-sW
+cY
+Fx
 lT
+ZC
+ZC
 sW
-sW
-sW
+eB
 md
 xE
 xE
@@ -65235,8 +65280,8 @@ rO
 Gl
 sW
 pT
-sW
-sW
+lT
+Sf
 Gl
 Gl
 xE
@@ -65491,10 +65536,10 @@ rO
 sW
 sW
 sW
-sW
+lT
 lT
 sW
-lT
+eB
 Gl
 xE
 xE
@@ -65745,9 +65790,9 @@ rO
 rO
 xE
 xE
-Yd
+En
 Gl
-md
+eB
 sW
 sW
 CB
@@ -66007,7 +66052,7 @@ xE
 Gl
 Yd
 sW
-sW
+eB
 Gl
 xE
 xE
@@ -66263,7 +66308,7 @@ xE
 xE
 Gl
 sW
-sW
+eB
 Gl
 Gl
 xE

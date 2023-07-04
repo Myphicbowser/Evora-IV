@@ -144,23 +144,22 @@
 
 //Cryopods themselves.
 /obj/machinery/cryopod
-	name = "cryogenic freezer"
-	desc = "A man-sized pod for entering suspended animation."
+	name = "Matrix"
+	desc = "A warp-rift through the fourth wall. Use this to leave the city."
 	icon = 'icons/obj/Cryogenic2.dmi'
-	icon_state = "body_scanner_0"
+	icon_state = "matrix"
 	density = 1
 	anchored = 1
 	dir = WEST
 
-	var/base_icon_state = "body_scanner_0"
-	var/occupied_icon_state = "body_scanner_1"
-	var/on_store_message = "has entered long-term storage."
-	var/on_store_name = "Cryogenic Oversight"
-	var/on_enter_occupant_message = "You feel cool air surround you. You go numb as your senses turn inward."
+	var/base_icon_state = "matrix"
+	var/occupied_icon_state = "matrix"
+	var/on_enter_occupant_message = "You are now leaving the city."
 	var/allow_occupant_types = list(/mob/living/carbon/human)
 	var/disallow_occupant_types = list()
 
 	var/mob/living/occupant = null       // Person waiting to be despawned.
+	var/time_till_despawn = 60 //gets rid of them fairly quickly
 	var/time_entered = 0          // Used to keep track of the safe period.
 	var/ghosts_player = TRUE // if this cryopod ghosts players, just exists because of lifepod
 	var/obj/item/device/radio/intercom/announce //
@@ -192,7 +191,6 @@
 	icon_state = "pod_0"
 	base_icon_state = "pod_0"
 	occupied_icon_state = "pod_1"
-	on_store_name = "Robotic Storage Oversight"
 	on_enter_occupant_message = "The storage unit broadcasts a sleep signal to you. Your systems start to shut down, and you enter low-power mode."
 	allow_occupant_types = list(/mob/living/silicon/robot)
 	disallow_occupant_types = list(/mob/living/silicon/robot/drone)
@@ -200,7 +198,6 @@
 /obj/machinery/cryopod/lifepod
 	name = "life pod"
 	desc = "A man-sized pod for entering suspended animation. Dubbed 'cryocoffin' by more cynical spacers, it is pretty barebone, counting on stasis system to keep the victim alive rather than packing extended supply of food or air. Can be ordered with symbols of common religious denominations to be used in space funerals too."
-	on_store_name = "Life Pod Oversight"
 	icon_state = "redpod0"
 	base_icon_state = "redpod0"
 	occupied_icon_state = "redpod1"
