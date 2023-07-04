@@ -2898,6 +2898,12 @@
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
+"yr" = (
+/obj/machinery/cryopod,
+/turf/simulated/wall/rust{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/caves/undercity)
 "yA" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/table/rack/dark,
@@ -3690,6 +3696,10 @@
 /obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/armory)
+"Gc" = (
+/obj/machinery/cryopod,
+/turf/unsimulated/mineral,
+/area/cadiaoutpost/oa/caves/undercity)
 "Gd" = (
 /obj/structure/sewers/wallholebigbrk,
 /obj/item/beartrap{
@@ -4068,8 +4078,10 @@
 	},
 /area/cadiaoutpost/oa/service/chapel/vault)
 "Kb" = (
-/mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
-/turf/unsimulated/mineral,
+/obj/machinery/cryopod,
+/turf/simulated/wall/concrete{
+	integrity = 1500
+	},
 /area/cadiaoutpost/oa/caves/undercity)
 "Kc" = (
 /obj/effect/floor_decal/turf/brick,
@@ -4455,11 +4467,9 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "Oy" = (
-/obj/structure/curtain/black,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/caves/undercity)
+/obj/machinery/cryopod,
+/turf/simulated/wall/concrete/strong/chapel,
+/area/cadiaoutpost/oa/service/chapel)
 "OC" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/table/steel_reinforced,
@@ -5514,6 +5524,12 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
+"XH" = (
+/obj/machinery/cryopod,
+/turf/simulated/wall/ancient{
+	color = null
+	},
+/area/cadiaoutpost/oa/security/barracks)
 "XI" = (
 /turf/simulated/wall/concrete{
 	integrity = 2500
@@ -26863,9 +26879,9 @@ eD
 eD
 eD
 eD
-eD
-Ql
-eD
+XH
+XH
+XH
 eD
 eD
 eD
@@ -28698,8 +28714,8 @@ Tn
 Tn
 Tn
 Tn
-Tn
-Tn
+Oy
+Oy
 Tn
 PI
 PI
@@ -30028,8 +30044,8 @@ tB
 tB
 Dx
 aS
-aS
-gg
+Kb
+yr
 gg
 PI
 PI
@@ -38775,7 +38791,7 @@ gg
 mq
 BI
 Dx
-rD
+Dx
 Dx
 mq
 Dx
@@ -39286,9 +39302,9 @@ Dx
 gg
 PA
 lS
-Zt
-Zt
-Kb
+YV
+Dx
+Dx
 Dx
 Dx
 mq
@@ -39544,10 +39560,10 @@ Dx
 lS
 lS
 mq
-Zt
 Dx
 Dx
-rD
+Dx
+Dx
 mq
 WS
 Dx
@@ -40060,7 +40076,7 @@ lS
 mq
 Dx
 Dx
-Oy
+YV
 Dx
 Dx
 Dx
@@ -49779,9 +49795,9 @@ PI
 PI
 PI
 PI
-aS
-aS
-aS
+PI
+PI
+PI
 aS
 PI
 PI
@@ -50035,10 +50051,10 @@ PI
 PI
 PY
 PY
-PY
-dC
-dC
-dC
+PI
+PI
+PI
+PI
 aS
 aS
 aS
@@ -50293,10 +50309,10 @@ PI
 PY
 PI
 PI
-aS
-Wx
-dC
-dC
+PI
+PI
+PI
+Kb
 dC
 dC
 dC
@@ -50550,10 +50566,10 @@ PI
 PI
 PI
 PI
-aS
-fS
-Wx
-dC
+PI
+PI
+PI
+Kb
 dC
 dC
 dC
@@ -50807,8 +50823,8 @@ PI
 PI
 PI
 PI
-aS
-fS
+PI
+PI
 aS
 aS
 aS
@@ -52601,7 +52617,7 @@ Jd
 Jd
 gg
 aS
-Zt
+Gc
 Zt
 aS
 vi

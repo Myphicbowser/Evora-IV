@@ -291,8 +291,8 @@
 		H.h_style = "Bobcurl"
 		H.vice = "Piety"
 
-		to_chat(H, "<span class='notice'><b><font size=3>You are a Sister of Battle belonging to the Order of Our Martyred Lady assigned to the Monastary, you serve both the Inquisition and Ecclesiarchy directly, though you truly The God Emperor who stands above all.</font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement but protectors of the faith. Your primary purpose is to protect the reliquary.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are a Sister of Battle belonging to the Order of Our Martyred Lady, assigned to the Abbey. You serve both the Inquisition and Ecclesiarchy directly, though you truly serve The God Emperor of Man.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement, but protectors of the faith. Your primary purpose is to protect the reliquary.</font></b></span>")
 
 /datum/job/hospitaller
 	title = "Novitiate Hospitaller"
@@ -341,7 +341,7 @@
 		H.vice = "Piety"
 
 		to_chat(H, "<span class='notice'><b><font size=3>http://is12wiki.xyz/index.php/Guide_to_Medicine</font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>You are a novice sister of the Ordos Hospitaller, The Sisters of our Emperor's Mercy serving under The Abbess to maintain the health and divinity of the township.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are a novice sister of the Ordos Hospitaller, The Sisters of our Emperor's Mercy serving under The Abbess to maintain the physical and spiritual health of the township.</font></b></span>")
 
 //NOVICE - has just become a sister
 /datum/job/progena
