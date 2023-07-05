@@ -1471,6 +1471,7 @@
 /obj/effect/floor_decal/newcorner/white{
 	dir = 4
 	},
+/obj/structure/closet/crate/vatgrownboy,
 /turf/simulated/floor/tiled{
 	color = "grey";
 	icon_state = "dark1"
@@ -2499,11 +2500,11 @@
 /area/cadiaoutpost/oa/village)
 "hY" = (
 /obj/effect/floor_decal/turf/brick/two,
-/obj/structure/closet/coffin,
 /obj/structure/torchwall/service{
 	dir = 4;
 	icon_state = "torchwall0"
 	},
+/obj/structure/closet/sarcophagus,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2643,7 +2644,7 @@
 /area/cadiaoutpost/oa/service/enforcer)
 "it" = (
 /obj/effect/floor_decal/turf/brick/two,
-/obj/structure/closet/coffin,
+/obj/structure/closet/sarcophagus,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2956,10 +2957,6 @@
 /obj/item/book/manual{
 	desc = "I discovered a truly miraculous substance in the vials recovered by the scouts. It produces a faint light and a pungent odour, when injected a wound on my hand I acquired during my cuttings healed rapidly. It was astounding. I have experimented with it but so far it has proven ineffective against my illness.";
 	name = "Research Notes"
-	},
-/obj/item/book/manual{
-	desc = "I once walked the same ground as your idol. I breathed the same air as him. And I tell you this, without lie or artifice. He never wanted to become what you have made him. He did not wish to be your god-thing. He abhorred such ideals. The slavery of your crippled, blind Imperium would sicken him, if he had eyes to see it.";
-	name = "Daemonic Tome"
 	},
 /obj/item/book/manual{
 	desc = "The Emperor once walked among men, but He is, and always has been, a god. The Emperor is the one true god, regardless of what past faiths any human may have worshipped. To purge the heretic, beware the psyker and mutant, and abhor the alien. Every human being has a place within the Emperor's divine order. To unquestionably obey the authority of the Imperial government and one's superiors.";
@@ -3727,14 +3724,6 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
-"lr" = (
-/obj/effect/floor_decal/turf/brick/two,
-/obj/structure/closet/coffin,
-/obj/random/shoes,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/chapel)
 "ls" = (
 /obj/item/clothing/suit/armor/flak1/renegadearmor,
 /obj/item/clothing/suit/armor/flak1/renegadearmor,
@@ -4210,11 +4199,11 @@
 /area/cadiaoutpost/oa/village/pathfinder)
 "mI" = (
 /obj/effect/floor_decal/turf/brick/two,
-/obj/structure/closet/coffin,
 /obj/structure/torchwall/service{
 	dir = 8;
 	icon_state = "torchwall0"
 	},
+/obj/structure/closet/sarcophagus,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -5953,7 +5942,6 @@
 	name = "sleeping mat"
 	},
 /obj/item/bedsheet/blue,
-/obj/item/trash/candy,
 /obj/effect/landmark/start/village/citizen,
 /turf/simulated/floor/wood{
 	color = "grey"
@@ -9546,14 +9534,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/enforcer)
-"Fv" = (
-/obj/structure/table/steel_reinforced,
-/obj/item/trash/foodtray,
-/obj/item/trash/pistachios,
-/turf/simulated/floor/wood{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/hab/inside)
 "Fx" = (
 /obj/effect/decal/cleanable/blood/drip,
 /turf/simulated/floor/tiled/dark,
@@ -10118,13 +10098,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/hab/inside)
-"HW" = (
-/obj/effect/floor_decal/turf/metal/five,
-/obj/structure/closet/crate/vatgrownboy,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/supply/cargo/office)
 "HX" = (
 /obj/effect/floor_decal/newcorner/yellow/solid,
 /obj/machinery/light/spot,
@@ -11517,7 +11490,7 @@
 "Nk" = (
 /obj/effect/floor_decal/turf/brick/two,
 /obj/effect/floor_decal/spline/fancy/wood,
-/obj/structure/closet/coffin,
+/obj/structure/closet/sarcophagus,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -11641,10 +11614,6 @@
 /obj/effect/floor_decal/newcorner/shaft/diagonal,
 /obj/structure/bookcase,
 /obj/item/book{
-	desc = "My people shackled the stars, and broke mortality when the species you sprang from had barely left the slime pools it spawned in. Our wars burned reality, and the dominion of our kings is without limit. The ground you tread on is not yours; it is ours.";
-	name = "necron tome"
-	},
-/obj/item/book{
 	desc = "I have a reputation, Modile, a reputation as a fair, honest man who treats his soldiers well and supports them in the face of darkness. Potentially, that reputation makes me soft. It seems I understand failure and forgive it. Some, like Kowle, believe me to be a weak commissar, not prepared to take the action my rank demands. Not prepared to enforce field discipline where I see it failing. I am an Imperial commissar. I will enflame the weak, support the wavering, guide the lost. I will be all things to all men who need me. But I will also punish without hesitation the incompetent, the cowardly, and the treasonous. Choose, for courtesy's sake, summary execution or a firing squad of your own men.";
 	name = "inquisitor tome"
 	},
@@ -11655,10 +11624,6 @@
 /obj/item/book{
 	desc = "I am forty-two standard years old, in my prime by Imperial standards, young by those of the Inquisition. All my life, I have had a reputation for being cold, unfeeling. Some have called me heartless, ruthless, even cruel. I am not. I am not beyond emotional response or compassion. But I possess - and my masters count this as perhaps my paramount virtue - a singular force of will. Throughout my career it has served me well to draw on this facility and steel myself, unflinching, at all that this wretched galaxy can throw at me. To feel pain or fear or grief is to allow myself a luxury I cannot afford.";
 	name = "imperial tome"
-	},
-/obj/item/book{
-	desc = "What is Chaos? Suffering, you might say. Oppression. Deceit. But could not all these things be said of your Imperium? You hunt down the talented and the strong-willed. You break them or sacrifice them. You lie to your citizens and wage war on those who dare speak out. The inquisitors you call masters assume guilt and execute millions on a whim. And why? Why do you do this? Because you know Chaos is there but you do not know how to fight it, so you crush your own citizens for fear that they might aid the Enemy. The Imperium suffers because of Chaos. No matter how hard you fight, that will never change. Chaos exists in a state of permanent victory over you - you dance to our tune, mortal one, you butcher and torture and repress one another because the gods of the warp require you to. The Imperium is founded on Chaos. My lord Tzeentch won your war a long, long time ago.";
-	name = "chaos tome"
 	},
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
@@ -12047,7 +12012,7 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/villageinside)
 "PE" = (
-/obj/structure/bookcase,
+/obj/structure/table/steel_reinforced,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -13089,13 +13054,9 @@
 "TZ" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/item/storage/pill_bottle/happy,
-/obj/item/storage/pill_bottle/zoom,
 /obj/item/storage/pill_bottle/tramadol,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer,
 /obj/item/reagent_containers/food/drinks/bottle/small/beer,
-/obj/item/landmine,
-/obj/item/plastique,
-/obj/item/plastique,
 /obj/item/reagent_containers/food/drinks/bottle/amasecpoor,
 /turf/simulated/floor/wood{
 	color = "grey"
@@ -34111,7 +34072,7 @@ gN
 kf
 fX
 zz
-lr
+it
 mI
 Nk
 nE
@@ -34147,7 +34108,7 @@ oL
 oL
 mg
 mg
-HW
+lV
 kO
 Fd
 eP
@@ -49007,7 +48968,7 @@ ae
 xE
 My
 PE
-sO
+PE
 kF
 wk
 UZ
@@ -49263,7 +49224,7 @@ xE
 xE
 xE
 My
-Fv
+sO
 Ed
 Ed
 rb
