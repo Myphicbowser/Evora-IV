@@ -4641,16 +4641,6 @@
 "PI" = (
 /turf/unsimulated/miningtime,
 /area/cadiaoutpost/oa/caves)
-"PK" = (
-/obj/structure/closet/crate{
-	name = "RESTRICTED"
-	},
-/obj/effect/floor_decal/turf/brick/two,
-/obj/item/device/cassette/heresy1,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/service/chapel/vault)
 "PL" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/table/rack/dark,
@@ -19728,7 +19718,7 @@ dI
 dI
 dI
 dI
-PK
+dI
 io
 io
 SI

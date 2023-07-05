@@ -8110,7 +8110,6 @@
 	color = "#36261B"
 	},
 /obj/item/card/id/key/grand/monastary/inner,
-/obj/item/device/cassette/heresy2,
 /obj/item/card/id/key/grand/monastary{
 	pixel_x = -7;
 	pixel_y = 5
