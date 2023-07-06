@@ -63,6 +63,7 @@
 	open_when_dead = FALSE
 	outfit_type = /decl/hierarchy/outfit/job/guardsman
 	cultist_chance = 20
+	role_desc = " You are a member of the Planetary Defense Force of Evora IV, the Redd Guard. You serve the Planetary Governor, Grand Duke Edwin-Bartholomew Redd and the Margrave of the borderland of Aquileia.  You should only respond to threats to the Margrave's manor and external threats such as xenos. Enforcement of the law is under the jurisdiction of the Enforcers."
 
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = IMPERIUM
@@ -146,6 +147,9 @@
 		"Catachan Flamer" = /decl/hierarchy/outfit/job/sharpshooter/catachan,
 		)
 */
+
+	role_desc = " You are a member of the Planetary Defense Force of Evora IV, the Redd Guard. You serve the Planetary Governor, Grand Duke Edwin-Bartholomew Redd and the Margrave of the borderland of Aquileia. You should only respond to threats to the Margrave's manor and external threats such as xenos. Enforcement of the law is under the jurisdiction of the Enforcers."
+
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = IMPERIUM
 		..()
@@ -288,6 +292,7 @@ datum/job/ig/bullgryn
 	shotgun_skill = 9
 	lmg_skill = 9
 	smg_skill = 9
+	role_desc = "You are a sergeant in the Planetary Defense Force of Evora IV, the Redd Guard. You serve the Planetary Governor, Grand Duke Edwin-Bartholomew Redd and the Margrave of the borderland of Aquileia.  You should only respond to threats to the Margrave's manor and external threats such as xenos. Enforcement of the law is under the jurisdiction of the Enforcers. "
 
 	equip(var/mob/living/carbon/human/H)
 		..()
@@ -355,6 +360,7 @@ datum/job/ig/bullgryn
 	lmg_skill = 8
 	smg_skill = 9
 	cultist_chance = 20 //this man has seen his comrades die from fucking nurgle rot and revive
+	role_desc = " You are a member of the Planetary Defense Force of Evora IV, the Redd Guard. You serve the Planetary Governor, Grand Duke Edwin-Bartholomew Redd and the Margrave of the borderland of Aquileia.  You should only respond to threats to the Margrave's manor and external threats such as xenos. Enforcement of the law is under the jurisdiction of the Enforcers."
 
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = IMPERIUM

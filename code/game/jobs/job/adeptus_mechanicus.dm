@@ -74,6 +74,7 @@
 	lmg_skill = 6
 	smg_skill = 7
 	cultist_chance = 35
+	role_desc = "You are a Enginseer resting within a Forge Temple of the Mechanicus constructed by the AdMech. Learn from the Explorator and Biologis. Craft blessed machine spirits in the forge. Teach the Tech Menials the basics. Lead Skitarii if needed."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -118,6 +119,7 @@
 	lmg_skill = 6
 	smg_skill = 6
 	cultist_chance = 35
+	role_desc = " (NEW PLAYER ROLE) You are a Tech-Menial, and you have been blessed with the privilege of serving within a Forge Temple of the Admech. You are inexperienced and learning. Ensure to learn much."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -166,6 +168,7 @@
 	lmg_skill = 6
 	smg_skill = 7
 	cultist_chance = 30
+	role_desc = "You are the Magos Biologis, resting within a Forge Temple of the Mechanicus constructed by the AdMech. You are an expert on xenos and biological research, your primary duty is to oversee the construction of Skitarii. You have equal power alongside the Explorator. Ensure the Menials and Techpriests are properly trained in your craft."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -212,6 +215,7 @@
 	lmg_skill = 8
 	smg_skill = 8
 	cultist_chance = 30
+	role_desc = "You are the Magos Explorator, resting within a Forge Temple of the Mechanicus constructed by the AdMech. Your primary duty is to explore the planet and locate relics and research items. You have equal power alongside the Biologis. Ensure the Menials and Techpriests are properly trained in your craft."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name

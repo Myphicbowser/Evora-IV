@@ -10,6 +10,7 @@
 	latejoin_at_spawnpoints = TRUE
 	announced = FALSE
 	cultist_chance = 100
+	role_desc = "You are a vagrant. You have no real home here and you have no real future here. <br> <span class = 'badmood'> + Go to your pilgrim tab and select your fate. + "
 
 
 	equip(var/mob/living/carbon/human/H)
@@ -39,6 +40,7 @@
 	latejoin_at_spawnpoints = TRUE
 	announced = FALSE
 	cultist_chance = 30
+	role_desc = "You are an Imperial Citizen local to the planet of Evora IV. <br> <span class = 'badmood'> + Go to your citizen tab and select your fate. +"
 
 
 	equip(var/mob/living/carbon/human/H)
@@ -365,6 +367,7 @@ Pilgrim Fate System
 	latejoin_at_spawnpoints = TRUE
 	announced = FALSE
 	cultist_chance = 5
+	role_desc = "You're one of the leaders of the Rogue Trader's criminal enterprise. You run the inn, the brothel within it, and control the sale of drugs in your territory."
 
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = IMPERIUM
@@ -391,6 +394,7 @@ Pilgrim Fate System
 	latejoin_at_spawnpoints = TRUE
 	announced = FALSE
 	cultist_chance = 100
+	role_desc = "Your family rose to prominance in court generations ago serving as cartographers for the Lord-Governor. After a series of scandals your clan has lost favor with the ruling houses of Evora IV which has greatly diminished your influence.. You have a manor in the city of Aquileia, a title, and a modest fortune. What you make of this is your choice."
 
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = IMPERIUM
@@ -629,6 +633,7 @@ Pilgrim Fate System
 	latejoin_at_spawnpoints = TRUE
 	announced = FALSE
 	cultist_chance = 5
+	role_desc = "You are a ganger, made men serving the noble house of the Rogue Trader and his Capo.  "
 
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = IMPERIUM
@@ -729,6 +734,7 @@ Pilgrim Fate System
 	announced = FALSE
 	cultist_chance = 0 // grog like emperorah :) // bouncer should only be cultist if the innkeeper is. as they would get easily indoctrinated by their dad/boss
 	species_role = "Ogryn"
+	role_desc = "You're the biggest, baddest, muscle of the gang. Listen to the Rogue Trader and Capo."
 
 
 	equip(var/mob/living/carbon/human/H)

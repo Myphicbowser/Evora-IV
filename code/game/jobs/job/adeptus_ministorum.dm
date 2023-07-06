@@ -24,6 +24,7 @@
 	lmg_skill = 6
 	smg_skill = 6
 	cultist_chance = 30
+	role_desc = "You are a Sister Dialogus, a member of the Order of the Quill. You are responsible for record-keeping, translation, oration, and other scholarly endeavors. It is your job to instill faith in The God Emperor of Man and protect the political position of the church.You are also the foremost expert on canon law and may be called upon to judge your fellow servants of the God Emperor."
 
 
 
@@ -229,6 +230,7 @@
 	lmg_skill = 10
 	smg_skill = 10
 	cultist_chance = 5
+	role_desc = "You are the Abbess in Aquileia and a sister of The Order of Our Martyred Lady. You have several sisters in your care and a reliquary full of artifacts of the beata. You must lead your sisters in accordance with the Codex Sororitas and teach the locals to love and revere the God Emperor."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -270,6 +272,7 @@
 	lmg_skill = 10
 	smg_skill = 10
 	cultist_chance = 7
+	role_desc = "You are a Sister of Battle belonging to the Order of Our Martyred Lady, assigned to the Abbey. You serve both the Inquisition and Ecclesiarchy directly, though you truly serve The God Emperor of Man. Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement, but protectors of the faith. Your primary purpose is to protect the reliquary."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -321,6 +324,7 @@
 	lmg_skill = 7
 	smg_skill = 7
 	cultist_chance = 10
+	role_desc = "You are a novice sister of the Ordos Hospitaller, The Sisters of our Emperor's Mercy serving under The Abbess to maintain the physical and spiritual health of the township."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -368,6 +372,7 @@
 	lmg_skill = 9
 	smg_skill = 9
 	cultist_chance = 25
+	role_desc = "You are a recent arrival to the Abbey in Aquileia, coming from the scholam established in the captial of Evora IV after the warp storms cut off the world from the rest of the Imperium. Novitiates are usually stationed in dangerous places to be tempered by battle, but you have the honor of protecting the reliquary and the artifacts of the beata. Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement but protectors of the faith. Your primary purpose is to protect the reliquary."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -390,13 +395,59 @@
 		to_chat(H, "<span class='notice'><b><font size=3>You are a recent arrival to the Abbey in Aquileia, coming from the scholam established in the captial of Evora IV after the warp storms cut off the world from the rest of the Imperium. Novitiates are usually stationed in dangerous places to be tempered by battle, but you have the honor of protecting the reliquary and the artifacts of the beata.</font></b></span>")
 		to_chat(H, "<span class='notice'><b><font size=3>Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement but protectors of the faith. Your primary purpose is to protect the reliquary.</font></b></span>")
 
-/datum/job/preacher
+/datum/job/nerd
+	title = "Scholar"
+	department = list("Ministorum", "Medical")
+	department_flag = MED
+	minimal_player_age = 40
+	total_positions = 2
+	spawn_positions = 2
+	supervisors = "The Abbess and Sister Superior"
+	selection_color = "#FCFBFA"
+	economic_modifier = 7
+	social_class = SOCIAL_CLASS_HIGH
+	open_when_dead = FALSE
+	latejoin_at_spawnpoints = TRUE
+	announced = FALSE
+	access = list(access_advchapel, access_medical, access_village)
+	minimal_access = list(access_advchapel, access_medical, access_village)
+	outfit_type = /decl/hierarchy/outfit/job/scholar
+	auto_rifle_skill = 9
+	semi_rifle_skill = 9
+	sniper_skill = 9
+	shotgun_skill = 9
+	lmg_skill = 9
+	smg_skill = 9
+	cultist_chance = 25
+	role_desc = "You are the scholar studying under the Sister Dialogus and Abbess. While you are not formally a part of the Ecclesiarchy, you are a valued asset to the Abbey thanks to your medical knowledge."
+
+
+	equip(var/mob/living/carbon/human/H)
+		var/current_name = H.real_name
+		..()
+		H.fully_replace_character_name("Scholar [current_name]")
+		H.set_trait(new/datum/trait/death_tolerant())
+		H.add_stats(rand(14,16), rand(14,16), rand(10,14), rand(11,14))
+		H.add_skills(rand(5,9),rand(5,9),rand(6,8),rand(2,4),rand(8,9)) //melee, ranged, med, eng, surgery
+		H.get_idcard()?.access = list(access_medical, access_village)
+		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
+		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
+		H.adjustStaminaLoss(-INFINITY)
+		H.get_equipped_item(slot_s_store)
+		H.warfare_faction = IMPERIUM
+
+		to_chat(H, "<span class='notice'><b><font size=3>http://is12wiki.xyz/index.php/Guide_to_Medicine</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are the scholar studying under the Sister Dialogus and Abbess. While you are not formally a part of the Ecclesiarchy, you are a valued asset to the Abbey thanks to your medical knowledge.</font></b></span>")
+
+
+/*
+/datum/job/scholar
 	title = "Scholar"
 	department = list("Ministorum", "Medical")
 	department_flag = MED
 	minimal_player_age = 20
-	total_positions = 0
-	spawn_positions = 0
+	total_positions = 1
+	spawn_positions = 1
 	supervisors = "The Abbess and Sister Superior"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7
@@ -406,7 +457,7 @@
 	announced = FALSE
 	access = list(access_advchapel, access_medical, access_village)
 	minimal_access = list(access_advchapel, access_medical, access_village)
-	outfit_type = /decl/hierarchy/outfit/job/preacher
+	outfit_type = /decl/hierarchy/outfit/job/novicemilitant
 	auto_rifle_skill = 4
 	semi_rifle_skill = 4
 	sniper_skill = 4
@@ -428,7 +479,7 @@
 
 		to_chat(H, "<span class='notice'><b><font size=3>http://is12wiki.xyz/index.php/Guide_to_Medicine</font></b></span>")
 		to_chat(H, "<span class='notice'><b><font size=3>You are the scholar studying under the Sister Dialogus and Abbess. While you are not formally a part of the Ecclesiarchy, you are a valued asset to the Abbey thanks to your medical knowledge.</font></b></span>")
-
+*/
 
 // sob outfits
 /decl/hierarchy/outfit/job/sisterofbattle
@@ -525,7 +576,7 @@
 	/obj/item/stack/thrones3/ten = 2
 	)
 
-/decl/hierarchy/outfit/job/preacher
+/decl/hierarchy/outfit/job/scholar
 	name = OUTFIT_JOB_NAME("Scholar")
 	head = /obj/item/clothing/head/preacher
 	uniform = /obj/item/clothing/under/rank/chaplain

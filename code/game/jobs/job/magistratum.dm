@@ -26,6 +26,7 @@
 
 
 	announced = FALSE
+	role_desc = "You are the Marshal appointed by the Magistratum,, your duty is to uphold Imperial law on this planet amongst the Pilgrims and to assist the Margrave where necessary. Your duties involve the investigation of crimes committed on behalf of the magistratum, collection of tithes and the handling of criminals apprehended by the Magistratum."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -70,6 +71,7 @@
 
 
 	announced = FALSE
+	role_desc = " An Enforcer in the Magisterium. The Margrave and Marshal are your superiors. Collect taxes and keep the peace."
 
 	equip(var/mob/living/carbon/human/H)
 		..()

@@ -36,7 +36,7 @@
 	/datum/job/hospitaller,
 	/datum/job/progena,
 	/datum/job/deacon,
-	/datum/job/preacher, //this is scholar now, but it still spawns naked for some fucking reason
+	/datum/job/nerd,
 	/*datum/job/kasrkin, */
 	/*datum/job/scavenger, */
 	/datum/job/penitent,

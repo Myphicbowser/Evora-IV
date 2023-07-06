@@ -864,7 +864,7 @@
 "noK" = (/obj/structure/sign/mirror,/turf/simulated/wall/concrete{integrity = 3500},/area/cadiaoutpost/oa/service/hab/inside)
 "nqk" = (/obj/structure/table/woodentable{color = "#36261B"},/obj/item/reagent_containers/food/snacks/foodtray,/obj/effect/floor_decal/turf/cafe,/turf/simulated/floor/wood{color = "grey"},/area/cadiaoutpost/oa/service/hab/inside)
 "nqu" = (/obj/structure/sign/imperial{pixel_x = -30},/turf/simulated/floor/stone,/area/cadiaoutpost/oa/village)
-"nqG" = (/obj/structure/bed{desc = "A mass produced sleeping mat, now with actual cloth!"; icon_state = "bed_padding1"; name = "sleeping mat"},/obj/item/bedsheet/brown,/obj/effect/landmark/start/ministorum/preacher,/turf/simulated/floor/tiled{color = "grey"},/area/cadiaoutpost/oa/service/chapel)
+"nqG" = (/obj/structure/bed{desc = "A mass produced sleeping mat, now with actual cloth!"; icon_state = "bed_padding1"; name = "sleeping mat"},/obj/item/bedsheet/brown,/obj/effect/landmark/start/ministorum/scholar,/turf/simulated/floor/tiled{color = "grey"},/area/cadiaoutpost/oa/service/chapel)
 "nrI" = (/obj/machinery/botany/editor,/turf/simulated/floor/dirty,/area/cadiaoutpost/oa/village)
 "ntg" = (/obj/effect/floor_decal/newcorner/white/diagonal,/obj/structure/bed/chair,/obj/item/clothing/suit/armor/hjacket,/turf/simulated/floor/tiled/white{color = "grey"},/area/cadiaoutpost/oa/medicae)
 "ntN" = (/obj/structure/table/steel,/obj/item/device/megaphone,/obj/item/device/megaphone,/obj/item/device/megaphone,/turf/simulated/floor/tiled{color = "grey"},/area/cadiaoutpost/oa/service/chapel)

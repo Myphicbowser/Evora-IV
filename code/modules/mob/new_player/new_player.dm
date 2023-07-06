@@ -642,8 +642,8 @@ mob/new_player/MayRespawn()
 	show_new_information()
 
 /mob/new_player/proc/show_new_information()
-	var/dat = {"<h2>Forge-World Eipharius</h2>
-Hello! It appears you are new here! Thanks for joining Forge-World Eipharius. We recommend that if you are new to the Grimdark setting of 40k to read on the Lexicanum (lore wiki) or find some lore video on Youtube.
+	var/dat = {"<h2>Evora IV</h2>
+Hello! It appears you are new here! Thanks for joining Evora IV. We recommend that if you are new to the Grimdark setting of 40k to read on the Lexicanum (lore wiki) or find some lore video on Youtube.
 <h3>Discord Link</h3>
 <font size='4'><a href=\"https://discord.gg/xthVK85W3M\">Discord</a></font>
 <h3>Wiki Link</h3>
@@ -651,7 +651,7 @@ Hello! It appears you are new here! Thanks for joining Forge-World Eipharius. We
 <h3>Lexicanum</h3>
 <font size='4'><a href=\"https://wh40k.lexicanum.com/wiki/Portal:Imperium\">Wiki</a></font>
 <h3>Server Summary</h3>
-Forge-World Eipharius is a Warhammer 40k SS13 server running a modified version of the IS12 codebase. IS12 is a modified version of old Baystation. Things from their wikis may or may not apply here.
+Evora IV is a Warhammer 40k HRP SS13 server running a modified version of the IS12 codebase. IS12 is a modified version of old Baystation. Things from their wikis may or may not apply here.
 <h3>Some Notes</h3>
 Controls are ingame under the \"view controls\" button in OOC.
 <h3>Enjoy your stay!</h3>"}

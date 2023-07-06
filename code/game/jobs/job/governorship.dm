@@ -29,6 +29,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	lmg_skill = 7
 	smg_skill = 7
 	cultist_chance = 35 // we want funny inq vs nonsense
+	role_desc = "The Lord of Aquileia, the city your family has ruled since they came to this planet. You have close blood ties with the Planetary Governor, but have married into their family and have less political influence than the main house. You command a detachment of the Planetary Defesne Force to protect your city. Lately tensions with the Rogue Trader have been increasing as they make increasingly bold grabs for power, but you cannot act against them without approval from the Planetary Governor."
 
 
 	equip(var/mob/living/carbon/human/H)
@@ -69,6 +70,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	lmg_skill = 7
 	smg_skill = 7
 	cultist_chance = 40 // lots of delicacies growing up
+	role_desc = "You are the adoptive child of the Margrave who has no legitimate blood heirs. You have been taken in from another noble house to prevent a crisis of succession. Even with your presence, the other local nobles and courtiers are maneuvering to take your loose grasp on your future title."
 
 
 	equip(var/mob/living/carbon/human/H)
@@ -188,6 +190,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	lmg_skill = 6
 	smg_skill = 7
 	cultist_chance = 20
+	role_desc = "You are a servant in direct service to the Margrave, having been in service to their family for generations."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name

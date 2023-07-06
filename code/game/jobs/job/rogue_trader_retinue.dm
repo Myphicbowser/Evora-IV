@@ -27,6 +27,7 @@
 	lmg_skill = 8
 	smg_skill = 8
 	cultist_chance = 40
+	role_desc = "You are the Rogue Trader, a merchant lord who's family has been trapped on this planet for generations. You have mercenaries, gangers, and you have the opportunity to take power in this dying city."
 
 
 	equip(var/mob/living/carbon/human/H)
