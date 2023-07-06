@@ -67,6 +67,17 @@
 	plane = ABOVE_HUMAN_PLANE
 	bound_width = 64
 
+/obj/structure/statue/fancyaquilla
+	name = "aquila altar"
+	desc = "A glorious stone and nuln wood altar fit for a church."
+	icon = 'icons/obj/structures/aquilla.dmi'
+	icon_state = "fancyaquilla"
+	anchored = 1
+	density = 1
+	layer = 4
+	plane = ABOVE_HUMAN_PLANE
+	bound_width = 64
+
 /obj/structure/statue/tomb
 	name = "Tomb of the Martyred Sister"
 	desc = "A black stone sarcophagus of an unidentified sister. Her body was found alongside the Beata."
