@@ -49,7 +49,7 @@ GLOBAL_LIST_EMPTY(family_blacklist)
 	var/is_blue_team = FALSE			 //Warfare shit.
 	var/is_red_team = FALSE				 //Same here.
 	var/can_be_in_squad = FALSE			 //Whether or not the job can be in a squad or not. Used for warfare shit.
-	var/role_desc = null
+	var/role_desc = "Error. Please ahelp saying which job you have on high"
 	//Skill defines. Put the MAXIMUM skill you want here, when it assigns skills it will randomly subtract 3 unless specific skill is set.
 	var/specific_skill = FALSE //If set to true, it will not assign random skills, but the specific number you put.
 	var/medical_skill = 5

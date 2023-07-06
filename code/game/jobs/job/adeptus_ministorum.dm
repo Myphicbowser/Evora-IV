@@ -24,6 +24,7 @@
 	lmg_skill = 6
 	smg_skill = 6
 	cultist_chance = 30
+	role_desc = "You are a Sister Dialogus, a member of the Order of the Quill. You are responsible for record-keeping, translation, oration, and other scholarly endeavors. It is your job to instill faith in The God Emperor of Man and protect the political position of the church.You are also the foremost expert on canon law and may be called upon to judge your fellow servants of the God Emperor."
 
 
 
@@ -229,6 +230,7 @@
 	lmg_skill = 10
 	smg_skill = 10
 	cultist_chance = 5
+	role_desc = "You are the Abbess in Aquileia and a sister of The Order of Our Martyred Lady. You have several sisters in your care and a reliquary full of artifacts of the beata. You must lead your sisters in accordance with the Codex Sororitas and teach the locals to love and revere the God Emperor."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -270,6 +272,7 @@
 	lmg_skill = 10
 	smg_skill = 10
 	cultist_chance = 7
+	role_desc = "You are a Sister of Battle belonging to the Order of Our Martyred Lady, assigned to the Abbey. You serve both the Inquisition and Ecclesiarchy directly, though you truly serve The God Emperor of Man. Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement, but protectors of the faith. Your primary purpose is to protect the reliquary."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -321,6 +324,7 @@
 	lmg_skill = 7
 	smg_skill = 7
 	cultist_chance = 10
+	role_desc = "You are a novice sister of the Ordos Hospitaller, The Sisters of our Emperor's Mercy serving under The Abbess to maintain the physical and spiritual health of the township."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -368,6 +372,7 @@
 	lmg_skill = 9
 	smg_skill = 9
 	cultist_chance = 25
+	role_desc = "You are a recent arrival to the Abbey in Aquileia, coming from the scholam established in the captial of Evora IV after the warp storms cut off the world from the rest of the Imperium. Novitiates are usually stationed in dangerous places to be tempered by battle, but you have the honor of protecting the reliquary and the artifacts of the beata. Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement but protectors of the faith. Your primary purpose is to protect the reliquary."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
@@ -414,6 +419,8 @@
 	lmg_skill = 9
 	smg_skill = 9
 	cultist_chance = 25
+	role_desc = "You are the scholar studying under the Sister Dialogus and Abbess. While you are not formally a part of the Ecclesiarchy, you are a valued asset to the Abbey thanks to your medical knowledge."
+
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name
