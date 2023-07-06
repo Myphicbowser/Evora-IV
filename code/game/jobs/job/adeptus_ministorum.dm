@@ -394,9 +394,9 @@
 	title = "Scholar"
 	department = list("Ministorum", "Medical")
 	department_flag = MED
-	minimal_player_age = 20
-	total_positions = 1
-	spawn_positions = 1
+	minimal_player_age = 40
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "The Abbess and Sister Superior"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7
