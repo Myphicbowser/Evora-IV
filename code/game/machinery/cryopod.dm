@@ -340,7 +340,7 @@
 	return
 
 /obj/machinery/cryopod/verb/move_inside()
-	set name = "Enter Pod"
+	set name = "Leave the City"
 	set category = "Object"
 	set src in oview(1)
 
@@ -352,7 +352,7 @@
 		return
 
 	if(ghosts_player)
-		if(alert(usr, "Are you sure you wanna go into the cryopod ? That will ghost you and give your character to another person", "Enter Cryopod?", "Yes", "No") != "Yes")
+		if(alert(usr, "Are you sure you want to enter the Matrix and leave the City?? That will remove you from the round.", "Enter Cryopod?", "Yes", "No") != "Yes")
 			return
 
 	visible_message("[usr] starts climbing into \the [src].", 3)
