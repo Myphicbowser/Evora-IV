@@ -211,8 +211,8 @@ Template:
 /obj/effect/landmark/start/ministorum/novice
 	name = "Novitiate Militant"
 
-/obj/effect/landmark/start/ministorum/preacher
-	name = "Scholar"
+/obj/effect/landmark/start/ministorum/nerd
+	name = "Nerd"
 
 // Village scum //
 

@@ -112,7 +112,7 @@
 	/obj/item/stack/thrones2/five = 1,
 	/obj/item/stack/thrones3/ten = 1
 		)
-
+/*
 /decl/hierarchy/outfit/job/preacher
 	name = OUTFIT_JOB_NAME("Preacher")
 	head = /obj/item/clothing/head/preacher
@@ -136,7 +136,7 @@
 	/obj/item/stack/thrones2/five = 1,
 	/obj/item/stack/thrones3/ten = 1
 		)
-
+*/
 /decl/hierarchy/outfit/job/service/undertaker
 	name = OUTFIT_JOB_NAME("Undertaker")
 	uniform = /obj/item/clothing/under/child_jumpsuit
