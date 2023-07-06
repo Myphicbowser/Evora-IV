@@ -1144,7 +1144,6 @@
 "dp" = (
 /obj/effect/floor_decal/turf/metal/five,
 /obj/structure/closet/crate/medical,
-/obj/item/storage/fancy/egg_box,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1253,7 +1252,6 @@
 "dG" = (
 /obj/effect/floor_decal/newcorner/yellow/solid,
 /obj/machinery/light,
-/obj/machinery/vending/engineering,
 /obj/effect/floor_decal/industrial/outline/orange,
 /obj/effect/floor_decal/turf/metal/five,
 /turf/simulated/floor/tiled/dark,
@@ -1275,7 +1273,8 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "dI" = (
-/obj/machinery/vending/engivend,
+/obj/structure/table/woodentable,
+/obj/item/device/flashlight/lantern,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1952,11 +1951,6 @@
 /obj/item/pyre/self_lit,
 /turf/simulated/floor/dirty/tough/lightless,
 /area/cadiaoutpost/oa/village)
-"gi" = (
-/obj/machinery/vending/boozeomat,
-/obj/effect/floor_decal/turf/metal/six,
-/turf/simulated/floor/tiled/dark,
-/area/cadiaoutpost/oa/service/inn)
 "gj" = (
 /obj/machinery/light{
 	dir = 1
@@ -2683,7 +2677,11 @@
 /area/cadiaoutpost/oa/supply/cargo/office)
 "ix" = (
 /obj/effect/floor_decal/turf/metal/five,
-/obj/machinery/vending/fashionvend,
+/obj/structure/table/rack,
+/obj/item/bikehorn,
+/obj/random/loot/randomitemtown,
+/obj/random/loot/randomsupply,
+/obj/random/loot/sidearms,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2702,6 +2700,8 @@
 /obj/item/reagent_containers/food/condiment/small/peppermill,
 /obj/item/reagent_containers/food/condiment/enzyme,
 /obj/item/reagent_containers/food/condiment/enzyme,
+/obj/item/reagent_containers/glass/beaker,
+/obj/item/reagent_containers/glass/beaker,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -3037,12 +3037,6 @@
 "jx" = (
 /obj/effect/floor_decal/turf/metal/five,
 /obj/structure/table/rack,
-/obj/item/melee/trench_axe/bspear{
-	name = "the emperor's rod";
-	force = 30;
-	force_wielded = 35;
-	throwforce = 30
-	},
 /obj/item/clothing/suit/armor/exile,
 /turf/simulated/floor/tiled{
 	color = "grey"
@@ -3672,10 +3666,8 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
-/obj/item/storage/toolbox/mechanical{
-	color = "grey"
-	},
 /obj/effect/floor_decal/turf/metal/five,
+/obj/item/storage/box/checkers,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "lg" = (
@@ -4316,11 +4308,15 @@
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "mU" = (
-/obj/machinery/vending/tool,
-/turf/simulated/floor/tiled{
-	color = "grey"
+/obj/effect/floor_decal/turf/metal/six,
+/obj/effect/floor_decal/turf/metal/five,
+/obj/structure/table/woodentable{
+	color = "#36261B"
 	},
-/area/cadiaoutpost/oa/villageinside)
+/obj/effect/floor_decal/turf/metal/five,
+/obj/item/storage/pill_bottle/dice_nerd,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/inn)
 "mV" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/structure/table/woodentable{
@@ -5186,12 +5182,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
-"pc" = (
-/obj/effect/floor_decal/turf/metal/six,
-/obj/effect/floor_decal/turf/metal/five,
-/obj/machinery/vending/dinnerware,
-/turf/simulated/floor/tiled/dark,
-/area/cadiaoutpost/oa/service/inn)
 "pd" = (
 /obj/structure/table/woodentable{
 	color = "#36261B"
@@ -5642,12 +5632,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
-"qw" = (
-/obj/machinery/vending/coffee,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
 "qz" = (
 /obj/effect/floor_decal/newcorner/yellow/diagonal,
 /obj/structure/cable{
@@ -5768,6 +5752,8 @@
 	color = "#36261B"
 	},
 /obj/effect/floor_decal/turf/metal/five,
+/obj/item/storage/box/checkers/chess,
+/obj/item/storage/box/checkers/chess/red,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "qY" = (
@@ -6487,12 +6473,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/enforcer)
-"tB" = (
-/obj/machinery/vending/containers,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/villageinside)
 "tC" = (
 /obj/structure/shuttle/engine/propulsion{
 	color = "grey"
@@ -9151,7 +9131,8 @@
 /turf/simulated/floor/snow,
 /area/cadiaoutpost/oa/village)
 "DL" = (
-/obj/machinery/vending/fashionvend,
+/obj/structure/table/woodentable,
+/obj/item/stack/thrones3/three,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -11446,6 +11427,7 @@
 	color = "#36261B"
 	},
 /obj/effect/floor_decal/turf/metal/five,
+/obj/item/board,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "ME" = (
@@ -11817,7 +11799,7 @@
 	dir = 8;
 	icon_state = "torchwall0"
 	},
-/obj/machinery/vending/snack,
+/obj/machinery/vending/boozeomat,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "Od" = (
@@ -11841,6 +11823,7 @@
 /obj/effect/floor_decal/turf/metal/five,
 /obj/effect/floor_decal/turf/metal/five,
 /obj/effect/floor_decal/turf/metal/five,
+/obj/item/storage/pill_bottle/dice,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "Og" = (
@@ -12513,7 +12496,7 @@
 "Rp" = (
 /obj/effect/floor_decal/turf/metal/five,
 /obj/structure/table/rack,
-/obj/item/clothing/head/helmet/soul,
+/obj/item/melee/sword/combat_knife/catachan,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -12849,7 +12832,6 @@
 /area/cadiaoutpost/oa/engineering/engine)
 "SJ" = (
 /obj/effect/floor_decal/turf/metal/five,
-/obj/machinery/vending/games,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/inn)
 "SM" = (
@@ -14356,7 +14338,7 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "Yv" = (
-/obj/machinery/vending/engineering,
+/obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -14720,7 +14702,7 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "ZM" = (
-/obj/machinery/vending/props,
+/obj/structure/table/woodentable,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -38824,7 +38806,7 @@ Ts
 Pe
 ky
 sr
-MD
+mU
 kb
 Qo
 kJ
@@ -40883,8 +40865,8 @@ kW
 kW
 ic
 Oc
-gi
-pc
+QB
+ip
 ic
 ip
 ip
@@ -55202,10 +55184,10 @@ re
 Rj
 xr
 xr
-mU
-tB
+xr
 Yv
-dI
+Yv
+xr
 du
 PZ
 PZ
@@ -55711,7 +55693,7 @@ ae
 ae
 ae
 oP
-qw
+uf
 xr
 xr
 xr
@@ -55968,7 +55950,7 @@ ae
 ae
 ae
 oP
-uf
+dI
 xr
 NW
 JK

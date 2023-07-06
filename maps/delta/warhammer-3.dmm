@@ -395,11 +395,6 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/offices/heir)
-"aO" = (
-/obj/effect/floor_decal/turf/plating,
-/obj/effect/decal/mecha_wreckage/hoverpod,
-/turf/simulated/floor/tiled/dark,
-/area/cadiaoutpost/oa/bridge/offices/magosexplorator)
 "aP" = (
 /obj/structure/table/rack/shelf,
 /obj/item/soap,
@@ -1047,6 +1042,19 @@
 	},
 /turf/simulated/open,
 /area/cadiaoutpost/oa/engineering)
+"cm" = (
+/obj/effect/floor_decal/newcorner/red/diagonal,
+/obj/effect/floor_decal/industrial/warning_red{
+	dir = 1
+	},
+/obj/effect/floor_decal/newcorner/plating{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning_red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "cn" = (
 /obj/structure/bed/chair/wood{
 	dir = 1;
@@ -1352,8 +1360,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
 	},
-/obj/item/stack/material/diamond,
-/obj/item/stack/material/phoron,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
 "cV" = (
@@ -1810,6 +1819,9 @@
 /obj/effect/floor_decal/industrial/warning_red/corner,
 /obj/effect/floor_decal/newcorner/red/diagonal,
 /obj/effect/floor_decal/industrial/warning_red/corner,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
 "ea" = (
@@ -2249,7 +2261,6 @@
 /obj/effect/floor_decal/newcorner/red/diagonal,
 /obj/effect/floor_decal/newcorner/plating,
 /obj/effect/floor_decal/industrial/warning_red,
-/obj/machinery/light/small/red,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
 "eX" = (
@@ -2854,6 +2865,11 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/engineering)
+"ha" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/item/device/holyoils/goop,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "hi" = (
 /obj/effect/floor_decal/newcorner/purple/diagonal,
 /obj/effect/floor_decal/industrial/warning{
@@ -2875,6 +2891,24 @@
 /turf/simulated/floor/tiled{
 	color = "grey";
 	icon_state = "dark1"
+	},
+/area/cadiaoutpost/oa/engineering)
+"hq" = (
+/obj/machinery/r_n_d/server/core,
+/obj/structure/window/reinforced{
+	dir = 4;
+	icon_state = "rwindow"
+	},
+/obj/structure/window/reinforced{
+	color = "grey";
+	dir = 4
+	},
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/reinforced/oxygen{
+	temperature = 53.15
 	},
 /area/cadiaoutpost/oa/engineering)
 "ht" = (
@@ -3064,6 +3098,21 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/research/robotics)
+"iM" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/door/airlock/highsecurity/imperiumdoor{
+	desc = "A reinforced monstrous door with an ornate archway. It is made of gothic stone, iron and copper mechanations. It proudly displays the Imperium's iconography on its front and is lathered in holy Mechanicus oils and incantations.";
+	name = "Computatrum";
+	req_access = list(10)
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "iN" = (
 /obj/structure/lattice,
 /obj/structure/catwalk,
@@ -3366,6 +3415,13 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/bridge/meetingroom)
+"kM" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/machinery/autolathe,
+/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/steel/fifty,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "kR" = (
 /obj/structure/table/rack,
 /obj/item/shield/riot,
@@ -3569,15 +3625,6 @@
 /obj/structure/table/rack,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/supply/cargo)
-"lJ" = (
-/obj/effect/floor_decal/turf/brick,
-/obj/effect/floor_decal/turf/metal/five,
-/obj/structure/cult/pylon,
-/obj/effect/cultwall,
-/turf/simulated/floor/tiled{
-	color = "grey"
-	},
-/area/cadiaoutpost/oa/research)
 "lL" = (
 /obj/effect/floor_decal/turf/brick/two,
 /obj/structure/closet/cabinet{
@@ -4192,6 +4239,13 @@
 	},
 /turf/simulated/open,
 /area/cadiaoutpost/oa/engineering)
+"pY" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "qd" = (
 /obj/effect/floor_decal/newcorner/shaft/quarter{
 	dir = 8
@@ -4202,8 +4256,8 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "qf" = (
-/obj/effect/wingrille_spawn/reinforced,
-/turf/simulated/floor/tiled/dark,
+/obj/structure/sign/mechanicus,
+/turf/simulated/wall/techno,
 /area/cadiaoutpost/oa/engineering)
 "qj" = (
 /obj/effect/floor_decal/turf/brick/two,
@@ -4290,6 +4344,11 @@
 /obj/structure/bed/chair/comfy,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/supply/cargo)
+"rd" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/machinery/mecha_part_fabricator,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "rg" = (
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/bridge/offices/sistersuperior)
@@ -4532,6 +4591,17 @@
 	color = null
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
+"sL" = (
+/obj/machinery/light{
+	dir = 4;
+	icon_state = "tube1"
+	},
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "sN" = (
 /obj/structure/undies_wardrobe,
 /obj/item/reagent_containers/food/drinks/bottle/wine,
@@ -4690,6 +4760,14 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/offices/sistersuperior)
+"tF" = (
+/obj/machinery/computer/rdconsole/robotics,
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "tH" = (
 /obj/structure/table/woodentable{
 	color = "#36261B"
@@ -4875,10 +4953,10 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "uL" = (
-/obj/effect/floor_decal/newcorner/red/diagonal,
-/obj/effect/floor_decal/newcorner/plating,
-/obj/effect/floor_decal/industrial/warning_red,
-/obj/machinery/light,
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/structure/bed/chair{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
 "uT" = (
@@ -5222,6 +5300,12 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
+"wC" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "wF" = (
 /obj/effect/floor_decal/turf/metal/five,
 /obj/structure/window/reinforced{
@@ -5418,6 +5502,16 @@
 /obj/item/storage/pill_bottle/dice,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves)
+"xV" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/firealarm{
+	pixel_x = 30
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "xX" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -5598,6 +5692,17 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/bridge/offices/planetarygovernor)
+"zw" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/computer/rdconsole/core,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "zC" = (
 /obj/structure/table/reinforced{
 	color = "grey"
@@ -5635,6 +5740,15 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel/chapeloffice)
+"zO" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/button/remote/blast_door/lever{
+	id = "biocogitatumgtfo";
+	pixel_y = -30
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "zP" = (
 /obj/machinery/computer/account_database,
 /obj/effect/floor_decal/turf/brick,
@@ -5985,12 +6099,6 @@
 /obj/effect/floor_decal/industrial/warning_red/corner,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
-"Cu" = (
-/obj/effect/floor_decal/newcorner/purple/diagonal,
-/obj/effect/floor_decal/industrial/warning,
-/obj/effect/decal/mecha_wreckage/hoverpod,
-/turf/simulated/floor/tiled/dark,
-/area/cadiaoutpost/oa/research/robotics)
 "Cw" = (
 /obj/effect/floor_decal/newcorner/red/diagonal,
 /obj/effect/floor_decal/newcorner/plating{
@@ -6536,6 +6644,20 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/engineering)
+"Gq" = (
+/obj/effect/floor_decal/newcorner/red/diagonal,
+/obj/effect/floor_decal/newcorner/plating{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning_red{
+	dir = 1;
+	icon_state = "warningcorner_red"
+	},
+/obj/effect/floor_decal/industrial/warning_red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "Gr" = (
 /obj/structure/railing{
 	dir = 4;
@@ -6592,6 +6714,12 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel)
+"GQ" = (
+/obj/structure/table/steel,
+/obj/machinery/integrated_circuit_printer,
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "GR" = (
 /obj/machinery/light{
 	dir = 1;
@@ -6689,6 +6817,16 @@
 /obj/item/clothing/suit/armor/rtdrip,
 /turf/simulated/floor/wood,
 /area/cadiaoutpost/oa/supply/cargo)
+"Hu" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "Hx" = (
 /obj/effect/floor_decal/carpet/red{
 	dir = 8
@@ -7030,6 +7168,21 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/hallway)
+"JQ" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light{
+	dir = 1;
+	icon_state = "tube1"
+	},
+/obj/machinery/r_n_d/destructive_analyzer,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "JR" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/bed/chair/comfy{
@@ -7162,6 +7315,18 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/enforcer)
+"KN" = (
+/obj/machinery/message_server,
+/obj/structure/window/reinforced{
+	color = "grey";
+	dir = 1
+	},
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/reinforced/oxygen{
+	temperature = 53.15
+	},
+/area/cadiaoutpost/oa/engineering)
 "KW" = (
 /obj/effect/floor_decal/turf/metal/six,
 /obj/machinery/door/airlock/engineering{
@@ -7460,6 +7625,20 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/inn)
+"MZ" = (
+/obj/effect/floor_decal/newcorner/red/diagonal,
+/obj/effect/floor_decal/newcorner/plating{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning_red{
+	dir = 4;
+	icon_state = "warningcorner_red"
+	},
+/obj/effect/floor_decal/industrial/warning_red{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "Nb" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
@@ -7632,15 +7811,10 @@
 /turf/simulated/wall/techno,
 /area/cadiaoutpost/oa/caves)
 "Oi" = (
-/obj/structure/table/rack/shelf,
-/obj/item/tank/jetpack/void,
-/obj/item/tank/jetpack/void,
-/obj/item/tank/jetpack/void,
-/obj/item/tank/jetpack/void,
-/obj/item/tank/jetpack/void,
+/obj/machinery/computer/message_monitor,
 /obj/effect/floor_decal/newcorner/purple/diagonal,
 /obj/effect/floor_decal/industrial/warning{
-	dir = 10
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
@@ -7779,6 +7953,7 @@
 "PC" = (
 /obj/effect/floor_decal/newcorner/purple/diagonal,
 /obj/structure/table/steel,
+/obj/item/device/holyoils,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
 "PG" = (
@@ -8061,9 +8236,16 @@
 	},
 /area/cadiaoutpost/oa/engineering)
 "RO" = (
-/obj/effect/floor_decal/newcorner/red/diagonal,
-/obj/effect/floor_decal/newcorner/plating,
-/obj/effect/floor_decal/industrial/warning_red,
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/obj/structure/table/steel,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
 "RQ" = (
@@ -8654,6 +8836,13 @@
 "VG" = (
 /turf/simulated/open,
 /area/cadiaoutpost/oa/engineering)
+"VJ" = (
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/landmark/animal/rngretaliatespawner{
+	name = "rng rat"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/engineering)
 "VL" = (
 /obj/machinery/power/terminal{
 	dir = 8;
@@ -9040,6 +9229,18 @@
 	},
 /turf/simulated/floor/carpet/red,
 /area/cadiaoutpost/oa/bridge/hallway)
+"Yy" = (
+/obj/machinery/r_n_d/server/robotics,
+/obj/structure/window/reinforced{
+	color = "grey";
+	dir = 1
+	},
+/obj/effect/floor_decal/newcorner/purple/diagonal,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/reinforced/oxygen{
+	temperature = 53.15
+	},
+/area/cadiaoutpost/oa/engineering)
 "Yz" = (
 /obj/effect/floor_decal/newcorner/shaft/diagonal,
 /turf/simulated/floor/tiled{
@@ -63778,7 +63979,7 @@ Lb
 Xn
 WC
 BB
-lJ
+vc
 xu
 Ff
 NS
@@ -64287,7 +64488,7 @@ eT
 SK
 SK
 SK
-Cu
+Zy
 Lb
 FL
 PX
@@ -65293,7 +65494,7 @@ cq
 wc
 vL
 YU
-aO
+cg
 cw
 cg
 sl
@@ -67869,7 +68070,7 @@ Tf
 Tf
 Ng
 Cw
-RO
+VS
 Ng
 Ng
 Ng
@@ -67887,7 +68088,7 @@ aQ
 PC
 dK
 CH
-qf
+Ng
 Tf
 Tf
 Tf
@@ -68126,7 +68327,7 @@ Tf
 Tf
 Ng
 Rb
-RO
+VS
 la
 tR
 dj
@@ -68140,7 +68341,7 @@ Wv
 eM
 jf
 co
-co
+ha
 co
 co
 CH
@@ -68382,8 +68583,8 @@ Tf
 Tf
 Tf
 Ng
-Rb
-uL
+Gq
+oV
 Ng
 HT
 an
@@ -68401,7 +68602,7 @@ As
 er
 dK
 CH
-qf
+Ng
 Tf
 Tf
 Tf
@@ -68639,8 +68840,8 @@ Tf
 Tf
 Tf
 Ng
-Ng
-Ng
+MZ
+VS
 Ng
 ct
 Ng
@@ -68895,9 +69096,9 @@ Tf
 Tf
 Tf
 Tf
-Tf
-Tf
-Tf
+Ng
+Rb
+VS
 Ng
 ci
 Rf
@@ -69152,21 +69353,21 @@ Tf
 Tf
 Tf
 Tf
-Tf
-Tf
-Tf
+Ng
+Rb
+VS
 Ng
 cU
 co
 co
 co
 co
-CH
+zO
 Ng
 Sn
 TF
 dj
-Oi
+as
 Ng
 VX
 dj
@@ -69409,27 +69610,27 @@ Tf
 Tf
 Tf
 Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
+Ng
+Rb
+VS
+Ng
+JQ
+rd
+kM
+GQ
+co
+wC
+Ng
+Sn
+co
+co
+au
+iM
+Hu
+co
+co
+KN
+Ng
 Tf
 Tf
 Tf
@@ -69666,27 +69867,27 @@ Tf
 Tf
 Tf
 Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
+Ng
+cm
+VS
+Ng
+zw
+uL
+co
+co
+co
+CH
+Ng
+cA
+co
+VJ
+CH
+Ng
+Oi
+co
+co
+Yy
+Ng
 Tf
 Tf
 Tf
@@ -69923,27 +70124,27 @@ Tf
 Tf
 Tf
 Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
+Ng
+Rb
+oV
+Ng
+RO
+OX
+OX
+OX
+OX
+pY
+Ng
+wA
+OX
+OX
+pY
+Ng
+tF
+sL
+xV
+hq
+Ng
 Tf
 Tf
 Tf
@@ -70180,27 +70381,27 @@ Tf
 Tf
 Tf
 Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
-Tf
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
+Ng
 Tf
 Tf
 Tf

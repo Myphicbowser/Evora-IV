@@ -146,9 +146,7 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
 "aF" = (
-/obj/machinery/vending/snack{
-	color = "grey"
-	},
+/obj/effect/decal/cleanable/urine,
 /turf/simulated/floor/tiled{
 	color = "gray"
 	},
@@ -293,9 +291,7 @@
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "cx" = (
-/obj/machinery/vending/sovietsoda{
-	color = "grey"
-	},
+/obj/item/trash/warfare_can/flower,
 /turf/simulated/floor/tiled{
 	color = "gray"
 	},
@@ -610,6 +606,12 @@
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
+"eN" = (
+/obj/structure/sign/spooky,
+/turf/simulated/wall/rust{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/caves/undercity)
 "fa" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/machinery/light,
@@ -4978,15 +4980,14 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "SB" = (
-/obj/machinery/vending/coffee{
-	icon_state = "coffe-broken"
-	},
-/turf/simulated/floor/tiled{
-	color = "gray"
+/obj/item/trash/liquidfood/triglyceride,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "SC" = (
 /obj/structure/table/steel_reinforced,
+/obj/item/gun/energy/las/laspistol/shitty,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -34141,7 +34142,7 @@ aS
 gg
 aS
 gg
-gg
+eN
 Ub
 Ub
 Ub
@@ -34655,7 +34656,7 @@ Ub
 HB
 XQ
 aS
-SB
+Ol
 Ls
 Ub
 aS
@@ -34913,7 +34914,7 @@ aS
 aS
 gg
 aF
-Ub
+SB
 Ub
 aS
 ME
