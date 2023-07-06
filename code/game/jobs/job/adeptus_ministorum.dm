@@ -391,12 +391,12 @@
 		to_chat(H, "<span class='notice'><b><font size=3>Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement but protectors of the faith. Your primary purpose is to protect the reliquary.</font></b></span>")
 
 /datum/job/nerd
-	title = "Nerd"
+	title = "Scholar"
 	department = list("Ministorum", "Medical")
 	department_flag = MED
-	minimal_player_age = 14
-	total_positions = 2
-	spawn_positions = 2
+	minimal_player_age = 20
+	total_positions = 1
+	spawn_positions = 1
 	supervisors = "The Abbess and Sister Superior"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7
@@ -420,21 +420,17 @@
 		..()
 		H.fully_replace_character_name("Scholar [current_name]")
 		H.set_trait(new/datum/trait/death_tolerant())
-		H.add_stats(rand(14,18), rand(14,18), rand(10,14), rand(17,18)) //nice stats
-		H.add_skills(rand(6,8),rand(6,8),rand(8,10),rand(3,5),rand(5,7)) //melee, ranged, med, eng, surgery
-		H.get_idcard()?.access = list(access_medical, access_village, access_advchapel)
+		H.add_stats(rand(14,16), rand(14,16), rand(10,14), rand(11,14))
+		H.add_skills(rand(5,9),rand(5,9),rand(6,8),rand(2,4),rand(8,9)) //melee, ranged, med, eng, surgery
+		H.get_idcard()?.access = list(access_medical, access_village)
 		H.warfare_language_shit(LANGUAGE_LOW_GOTHIC )
 		H.warfare_language_shit(LANGUAGE_HIGH_GOTHIC)
 		H.adjustStaminaLoss(-INFINITY)
 		H.get_equipped_item(slot_s_store)
-		H.gender = FEMALE
 		H.warfare_faction = IMPERIUM
-		H.f_style = "shaved"
-		H.h_style = "Bobcurl"
-		H.vice = "Piety"
 
-		to_chat(H, "<span class='notice'><b><font size=3>You are a recent arrival to the Abbey in Aquileia, coming from the scholam established in the captial of Evora IV after the warp storms cut off the world from the rest of the Imperium. Novitiates are usually stationed in dangerous places to be tempered by battle, but you have the honor of protecting the reliquary and the artifacts of the beata.</font></b></span>")
-		to_chat(H, "<span class='notice'><b><font size=3>Sisters only concern themselves with xenos, mutants, and heretics. You are not law enforcement but protectors of the faith. Your primary purpose is to protect the reliquary.</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>http://is12wiki.xyz/index.php/Guide_to_Medicine</font></b></span>")
+		to_chat(H, "<span class='notice'><b><font size=3>You are the scholar studying under the Sister Dialogus and Abbess. While you are not formally a part of the Ecclesiarchy, you are a valued asset to the Abbey thanks to your medical knowledge.</font></b></span>")
 
 
 /*

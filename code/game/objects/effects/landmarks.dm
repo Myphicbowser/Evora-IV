@@ -212,7 +212,7 @@ Template:
 	name = "Novitiate Militant"
 
 /obj/effect/landmark/start/ministorum/nerd
-	name = "Nerd"
+	name = "Scholar"
 
 // Village scum //
 
