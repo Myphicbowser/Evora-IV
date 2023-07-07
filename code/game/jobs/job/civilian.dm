@@ -64,6 +64,7 @@
 	lmg_skill = 3
 	smg_skill = 3
 	cultist_chance = 30
+	role_desc = "You are the rich owner of Sweetberry Farm, the most lucrative agricultural project in Aquileia. You supply food for most of the city and have peasants that toil in your fields."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name

@@ -1,5 +1,5 @@
 ////////////////////STREETLAMP///////////////////////////////////////
-#define HALF_HEALTH 2500
+#define HALF_HEALTHH 2500
 /obj/machinery/stolb
 	name = "stolb"
 	desc = "A solar power powered light post meant to illuminate the forest."
@@ -56,7 +56,7 @@
 	if(health == maxhealth)
 		to_chat(user, "<span class='notice'>It looks intact.</span>")
 	else
-		if(health <= HALF_HEALTH)
+		if(health <= HALF_HEALTHH)
 			to_chat(user, "<span class='notice'>It looks damaged.</span>")
 
 /obj/machinery/stolb/bullet_act(var/obj/item/projectile/Proj)

@@ -82,5 +82,5 @@
 /obj/structure/catwalkrust/blocked
 	icon_state = "catwalknewblock"
 
-	/obj/structure/catwalkrust/water
+/obj/structure/catwalkrust/water
 	icon_state = "catwalknewwater"

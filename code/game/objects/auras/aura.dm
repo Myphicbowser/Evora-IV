@@ -49,7 +49,7 @@ They should also be used for when you want to effect the ENTIRE mob, like having
 	return returning
 
 
-//REGENERATION AURA BELOW 
+//REGENERATION AURA BELOW
 
 //i am not sure how this works, it just does
 //P.S this was copied from current bay and a few features were removed, like limbs regrowing //Added features back in, because who knows, it might be useful - Magi.
@@ -59,7 +59,7 @@ They should also be used for when you want to effect the ENTIRE mob, like having
 	var/brute_mult = 1    //brute damage healed per tick
 	var/fire_mult = 1    //burn damage healed per tick
 	var/tox_mult = 1 //organ damage healed, its not working and i have no idea how to fix it //Fixed it -Magi
-	var/innate_heal = TRUE // Whether the aura is on, basically.	
+	var/innate_heal = TRUE // Whether the aura is on, basically.
 	var/regen_message = "<span class='warning'>Your body throbs as you feel your ORGAN regenerate.</span>"
 	var/grow_chance = 0
 	var/grow_threshold = 0
@@ -72,7 +72,7 @@ They should also be used for when you want to effect the ENTIRE mob, like having
 	var/max_brain_damage_heal = 25 //The maximum amount of brain damage that the regen can heal. Anything above this will result in no healing occuring.Bruised is 25% of the species Total Health value, or 30 for a basic human, broken is 75%, or 90 for a basic human.
 	var/needsres = 0 //A check to see if the heart's stopped, and thus a ressurection is needed.
 
-	
+
 /obj/aura/regenerating/human/life_tick() //this causes the two former lines to work
 	var/mob/living/carbon/human/H = user
 	if(!istype(H))
@@ -85,20 +85,20 @@ They should also be used for when you want to effect the ENTIRE mob, like having
 	if(!can_regenerate_organs())
 		return 1
 	if(tox_mult)
-		if(prob(50)) 
+		if(prob(50))
 			var/obj/item/organ/external/h = H.get_organ(BP_HEAD)
 			if (h.disfigured)
 				h.disfigured = 0
 
 		for(var/bpart in shuffle(H.internal_organs_by_name - BP_BRAIN))
 			var/obj/item/organ/internal/regen_tox = H.internal_organs_by_name[bpart]
-			if(ORGAN_ROBOT(regen_tox))
+			if(regen_tox.robotic == ORGAN_ROBOT) // if the organ is robotic then don't heal it
 				continue
 			if(istype(regen_tox))
 				if(regen_tox.damage > 0 && !(regen_tox.status & ORGAN_DEAD))
 					regen_tox.damage = max(regen_tox.damage - tox_mult, 0)
 					to_chat(H, replacetext(regen_message,"ORGAN", regen_tox.name))
-					
+
 		for(var/obj/item/organ/internal/I in H.internal_organs)
 			if(I.robotic >= ORGAN_ROBOT)
 				continue
@@ -107,14 +107,14 @@ They should also be used for when you want to effect the ENTIRE mob, like having
 					H.confused++
 					H.drowsyness++
 					if(I.damage >= max_brain_damage_heal)
-						continue			
+						continue
 			if(I.organ_tag == BP_HEART)
 				if(H.is_asystole()) //Check for heart issues.
 					if(I.damage == 0)
 						sleep(100)
 						I.status -= ORGAN_DEAD
 						H.resuscitate()
-			if(I.damage > 0) 
+			if(I.damage > 0)
 				I.damage -= organheal
 				I.status -= ORGAN_DEAD
 			if(I.damage < 0)
@@ -223,7 +223,7 @@ They should also be used for when you want to effect the ENTIRE mob, like having
 
 	if(fire_mult && H.getFireLoss())
 		H.adjustFireLoss(-fire_mult * config.organ_regeneration_multiplier)
-		
+
 	if(tox_mult && H.getToxLoss())
 		H.adjustToxLoss(-tox_mult * config.organ_regeneration_multiplier)
 //		H.adjust_nutrition(-nutrition_damage_mult)

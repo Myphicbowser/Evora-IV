@@ -4478,7 +4478,7 @@
 /area/cadiaoutpost/oa/service/inn)
 "sa" = (
 /obj/structure/bed,
-/obj/effect/landmark/start/ministorum/preacher,
+/obj/effect/landmark/start/ministorum/nerd,
 /turf/simulated/floor/new_wood{
 	color = "grey"
 	},

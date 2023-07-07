@@ -21,6 +21,7 @@
 	lmg_skill = 9
 	smg_skill = 9
 	cultist_chance = 20
+	role_desc = "You are an interrogator, the apprentice of, the Lord Inquisitor. It is not uncommon for Interrogators' to work undercover or incognito. Your task is to assist the Lord Inquisitor in investigating, neutralizing and erasing traces of heresy, chaos, xenos and daemons. Now more then ever your actions are being weighed by not only your master, but the inquisition - this mission is the last opportunity to clear the names of not only the Lord Inquisitor but that of his entire retinue..."
 
 	equip(var/mob/living/carbon/human/H)
 		var/current_name = H.real_name

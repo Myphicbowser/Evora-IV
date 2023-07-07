@@ -5224,7 +5224,7 @@
 /area/cadiaoutpost/oa/magistratumpost)
 "UH" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/effect/landmark/start/ministorum/preacher,
+/obj/effect/landmark/start/ministorum/nerd,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/chapel)
 "UL" = (
@@ -28181,13 +28181,13 @@ PI
 PI
 Tn
 gU
-UH
+yB
 vw
 yB
 tf
 yB
 Lq
-UH
+yB
 zI
 Tn
 qA
