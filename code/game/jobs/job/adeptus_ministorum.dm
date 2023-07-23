@@ -578,7 +578,6 @@
 
 /decl/hierarchy/outfit/job/scholar
 	name = OUTFIT_JOB_NAME("Scholar")
-	head = /obj/item/clothing/head/preacher
 	uniform = /obj/item/clothing/under/rank/chaplain
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	id_type = /obj/item/card/id/medical
