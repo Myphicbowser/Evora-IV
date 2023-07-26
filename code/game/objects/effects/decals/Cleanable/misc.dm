@@ -139,3 +139,39 @@
 	icon = 'icons/effects/blood.dmi'
 	icon_state = "mfloor1"
 	random_icon_states = list("mfloor1", "mfloor2", "mfloor3", "mfloor4", "mfloor5", "mfloor6", "mfloor7")
+
+/obj/effect/decal/cleanable/alienrune1
+	icon = 'icons/obj/aliendecals.dmi'
+	icon_state = "1"
+	name = "xenos rune"
+	desc = "Warp-tainted runes. Just looking at them gives you a headache."
+
+/obj/effect/decal/cleanable/alienrune2
+	icon = 'icons/obj/aliendecals.dmi'
+	icon_state = "2"
+	name = "xenos rune"
+	desc = "Warp-tainted runes. Just looking at them gives you a headache."
+
+/obj/effect/decal/cleanable/alienrune3
+	icon = 'icons/obj/aliendecals.dmi'
+	icon_state = "3"
+	name = "xenos rune"
+	desc = "Warp-tainted runes. Just looking at them gives you a headache."
+
+/obj/effect/decal/cleanable/alienrune4
+	icon = 'icons/obj/aliendecals.dmi'
+	icon_state = "4"
+	name = "xenos rune"
+	desc = "Warp-tainted runes. Just looking at them gives you a headache."
+
+/obj/effect/decal/cleanable/alienrune5
+	icon = 'icons/obj/aliendecals.dmi'
+	icon_state = "bee"
+	name = "xenos rune"
+	desc = "Warp-tainted runes. Just looking at them gives you a headache."
+
+/obj/effect/decal/cleanable/alienrunebig
+	icon = 'icons/obj/bigaliendecals.dmi'
+	icon_state = "summon_circle_alt"
+	name = "xenos rune"
+	desc = "Warp-tainted runes. Just looking at them gives you a headache."
