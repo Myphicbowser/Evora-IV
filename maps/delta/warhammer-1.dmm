@@ -146,9 +146,7 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
 "aF" = (
-/obj/machinery/vending/snack{
-	color = "grey"
-	},
+/obj/effect/decal/cleanable/urine,
 /turf/simulated/floor/tiled{
 	color = "gray"
 	},
@@ -293,9 +291,7 @@
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "cx" = (
-/obj/machinery/vending/sovietsoda{
-	color = "grey"
-	},
+/obj/item/trash/warfare_can/flower,
 /turf/simulated/floor/tiled{
 	color = "gray"
 	},
@@ -345,16 +341,12 @@
 	},
 /area/cadiaoutpost/oa/security/armory)
 "cM" = (
-/obj/effect/floor_decal/turf/metal/five,
-/obj/machinery/door/airlock/cone{
-	maxhealth = 3000;
-	req_access = list(67);
-	name = "Sergeant's Office"
-	},
+/obj/effect/floor_decal/turf/plating,
+/obj/structure/closet,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/bridge/offices/commissar)
+/area/cadiaoutpost/oa/security/barracks)
 "cO" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/torchwall/service{
@@ -610,6 +602,12 @@
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
+"eN" = (
+/obj/structure/sign/spooky,
+/turf/simulated/wall/rust{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/caves/undercity)
 "fa" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/machinery/light,
@@ -2217,6 +2215,15 @@
 /obj/effect/floor_decal/turf/basalt9,
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/dark)
+"so" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/machinery/shower{
+	pixel_y = 19
+	},
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/security/barracks)
 "sp" = (
 /obj/structure/sewers/brokenpipe,
 /turf/simulated/wall/concrete{
@@ -2499,6 +2506,18 @@
 /obj/item/clothing/accessory/pfcloak,
 /obj/item/clothing/accessory/pcloak,
 /obj/item/clothing/accessory/hgcloak,
+/obj/item/clothing/gloves/combat/krieg{
+	desc = "Worn leather gloves. The best friend of any troops on Evora IV. If only there were enough to go around.";
+	name = "Worn Combat Gloves"
+	},
+/obj/item/clothing/gloves/combat/krieg{
+	desc = "Worn leather gloves. The best friend of any troops on Evora IV. If only there were enough to go around.";
+	name = "Worn Combat Gloves"
+	},
+/obj/item/clothing/gloves/combat/krieg{
+	desc = "Worn leather gloves. The best friend of any troops on Evora IV. If only there were enough to go around.";
+	name = "Worn Combat Gloves"
+	},
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2816,13 +2835,8 @@
 /obj/structure/window/reinforced{
 	color = "grey"
 	},
-/obj/item/clothing/head/helmet/medicae,
-/obj/item/clothing/head/helmet/guardhelmet,
-/obj/item/clothing/mask/gas/krieg,
-/obj/item/clothing/head/helmet/krieghelmet,
-/obj/item/clothing/head/helmet/krieghelmet/medicae,
-/obj/item/clothing/head/valushanka,
-/obj/item/clothing/head/valushanka/medicae,
+/obj/item/clothing/head/helmet/pdfhelmet,
+/obj/item/clothing/head/helmet/pdfhelmet,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3011,8 +3025,8 @@
 "zs" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/structure/table/steel_reinforced,
-/obj/item/clothing/head/serviceguard,
 /obj/machinery/door/blast/id_door/open,
+/obj/item/clothing/head/helmet/pdfmedicaehelmet,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3232,6 +3246,14 @@
 /obj/item/stack/medical/bruise_pack,
 /turf/simulated/floor/new_wood,
 /area/cadiaoutpost/oa/service/chapel/chapeldorm)
+"BY" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/item/stool,
+/obj/item/stool,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/security/barracks)
 "Cc" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/turf/carpetn00,
@@ -3242,7 +3264,7 @@
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "Cj" = (
-/obj/structure/sign/art/blindfolds,
+/obj/structure/sign/art/lordgovenor,
 /turf/simulated/wall/ancient{
 	color = null
 	},
@@ -3291,17 +3313,15 @@
 /area/cadiaoutpost/oa/service/chapel)
 "CD" = (
 /obj/structure/table/rack/dark,
-/obj/item/clothing/mask/gas/security,
-/obj/item/clothing/mask/gas/security,
-/obj/item/clothing/mask/gas/security,
-/obj/item/clothing/mask/gas/security,
-/obj/item/clothing/mask/gas/security,
-/obj/item/clothing/mask/gas/security,
 /obj/machinery/light{
 	dir = 4;
 	icon_state = "tube1"
 	},
 /obj/effect/floor_decal/turf/plating,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
+/obj/item/clothing/mask/gas,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3713,16 +3733,11 @@
 /area/cadiaoutpost/oa/caves/undercity)
 "Gh" = (
 /obj/effect/floor_decal/turf/plating,
-/obj/structure/table/steel_reinforced,
-/obj/item/paper_bin{
-	pixel_y = 10
-	},
-/obj/item/stamp/hos,
-/obj/item/pen,
+/obj/item/stool,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
-/area/cadiaoutpost/oa/bridge/offices/commissar)
+/area/cadiaoutpost/oa/security/barracks)
 "Gi" = (
 /obj/effect/floor_decal/turf/metal/nine,
 /obj/structure/table/standard{
@@ -4189,7 +4204,7 @@
 /area/cadiaoutpost/oa/security/barracks)
 "KG" = (
 /obj/effect/floor_decal/turf/plating,
-/obj/machinery/floodlight,
+/obj/structure/curtain/open/shower,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -4978,15 +4993,14 @@
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "SB" = (
-/obj/machinery/vending/coffee{
-	icon_state = "coffe-broken"
-	},
-/turf/simulated/floor/tiled{
-	color = "gray"
+/obj/item/trash/liquidfood/triglyceride,
+/turf/simulated/floor/tiled/dark{
+	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
 "SC" = (
 /obj/structure/table/steel_reinforced,
+/obj/item/gun/energy/las/laspistol/shitty,
 /turf/simulated/floor/tiled/dark{
 	color = "grey"
 	},
@@ -5362,6 +5376,13 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
+"Wn" = (
+/obj/effect/floor_decal/turf/plating,
+/obj/item/soap,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/security/barracks)
 "Wp" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/machinery/door/airlock/highsecurity/imperiumdoor{
@@ -27886,12 +27907,12 @@ PI
 PI
 PI
 PI
-PI
-PI
-PI
-PI
-PI
-PI
+eD
+eD
+eD
+eD
+eD
+eD
 eD
 eD
 eD
@@ -28143,12 +28164,12 @@ Dk
 Dk
 Dk
 Dk
-Dk
-PI
-PI
-PI
-PI
-PI
+eD
+so
+mC
+mC
+mC
+cM
 eD
 Vt
 Ez
@@ -28400,12 +28421,12 @@ Dk
 lP
 tH
 aY
-Dk
-PI
-PI
-PI
-PI
-PI
+eD
+so
+mC
+Gh
+mC
+cM
 Cj
 SY
 ow
@@ -28657,12 +28678,12 @@ Dk
 hl
 aY
 aY
-Dk
-PI
-PI
-PI
-PI
-PI
+eD
+so
+mC
+BY
+mC
+cM
 eD
 JU
 gq
@@ -28914,12 +28935,12 @@ Dk
 zS
 aY
 aY
-Dk
-PI
-PI
-PI
-PI
-PI
+eD
+so
+Wn
+Gh
+mC
+cM
 eD
 eD
 eD
@@ -29171,12 +29192,12 @@ Dk
 aY
 aY
 aY
-Dk
-PI
-PI
-PI
-PI
-PI
+eD
+so
+mC
+Gh
+mC
+cM
 eD
 Un
 Ez
@@ -29428,12 +29449,12 @@ Dk
 HC
 aY
 fC
-Dk
-PI
-PI
-PI
-PI
-PI
+eD
+so
+mC
+mC
+mC
+cM
 ij
 SY
 ow
@@ -29688,7 +29709,7 @@ Dk
 Dk
 eD
 eD
-eD
+KG
 eD
 eD
 eD
@@ -29945,9 +29966,9 @@ aY
 oA
 mC
 mC
+mC
+mC
 vV
-mC
-mC
 eD
 eD
 eD
@@ -30200,7 +30221,7 @@ aV
 aY
 aY
 Dk
-KG
+mC
 mC
 mC
 mC
@@ -30718,7 +30739,7 @@ mC
 mC
 mC
 mC
-mC
+vV
 mC
 mC
 ah
@@ -31230,9 +31251,9 @@ Dk
 ke
 ke
 qc
-cM
-qc
-ke
+mM
+mM
+mM
 ke
 by
 mC
@@ -31488,7 +31509,7 @@ ke
 mM
 MX
 mM
-MX
+mM
 mM
 ke
 gW
@@ -31744,8 +31765,8 @@ uN
 ke
 mM
 mM
-dZ
-Gh
+mM
+mM
 mM
 ke
 eD
@@ -34141,7 +34162,7 @@ aS
 gg
 aS
 gg
-gg
+eN
 Ub
 Ub
 Ub
@@ -34655,7 +34676,7 @@ Ub
 HB
 XQ
 aS
-SB
+Ol
 Ls
 Ub
 aS
@@ -34913,7 +34934,7 @@ aS
 aS
 gg
 aF
-Ub
+SB
 Ub
 aS
 ME

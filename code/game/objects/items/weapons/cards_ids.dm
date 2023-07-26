@@ -619,10 +619,16 @@ var/const/NO_EMAG_ACT = -50
 	name = "Inn Key 3"
 	desc = "A Key belonging to the doors of the local Inn."
 	access = list(access_inn3)
+
 /obj/item/card/id/key/super/inn/meeting
 	name = "Meeting Room"
 	desc = "A Key to the Inn's Meeting Room"
 	access = list(access_meeting) //changed from 209 to 219, as tau is now 209
+
+/obj/item/card/id/key/super/inn/capo
+	name = "Capo's Key"
+	desc = "A Key to Capo's house and the inn meeting room."
+	access = list(access_meeting, access_ganger) //changed from 209 to 219, as tau is now 209
 
 /obj/item/card/id/key/super/daemon
 	name = "Daemon Key"
@@ -630,8 +636,8 @@ var/const/NO_EMAG_ACT = -50
 	access = list(access_daemon)
 
 /obj/item/card/id/key/super/hab
-	name = "Hab Key 1"
-	desc = "A key belonging to the upper class hab blocks. Upper class is relative, on this shit hole."
+	name = "Sweetberry Cottage Key"
+	desc = "A key belonging to the landlord farmer's cottage"
 	access = list(access_habone)
 
 /obj/item/card/id/key/super/hab/two

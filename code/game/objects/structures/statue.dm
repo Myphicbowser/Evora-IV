@@ -220,3 +220,27 @@
 			anchored = !anchored
 			update_icon()
 			return
+
+//also putting props here
+
+/obj/structure/statue/watertreatmenttank
+	name = "water treatment tank"
+	desc = "Part of the water treatment plant maintained by the adeptus mechanicus."
+	icon = 'icons/obj/props/32x64.dmi'
+	icon_state = "solo_tank_waste"
+	anchored = 1
+	density = 1
+	layer = 4
+	plane = ABOVE_HUMAN_PLANE
+	bound_width = 64
+
+/obj/structure/statue/watertreatmenttankbig
+	name = "large water treatment tank"
+	desc = "Part of the water treatment plant maintained by the adeptus mechanicus."
+	icon = 'icons/obj/props/64x96.dmi'
+	icon_state = "filtration_machine_B_0"
+	anchored = 1
+	density = 1
+	layer = 4
+	plane = ABOVE_HUMAN_PLANE
+	bound_width = 64

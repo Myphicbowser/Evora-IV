@@ -269,3 +269,15 @@
 	desc = "A disgusting stone altar."
 	base_icon = "altar_empty"
 	icon_state = "altar_empty"
+
+/obj/structure/bed/chair/fancysofa
+	name = "fancy sofa"
+	desc = "A distunguished sofa made of nuln wood and leather."
+	base_icon = "fancy_couch"
+	icon_state = "fancy_couch"
+
+/obj/structure/bed/chair/fancysofaright
+	name = "fancy sofa"
+	desc = "A distunguished sofa made of nuln wood and leather."
+	base_icon = "fancy_couch_right"
+	icon_state = "fancy_couch_right"

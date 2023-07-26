@@ -367,7 +367,7 @@ Pilgrim Fate System
 	latejoin_at_spawnpoints = TRUE
 	announced = FALSE
 	cultist_chance = 5
-	role_desc = "You're one of the leaders of the Rogue Trader's criminal enterprise. You run the inn, the brothel within it, and control the sale of drugs in your territory."
+	role_desc = "You're one of the leaders of the Rogue Trader's criminal enterprise. The Trader has gifted you a home accross the street from your den. You run the inn, the brothel within it, and control the sale of drugs in your territory."
 
 	equip(var/mob/living/carbon/human/H)
 		H.warfare_faction = IMPERIUM
@@ -472,6 +472,7 @@ Pilgrim Fate System
 	back = /obj/item/storage/backpack/satchel/warfare
 	mask = null
 	l_pocket = /obj/item/device/flashlight/lantern
+	r_pocket = /obj/item/card/id/key/middle/ganger
 	belt = /obj/item/gun/projectile/revolver/villiers
 	backpack_contents = list(
 	/obj/item/ammo_magazine/a357 = 2,
@@ -489,12 +490,14 @@ Pilgrim Fate System
 	l_ear = /obj/item/device/radio/headset/headset_service
 	r_ear = null
 	pda_slot = null
+	l_pocket = /obj/item/device/flashlight/lantern
+	r_pocket = /obj/item/card/id/key/super/inn/capo
 	shoes = /obj/item/clothing/shoes/vigilante
 	suit_store = /obj/item/gun/projectile/shotgun/pump/voxlegis
 	backpack_contents = list(
 	/obj/item/ammo_box/shotgun = 1,
 	/obj/item/stack/thrones = 1,
-	/obj/item/stack/thrones2 = 1,
+	/obj/item/stack/thrones2 = 3,
 	/obj/item/stack/thrones3/twenty = 1,
 )
 
@@ -538,6 +541,7 @@ Pilgrim Fate System
 	belt = /obj/item/device/flashlight/lantern
 	pda_slot = null
 	l_hand = /obj/item/melee/classic_baton/trench_club
+	r_pocket = /obj/item/card/id/key/middle/ganger
 	backpack_contents = list(
 	/obj/item/stack/thrones2/five = 1,
 	/obj/item/stack/thrones3/ten = 1,
@@ -734,7 +738,7 @@ Pilgrim Fate System
 	announced = FALSE
 	cultist_chance = 0 // grog like emperorah :) // bouncer should only be cultist if the innkeeper is. as they would get easily indoctrinated by their dad/boss
 	species_role = "Ogryn"
-	role_desc = "You're the biggest, baddest, muscle of the gang. Listen to the Rogue Trader and Capo."
+	role_desc = "You're the biggest, baddest, muscle of the gang. Listen to the Rogue Trader and Capo, they are your best friends."
 
 
 	equip(var/mob/living/carbon/human/H)

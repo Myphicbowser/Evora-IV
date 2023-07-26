@@ -708,3 +708,36 @@
 	desc = "This standard Munitorum-issue uniform has had all imperial markings removed"
 	icon_state = "rm_uniform"
 	item_state = "rm_uniform_s"
+
+// Dress code here, you just gotta put the obj & suit on their respective folders
+/obj/item/clothing/under/seductress
+	name = "courtesan dress"
+	desc = "Worn by a woman to show their class, or charm."
+	icon_state = "seductress"
+	item_state = "seductress"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	flags_inv = HIDEJUMPSUIT
+
+/obj/item/clothing/under/ballat
+	name = "olive dress"
+	desc = "A beautiful olive dress."
+	icon_state = "ladyballat"
+	item_state = "ladyballat"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	flags_inv = HIDEJUMPSUIT
+
+/obj/item/clothing/under/redress
+	name = "red dress"
+	desc = "A beautiful red dress."
+	icon_state = "dress"
+	item_state = "dress"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	flags_inv = HIDEJUMPSUIT
+
+/obj/item/clothing/under/baronness
+	name = "noble dress"
+	desc = "A beautiful red dress."
+	icon_state = "baroness"
+	item_state = "baroness"
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
+	flags_inv = HIDEJUMPSUIT
