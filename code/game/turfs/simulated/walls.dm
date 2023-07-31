@@ -18,7 +18,7 @@
 	var/active
 	var/can_open = 0
 	var/last_state
-	var/integrity = 2000
+	var/integrity = 650
 	var/construction_stage
 	var/hitsound = 'sound/weapons/Genhit.ogg'
 	var/floor_type = /turf/simulated/floor/plating //turf it leaves after destruction
@@ -52,7 +52,7 @@
 	var/obj/structure/girder/newgirder = null
 	switch(material_type)
 		if("metal")
-			newgirder = new /obj/structure/girder/reinforced(src)
+			newgirder = new /obj/structure/girder(src)
 			for(var/i=1,i<times,i++)
 				new /obj/item/stack/material/steel(src)
 		if("reinforced_m")
@@ -60,7 +60,7 @@
 			newgirder.reinforce_girder()
 			new /obj/item/stack/material/plasteel(src)
 			for(var/i=1,i<times,i++)
-				new /obj/item/stack/material/steel(src)
+				new /obj/item/stack/material/plasteel(src)
 
 	if(newgirder)
 		transfer_fingerprints_to(newgirder)
