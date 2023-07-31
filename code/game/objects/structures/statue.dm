@@ -206,6 +206,25 @@
 	plane = ABOVE_HUMAN_PLANE
 	bound_width = 64
 
+/obj/structure/statue/ladyleft
+	name = "The Lady"
+	desc = "A statue of one of the ladies that once ruled the city"
+	icon = 'icons/obj/props/32x64.dmi'
+	icon_state = "lady_left"
+	anchored = 1
+	density = 1
+	layer = 4
+	plane = ABOVE_HUMAN_PLANE
+
+/obj/structure/statue/ladyright
+	name = "The Lady"
+	desc = "A statue of one of the ladies that once ruled the city"
+	icon = 'icons/obj/props/32x64.dmi'
+	icon_state = "lady_right"
+	anchored = 1
+	density = 1
+	layer = 4
+	plane = ABOVE_HUMAN_PLANE
 
 
 /obj/structure/statue/guardshrine/attackby(obj/item/W as obj, mob/user as mob)

@@ -5669,10 +5669,15 @@
 	},
 /area/cadiaoutpost/oa/service/enforcer)
 "ye" = (
-/obj/machinery/shower{
-	dir = 8
+/obj/effect/decal/cleanable/blood/splatter{
+	name = "blood of the beata";
+	dryname = "dried blood of the beata";
+	drydesc = "A miraculous bloodstain that keeps reappearing. It only started appearing after the mysterious death of the Baeta, Sister Nella Spalsus. Some sisters whisper that she took her own life, but the inquisition says otherwise.";
+	desc = "A miraculous bloodstain that keeps reappearing. It only started appearing after the mysterious death of the Baeta, Sister Nella Spalsus. Some sisters whisper that she took her own life, but the inquisition says otherwise."
 	},
-/turf/simulated/floor/tiled/white,
+/turf/simulated/wall/concrete{
+	integrity = 3500
+	},
 /area/cadiaoutpost/oa/service/chapel)
 "yj" = (
 /obj/structure/railing{
@@ -5947,6 +5952,14 @@
 /obj/item/flame/lighter/random,
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/engineering)
+"At" = (
+/obj/structure/table/steel_reinforced,
+/obj/random/loot/goodweapon,
+/obj/item/device/cassette/demon{
+	pixel_y = 8
+	},
+/turf/simulated/floor/reinforced,
+/area/cadiaoutpost/oa/caves)
 "Au" = (
 /obj/machinery/power/terminal{
 	dir = 4;
@@ -6479,7 +6492,9 @@
 	},
 /area/cadiaoutpost/oa/maintenance/department/bridge)
 "DV" = (
-/obj/machinery/door/airlock/vault/bolted,
+/obj/machinery/door/airlock/vault/bolted{
+	name = "Hellgramite Ruin"
+	},
 /turf/simulated/floor/reinforced,
 /area/cadiaoutpost/oa/caves)
 "DX" = (
@@ -8082,7 +8097,7 @@
 /area/cadiaoutpost/oa/research/robotics)
 "Oz" = (
 /obj/effect/golemrune,
-/obj/item/rnd/illegal10,
+/obj/item/rnd/illegal5,
 /turf/simulated/floor/reinforced,
 /area/cadiaoutpost/oa/caves)
 "OG" = (
@@ -30956,7 +30971,7 @@ aq
 aq
 aq
 UX
-UX
+ye
 UX
 UX
 MQ
@@ -31471,7 +31486,7 @@ Ef
 gP
 YS
 dp
-ye
+dp
 UX
 MQ
 MQ
@@ -67751,7 +67766,7 @@ CP
 CP
 UC
 tq
-KS
+At
 tq
 tq
 QN

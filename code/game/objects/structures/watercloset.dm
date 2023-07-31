@@ -445,3 +445,11 @@
 	desc = "Fresh water streams from the fountain. Fresh is debatable."
 	layer = 4
 	plane = ABOVE_HUMAN_PLANE
+
+/obj/structure/sink/well
+	name = "well"
+	icon = 'icons/obj/structures/miscobjs.dmi'
+	icon_state = "well"
+	desc = "A deep well that provides fresh water to the poor of the city."
+	layer = 4
+	plane = ABOVE_HUMAN_PLANE

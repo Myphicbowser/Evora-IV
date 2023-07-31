@@ -613,8 +613,8 @@
 */
 
 /obj/machinery/vending/boozeomat
-	name = "Booze-O-Mat"
-	desc = "A refrigerated vending unit for alcoholic beverages and alcoholic beverage accessories."
+	name = "Booze Rack"
+	desc = "A rack of bottles and bar supplies."
 	icon_state = "boozeomat"
 	icon_deny = "boozeomat-deny"
 	products = list(/obj/item/reagent_containers/food/drinks/bottle/gin = 5,
@@ -661,11 +661,8 @@
 					/obj/item/glass_extra/straw = 15)
 	contraband = list(/obj/item/reagent_containers/food/drinks/bottle/premiumwine = 2,
 					/obj/item/reagent_containers/food/drinks/bottle/premiumvodka = 2)
-	vend_delay = 15
+	vend_delay = 5
 	idle_power_usage = 211 //refrigerator - believe it or not, this is actually the average power consumption of a refrigerated vending machine according to NRCan.
-	product_slogans = "I hope nobody asks me for a bloody cup o' tea...;Alcohol is humanity's friend. Would you abandon a friend?;Quite delighted to serve you!;Is nobody thirsty on this station?"
-	product_ads = "Drink up!;Booze is good for you!;Alcohol is humanity's best friend.;Quite delighted to serve you!;Care for a nice, cold beer?;Nothing cures you like booze!;Have a sip!;Have a drink!;Have a beer!;Beer is good for you!;Only the finest alcohol!;Best quality booze since 2053!;Award-winning wine!;Maximum alcohol!;Man loves beer.;A toast for progress!"
-	req_access = list(access_bar)
 	vending_sound = "machines/vendingcans.ogg"
 
 /obj/machinery/vending/assist
