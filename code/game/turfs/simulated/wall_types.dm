@@ -2,7 +2,7 @@
 	icon_state = "rgeneric"
 	walltype = "rwall"
 	icon_state = "rwall0"
-	//mineral = "reinforced_m"
+	mineral = "reinforced_m"
 /turf/simulated/wall/r_wall/New(var/newloc)
 	..(newloc) //3strong
 
@@ -11,7 +11,7 @@
 	desc = "An old concrete wall. For when metal just isn't good enough."
 	icon_state = "concrete0"
 	walltype = "concrete"
-	mineral = "rust"
+	mineral = "metal"
 	integrity = 700 //Tough bois
 
 /turf/simulated/wall/ancient
@@ -19,6 +19,7 @@
 	desc = "An ancient wall of unknown origin."
 	icon_state = "rrwall0"
 	walltype = "rrwall"
+	mineral = "reinforced_m"
 	integrity = 1500
 
 /turf/simulated/wall/seolite
@@ -27,16 +28,19 @@
 	icon = 'icons/turf/seolitewall.dmi'
 	icon_state = "rrwall0"
 	walltype = "rrwall"
+	mineral = "reinforced_m"
 	integrity = 1500
 
 /turf/simulated/wall/concrete/strong
 	desc = "Looks much stronger than a paper sheet."
 	integrity = 1000
+	mineral = "metal"
 
 /turf/simulated/wall/concrete/strong/chapel
 	name = "monastic stone wall"
 	desc = "Ornate stone packed together in a gothic fashion with various holy scribbles etching the framework. It looks extremely tough."
 	integrity = 1000
+	mineral = "metal"
 
 /turf/simulated/wall/rust
 	desc = "An old rusty wall. It's definitely seen better days."
@@ -50,6 +54,7 @@
 	desc = "A grim looking metal wall"
 	icon_state = "grim0"
 	walltype = "grim"
+	mineral = "rust"
 	integrity = 800 //Tough bois
 
 /turf/simulated/wall/techno
@@ -57,6 +62,7 @@
 	desc = "A techno looking metal wall"
 	icon_state = "techno0"
 	walltype = "techno"
+	mineral = "reinforced_m"
 	integrity = 1500 //Tough bois
 
 /turf/simulated/wall/r_wall/containment
@@ -93,6 +99,7 @@
 /turf/simulated/wall/cult
 	icon_state = "cult"
 	walltype = "cult"
+	mineral = "metal"
 	integrity = 1200
 
 /turf/simulated/wall/cult/New(var/newloc, var/reinforce = 0)
