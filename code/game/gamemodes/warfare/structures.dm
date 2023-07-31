@@ -138,6 +138,16 @@
 	layer = BASE_ABOVE_OBJ_LAYER
 	anchored = TRUE
 
+/obj/structure/warfare/woodenboards
+	name = "barricade"
+	desc = "it stops you from moving"
+	icon = 'icons/obj/warfare.dmi'
+	icon_state = "window_barricade"
+	plane = ABOVE_OBJ_PLANE
+	layer = BASE_ABOVE_OBJ_LAYER
+	var/health = 100
+	var/maxhealth = 100
+
 /obj/structure/warfare/barricade/concrete_barrier
 	name = "concrete barrier"
 	desc = "Very effective at blocking bullets, but it gets in the way."

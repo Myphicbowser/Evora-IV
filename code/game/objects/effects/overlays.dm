@@ -35,6 +35,13 @@
 	icon = 'icons/misc/beach.dmi'
 	icon_state = "coconuts"
 
+/obj/effect/overlay/booth
+	name = "booth"
+	icon = 'icons/effects/96x96.dmi'
+	icon_state = "booth"
+	plane = ABOVE_HUMAN_PLANE
+	layer = ABOVE_OBJ_LAYER
+
 /obj/effect/overlay/bluespacify
 	name = "Bluespace"
 	icon = 'icons/turf/space.dmi'

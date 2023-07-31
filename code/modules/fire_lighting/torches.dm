@@ -316,7 +316,7 @@
 	desc = "In radiance may we find victory. This pyre provides its own."
 	self_lighting = 1
 	anchored = 1
-	lit = 0
+	lit = 1
 	density = 1
 
 /obj/item/campfire/Initialize()
@@ -365,6 +365,77 @@
 		snuff()
 
 /obj/item/campfire/attackby(obj/item/W, mob/user)
+	..()
+	if(isflamesource(W))
+		light()
+
+//burnbbarrel
+
+/obj/item/burnbarrel
+	icon = 'icons/obj/torches.dmi'
+	icon_state = "burnbarrel"
+	item_state = "burnbarrel"
+	name = "Pyre"
+	desc = "In radiance may we find victory."
+	anchored = 1
+	density = 1
+	var/lit = FALSE
+	var/self_lighting = 0
+
+/obj/item/burnbarrel/self_lit
+	name = "burning barrel"
+	desc = "In radiance may we find victory. This pyre provides its own."
+	self_lighting = 1
+	anchored = 1
+	lit = 1
+	density = 1
+
+/obj/item/burnbarrel/Initialize()
+	. = ..()
+	update_icon()
+
+/obj/item/burnbarrel/update_icon()
+	..()
+	overlays = overlays.Cut()
+	if(lit)
+		icon_state = "burnbarrel_on"
+		item_state = "burnbarrel_on"
+		set_light(5, 7, "#E38F46")
+	else
+		icon_state = "burnbarrel"
+		item_state = "burnbarrel"
+		set_light(0,0)
+		if(self_lighting == 1)
+			overlays += overlay_image(icon, "lighter")
+	update_held_icon()
+
+
+/obj/item/burnbarrel/proc/light(var/mob/user, var/manually_lit = FALSE)//This doesn't seem to update the icon appropiately, not idea why.
+	lit = TRUE
+	if(manually_lit && self_lighting == 1)
+		user.visible_message("<span class='notice'>\The [user] rips the lighting sheath off their [src].</span>")
+	update_icon()
+	START_PROCESSING(SSprocessing, src)
+	playsound(src, 'sound/items/torch_light.ogg', 50, 0, -1)
+
+
+/obj/item/burnbarrel/proc/snuff()
+	lit = FALSE
+	update_icon()
+	STOP_PROCESSING(SSprocessing, src)
+	playsound(src, 'sound/items/torch_snuff.ogg', 50, 0, -1)
+
+
+/obj/item/burnbarrel/attack_self(mob/user)
+	..()
+	if(self_lighting == 1)
+		light(user, TRUE)
+		self_lighting = -1
+		return
+	if(lit)
+		snuff()
+
+/obj/item/burnbarrel/attackby(obj/item/W, mob/user)
 	..()
 	if(isflamesource(W))
 		light()
