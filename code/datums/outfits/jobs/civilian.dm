@@ -42,6 +42,7 @@
 	name = OUTFIT_JOB_NAME("Farmer")
 	uniform = /obj/item/clothing/under/rank/victorian
 	gloves = /obj/item/clothing/gloves/thick/botany
+	l_pocket = /obj/item/card/id/key/farmer
 	r_pocket = /obj/item/device/analyzer/plant_analyzer
 	id_type = null
 	pda_type = null

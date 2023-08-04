@@ -89,6 +89,8 @@
 "ak" = (
 /obj/machinery/chemical_dispenser/full,
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "ar" = (
@@ -102,6 +104,8 @@
 /obj/item/reagent_containers/ivbag/blood/OMinus,
 /obj/item/reagent_containers/ivbag/blood/OMinus,
 /obj/structure/closet/crate/freezer,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "aw" = (
@@ -167,6 +171,8 @@
 	color = "grey";
 	dir = 4
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -238,6 +244,14 @@
 "bf" = (
 /turf/simulated/mineral/random,
 /area/cadiaoutpost/oa/caves)
+"bo" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/trash/candle,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/chapel)
 "bs" = (
 /obj/structure/ladder/up,
 /turf/simulated/floor/tiled/stone,
@@ -288,6 +302,8 @@
 	},
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /obj/structure/iv_drip,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "cx" = (
@@ -299,6 +315,8 @@
 "cz" = (
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /obj/structure/closet/crate/ateopoine,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -318,6 +336,8 @@
 /obj/item/reagent_containers/glass/jar/mercury,
 /obj/item/reagent_containers/glass/jar/radium,
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "cD" = (
@@ -452,8 +472,13 @@
 /turf/simulated/floor/exoplanet/water/shallow/lightless,
 /area/cadiaoutpost/oa/caves/undercity)
 "dF" = (
-/obj/structure/sign/art/blindfolds,
-/turf/simulated/wall/concrete/strong/chapel,
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/closet/sarcophagus,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/floor_decal/turf/brick/two,
+/turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "dH" = (
 /obj/effect/water/bottom,
@@ -600,6 +625,8 @@
 	name = "Wisdom of Canoness Josmane"
 	},
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "eN" = (
@@ -647,6 +674,7 @@
 /obj/item/reagent_containers/food/drinks/milk,
 /obj/item/reagent_containers/food/drinks/milk,
 /obj/item/reagent_containers/food/drinks/milk,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -791,6 +819,7 @@
 	name = "Medicae Secure";
 	req_access = list(213)
 	},
+/obj/effect/floor_decal/turf/surgery2,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -899,7 +928,7 @@
 /area/cadiaoutpost/oa/caves/undercity)
 "gU" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/machinery/libraryscanner,
+/obj/structure/bed/chair/wood/wings,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "gW" = (
@@ -956,6 +985,14 @@
 /obj/effect/floor_decal/turf/necro1,
 /turf/simulated/floor/exoplanet/water/shallow/lightless,
 /area/cadiaoutpost/oa/caves/undercity)
+"ho" = (
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/barnew,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel)
 "hB" = (
 /obj/effect/floor_decal/turf/metal/ten,
 /obj/structure/closet/cabinet{
@@ -977,6 +1014,9 @@
 	},
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /obj/item/reagent_containers/food/drinks/cans/waterbottle,
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -1037,13 +1077,7 @@
 /area/cadiaoutpost/oa/caves/undercity)
 "iA" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/structure/table/rack/dark,
-/obj/item/card/id/ring/disgracedmedicae{
-	name = "ordos bracelet"
-	},
-/obj/item/card/id/ring/disgracedmedicae{
-	name = "ordos bracelet"
-	},
+/obj/structure/closet/crate,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/armory)
 "iC" = (
@@ -1067,7 +1101,12 @@
 /area/cadiaoutpost/oa/caves/undercity)
 "iH" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/structure/displaycase,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/device/flashlight/lantern{
+	pixel_y = 7
+	},
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "iJ" = (
@@ -1171,6 +1210,8 @@
 	},
 /obj/random/firstaid,
 /obj/random/firstaid,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -1184,6 +1225,8 @@
 	name = "Medicae Secure";
 	req_access = list(213)
 	},
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -1192,6 +1235,17 @@
 /obj/effect/floor_decal/turf/plating,
 /turf/simulated/floor/dirty/indestructable/mud,
 /area/cadiaoutpost/oa/caves/undercity)
+"jL" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/structure/torchwall/service{
+	dir = 8;
+	icon_state = "torchwall0"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/chapel)
 "jR" = (
 /obj/item/stack/barbwire,
 /obj/structure/table/rack/shelf{
@@ -1208,6 +1262,7 @@
 /obj/structure/closet/chefcloset{
 	color = "grey"
 	},
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1295,6 +1350,8 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/dark)
 "kB" = (
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1478,6 +1535,8 @@
 	},
 /obj/machinery/organ_printer/flesh/mapped,
 /obj/item/reagent_containers/food/snacks/meat/syntiflesh,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -1490,6 +1549,9 @@
 /obj/item/reagent_containers/food/snacks/warfare{
 	pixel_y = 5
 	},
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -1531,6 +1593,8 @@
 	req_access = list()
 	},
 /obj/item/storage/box/beakers,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "mM" = (
@@ -1552,6 +1616,7 @@
 /area/cadiaoutpost/oa/security/armory)
 "mQ" = (
 /obj/machinery/light/small,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -1579,6 +1644,7 @@
 "nd" = (
 /obj/effect/floor_decal/turf/plate,
 /obj/machinery/door/airlock/glass_medical,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1647,6 +1713,8 @@
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /obj/structure/iv_drip,
 /obj/item/reagent_containers/ivbag/blood/OMinus,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -1684,6 +1752,7 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1702,6 +1771,8 @@
 "of" = (
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /obj/machinery/vending/medical,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -1720,7 +1791,10 @@
 /area/cadiaoutpost/oa/magistratumpost)
 "ol" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/structure/closet/crate/miner,
+/obj/structure/table/woodentable,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
+/obj/item/storage/fancy/candle_box,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/armory)
 "or" = (
@@ -1755,6 +1829,8 @@
 /obj/item/reagent_containers/glass/bottle/toxin,
 /obj/item/reagent_containers/glass/bottle/robot/antitoxin,
 /obj/item/reagent_containers/glass/bottle/chloralhydrate,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "ow" = (
@@ -1796,6 +1872,7 @@
 "oN" = (
 /obj/item/device/assembly/mousetrap/armed,
 /obj/item/reagent_containers/food/snacks/cheesewedge,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1822,6 +1899,15 @@
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/chapel)
 "oY" = (
+/obj/effect/floor_decal/turf/barnew,
+/turf/simulated/floor/tiled/freezer{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel)
+"pd" = (
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -1944,6 +2030,8 @@
 /obj/item/reagent_containers/ivbag/blood/OMinus,
 /obj/item/reagent_containers/ivbag/blood/OMinus,
 /obj/item/reagent_containers/ivbag/blood/OMinus,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -1976,6 +2064,7 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -1996,6 +2085,8 @@
 /obj/structure/table/standard{
 	color = "grey"
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "qA" = (
@@ -2093,6 +2184,8 @@
 /area/cadiaoutpost/oa/caves/undercity)
 "rk" = (
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -2171,6 +2264,8 @@
 /obj/structure/table/standard{
 	color = "grey"
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "sd" = (
@@ -2236,6 +2331,11 @@
 /mob/living/simple_animal/hostile/smalldemon/fleshbeast,
 /turf/simulated/floor/dirty/indestructable/lightless,
 /area/cadiaoutpost/oa/caves/undercity)
+"sD" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/rack/dark,
+/turf/simulated/floor/stone/chapel,
+/area/cadiaoutpost/oa/service/chapel/armory)
 "sG" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/effect/landmark/start/imperialguard/bullgryn,
@@ -2266,6 +2366,7 @@
 	dir = 8;
 	icon_state = "torchwall0"
 	},
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2301,12 +2402,13 @@
 /area/cadiaoutpost/oa/service/chapel/vault)
 "te" = (
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "tf" = (
-/obj/effect/floor_decal/turf/brick,
-/obj/structure/bookcase,
-/turf/simulated/floor/tiled/dark,
+/obj/structure/bookcase/manuals/ministorum,
+/turf/simulated/wall/concrete/strong/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "th" = (
 /obj/structure/torchwall{
@@ -2382,6 +2484,11 @@
 "tB" = (
 /turf/simulated/floor/carpet/purple,
 /area/cadiaoutpost/oa/caves/undercity)
+"tE" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/bed/chair/wheelchair,
+/turf/simulated/floor/stone/chapel,
+/area/cadiaoutpost/oa/service/chapel)
 "tH" = (
 /obj/effect/floor_decal/turf/plating,
 /obj/machinery/light{
@@ -2428,6 +2535,9 @@
 "ub" = (
 /obj/structure/bed,
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -2480,6 +2590,7 @@
 	dir = 4;
 	icon_state = "torchwall0"
 	},
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2543,6 +2654,8 @@
 /obj/structure/table/standard{
 	color = "grey"
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "uN" = (
@@ -2648,6 +2761,8 @@
 	},
 /obj/item/storage/firstaid/surgery,
 /obj/item/FixOVein,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -2660,6 +2775,9 @@
 	},
 /obj/structure/iv_drip,
 /obj/item/reagent_containers/ivbag/blood/OMinus,
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -2790,6 +2908,13 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/service/chapel/vault)
+"xc" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/bed/chair/wood/wings{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/chapel)
 "xd" = (
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled{
@@ -2801,6 +2926,18 @@
 	integrity = 1500
 	},
 /area/cadiaoutpost/oa/caves)
+"xl" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/machinery/door/airlock/highsecurity/imperiumdoor{
+	name = "Imperialis Doorway - Studium";
+	req_access = list(213)
+	},
+/obj/machinery/door/airlock/highsecurity/imperiumdoor{
+	name = "Imperialis Doorway - Studium";
+	req_access = list(213)
+	},
+/turf/simulated/floor/stone/chapel,
+/area/cadiaoutpost/oa/service/chapel)
 "xn" = (
 /obj/structure/bed{
 	desc = "A mass produced sleeping mat, now with actual cloth!";
@@ -2854,6 +2991,12 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
+"xH" = (
+/obj/item/mop,
+/obj/item/reagent_containers/glass/bucket,
+/obj/effect/floor_decal/turf/brick,
+/turf/simulated/floor/tiled/white,
+/area/cadiaoutpost/oa/service/chapel)
 "xN" = (
 /obj/machinery/body_scanconsole{
 	desc = "A readout for a device you don't understand.";
@@ -2891,6 +3034,7 @@
 /obj/machinery/cooker/grill{
 	color = "grey"
 	},
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -2908,6 +3052,8 @@
 /obj/structure/sink{
 	pixel_y = 20
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -2959,6 +3105,21 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
+"yL" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/torchwall{
+	dir = 8;
+	icon_state = "torchwall0"
+	},
+/turf/simulated/floor/stone/chapel,
+/area/cadiaoutpost/oa/service/chapel/armory)
+"yM" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/bed/chair/wood/wings{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/chapel)
 "yP" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -3006,6 +3167,7 @@
 	name = "Medicae Secure";
 	req_access = list(213)
 	},
+/obj/effect/floor_decal/turf/surgery2,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -3039,16 +3201,18 @@
 /obj/item/reagent_containers/food/snacks/warfare/flower{
 	pixel_y = 5
 	},
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
 /area/cadiaoutpost/oa/service/chapel/recovery)
 "zI" = (
-/obj/effect/floor_decal/turf/brick,
-/obj/structure/cult/tome{
-	desc = "A desk covered in manuscripts and tomes in high gothic."
+/obj/effect/floor_decal/turf/barnew,
+/turf/simulated/floor/tiled{
+	color = "grey"
 	},
-/turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/chapel)
 "zS" = (
 /obj/effect/floor_decal/turf/plating,
@@ -3103,6 +3267,14 @@
 /obj/effect/floor_decal/turf/lfloorscorched1,
 /turf/simulated/floor/exoplanet/water/shallow/lightless,
 /area/cadiaoutpost/oa/caves/undercity)
+"AE" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/storage/fancy/candle_box,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/chapel)
 "AI" = (
 /obj/effect/floor_decal/turf/metal/eight,
 /turf/simulated/floor/tiled{
@@ -3147,6 +3319,8 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -3163,6 +3337,7 @@
 /obj/effect/landmark/animal/rngretaliatespawner{
 	name = "rng rat"
 	},
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3174,6 +3349,8 @@
 	dir = 4;
 	icon_state = "sleeper_0"
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -3184,6 +3361,8 @@
 /obj/structure/table/standard{
 	color = "grey"
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Bv" = (
@@ -3214,6 +3393,7 @@
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/food/condiment/flour,
 /obj/item/reagent_containers/glass/jar/sugar,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -3269,6 +3449,13 @@
 	color = null
 	},
 /area/cadiaoutpost/oa/security/barracks)
+"Ck" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/curtain/open/bed{
+	name = "curtain"
+	},
+/turf/simulated/floor/stone/chapel,
+/area/cadiaoutpost/oa/service/chapel)
 "Cn" = (
 /obj/structure/table/rack/dark,
 /obj/item/beartrap,
@@ -3470,6 +3657,7 @@
 /area/cadiaoutpost/oa/caves/undercity)
 "Ej" = (
 /obj/machinery/cooker/oven,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3483,6 +3671,7 @@
 /obj/item/reagent_containers/food/condiment/small/peppermill,
 /obj/item/storage/box/beakers,
 /obj/item/reagent_containers/food/condiment/small/saltshaker,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -3498,16 +3687,17 @@
 "Er" = (
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /obj/structure/closet/crate/bin,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Es" = (
-/obj/structure/torchwall/service{
-	dir = 4;
-	icon_state = "torchwall0"
-	},
 /obj/effect/floor_decal/turf/brick,
-/obj/item/modular_computer/console/preset/library,
-/turf/simulated/floor/stone/chapel,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/obj/item/book/manual/ministorum/orders,
+/turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/chapel)
 "Ew" = (
 /obj/effect/floor_decal/newcorner/teal/diagonal,
@@ -3516,6 +3706,8 @@
 /obj/structure/table/standard{
 	color = "grey"
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Ez" = (
@@ -3549,6 +3741,7 @@
 	name = "Medicae Secure";
 	req_access = list(213)
 	},
+/obj/effect/floor_decal/turf/surgery2,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "EN" = (
@@ -3610,6 +3803,8 @@
 	icon_state = "tube1"
 	},
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Fx" = (
@@ -3713,7 +3908,15 @@
 /area/cadiaoutpost/oa/caves/undercity)
 "FZ" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/structure/closet/crate/freezer/rations,
+/obj/structure/table/woodentable,
+/obj/item/book/manual{
+	desc = "The Emperor once walked among men, but He is, and always has been, a god. The Emperor is the one true god, regardless of what past faiths any human may have worshipped. To purge the heretic, beware the psyker and mutant, and abhor the alien. Every human being has a place within the Emperor's divine order. To unquestionably obey the authority of the Imperial government and one's superiors.";
+	name = "Lectitio Divinitatus"
+	},
+/obj/item/book/manual{
+	desc = "The Emperor once walked among men, but He is, and always has been, a god. The Emperor is the one true god, regardless of what past faiths any human may have worshipped. To purge the heretic, beware the psyker and mutant, and abhor the alien. Every human being has a place within the Emperor's divine order. To unquestionably obey the authority of the Imperial government and one's superiors.";
+	name = "Lectitio Divinitatus"
+	},
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/armory)
 "Gc" = (
@@ -3833,6 +4036,8 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Ho" = (
@@ -3846,7 +4051,10 @@
 /area/cadiaoutpost/oa/caves/undercity)
 "Hq" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/structure/bookcase,
+/obj/structure/torchwall/service{
+	dir = 8;
+	icon_state = "torchwall0"
+	},
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "Hr" = (
@@ -3903,6 +4111,8 @@
 	dir = 8;
 	icon_state = "tube1"
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -3922,8 +4132,11 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/dark)
 "IB" = (
-/obj/structure/closet/pit,
-/turf/simulated/floor/dirty,
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/bed/chair/wood/wings{
+	dir = 1
+	},
+/turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "IQ" = (
 /obj/structure/table/rack/dark,
@@ -3974,6 +4187,8 @@
 /obj/structure/table/rack/shelf,
 /obj/item/reagent_containers/glass/jar/carbon,
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Jq" = (
@@ -4060,6 +4275,24 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
+"JT" = (
+/obj/structure/table/rack/dark,
+/obj/item/clothing/under/guard/uniform/sisterofbattle,
+/obj/item/clothing/under/guard/uniform/sisterofbattle,
+/obj/item/clothing/under/guard/uniform/sisterofbattle,
+/obj/item/clothing/under/guard/uniform/sisterofbattle,
+/obj/item/clothing/under/guard/uniform/sisterofbattle,
+/obj/effect/floor_decal/turf/brick/two,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing,
+/obj/item/clothing/accessory/storage/webbing_large,
+/turf/simulated/floor/tiled{
+	color = "grey"
+	},
+/area/cadiaoutpost/oa/service/chapel/armory)
 "JU" = (
 /obj/structure/closet/cabinet{
 	color = "grey";
@@ -4172,6 +4405,10 @@
 /obj/structure/table/marble{
 	color = "grey"
 	},
+/obj/structure/torchwall/service{
+	dir = 8;
+	icon_state = "torchwall0"
+	},
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "Kn" = (
@@ -4183,6 +4420,7 @@
 /obj/item/reagent_containers/food/snacks/foodtray,
 /obj/item/reagent_containers/food/snacks/bloodsoup,
 /obj/item/reagent_containers/food/snacks/bloodsoup,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/freezer{
 	color = "grey"
 	},
@@ -4243,6 +4481,8 @@
 "Lj" = (
 /obj/machinery/chem_master,
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Ll" = (
@@ -4253,8 +4493,12 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/caves/undercity)
 "Lq" = (
-/obj/structure/bookcase,
-/turf/simulated/wall/concrete/strong/chapel,
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/torchwall/service{
+	dir = 4;
+	icon_state = "torchwall0"
+	},
+/turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/chapel)
 "Ls" = (
 /obj/item/device/cassette/tape7,
@@ -4386,6 +4630,7 @@
 /obj/machinery/cooker/fryer{
 	color = "grey"
 	},
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -4414,6 +4659,18 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/bridge/offices/commissar)
+"MY" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/bed/chair/cage,
+/obj/item/remains/human{
+	pixel_y = -8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/effect/floor_decal/turf/brick/two,
+/turf/simulated/floor/stone/chapel,
+/area/cadiaoutpost/oa/service/chapel)
 "No" = (
 /obj/item/remains/mouse,
 /turf/simulated/floor/tiled{
@@ -4458,6 +4715,13 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/security/armory)
+"Nz" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable{
+	color = "#36261B"
+	},
+/turf/space,
+/area/cadiaoutpost/oa/service/chapel)
 "NR" = (
 /obj/effect/landmark/animal/rngretaliatespawner{
 	name = "rng rat"
@@ -4568,10 +4832,6 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/turf/brick,
-/obj/structure/bed/chair/wheelchair{
-	dir = 8;
-	icon_state = "wheelchair"
-	},
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel)
 "Pm" = (
@@ -4581,17 +4841,10 @@
 /area/cadiaoutpost/oa/service/chapel/armory)
 "Po" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/structure/table/rack/dark,
-/obj/structure/torchwall{
-	dir = 8;
-	icon_state = "torchwall0"
-	},
-/obj/item/clothing/accessory/storage/webbing,
-/obj/item/clothing/accessory/storage/webbing,
-/obj/item/clothing/accessory/storage/webbing,
-/obj/item/clothing/accessory/storage/webbing,
-/obj/item/clothing/accessory/storage/webbing,
-/obj/item/clothing/accessory/storage/webbing,
+/obj/structure/table/woodentable,
+/obj/item/reagent_containers/food/drinks/bottle/holywater,
+/obj/item/reagent_containers/food/drinks/bottle/holywater,
+/obj/item/reagent_containers/food/drinks/bottle/holywater,
 /turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel/armory)
 "Pr" = (
@@ -4604,6 +4857,8 @@
 "Ps" = (
 /obj/structure/bed/chair/office/dark,
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Pv" = (
@@ -4650,7 +4905,9 @@
 /area/cadiaoutpost/oa/service/chapel/armory)
 "PH" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/machinery/bookbinder,
+/obj/structure/curtain/open/bed{
+	name = "curtain"
+	},
 /turf/simulated/floor/tiled/dark,
 /area/cadiaoutpost/oa/service/chapel)
 "PI" = (
@@ -4696,6 +4953,8 @@
 /obj/item/clothing/head/helmet/space/void/medical,
 /obj/item/clothing/head/helmet/space/void/medical,
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "PV" = (
@@ -4812,13 +5071,12 @@
 /area/cadiaoutpost/oa/service/chapel)
 "QK" = (
 /obj/effect/floor_decal/turf/brick,
-/obj/structure/table/rack/dark,
-/obj/item/book/manual{
-	desc = "The Emperor once walked among men, but He is, and always has been, a god. The Emperor is the one true god, regardless of what past faiths any human may have worshipped. To purge the heretic, beware the psyker and mutant, and abhor the alien. Every human being has a place within the Emperor's divine order. To unquestionably obey the authority of the Imperial government and one's superiors.";
-	name = "Lectitio Divinitatus"
+/obj/machinery/door/airlock/highsecurity/imperiumdoor{
+	name = "Imperialis Doorway - Studium";
+	req_access = list(213)
 	},
 /turf/simulated/floor/stone/chapel,
-/area/cadiaoutpost/oa/service/chapel/armory)
+/area/cadiaoutpost/oa/service/chapel)
 "QM" = (
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /obj/structure/table/standard{
@@ -4833,6 +5091,8 @@
 	name = "vicious saw";
 	weapon_speed_delay = 4
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -4907,6 +5167,8 @@
 "RI" = (
 /obj/effect/floor_decal/newcorner/teal/diagonal,
 /obj/structure/iv_drip,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "RL" = (
@@ -5021,6 +5283,9 @@
 /area/cadiaoutpost/oa/caves)
 "SN" = (
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/barnew,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -5046,6 +5311,7 @@
 /obj/structure/table/woodentable{
 	color = "#36261B"
 	},
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	color = "grey"
 	},
@@ -5149,11 +5415,11 @@
 /turf/simulated/floor/stone,
 /area/cadiaoutpost/oa/magistratumpost)
 "TR" = (
-/obj/structure/mopbucket,
-/obj/item/mop,
-/obj/item/reagent_containers/glass/bucket,
 /obj/effect/floor_decal/turf/brick,
-/turf/simulated/floor/tiled/white,
+/obj/structure/bed/chair/wood/wings{
+	dir = 4
+	},
+/turf/simulated/floor/stone/chapel,
 /area/cadiaoutpost/oa/service/chapel)
 "Ua" = (
 /obj/effect/floor_decal/turf/plating,
@@ -5267,17 +5533,14 @@
 	},
 /area/cadiaoutpost/oa/security/armory)
 "UU" = (
-/obj/structure/table/rack/dark,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
-/obj/item/clothing/under/guard/uniform/sisterofbattle,
-/obj/effect/floor_decal/turf/brick/two,
-/turf/simulated/floor/tiled{
-	color = "grey"
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable{
+	color = "#36261B"
 	},
-/area/cadiaoutpost/oa/service/chapel/armory)
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/chapel)
 "Vf" = (
 /obj/effect/floor_decal/turf/brick,
 /obj/structure/torchwall/service{
@@ -5307,6 +5570,11 @@
 "Vi" = (
 /turf/simulated/wall/concrete/strong/chapel,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
+"Vj" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/cult/tome,
+/turf/simulated/floor/tiled/dark,
+/area/cadiaoutpost/oa/service/chapel)
 "Vq" = (
 /obj/effect/floor_decal/turf/splate,
 /mob/living/simple_animal/hostile/smalldemon/tzantzlarva,
@@ -5417,6 +5685,8 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled{
 	icon_state = "white1"
 	},
@@ -5620,6 +5890,14 @@
 	color = "grey"
 	},
 /area/cadiaoutpost/oa/caves/undercity)
+"YH" = (
+/obj/effect/floor_decal/turf/brick,
+/obj/structure/table/woodentable,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/obj/item/device/flashlight/lantern,
+/turf/simulated/floor/stone/chapel,
+/area/cadiaoutpost/oa/service/chapel/armory)
 "YI" = (
 /turf/simulated/floor/plating,
 /area/cadiaoutpost/oa/caves/undercity)
@@ -5684,6 +5962,8 @@
 	icon_state = "tube1"
 	},
 /obj/effect/floor_decal/newcorner/teal/diagonal,
+/obj/effect/floor_decal/turf/surgery2,
+/obj/effect/floor_decal/turf/barnew,
 /turf/simulated/floor/tiled/white,
 /area/cadiaoutpost/oa/service/chapel/chapelchemistry)
 "Zq" = (
@@ -22297,12 +22577,12 @@ rk
 Bl
 Vi
 Zq
+iA
 hK
-hK
-gD
-hK
-hK
-hK
+sD
+PF
+qV
+vL
 gD
 Zq
 Ac
@@ -22556,11 +22836,11 @@ Vi
 Zq
 FZ
 hK
-QK
-PF
-qV
-vL
-hT
+hK
+hK
+hK
+hK
+hK
 Zq
 Ac
 IY
@@ -22811,12 +23091,12 @@ rk
 mj
 Vi
 Zq
+YH
 hK
-hK
-hK
-hK
-hK
-hK
+hT
+JT
+he
+KW
 hK
 Zq
 Ac
@@ -23074,7 +23354,7 @@ MW
 nq
 Fj
 PF
-UU
+hK
 Zq
 Ac
 IY
@@ -23325,7 +23605,7 @@ rk
 of
 Vi
 Zq
-hK
+Po
 hK
 hK
 hK
@@ -23341,7 +23621,7 @@ sb
 Pm
 gd
 Pm
-gd
+Pm
 gd
 Zq
 SI
@@ -23582,13 +23862,13 @@ rk
 Wv
 Vi
 Zq
-hK
-he
 iA
 hK
 hK
-KW
-Po
+hK
+hK
+yL
+hK
 Zq
 Ac
 Ac
@@ -24093,8 +24373,8 @@ Of
 Of
 Of
 ZX
-Xd
-Of
+aL
+aL
 Tn
 Of
 lE
@@ -24109,9 +24389,9 @@ Of
 Of
 Tn
 MV
-kB
-kB
-kB
+zI
+zI
+zI
 Tn
 Tn
 Tn
@@ -24366,9 +24646,9 @@ Of
 Of
 Tn
 yd
-kB
-kB
-kB
+zI
+zI
+zI
 Tn
 oY
 oY
@@ -24602,13 +24882,13 @@ te
 te
 te
 Vi
-TR
-aL
-aL
+CB
+Xd
+xH
 Of
 Pd
-CB
-Of
+tE
+aL
 Tn
 Of
 Of
@@ -24625,9 +24905,9 @@ nd
 kB
 kB
 Bh
-kB
+ho
 jE
-oY
+pd
 oY
 mQ
 Tn
@@ -24880,9 +25160,9 @@ Of
 Of
 Tn
 ST
-kB
-kB
-kB
+zI
+zI
+zI
 Tn
 fr
 Kn
@@ -25137,8 +25417,8 @@ Of
 Of
 Tn
 nZ
-kB
-kB
+zI
+zI
 oN
 Tn
 Tn
@@ -26408,15 +26688,15 @@ vJ
 SN
 ub
 mH
-Tn
-Tn
-Tn
+dF
+MY
+dF
 Tn
 Of
 Tn
-Tn
-Tn
-Tn
+dF
+MY
+dF
 Tn
 rR
 rR
@@ -26665,14 +26945,14 @@ mH
 mH
 mH
 mH
-IB
-Tn
+gU
+iH
 IB
 Tn
 Of
 Tn
-IB
-Tn
+gU
+iH
 IB
 Tn
 rR
@@ -26916,20 +27196,20 @@ PI
 PI
 PI
 PI
-dF
-iH
+Tn
+TR
 Of
 Of
 Of
+QK
 Of
 Of
 Of
+xl
 Of
-lE
+QK
 Of
 Of
-Of
-lE
 Of
 Tn
 rR
@@ -27178,16 +27458,16 @@ iH
 Of
 Hq
 yB
-Tn
-IB
-Tn
-IB
-Tn
+QK
 Of
-Tn
-IB
-Tn
-IB
+Hq
+Of
+QK
+Of
+QK
+Of
+Hq
+Of
 Tn
 rR
 rR
@@ -27431,11 +27711,11 @@ PI
 Tn
 Tn
 Tn
-Lq
-yB
-tf
-yB
-Lq
+Tn
+Ck
+Tn
+PH
+Tn
 Tn
 Tn
 Tn
@@ -27686,7 +27966,7 @@ PI
 PI
 PI
 Tn
-Tn
+wl
 CA
 Lq
 yB
@@ -27694,7 +27974,7 @@ tf
 yB
 Lq
 iS
-Tn
+UU
 Tn
 Tn
 Of
@@ -27944,18 +28224,18 @@ PI
 PI
 Tn
 Es
+xc
 yB
-Lq
 yB
 tf
 yB
-vw
 yB
+xc
 oS
 Tn
 vm
 Of
-Of
+Tn
 Tn
 aH
 aH
@@ -28200,19 +28480,19 @@ PI
 PI
 PI
 Tn
-gU
 yB
-vw
+yB
+Vj
 yB
 tf
 yB
-Lq
+Vj
 yB
-zI
+yB
 Tn
 qA
 Of
-Of
+Tn
 Tn
 PI
 PI
@@ -28457,19 +28737,19 @@ PI
 PI
 PI
 Tn
-wl
-iS
-Lq
+oS
+yM
 yB
 yB
+tf
 yB
-Lq
+yB
+yM
 CA
-Tn
 Tn
 Kl
 Yn
-Of
+Tn
 Tn
 PI
 PI
@@ -28713,20 +28993,20 @@ PI
 PI
 PI
 PI
-SI
 Tn
-Tn
-Lq
+wl
+UU
+vw
 yB
+tf
 yB
-Tn
-Tn
-Tn
-Tn
+vw
+bo
+AE
 Tn
 Tn
 Oy
-Oy
+Tn
 Tn
 PI
 PI
@@ -28970,16 +29250,16 @@ PI
 PI
 PI
 PI
-SI
-SI
 Tn
-CA
-yB
-UH
+Tn
+Tn
+Tn
 PH
 Tn
-bf
-bf
+PH
+Tn
+Tn
+Tn
 bf
 PI
 PI
@@ -29230,12 +29510,12 @@ PI
 PI
 SI
 Tn
-Bb
+CA
+yB
+UH
+yB
 wl
-zI
 Tn
-Tn
-bf
 bf
 bf
 PI
@@ -29486,13 +29766,13 @@ PI
 PI
 PI
 SI
-SI
 Tn
+Bb
+wl
+jL
+wl
+Nz
 Tn
-Tn
-Tn
-bf
-bf
 PI
 PI
 PI
@@ -29743,13 +30023,13 @@ PI
 PI
 PI
 PI
-PI
-PI
-PI
-PI
-PI
-PI
-PI
+Tn
+Tn
+Tn
+Tn
+Tn
+Tn
+Tn
 PI
 PI
 PI

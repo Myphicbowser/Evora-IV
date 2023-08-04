@@ -128,6 +128,20 @@
 		new /obj/item/book/manual/research_and_development(src)
 		update_icon()
 
+/obj/structure/bookcase/manuals/ministorum
+	name = "Ministorum Bookcase"
+
+	New()
+		..()
+		new /obj/item/book/manual/ministorum/prayers (src)
+		new /obj/item/book/manual/ministorum/orders (src)
+		new /obj/item/book/manual/ministorum/astartes (src)
+		new /obj/item/book/manual/ministorum/celestine (src)
+		new /obj/item/book/manual/ministorum/chastity (src)
+		new /obj/item/book/manual/ministorum/faith (src)
+		new /obj/item/book/manual/ministorum/will (src)
+		update_icon()
+
 
 /*
  * Book

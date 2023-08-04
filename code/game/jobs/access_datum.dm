@@ -626,6 +626,11 @@
 	id = access_mining3
 	desc = "Mining 3 Access"
 
+/var/const/access_farmer = 263
+/datum/access/farmer
+	id = access_farmer
+	desc = "Farmer cottage access"
+
 /var/const/access_inquisition_fancy = 302
 /datum/access/access_inquisition_fancy
 	id = access_inquisition_fancy
