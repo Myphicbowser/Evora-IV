@@ -636,8 +636,8 @@ var/const/NO_EMAG_ACT = -50
 	access = list(access_daemon)
 
 /obj/item/card/id/key/super/hab
-	name = "Sweetberry Cottage Key"
-	desc = "A key belonging to the landlord farmer's cottage"
+	name = "Hab Key"
+	desc = "A key for a hab block."
 	access = list(access_habone)
 
 /obj/item/card/id/key/super/hab/two
@@ -660,8 +660,11 @@ var/const/NO_EMAG_ACT = -50
 	desc = "A key belonging to the upper class hab blocks. Upper class is relative, on this shit hole."
 	access = list(access_habfive)
 
-
-
+/obj/item/card/id/key/farmer
+	name = "Sweetberry Cottage Key"
+	desc = "A key belonging to the landlord of Sweetberry Farm."
+	icon_state = "key2"
+	access = list(access_farmer)
 
 // grand key. rogue trader, inquisitor, stuff like that
 /obj/item/card/id/key/grand

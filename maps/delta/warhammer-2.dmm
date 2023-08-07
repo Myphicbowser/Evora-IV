@@ -4879,7 +4879,7 @@
 "nZ" = (
 /obj/machinery/door/unpowered/inn/berryfarm{
 	name = "Sweetberry Cottage";
-	req_access = list(34)
+	req_access = list(263)
 	},
 /turf/simulated/floor/wood{
 	color = "grey"
@@ -6238,7 +6238,7 @@
 "sp" = (
 /obj/machinery/door/unpowered/inn/berryfarm{
 	name = "Sweetberry Cottage";
-	req_access = list(34)
+	req_access = list(263)
 	},
 /turf/simulated/floor/tiled/stone,
 /area/cadiaoutpost/oa/villageinside)
@@ -6679,6 +6679,7 @@
 /obj/item/clothing/shoes/jackboots/noble,
 /obj/item/stack/thrones2/ten,
 /obj/item/clothing/suit/armor/vest/leather/tailcoat/black,
+/obj/item/card/id/key/farmer,
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
@@ -9457,11 +9458,6 @@
 	},
 /obj/item/lipstick,
 /obj/item/reagent_containers/food/snacks/twobread,
-/obj/item/card/id/key/super/hab{
-	access = list(34);
-	name = "loghouse key";
-	desc = "A key to Sweetberry Cottage."
-	},
 /turf/simulated/floor/wood{
 	color = "grey"
 	},
